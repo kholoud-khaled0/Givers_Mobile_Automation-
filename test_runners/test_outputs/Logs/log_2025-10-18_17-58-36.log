@@ -1,0 +1,43 @@
+[DEBUG] - [18-10-2025 17:58:36] [org.testng.TestNG] - suiteXmlPath: "C:\Users\Kholoud\IdeaProjects\Givers\test_runners\AndroidTestSuite.xml"
+[INFO] - [18-10-2025 17:58:37] [utils.common.FilesUtils] - Directory already exists: test_outputs\logs
+[INFO] - [18-10-2025 17:58:37] [utils.common.FilesUtils] - Directory already exists: test_outputs\allure_results
+[INFO] - [18-10-2025 17:58:37] [utils.common.FilesUtils] - Directory already exists: test_outputs\screenshots
+[INFO] - [18-10-2025 17:58:37] [utils.common.FilesUtils] - Directory already exists: test_outputs\allure_report
+[INFO] - [18-10-2025 17:58:37] [utils.common.FilesUtils] - Deleting files or folders in: C:\Users\Kholoud\IdeaProjects\Givers\test_outputs\allure_results
+[INFO] - [18-10-2025 17:58:37] [utils.common.FilesUtils] - Deleting files or folders in: C:\Users\Kholoud\IdeaProjects\Givers\test_outputs\screenshots
+[INFO] - [18-10-2025 17:58:38] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\Kholoud\IdeaProjects\Givers\test_runners\AndroidTestSuite.xml
+
+[INFO] - [18-10-2025 17:58:38] [listeners.TestResultListener] - Test run started
+[INFO] - [18-10-2025 17:58:38] [utils.common.PropertiesUtils] - Loading Android properties from: src/main/resources/Env/AndroidEnv.properties
+[INFO] - [18-10-2025 17:58:38] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/loginTestData.json
+[INFO] - [18-10-2025 17:58:38] [utils.common.JsonUtils] - Successfully deserialized JSON to: LoginTestData[]
+[INFO] - [18-10-2025 17:58:39] [listeners.MethodInvocationListener] - Finished test: testLogin
+[INFO] - [18-10-2025 17:58:39] [utils.common.AllureUtils] - Attaching logs for test: testLogin
+[INFO] - [18-10-2025 17:58:39] [utils.common.AllureUtils] - Logs attached successfully for test: testLogin
+[INFO] - [18-10-2025 17:58:39] [listeners.TestResultListener] - Test failed: testLogin
+[INFO] - [18-10-2025 17:58:40] [listeners.MethodInvocationListener] - Finished test: testLogin
+[INFO] - [18-10-2025 17:58:40] [utils.common.AllureUtils] - Attaching logs for test: testLogin
+[INFO] - [18-10-2025 17:58:40] [utils.common.AllureUtils] - Logs attached successfully for test: testLogin
+[INFO] - [18-10-2025 17:58:40] [listeners.TestResultListener] - Test failed: testLogin
+[INFO] - [18-10-2025 17:58:41] [listeners.MethodInvocationListener] - Finished test: testLogin
+[INFO] - [18-10-2025 17:58:41] [utils.common.AllureUtils] - Attaching logs for test: testLogin
+[INFO] - [18-10-2025 17:58:41] [utils.common.AllureUtils] - Logs attached successfully for test: testLogin
+[INFO] - [18-10-2025 17:58:41] [listeners.TestResultListener] - Test failed: testLogin
+[INFO] - [18-10-2025 17:58:41] [listeners.TestResultListener] - Test run finished
+[INFO] - [18-10-2025 17:58:41] [utils.appium.TerminalLogsCapture$1] - ===============================================
+[INFO] - [18-10-2025 17:58:41] [utils.appium.TerminalLogsCapture$1] - TheApp Feature Based Testing
+[INFO] - [18-10-2025 17:58:41] [utils.appium.TerminalLogsCapture$1] - Total tests run: 3, Passes: 0, Failures: 3, Skips: 0
+[INFO] - [18-10-2025 17:58:41] [utils.appium.TerminalLogsCapture$1] - ===============================================
+[INFO] - [18-10-2025 17:58:41] [utils.common.TerminalUtils] - Executing command: allure generate test_outputs/allure_results -o test_outputs/allure_report --clean --single-file
+[WARN] - [18-10-2025 17:58:41] [utils.appium.TerminalLogsCapture$1] - WARN Appium Appium encountered 1 warning while validating plugins found in manifest C:\Users\Kholoud\.appium\node_modules\.cache\appium\extensions.yaml
+[WARN] - [18-10-2025 17:58:41] [utils.appium.TerminalLogsCapture$1] - WARN Appium Plugin "images" has 1 potential problem:
+[WARN] - [18-10-2025 17:58:41] [utils.appium.TerminalLogsCapture$1] - WARN Appium   - Plugin "images" (package `@appium/images-plugin`) may be incompatible with the current version of Appium (v3.1.0) due to its peer dependency on Appium ^2.0.0. Please install a compatible version of the plugin.
+[INFO] - [18-10-2025 17:58:44] [utils.common.TerminalUtils] - Command executed: allure generate test_outputs/allure_results -o test_outputs/allure_report --clean --single-file
+[INFO] - [18-10-2025 17:58:44] [utils.common.AllureUtils] - Allure report generated successfully
+[INFO] - [18-10-2025 17:58:44] [utils.common.FilesUtils] - Found latest file in test_outputs\allure_report: test_outputs\allure_report\index.html
+[INFO] - [18-10-2025 17:58:44] [utils.common.FilesUtils] - File renamed successfully from test_outputs\allure_report\index.html to test_outputs\allure_report\Report 2025-10-18 17-58-44.html
+[INFO] - [18-10-2025 17:58:44] [utils.common.AllureUtils] - Allure report renamed successfully to: test_outputs\allure_report\Report 2025-10-18 17-58-44.html
+[INFO] - [18-10-2025 17:58:44] [utils.common.AllureUtils] - Opening allure report: test_outputs\allure_report\Report 2025-10-18 17-58-44.html
+[INFO] - [18-10-2025 17:58:44] [utils.common.TerminalUtils] - Executing command: start "" "test_outputs\allure_report\Report 2025-10-18 17-58-44.html"
+[INFO] - [18-10-2025 17:58:44] [utils.common.TerminalUtils] - Command executed: start "" "test_outputs\allure_report\Report 2025-10-18 17-58-44.html"

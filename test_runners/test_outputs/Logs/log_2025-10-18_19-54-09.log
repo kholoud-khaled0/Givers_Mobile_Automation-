@@ -1,0 +1,9 @@
+[DEBUG] - [18-10-2025 19:54:09] [org.testng.TestNG] - suiteXmlPath: "C:\Users\Kholoud\AppData\Local\JetBrains\IntelliJIdea2024.2\temp-testng-customsuite.xml"
+[INFO] - [18-10-2025 19:54:11] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\Kholoud\AppData\Local\JetBrains\IntelliJIdea2024.2\temp-testng-customsuite.xml
+
+[INFO] - [18-10-2025 19:54:12] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/loginTestData.json
+[INFO] - [18-10-2025 19:54:13] [utils.common.JsonUtils] - Successfully deserialized JSON to: LoginTestData[]
+[ERROR] - [18-10-2025 19:54:13] [listeners.DynamicAllureListener] - Failed to set story or description: Properties have not been loaded yet.
+[ERROR] - [18-10-2025 19:54:14] [listeners.DynamicAllureListener] - Failed to set story or description: Properties have not been loaded yet.
+[ERROR] - [18-10-2025 19:54:14] [listeners.DynamicAllureListener] - Failed to set story or description: Properties have not been loaded yet.
