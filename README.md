@@ -55,7 +55,7 @@ Givers/
 ```
 
 ## 🧩 Core Components
-```
+
 - *Appium Driver Management*  
   - Supports Appium v3 server and drivers.  
   - Centralized driver setup for Android and iOS.
@@ -75,7 +75,7 @@ Givers/
 - *Configuration Management*  
   - Environment-specific setup under /Env.  
   - Test behavior configurable via .properties files.  
-```
+
 ---
 
 ## ⚙ How to Run
@@ -89,13 +89,13 @@ Givers/
 - Android Emulator / iOS Simulator or real devices  
 
 ### 🚀 Commands
-```
+
 | Profile   | Description           | Test Suite                                |
 |-----------|---------------------|------------------------------------------|
 | default   | Cross-platform execution | test_runners/CrossPlatformTestSuite.xml |
 | android   | Android-only suite      | test_runners/AndroidTestSuite.xml      |
 | ios       | iOS-only suite          | test_runners/IosTestSuite.xml          |
-```
+
 
 Run from terminal:
 
