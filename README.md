@@ -17,7 +17,7 @@ A *scalable and maintainable hybrid mobile UI automation framework* for *Android
 - *Thread-Safe Assertions & Logging:* Clean and isolated execution per test thread.  
 - *Scalable Structure:* Easy to extend for new features or integrations.  
 
-
+```
 Givers/
 │
 ├── pom.xml                       # Maven configuration and dependencies
@@ -52,7 +52,7 @@ Givers/
 │   └── resources/
 │       └── *.json                # (Reserved for test data files)
 
-
+```
 
 ## 🧩 Core Components
 
