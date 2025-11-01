@@ -3,7 +3,8 @@ package utils.appium;
 
 import utils.appium.driverManager.DriverManager;
 
-public class DriverActions {
+public class
+DriverActions {
 
     public static void back(){
         DriverManager.getDriver().navigate().back();

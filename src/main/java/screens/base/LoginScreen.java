@@ -3,6 +3,7 @@ package screens.base;
 import io.qameta.allure.Step;
 import io.appium.java_client.AppiumBy;
 import org.openqa.selenium.By;
+import screens.android.AndroidLoginScreen;
 import utils.appium.ElementsActions;
 
 /**
@@ -17,9 +18,12 @@ public abstract class LoginScreen {
     protected static final By passwordField = AppiumBy.androidUIAutomator(
             "new UiSelector().text(\"Please enter your password\")"
     );
-    protected static final By loginBtn = AppiumBy.accessibilityId("Login");
+    protected static final By loginBtn = AppiumBy.accessibilityId("Login button");
     protected static final By signInBtn = AppiumBy.accessibilityId("Sign In");
     protected static final By SkipBtn = AppiumBy.accessibilityId("Skip");
+    protected static final By permeationNotification = AppiumBy.id("com.android.permissioncontroller:id/permission_allow_button");
+    protected static final By permeationGPS = AppiumBy.androidUIAutomator("new UiSelector().resourceId(\"com.android.permissioncontroller:id/permission_allow_foreground_only_button\")");
+
 
     // ------------------- Actions -------------------
 
@@ -38,6 +42,10 @@ public abstract class LoginScreen {
         ElementsActions.click(SkipBtn);
         ElementsActions.click(signInBtn);
     }
+    @Step("Tap Sign In button")
+    public void tapSignInWithoutSkipButton() {
+        ElementsActions.click(signInBtn);
+    }
 
     @Step("Check if in Login Screen")
     public boolean isInLoginScreen() {
@@ -50,6 +58,9 @@ public abstract class LoginScreen {
 
     @Step("Tap Login button")
     public abstract Object tapLoginButton(); // Object will be HomeScreen in implementation
+
+    @Step("Tap Login button second")
+    public abstract AndroidLoginScreen tapLoginButtonSecond();
 
     @Step("Get error message")
     public abstract String getErrorMessage();

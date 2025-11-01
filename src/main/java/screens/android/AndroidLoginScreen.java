@@ -6,7 +6,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import screens.base.LoginScreen;
 import utils.appium.ElementsActions;
-import utils.common.assertions.AssertionManager;
+import utils.appium.Waits;
+
+import java.time.Duration;
 
 /**
  * Android implementation of Login Screen
@@ -23,8 +25,20 @@ public class AndroidLoginScreen extends LoginScreen {
     // ------------------- Actions -------------------
 
     @Override
-    @Step("Tap Login button")
+    @Step("Tap Login button and Permeation's")
     public AndroidLoginScreen tapLoginButton() {
+        ElementsActions.click(loginBtn);
+        Waits.waitForElementToBeVisible(permeationNotification, Duration.ofSeconds(30));
+        ElementsActions.click(permeationNotification);
+
+        Waits.waitForElementToBeVisible(permeationGPS, Duration.ofSeconds(30));
+        ElementsActions.click(permeationGPS);
+        return this; // Return same screen for chaining
+    }
+
+    @Step("Tap Login button second")
+    @Override
+    public AndroidLoginScreen tapLoginButtonSecond() {
         ElementsActions.click(loginBtn);
         return this; // Return same screen for chaining
     }
@@ -65,6 +79,23 @@ public class AndroidLoginScreen extends LoginScreen {
         setEmail(email);
         setPassword(password);
         tapLoginButton();
+        return this;
+    }
+    @Step("Perform full login with email: {email} and password: {password}")
+    public AndroidLoginScreen loginWithSkip(String email, String password) {
+        tapSignInButton();
+        setEmail(email);
+        setPassword(password);
+        tapLoginButton();
+        return this;
+    }
+
+    @Step("Perform full login with email: {email} and password: {password}")
+    public AndroidLoginScreen SignInWithoutSkipButton(String email, String password) {
+        tapSignInWithoutSkipButton();
+        setEmail(email);
+        setPassword(password);
+        tapLoginButtonSecond();
         return this;
     }
 }

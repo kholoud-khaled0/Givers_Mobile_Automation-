@@ -1,8 +1,8 @@
 [
   {
     "email": "kholoud155141@gmail.com",
-    "password": "Kholoud--3m29mkk4kg#",
-    "shouldLogin": true,
+    "password": "Kholoud155#",
+    "shouldLogin": false,
     "story": "Valid Login",
     "description": "User should be able to login with valid credentials"
   }

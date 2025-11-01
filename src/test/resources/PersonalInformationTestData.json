@@ -1,0 +1,18 @@
+[
+  {
+    "email": "kholoud155312@gmail.com",
+    "password": "Password123#",
+    "firstName": "kholoudk",
+    "lastName": "khaledk",
+    "newEmail": "kholoud155141+@gmail.com",
+    "otp": "00700",
+    "story": "Edit personal info and change email",
+    "description": "Verify user can edit personal info, remove photo, upload new photo, and change email successfully"
+  },
+  {
+    "email": "kholoud@gmail.com",
+    "password": "Password123#",
+    "story": "Delete account flow",
+    "description": "Verify user can delete their account successfully and is redirected to login page."
+  }
+]

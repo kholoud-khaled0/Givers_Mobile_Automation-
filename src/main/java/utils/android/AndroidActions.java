@@ -1,11 +1,16 @@
 package utils.android;
 
+import io.appium.java_client.AppiumBy;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.RemoteWebElement;
 import utils.appium.driverManager.DriverManager;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
+import java.util.NoSuchElementException;
 
 public class AndroidActions {
 
@@ -18,6 +23,7 @@ public class AndroidActions {
         params.put("endY", endY);
         DriverManager.getDriver().executeScript("mobile: dragGesture", params);
     }
+
     public static void dragGesture(int startX, int startY, int endX, int endY) {
         Map<String, Object> params = new HashMap<>();
         params.put("startX", startX);
@@ -77,7 +83,7 @@ public class AndroidActions {
         DriverManager.getDriver().executeScript("mobile: pinchCloseGesture", params);
     }
 
-    public static void pinchCloseGesture(int left, int top,int width, int height , double percent) {
+    public static void pinchCloseGesture(int left, int top, int width, int height, double percent) {
         Map<String, Object> params = new HashMap<>();
         params.put("left", left);
         params.put("top", top);
@@ -94,7 +100,7 @@ public class AndroidActions {
         DriverManager.getDriver().executeScript("mobile: pinchOpenGesture", params);
     }
 
-    public static void pinchOpenGesture(int left, int top,int width, int height , double percent) {
+    public static void pinchOpenGesture(int left, int top, int width, int height, double percent) {
         Map<String, Object> params = new HashMap<>();
         params.put("left", left);
         params.put("top", top);
@@ -141,6 +147,7 @@ public class AndroidActions {
         params.put("percent", percent);
         DriverManager.getDriver().executeScript("mobile: scrollGesture", params);
     }
+
     public static void scrollToElement(String UiSelector) {
         Map<String, Object> params = new HashMap<>();
         params.put("strategy", "-android uiautomator");
@@ -148,5 +155,69 @@ public class AndroidActions {
         DriverManager.getDriver().executeScript("mobile: scroll", params);
     }
 
+    public static boolean isElementDisplayed(By locator) {
+        try {
+            WebDriver driver = DriverManager.getDriver();
+            List<WebElement> elements = driver.findElements(locator);
+            if (elements == null || elements.isEmpty()) {
+                return false;
+            }
+            return elements.get(0).isDisplayed();
+        } catch (NoSuchElementException e) {
+            return false;
+        } catch (Exception e) {
+            return false;
+        }
+    }
 
+    public static void scrollToText(String text) {
+        try {
+            DriverManager.getDriver().findElement(AppiumBy.androidUIAutomator(
+                    "new UiScrollable(new UiSelector().scrollable(true)).scrollTextIntoView(\"" + text + "\")"
+            ));
+            System.out.println("Scrolled to text: " + text);
+        } catch (Exception e) {
+            System.out.println("Scroll to text failed or already visible: " + text);
+        }
+    }
+
+    public static boolean isElementDisplayed(By locator, int waitSeconds) {
+        try {
+            WebDriver driver = DriverManager.getDriver();
+            for (int i = 0; i < waitSeconds; i++) {
+                List<WebElement> elements = driver.findElements(locator);
+                if (!elements.isEmpty() && elements.get(0).isDisplayed()) {
+                    return true;
+                }
+                Thread.sleep(1000); // wait 1 second before retry
+            }
+            return false;
+        } catch (Exception e) {
+            return false;
+        }
+    }
+
+    // ------------------- New scrollToElement for By locator -------------------
+    public static void scrollToElement(By locator) {
+        try {
+            String uiSelector;
+            // handle accessibilityId
+            if (locator instanceof AppiumBy) {
+                uiSelector = "new UiSelector().description(\"" + locator.toString().replace("By.accessibilityId: ", "") + "\")";
+            } else {
+                // fallback to text
+                uiSelector = "new UiSelector().text(\"" + locator.toString().replace("By.selector: ", "") + "\")";
+            }
+
+            Map<String, Object> params = new HashMap<>();
+            params.put("strategy", "-android uiautomator");
+            params.put("selector", uiSelector);
+
+            DriverManager.getDriver().executeScript("mobile: scroll", params);
+            System.out.println("[INFO] Scrolled to element: " + locator);
+
+        } catch (Exception e) {
+            System.out.println("[WARN] Scroll to element failed: " + locator + " | " + e.getMessage());
+        }
+    }
 }

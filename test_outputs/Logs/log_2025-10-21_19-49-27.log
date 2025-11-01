@@ -1,0 +1,253 @@
+[DEBUG] - [21-10-2025 19:49:28] [org.testng.TestNG] - suiteXmlPath: "C:\Users\Kholoud\IdeaProjects\Givers\test_runners\AndroidTestSuite.xml"
+[INFO] - [21-10-2025 19:49:29] [utils.common.FilesUtils] - Directory already exists: test_outputs\logs
+[INFO] - [21-10-2025 19:49:29] [utils.common.FilesUtils] - Directory already exists: test_outputs\allure_results
+[INFO] - [21-10-2025 19:49:29] [utils.common.FilesUtils] - Directory already exists: test_outputs\screenshots
+[INFO] - [21-10-2025 19:49:29] [utils.common.FilesUtils] - Directory already exists: test_outputs\allure_report
+[INFO] - [21-10-2025 19:49:29] [utils.common.FilesUtils] - Deleting files or folders in: C:\Users\Kholoud\IdeaProjects\Givers\test_outputs\allure_results
+[INFO] - [21-10-2025 19:49:29] [utils.common.FilesUtils] - Deleting files or folders in: C:\Users\Kholoud\IdeaProjects\Givers\test_outputs\screenshots
+[WARN] - [21-10-2025 19:49:34] [utils.appium.TerminalLogsCapture$1] - WARN Appium Appium encountered 1 warning while validating plugins found in manifest C:\Users\Kholoud\.appium\node_modules\.cache\appium\extensions.yaml
+[WARN] - [21-10-2025 19:49:34] [utils.appium.TerminalLogsCapture$1] - WARN Appium Plugin "images" has 1 potential problem:
+[WARN] - [21-10-2025 19:49:34] [utils.appium.TerminalLogsCapture$1] - WARN Appium   - Plugin "images" (package `@appium/images-plugin`) may be incompatible with the current version of Appium (v3.1.0) due to its peer dependency on Appium ^2.0.0. Please install a compatible version of the plugin.
+[WARN] - [21-10-2025 19:49:39] [utils.appium.TerminalLogsCapture$1] - WARN Appium Appium encountered 3 warnings while validating drivers found in manifest C:\Users\Kholoud\.appium\node_modules\.cache\appium\extensions.yaml
+[WARN] - [21-10-2025 19:49:39] [utils.appium.TerminalLogsCapture$1] - WARN Appium Driver "xcuitest" has 1 potential problem:
+[WARN] - [21-10-2025 19:49:39] [utils.appium.TerminalLogsCapture$1] - WARN Appium   - Driver "xcuitest" (package `appium-xcuitest-driver`) may be incompatible with the current version of Appium (v3.1.0) due to its peer dependency on Appium ^2.5.4. Try to upgrade `appium-xcuitest-driver` to v9.10.5 or newer.
+[WARN] - [21-10-2025 19:49:39] [utils.appium.TerminalLogsCapture$1] - WARN Appium Driver "espresso" has 1 potential problem:
+[WARN] - [21-10-2025 19:49:39] [utils.appium.TerminalLogsCapture$1] - WARN Appium   - Driver "espresso" (package `appium-espresso-driver`) may be incompatible with the current version of Appium (v3.1.0) due to its peer dependency on Appium ^2.4.1. Try to upgrade `appium-espresso-driver` to v4.1.17 or newer.
+[INFO] - [21-10-2025 19:49:40] [utils.appium.TerminalLogsCapture$1] - [Appium] Welcome to Appium v3.1.0
+[INFO] - [21-10-2025 19:49:40] [utils.appium.TerminalLogsCapture$1] - [Appium] Non-default server args:
+[INFO] - [21-10-2025 19:49:40] [utils.appium.TerminalLogsCapture$1] - [Appium] { address: '127.0.0.1',
+[INFO] - [21-10-2025 19:49:40] [utils.appium.TerminalLogsCapture$1] - loglevel: 'info',
+[INFO] - [21-10-2025 19:49:40] [utils.appium.TerminalLogsCapture$1] - logNoColors: true,
+[INFO] - [21-10-2025 19:49:40] [utils.appium.TerminalLogsCapture$1] - relaxedSecurityEnabled: true,
+[INFO] - [21-10-2025 19:49:40] [utils.appium.TerminalLogsCapture$1] - sessionOverride: true }
+[INFO] - [21-10-2025 19:49:40] [utils.appium.TerminalLogsCapture$1] - [Appium] Enabling relaxed security. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[INFO] - [21-10-2025 19:49:40] [utils.appium.TerminalLogsCapture$1] - [Appium] Attempting to load driver uiautomator2...
+[INFO] - [21-10-2025 19:49:40] [utils.appium.TerminalLogsCapture$1] - [Appium] Attempting to load driver xcuitest...
+[INFO] - [21-10-2025 19:49:40] [utils.appium.TerminalLogsCapture$1] - [Appium] Attempting to load driver espresso...
+[INFO] - [21-10-2025 19:49:47] [utils.appium.TerminalLogsCapture$1] - [Appium] Appium REST http interface listener started on http://127.0.0.1:4723
+[INFO] - [21-10-2025 19:49:47] [utils.appium.TerminalLogsCapture$1] - [Appium] Available drivers:
+[INFO] - [21-10-2025 19:49:47] [utils.appium.TerminalLogsCapture$1] - [Appium]   - uiautomator2@4.2.9 (automationName 'UiAutomator2')
+[INFO] - [21-10-2025 19:49:47] [utils.appium.TerminalLogsCapture$1] - [Appium]   - xcuitest@9.9.4 (automationName 'XCUITest')
+[INFO] - [21-10-2025 19:49:47] [utils.appium.TerminalLogsCapture$1] - [Appium]   - espresso@4.1.13 (automationName 'Espresso')
+[INFO] - [21-10-2025 19:49:47] [utils.appium.TerminalLogsCapture$1] - [Appium] Available plugins:
+[INFO] - [21-10-2025 19:49:47] [utils.appium.TerminalLogsCapture$1] - [Appium]   - images@3.1.3
+[INFO] - [21-10-2025 19:49:47] [utils.appium.TerminalLogsCapture$1] - [Appium] No plugins activated. Use the --use-plugins flag with names of plugins to activate
+[INFO] - [21-10-2025 19:49:47] [utils.appium.TerminalLogsCapture$1] - [HTTP] --> GET /status
+[INFO] - [21-10-2025 19:49:47] [utils.appium.TerminalLogsCapture$1] - [HTTP] <-- GET /status 200 14 ms - 110
+[INFO] - [21-10-2025 19:49:47] [utils.appium.TerminalLogsCapture$1] - ￢ﾜﾅ Appium server started at: http://127.0.0.1:4723/
+[INFO] - [21-10-2025 19:49:48] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\Kholoud\IdeaProjects\Givers\test_runners\AndroidTestSuite.xml
+
+[INFO] - [21-10-2025 19:49:48] [listeners.TestResultListener] - Test run started
+[INFO] - [21-10-2025 19:49:48] [utils.common.PropertiesUtils] - Loading Android properties from: src/main/resources/Env/AndroidEnv.properties
+[INFO] - [21-10-2025 19:49:48] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/loginTestData.json
+[INFO] - [21-10-2025 19:49:49] [utils.common.JsonUtils] - Successfully deserialized JSON to: LoginTestData[]
+[INFO] - [21-10-2025 19:49:49] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/registerTestData.json
+[INFO] - [21-10-2025 19:49:49] [utils.common.JsonUtils] - Successfully deserialized JSON to: RegisterTestData[]
+[INFO] - [21-10-2025 19:49:51] [utils.appium.TerminalLogsCapture$1] - [HTTP] --> POST /session {"capabilities":{"firstMatch":[{"appium:systemPort":"8100","appium:deviceName":"Emu2","platformName":"ANDROID","appium:automationName":"UiAutomator2","appium:app":"C:/Users/Kholoud/IdeaProjects/Givers/src/main/resources/AUT/app-staging-release.apk"}]}}
+[INFO] - [21-10-2025 19:49:51] [utils.appium.TerminalLogsCapture$1] - [Appium] Attempting to find matching driver for automationName 'UiAutomator2' and platformName 'ANDROID'
+[INFO] - [21-10-2025 19:49:51] [utils.appium.TerminalLogsCapture$1] - [Appium] The 'uiautomator2' driver was installed and matched caps.
+[INFO] - [21-10-2025 19:49:51] [utils.appium.TerminalLogsCapture$1] - [Appium] Will require it at C:\Users\Kholoud\.appium\node_modules\appium-uiautomator2-driver
+[INFO] - [21-10-2025 19:49:51] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@4409] Appium v3.1.0 creating new AndroidUiautomator2Driver (v4.2.9) session
+[INFO] - [21-10-2025 19:49:51] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@4409] Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[INFO] - [21-10-2025 19:49:51] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@4409] Appium's BaseDriver version is 10.1.0
+[INFO] - [21-10-2025 19:49:51] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@4409] AndroidUiautomator2Driver's BaseDriver version is 10.1.0
+[INFO] - [21-10-2025 19:49:51] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@4409] Enabling relaxed security for this session as per the server configuration. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[INFO] - [21-10-2025 19:49:51] [utils.appium.TerminalLogsCapture$1] - [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+[INFO] - [21-10-2025 19:49:51] [utils.appium.TerminalLogsCapture$1] - [AndroidUiautomator2Driver@a6d3] Capability 'systemPort' changed from string ('8100') to integer (8100). This may cause unexpected behavior
+[INFO] - [21-10-2025 19:49:51] [utils.appium.TerminalLogsCapture$1] - [3006d84b][AndroidUiautomator2Driver@a6d3] Session created with session id: 3006d84b-b93b-4189-9cf9-50d1a1037cd1
+[INFO] - [21-10-2025 19:49:51] [utils.appium.TerminalLogsCapture$1] - [3006d84b][ADB] Found 2 'build-tools' folders under 'C:\Users\Kholoud\AppData\Local\Android\Sdk' (newest first):
+[INFO] - [21-10-2025 19:49:51] [utils.appium.TerminalLogsCapture$1] - [3006d84b][ADB]     C:\Users\Kholoud\AppData\Local\Android\Sdk\build-tools\36.0.0
+[INFO] - [21-10-2025 19:49:51] [utils.appium.TerminalLogsCapture$1] - [3006d84b][ADB]     C:\Users\Kholoud\AppData\Local\Android\Sdk\build-tools\35.0.0
+[INFO] - [21-10-2025 19:49:51] [utils.appium.TerminalLogsCapture$1] - [3006d84b][ADB] Using 'adb.exe' from 'C:\Users\Kholoud\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[INFO] - [21-10-2025 19:49:51] [utils.appium.TerminalLogsCapture$1] - [3006d84b][AndroidUiautomator2Driver@a6d3] Retrieving device list
+[INFO] - [21-10-2025 19:49:51] [utils.appium.TerminalLogsCapture$1] - [3006d84b][AndroidUiautomator2Driver@a6d3] Using device: emulator-5554
+[INFO] - [21-10-2025 19:49:51] [utils.appium.TerminalLogsCapture$1] - [3006d84b][ADB] Using 'adb.exe' from 'C:\Users\Kholoud\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[INFO] - [21-10-2025 19:49:51] [utils.appium.TerminalLogsCapture$1] - [3006d84b][BaseDriver] Using local app 'C:/Users/Kholoud/IdeaProjects/Givers/src/main/resources/AUT/app-staging-release.apk'
+[INFO] - [21-10-2025 19:49:52] [utils.appium.TerminalLogsCapture$1] - [3006d84b][ADB] Getting device platform version
+[INFO] - [21-10-2025 19:49:52] [utils.appium.TerminalLogsCapture$1] - [3006d84b][AndroidUiautomator2Driver@a6d3] Relaxing hidden api policy
+[INFO] - [21-10-2025 19:49:52] [utils.appium.TerminalLogsCapture$1] - [3006d84b][ADB] Using 'aapt2.exe' from 'C:\Users\Kholoud\AppData\Local\Android\Sdk\build-tools\36.0.0\aapt2.exe'
+[INFO] - [21-10-2025 19:49:52] [utils.appium.TerminalLogsCapture$1] - [3006d84b][ADB] Package name: 'com.giversapp.GiversApp.staging'
+[INFO] - [21-10-2025 19:49:52] [utils.appium.TerminalLogsCapture$1] - [3006d84b][ADB] Main activity name: 'com.giversapp.GiversApp.staging.MainActivity'
+[INFO] - [21-10-2025 19:49:53] [utils.appium.TerminalLogsCapture$1] - [3006d84b][AndroidUiautomator2Driver@a6d3] Server packages are not going to be (re)installed
+[INFO] - [21-10-2025 19:49:53] [utils.appium.TerminalLogsCapture$1] - [3006d84b][ADB] Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[INFO] - [21-10-2025 19:49:53] [utils.appium.TerminalLogsCapture$1] - [3006d84b][ADB] Using 'apksigner.jar' from 'C:\Users\Kholoud\AppData\Local\Android\Sdk\build-tools\36.0.0\lib\apksigner.jar'
+[INFO] - [21-10-2025 19:49:55] [utils.appium.TerminalLogsCapture$1] - [3006d84b][ADB] 'C:/Users/Kholoud/IdeaProjects/Givers/src/main/resources/AUT/app-staging-release.apk' is signed with a non-default certificate
+[INFO] - [21-10-2025 19:49:55] [utils.appium.TerminalLogsCapture$1] - [3006d84b][AndroidUiautomator2Driver@a6d3] Performing fast reset on 'com.giversapp.GiversApp.staging'
+[INFO] - [21-10-2025 19:49:56] [utils.appium.TerminalLogsCapture$1] - [3006d84b][AndroidUiautomator2Driver@a6d3] Starting UIAutomator2 server 7.7.1
+[INFO] - [21-10-2025 19:49:56] [utils.appium.TerminalLogsCapture$1] - [3006d84b][AndroidUiautomator2Driver@a6d3] Using UIAutomator2 server from 'C:\Users\Kholoud\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v7.7.1.apk' and test from 'C:\Users\Kholoud\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[INFO] - [21-10-2025 19:49:56] [utils.appium.TerminalLogsCapture$1] - [3006d84b][AndroidUiautomator2Driver@a6d3] Waiting up to 30000ms for UiAutomator2 to be online...
+[INFO] - [21-10-2025 19:49:56] [utils.appium.TerminalLogsCapture$1] - [3006d84b][AndroidUiautomator2Driver@a6d3] socket hang up
+[INFO] - [21-10-2025 19:49:56] [utils.appium.TerminalLogsCapture$1] - [45c1888d][HTTP] --> GET /session/45c1888d-b165-43b2-8238-91bc008737e2/timeouts
+[INFO] - [21-10-2025 19:49:57] [utils.appium.TerminalLogsCapture$1] - [45c1888d][HTTP] <-- GET /session/45c1888d-b165-43b2-8238-91bc008737e2/timeouts 404 27 ms - 4463
+[INFO] - [21-10-2025 19:49:57] [utils.appium.TerminalLogsCapture$1] - [3006d84b][AndroidUiautomator2Driver@a6d3] socket hang up
+[INFO] - [21-10-2025 19:49:58] [utils.appium.TerminalLogsCapture$1] - [3006d84b][AndroidUiautomator2Driver@a6d3] socket hang up
+[INFO] - [21-10-2025 19:49:59] [utils.appium.TerminalLogsCapture$1] - [3006d84b][AndroidUiautomator2Driver@a6d3] socket hang up
+[INFO] - [21-10-2025 19:50:00] [utils.appium.TerminalLogsCapture$1] - [3006d84b][AndroidUiautomator2Driver@a6d3] Determined the downstream protocol as 'W3C'
+[INFO] - [21-10-2025 19:50:00] [utils.appium.TerminalLogsCapture$1] - [3006d84b][AndroidUiautomator2Driver@a6d3] Screen already unlocked, doing nothing
+[INFO] - [21-10-2025 19:50:00] [utils.appium.TerminalLogsCapture$1] - [3006d84b][AndroidUiautomator2Driver@a6d3] Starting 'com.giversapp.GiversApp.staging/com.giversapp.GiversApp.staging.MainActivity' and waiting for 'com.giversapp.GiversApp.staging/com.giversapp.GiversApp.staging.MainActivity'
+[INFO] - [21-10-2025 19:50:05] [utils.appium.TerminalLogsCapture$1] - [3006d84b][AppiumDriver@4409] New AndroidUiautomator2Driver session created successfully, session 3006d84b-b93b-4189-9cf9-50d1a1037cd1 added to master session list
+[INFO] - [21-10-2025 19:50:05] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] <-- POST /session 200 14080 ms - 1075
+[INFO] - [21-10-2025 19:50:05] [listeners.MethodInvocationListener] - Starting test: testRegistration
+[INFO] - [21-10-2025 19:50:05] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] --> POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element {"using":"accessibility id","value":"Skip"}
+[INFO] - [21-10-2025 19:50:07] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] <-- POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element 200 1620 ms - 137
+[INFO] - [21-10-2025 19:50:07] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] --> GET /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element/00000000-0000-0080-ffff-ffff0000002a/displayed
+[INFO] - [21-10-2025 19:50:07] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] <-- GET /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element/00000000-0000-0080-ffff-ffff0000002a/displayed 200 134 ms - 14
+[INFO] - [21-10-2025 19:50:07] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] --> GET /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element/00000000-0000-0080-ffff-ffff0000002a/enabled
+[INFO] - [21-10-2025 19:50:07] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] <-- GET /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element/00000000-0000-0080-ffff-ffff0000002a/enabled 200 77 ms - 14
+[INFO] - [21-10-2025 19:50:07] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] --> POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element {"using":"accessibility id","value":"Skip"}
+[INFO] - [21-10-2025 19:50:08] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] <-- POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element 200 401 ms - 137
+[INFO] - [21-10-2025 19:50:08] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] --> GET /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element/00000000-0000-0080-ffff-ffff0000002a/displayed
+[INFO] - [21-10-2025 19:50:08] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] <-- GET /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element/00000000-0000-0080-ffff-ffff0000002a/displayed 200 24 ms - 14
+[INFO] - [21-10-2025 19:50:08] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] --> POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element {"using":"accessibility id","value":"Skip"}
+[INFO] - [21-10-2025 19:50:08] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] <-- POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element 200 97 ms - 137
+[INFO] - [21-10-2025 19:50:08] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] --> POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element/00000000-0000-0080-ffff-ffff0000002a/click {"id":"00000000-0000-0080-ffff-ffff0000002a"}
+[INFO] - [21-10-2025 19:50:08] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] <-- POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element/00000000-0000-0080-ffff-ffff0000002a/click 200 211 ms - 14
+[INFO] - [21-10-2025 19:50:08] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] --> POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element {"using":"accessibility id","value":"Create An Account"}
+[INFO] - [21-10-2025 19:50:08] [utils.appium.TerminalLogsCapture$1] - [3006d84b][AndroidUiautomator2Driver@a6d3] Got response with status 404: {"sessionId":"1aefd7e5-b54f-4fc1-8ee1-f6ebbe81102c","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:63)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:259)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:253)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)\n\tat io.netty.chann...
+[INFO] - [21-10-2025 19:50:08] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] <-- POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element 404 214 ms - 897
+[INFO] - [21-10-2025 19:50:09] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] --> POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element {"using":"accessibility id","value":"Create An Account"}
+[INFO] - [21-10-2025 19:50:09] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] <-- POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element 200 434 ms - 137
+[INFO] - [21-10-2025 19:50:09] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] --> GET /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element/00000000-0000-0080-ffff-ffff00000089/displayed
+[INFO] - [21-10-2025 19:50:09] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] <-- GET /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element/00000000-0000-0080-ffff-ffff00000089/displayed 200 38 ms - 14
+[INFO] - [21-10-2025 19:50:09] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] --> GET /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element/00000000-0000-0080-ffff-ffff00000089/enabled
+[INFO] - [21-10-2025 19:50:09] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] <-- GET /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element/00000000-0000-0080-ffff-ffff00000089/enabled 200 40 ms - 14
+[INFO] - [21-10-2025 19:50:09] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] --> POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element {"using":"accessibility id","value":"Create An Account"}
+[INFO] - [21-10-2025 19:50:09] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] <-- POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element 200 93 ms - 137
+[INFO] - [21-10-2025 19:50:09] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] --> GET /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element/00000000-0000-0080-ffff-ffff00000089/displayed
+[INFO] - [21-10-2025 19:50:09] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] <-- GET /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element/00000000-0000-0080-ffff-ffff00000089/displayed 200 35 ms - 14
+[INFO] - [21-10-2025 19:50:09] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] --> POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element {"using":"accessibility id","value":"Create An Account"}
+[INFO] - [21-10-2025 19:50:09] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] <-- POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element 200 106 ms - 137
+[INFO] - [21-10-2025 19:50:09] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] --> POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element/00000000-0000-0080-ffff-ffff00000089/click {"id":"00000000-0000-0080-ffff-ffff00000089"}
+[INFO] - [21-10-2025 19:50:10] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] <-- POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element/00000000-0000-0080-ffff-ffff00000089/click 200 155 ms - 14
+[INFO] - [21-10-2025 19:50:10] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] --> POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/elements {"using":"-android uiautomator","value":"new UiSelector().text(\"Welcome to Givers!\")"}
+[INFO] - [21-10-2025 19:50:10] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] <-- POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/elements 200 151 ms - 12
+[INFO] - [21-10-2025 19:50:11] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] --> POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/elements {"using":"-android uiautomator","value":"new UiSelector().text(\"Welcome to Givers!\")"}
+[INFO] - [21-10-2025 19:50:11] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] <-- POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/elements 200 482 ms - 139
+[INFO] - [21-10-2025 19:50:11] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] --> GET /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element/00000000-0000-0080-ffff-ffff000000b7/displayed
+[INFO] - [21-10-2025 19:50:11] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] <-- GET /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element/00000000-0000-0080-ffff-ffff000000b7/displayed 200 73 ms - 14
+[INFO] - [21-10-2025 19:50:11] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] --> POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element {"using":"-android uiautomator","value":"new UiSelector().text(\"Enter your first name\")"}
+[INFO] - [21-10-2025 19:50:11] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] <-- POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element 200 100 ms - 137
+[INFO] - [21-10-2025 19:50:11] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] --> GET /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element/00000000-0000-0080-ffff-ffff000000bc/displayed
+[INFO] - [21-10-2025 19:50:12] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] <-- GET /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element/00000000-0000-0080-ffff-ffff000000bc/displayed 200 41 ms - 14
+[INFO] - [21-10-2025 19:50:12] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] --> POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element {"using":"-android uiautomator","value":"new UiSelector().text(\"Enter your first name\")"}
+[INFO] - [21-10-2025 19:50:12] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] <-- POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element 200 50 ms - 137
+[INFO] - [21-10-2025 19:50:12] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] --> POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element/00000000-0000-0080-ffff-ffff000000bc/clear {"id":"00000000-0000-0080-ffff-ffff000000bc"}
+[INFO] - [21-10-2025 19:50:12] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] <-- POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element/00000000-0000-0080-ffff-ffff000000bc/clear 200 86 ms - 14
+[INFO] - [21-10-2025 19:50:12] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] --> POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element/00000000-0000-0080-ffff-ffff000000bc/value {"id":"00000000-0000-0080-ffff-ffff000000bc","value":["J","o","h","n"],"text":"John"}
+[INFO] - [21-10-2025 19:50:12] [utils.appium.TerminalLogsCapture$1] - [3006d84b][BaseDriver] The following arguments are not known and will be ignored: value
+[INFO] - [21-10-2025 19:50:13] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] <-- POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element/00000000-0000-0080-ffff-ffff000000bc/value 200 1106 ms - 14
+[INFO] - [21-10-2025 19:50:13] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] --> POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element {"using":"-android uiautomator","value":"new UiSelector().text(\"Enter your last name\")"}
+[INFO] - [21-10-2025 19:50:13] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] <-- POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element 200 619 ms - 137
+[INFO] - [21-10-2025 19:50:13] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] --> GET /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element/00000000-0000-0080-ffff-ffff000000c1/displayed
+[INFO] - [21-10-2025 19:50:14] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] <-- GET /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element/00000000-0000-0080-ffff-ffff000000c1/displayed 200 103 ms - 14
+[INFO] - [21-10-2025 19:50:14] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] --> POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element {"using":"-android uiautomator","value":"new UiSelector().text(\"Enter your last name\")"}
+[INFO] - [21-10-2025 19:50:14] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] <-- POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element 200 238 ms - 137
+[INFO] - [21-10-2025 19:50:14] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] --> POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element/00000000-0000-0080-ffff-ffff000000c1/clear {"id":"00000000-0000-0080-ffff-ffff000000c1"}
+[INFO] - [21-10-2025 19:50:14] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] <-- POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element/00000000-0000-0080-ffff-ffff000000c1/clear 200 114 ms - 14
+[INFO] - [21-10-2025 19:50:14] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] --> POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element/00000000-0000-0080-ffff-ffff000000c1/value {"id":"00000000-0000-0080-ffff-ffff000000c1","value":["D","o","e"],"text":"Doe"}
+[INFO] - [21-10-2025 19:50:14] [utils.appium.TerminalLogsCapture$1] - [3006d84b][BaseDriver] The following arguments are not known and will be ignored: value
+[INFO] - [21-10-2025 19:50:15] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] <-- POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element/00000000-0000-0080-ffff-ffff000000c1/value 200 1126 ms - 14
+[INFO] - [21-10-2025 19:50:15] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] --> POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element {"using":"-android uiautomator","value":"new UiSelector().text(\"Enter your email\")"}
+[INFO] - [21-10-2025 19:50:16] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] <-- POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element 200 541 ms - 137
+[INFO] - [21-10-2025 19:50:16] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] --> GET /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element/00000000-0000-0080-ffff-ffff000000c6/displayed
+[INFO] - [21-10-2025 19:50:16] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] <-- GET /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element/00000000-0000-0080-ffff-ffff000000c6/displayed 200 36 ms - 14
+[INFO] - [21-10-2025 19:50:16] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] --> POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element {"using":"-android uiautomator","value":"new UiSelector().text(\"Enter your email\")"}
+[INFO] - [21-10-2025 19:50:16] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] <-- POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element 200 53 ms - 137
+[INFO] - [21-10-2025 19:50:16] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] --> POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element/00000000-0000-0080-ffff-ffff000000c6/clear {"id":"00000000-0000-0080-ffff-ffff000000c6"}
+[INFO] - [21-10-2025 19:50:16] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] <-- POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element/00000000-0000-0080-ffff-ffff000000c6/clear 200 38 ms - 14
+[INFO] - [21-10-2025 19:50:16] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] --> POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element/00000000-0000-0080-ffff-ffff000000c6/value {"id":"00000000-0000-0080-ffff-ffff000000c6","value":["j","o","h","n",".","d","o","e","@","g","i","v","e","r","s","a","p","p",".","c","o","m"],"text":"john.doe@giversapp.com"}
+[INFO] - [21-10-2025 19:50:16] [utils.appium.TerminalLogsCapture$1] - [3006d84b][BaseDriver] The following arguments are not known and will be ignored: value
+[INFO] - [21-10-2025 19:50:17] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] <-- POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element/00000000-0000-0080-ffff-ffff000000c6/value 200 1063 ms - 14
+[INFO] - [21-10-2025 19:50:17] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] --> POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element {"using":"-android uiautomator","value":"new UiSelector().text(\"Enter password\")"}
+[INFO] - [21-10-2025 19:50:17] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] <-- POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element 200 577 ms - 137
+[INFO] - [21-10-2025 19:50:17] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] --> GET /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element/00000000-0000-0080-ffff-ffff000000cb/displayed
+[INFO] - [21-10-2025 19:50:17] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] <-- GET /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element/00000000-0000-0080-ffff-ffff000000cb/displayed 200 32 ms - 14
+[INFO] - [21-10-2025 19:50:17] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] --> POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element {"using":"-android uiautomator","value":"new UiSelector().text(\"Enter password\")"}
+[INFO] - [21-10-2025 19:50:17] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] <-- POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element 200 55 ms - 137
+[INFO] - [21-10-2025 19:50:17] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] --> POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element/00000000-0000-0080-ffff-ffff000000cb/clear {"id":"00000000-0000-0080-ffff-ffff000000cb"}
+[INFO] - [21-10-2025 19:50:18] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] <-- POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element/00000000-0000-0080-ffff-ffff000000cb/clear 200 57 ms - 14
+[INFO] - [21-10-2025 19:50:18] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] --> POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element/00000000-0000-0080-ffff-ffff000000cb/value {"id":"00000000-0000-0080-ffff-ffff000000cb","value":["P","a","s","s","w","o","r","d","1","2","3","#"],"text":"Password123#"}
+[INFO] - [21-10-2025 19:50:18] [utils.appium.TerminalLogsCapture$1] - [3006d84b][BaseDriver] The following arguments are not known and will be ignored: value
+[INFO] - [21-10-2025 19:50:19] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] <-- POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element/00000000-0000-0080-ffff-ffff000000cb/value 200 1057 ms - 14
+[INFO] - [21-10-2025 19:50:19] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] --> POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element {"using":"-android uiautomator","value":"new UiSelector().text(\"Repeat password\")"}
+[INFO] - [21-10-2025 19:50:19] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] <-- POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element 200 109 ms - 137
+[INFO] - [21-10-2025 19:50:19] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] --> GET /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element/00000000-0000-0080-ffff-ffff000000d4/displayed
+[INFO] - [21-10-2025 19:50:20] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] <-- GET /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element/00000000-0000-0080-ffff-ffff000000d4/displayed 200 818 ms - 14
+[INFO] - [21-10-2025 19:50:20] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] --> POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element {"using":"-android uiautomator","value":"new UiSelector().text(\"Repeat password\")"}
+[INFO] - [21-10-2025 19:50:20] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] <-- POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element 200 51 ms - 137
+[INFO] - [21-10-2025 19:50:20] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] --> POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element/00000000-0000-0080-ffff-ffff000000d4/clear {"id":"00000000-0000-0080-ffff-ffff000000d4"}
+[INFO] - [21-10-2025 19:50:20] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] <-- POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element/00000000-0000-0080-ffff-ffff000000d4/clear 200 32 ms - 14
+[INFO] - [21-10-2025 19:50:20] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] --> POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element/00000000-0000-0080-ffff-ffff000000d4/value {"id":"00000000-0000-0080-ffff-ffff000000d4","value":["P","a","s","s","w","o","r","d","1","2","3","#"],"text":"Password123#"}
+[INFO] - [21-10-2025 19:50:20] [utils.appium.TerminalLogsCapture$1] - [3006d84b][BaseDriver] The following arguments are not known and will be ignored: value
+[INFO] - [21-10-2025 19:50:21] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] <-- POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element/00000000-0000-0080-ffff-ffff000000d4/value 200 1079 ms - 14
+[INFO] - [21-10-2025 19:50:21] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] --> POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element {"using":"class name","value":"android.widget.CheckBox"}
+[INFO] - [21-10-2025 19:50:21] [utils.appium.TerminalLogsCapture$1] - [3006d84b][AndroidUiautomator2Driver@a6d3] Got response with status 404: {"sessionId":"1aefd7e5-b54f-4fc1-8ee1-f6ebbe81102c","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:63)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:259)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:253)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)\n\tat io.netty.chann...
+[INFO] - [21-10-2025 19:50:21] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] <-- POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element 404 708 ms - 897
+[INFO] - [21-10-2025 19:50:22] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] --> POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element {"using":"class name","value":"android.widget.CheckBox"}
+[INFO] - [21-10-2025 19:50:23] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] <-- POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element 200 928 ms - 137
+[INFO] - [21-10-2025 19:50:23] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] --> GET /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element/00000000-0000-0080-ffff-ffff000000dc/displayed
+[INFO] - [21-10-2025 19:50:23] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] <-- GET /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element/00000000-0000-0080-ffff-ffff000000dc/displayed 200 35 ms - 14
+[INFO] - [21-10-2025 19:50:23] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] --> GET /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element/00000000-0000-0080-ffff-ffff000000dc/enabled
+[INFO] - [21-10-2025 19:50:23] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] <-- GET /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element/00000000-0000-0080-ffff-ffff000000dc/enabled 200 31 ms - 14
+[INFO] - [21-10-2025 19:50:23] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] --> POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element {"using":"class name","value":"android.widget.CheckBox"}
+[INFO] - [21-10-2025 19:50:23] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] <-- POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element 200 212 ms - 137
+[INFO] - [21-10-2025 19:50:23] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] --> GET /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element/00000000-0000-0080-ffff-ffff000000dc/displayed
+[INFO] - [21-10-2025 19:50:23] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] <-- GET /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element/00000000-0000-0080-ffff-ffff000000dc/displayed 200 36 ms - 14
+[INFO] - [21-10-2025 19:50:23] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] --> POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element {"using":"class name","value":"android.widget.CheckBox"}
+[INFO] - [21-10-2025 19:50:23] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] <-- POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element 200 194 ms - 137
+[INFO] - [21-10-2025 19:50:23] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] --> POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element/00000000-0000-0080-ffff-ffff000000dc/click {"id":"00000000-0000-0080-ffff-ffff000000dc"}
+[INFO] - [21-10-2025 19:50:24] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] <-- POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element/00000000-0000-0080-ffff-ffff000000dc/click 200 166 ms - 14
+[INFO] - [21-10-2025 19:50:24] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] --> POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element {"using":"-android uiautomator","value":"new UiSelector().text(\"Create My Account\")"}
+[INFO] - [21-10-2025 19:50:24] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] <-- POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element 200 785 ms - 137
+[INFO] - [21-10-2025 19:50:24] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] --> GET /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element/00000000-0000-0080-ffff-ffff000000e0/displayed
+[INFO] - [21-10-2025 19:50:24] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] <-- GET /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element/00000000-0000-0080-ffff-ffff000000e0/displayed 200 48 ms - 14
+[INFO] - [21-10-2025 19:50:24] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] --> GET /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element/00000000-0000-0080-ffff-ffff000000e0/enabled
+[INFO] - [21-10-2025 19:50:24] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] <-- GET /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element/00000000-0000-0080-ffff-ffff000000e0/enabled 200 37 ms - 14
+[INFO] - [21-10-2025 19:50:24] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] --> POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element {"using":"-android uiautomator","value":"new UiSelector().text(\"Create My Account\")"}
+[INFO] - [21-10-2025 19:50:25] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] <-- POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element 200 186 ms - 137
+[INFO] - [21-10-2025 19:50:25] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] --> GET /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element/00000000-0000-0080-ffff-ffff000000e0/displayed
+[INFO] - [21-10-2025 19:50:25] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] <-- GET /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element/00000000-0000-0080-ffff-ffff000000e0/displayed 200 36 ms - 14
+[INFO] - [21-10-2025 19:50:25] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] --> POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element {"using":"-android uiautomator","value":"new UiSelector().text(\"Create My Account\")"}
+[INFO] - [21-10-2025 19:50:25] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] <-- POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element 200 80 ms - 137
+[INFO] - [21-10-2025 19:50:25] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] --> POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element/00000000-0000-0080-ffff-ffff000000e0/click {"id":"00000000-0000-0080-ffff-ffff000000e0"}
+[INFO] - [21-10-2025 19:50:25] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] <-- POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element/00000000-0000-0080-ffff-ffff000000e0/click 200 93 ms - 14
+[INFO] - [21-10-2025 19:50:25] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] --> POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/elements {"using":"class name","value":"android.view.ViewGroup"}
+[INFO] - [21-10-2025 19:50:25] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] <-- POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/elements 200 171 ms - 8075
+[INFO] - [21-10-2025 19:50:25] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] --> POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element/00000000-0000-0080-ffff-ffff00000016/click {"id":"00000000-0000-0080-ffff-ffff00000016"}
+[INFO] - [21-10-2025 19:50:26] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] <-- POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element/00000000-0000-0080-ffff-ffff00000016/click 200 1152 ms - 14
+[INFO] - [21-10-2025 19:50:26] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] --> POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element/00000000-0000-0080-ffff-ffff00000016/clear {"id":"00000000-0000-0080-ffff-ffff00000016"}
+[INFO] - [21-10-2025 19:50:26] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] <-- POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element/00000000-0000-0080-ffff-ffff00000016/clear 200 59 ms - 14
+[INFO] - [21-10-2025 19:50:26] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] --> POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element/00000000-0000-0080-ffff-ffff00000016/value {"id":"00000000-0000-0080-ffff-ffff00000016","value":["0"],"text":"0"}
+[INFO] - [21-10-2025 19:50:26] [utils.appium.TerminalLogsCapture$1] - [3006d84b][BaseDriver] The following arguments are not known and will be ignored: value
+[INFO] - [21-10-2025 19:50:26] [utils.appium.TerminalLogsCapture$1] - [3006d84b][AndroidUiautomator2Driver@a6d3] Got response with status 400: {"sessionId":"1aefd7e5-b54f-4fc1-8ee1-f6ebbe81102c","value":{"error":"invalid element state","message":"Cannot set the element to '0'. Did you interact with the correct element?","stacktrace":"io.appium.uiautomator2.common.exceptions.InvalidElementStateException: Cannot set the element to '0'. Did you interact with the correct element?\n\tat io.appium.uiautomator2.handler.SendKeysToElement.setText(SendKeysToElement.java:87)\n\tat io.appium.uiautomator2.handler.SendKeysToElement.safeHandle(SendKeysToElement.java:115)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:259)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:253)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)\n\tat io.netty.channel.Abs...
+[INFO] - [21-10-2025 19:50:26] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] <-- POST /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element/00000000-0000-0080-ffff-ffff00000016/value 400 131 ms - 3943
+[INFO] - [21-10-2025 19:50:26] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] --> GET /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element/active
+[INFO] - [21-10-2025 19:50:26] [utils.appium.TerminalLogsCapture$1] - [3006d84b][AndroidUiautomator2Driver@a6d3] Driver proxy active, passing request on via HTTP proxy
+[INFO] - [21-10-2025 19:50:27] [utils.appium.TerminalLogsCapture$1] - [3006d84b][AndroidUiautomator2Driver@a6d3] Got response with status 404: {"sessionId":"1aefd7e5-b54f-4fc1-8ee1-f6ebbe81102c","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.ActiveElement.safeHandle(ActiveElement.java:45)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:259)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:253)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)\n\tat io.netty.c...
+[INFO] - [21-10-2025 19:50:27] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] <-- GET /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1/element/active 404 609 ms - 3842
+[INFO] - [21-10-2025 19:50:27] [listeners.MethodInvocationListener] - Finished test: testRegistration
+[INFO] - [21-10-2025 19:50:27] [utils.common.AllureUtils] - Attaching logs for test: testRegistration
+[INFO] - [21-10-2025 19:50:27] [utils.common.AllureUtils] - Logs attached successfully for test: testRegistration
+[INFO] - [21-10-2025 19:50:27] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] --> DELETE /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1
+[INFO] - [21-10-2025 19:50:27] [utils.appium.TerminalLogsCapture$1] - [3006d84b][AppiumDriver@4409] Removing session 3006d84b-b93b-4189-9cf9-50d1a1037cd1 from our master session list
+[INFO] - [21-10-2025 19:50:29] [utils.appium.TerminalLogsCapture$1] - [3006d84b][AndroidUiautomator2Driver@a6d3] Restoring hidden api policy to the device default configuration
+[INFO] - [21-10-2025 19:50:29] [utils.appium.TerminalLogsCapture$1] - [3006d84b][HTTP] <-- DELETE /session/3006d84b-b93b-4189-9cf9-50d1a1037cd1 200 1990 ms - 14
+[INFO] - [21-10-2025 19:50:29] [listeners.TestResultListener] - Test failed: testRegistration
+[INFO] - [21-10-2025 19:50:30] [listeners.TestResultListener] - Test run finished
+[INFO] - [21-10-2025 19:50:30] [utils.appium.TerminalLogsCapture$1] - ===============================================
+[INFO] - [21-10-2025 19:50:30] [utils.appium.TerminalLogsCapture$1] - Authentication Suite
+[INFO] - [21-10-2025 19:50:30] [utils.appium.TerminalLogsCapture$1] - Total tests run: 1, Passes: 0, Failures: 1, Skips: 0
+[INFO] - [21-10-2025 19:50:30] [utils.appium.TerminalLogsCapture$1] - ===============================================
+[INFO] - [21-10-2025 19:50:30] [utils.common.TerminalUtils] - Executing command: allure generate test_outputs/allure_results -o test_outputs/allure_report --clean --single-file
+[INFO] - [21-10-2025 19:50:34] [utils.common.TerminalUtils] - Command executed: allure generate test_outputs/allure_results -o test_outputs/allure_report --clean --single-file
+[INFO] - [21-10-2025 19:50:34] [utils.common.AllureUtils] - Allure report generated successfully
+[INFO] - [21-10-2025 19:50:34] [utils.common.FilesUtils] - Found latest file in test_outputs\allure_report: test_outputs\allure_report\index.html
+[INFO] - [21-10-2025 19:50:34] [utils.common.FilesUtils] - File renamed successfully from test_outputs\allure_report\index.html to test_outputs\allure_report\Report 2025-10-21 19-50-34.html
+[INFO] - [21-10-2025 19:50:34] [utils.common.AllureUtils] - Allure report renamed successfully to: test_outputs\allure_report\Report 2025-10-21 19-50-34.html
+[INFO] - [21-10-2025 19:50:34] [utils.common.AllureUtils] - Opening allure report: test_outputs\allure_report\Report 2025-10-21 19-50-34.html
+[INFO] - [21-10-2025 19:50:34] [utils.common.TerminalUtils] - Executing command: start "" "test_outputs\allure_report\Report 2025-10-21 19-50-34.html"
+[INFO] - [21-10-2025 19:50:34] [utils.common.TerminalUtils] - Command executed: start "" "test_outputs\allure_report\Report 2025-10-21 19-50-34.html"
+[INFO] - [21-10-2025 19:50:35] [utils.appium.TerminalLogsCapture$1] - [HTTP] --> GET /status
+[INFO] - [21-10-2025 19:50:35] [utils.appium.TerminalLogsCapture$1] - [HTTP] <-- GET /status 200 2 ms - 110
+[INFO] - [21-10-2025 19:50:35] [utils.appium.TerminalLogsCapture$1] - ￰ﾟﾛﾑ Appium server stopped.

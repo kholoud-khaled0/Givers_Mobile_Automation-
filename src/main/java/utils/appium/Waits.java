@@ -68,5 +68,46 @@ public class Waits {
             }
         });
     }
+    public static void waitForTextToBeVisible(String text, Duration duration) {
+        By textLocator = By.xpath("//*[contains(@text, '" + text + "') or contains(@content-desc, '" + text + "')]");
+        WebDriverWait wait = new WebDriverWait(DriverManager.getDriver(), duration);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(textLocator));
+    }
+    public static void waitFor(Duration duration) {
+        try {
+            Thread.sleep(duration.toMillis());
+        } catch (InterruptedException e) {
+            Thread.currentThread().interrupt();
+            throw new RuntimeException("Thread interrupted during static wait", e);
+        }
+    }
+    // ✅ Add inside Waits class (before the last closing bracket)
+    /**
+     * Wait until exact text is visible on screen.
+     */
+    public static void waitForExactText(String text, Duration duration) {
+        By locator = By.xpath("//*[normalize-space(@text)='" + text + "']");
+        WebDriverWait wait = new WebDriverWait(DriverManager.getDriver(), duration);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+    }
+
+    /**
+     * Wait until element containing specific content-desc or text disappears.
+     */
+    public static void waitForTextToDisappear(String text, Duration duration) {
+        By textLocator = By.xpath("//*[contains(@text, '" + text + "') or contains(@content-desc, '" + text + "')]");
+        WebDriverWait wait = new WebDriverWait(DriverManager.getDriver(), duration);
+        wait.until(ExpectedConditions.invisibilityOfElementLocated(textLocator));
+    }
+    public static boolean waitForTextToBeVisiblee(String text, Duration duration) {
+        By textLocator = By.xpath("//*[contains(@text, '" + text + "') or contains(@content-desc, '" + text + "')]");
+        try {
+            WebDriverWait wait = new WebDriverWait(DriverManager.getDriver(), duration);
+            wait.until(ExpectedConditions.visibilityOfElementLocated(textLocator));
+            return true; // ✅ النص ظهر فعلاً
+        } catch (Exception e) {
+            return false; // ⛔ انتهى الوقت أو النص مش موجود
+        }
+    }
 
 }

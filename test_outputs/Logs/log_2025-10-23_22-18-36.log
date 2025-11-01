@@ -1,0 +1,36 @@
+[DEBUG] - [23-10-2025 22:18:36] [org.testng.TestNG] - suiteXmlPath: "C:\Users\Kholoud\IdeaProjects\Givers\test_runners\AndroidTestSuite.xml"
+[INFO] - [23-10-2025 22:18:37] [utils.common.FilesUtils] - Directory already exists: test_outputs\logs
+[INFO] - [23-10-2025 22:18:37] [utils.common.FilesUtils] - Directory already exists: test_outputs\allure_results
+[INFO] - [23-10-2025 22:18:37] [utils.common.FilesUtils] - Directory already exists: test_outputs\screenshots
+[INFO] - [23-10-2025 22:18:37] [utils.common.FilesUtils] - Directory already exists: test_outputs\allure_report
+[INFO] - [23-10-2025 22:18:37] [utils.common.FilesUtils] - Deleting files or folders in: C:\Users\Kholoud\IdeaProjects\Givers\test_outputs\allure_results
+[INFO] - [23-10-2025 22:18:37] [utils.common.FilesUtils] - Deleting files or folders in: C:\Users\Kholoud\IdeaProjects\Givers\test_outputs\screenshots
+[INFO] - [23-10-2025 22:18:37] [utils.appium.TerminalLogsCapture$1] - ￢ﾜﾅ Appium server started at: http://127.0.0.1:4723/
+[INFO] - [23-10-2025 22:18:37] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\Kholoud\IdeaProjects\Givers\test_runners\AndroidTestSuite.xml
+
+[INFO] - [23-10-2025 22:18:37] [listeners.TestResultListener] - Test run started
+[INFO] - [23-10-2025 22:18:37] [utils.common.PropertiesUtils] - Loading Android properties from: src/main/resources/Env/AndroidEnv.properties
+[INFO] - [23-10-2025 22:18:37] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/loginTestData.json
+[INFO] - [23-10-2025 22:18:38] [utils.common.JsonUtils] - Successfully deserialized JSON to: LoginTestData[]
+[INFO] - [23-10-2025 22:18:38] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/registerTestData.json
+[INFO] - [23-10-2025 22:18:38] [utils.common.JsonUtils] - Successfully deserialized JSON to: RegisterTestData[]
+[INFO] - [23-10-2025 22:18:38] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/resetPasswordTestData.json
+[ERROR] - [23-10-2025 22:18:38] [utils.common.JsonUtils] - Failed to read JSON file: src/test/resources/resetPasswordTestData.json. Error: Unrecognized field "shouldLogin" (class utils.model.ResetPasswordTestData), not marked as ignorable (6 known properties: "oldPassword", "story", "newPassword", "email", "shouldReset", "description"])
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 10, column: 4] (through reference chain: java.lang.Object[][0]->utils.model.ResetPasswordTestData["shouldLogin"])
+[INFO] - [23-10-2025 22:18:38] [listeners.TestResultListener] - Test failed: testFullResetPasswordFlow
+[INFO] - [23-10-2025 22:18:38] [listeners.TestResultListener] - Test run finished
+[INFO] - [23-10-2025 22:18:38] [utils.appium.TerminalLogsCapture$1] - ===============================================
+[INFO] - [23-10-2025 22:18:38] [utils.appium.TerminalLogsCapture$1] - Authentication Suite
+[INFO] - [23-10-2025 22:18:38] [utils.appium.TerminalLogsCapture$1] - Total tests run: 1, Passes: 0, Failures: 1, Skips: 0
+[INFO] - [23-10-2025 22:18:38] [utils.appium.TerminalLogsCapture$1] - ===============================================
+[INFO] - [23-10-2025 22:18:38] [utils.common.TerminalUtils] - Executing command: allure generate test_outputs/allure_results -o test_outputs/allure_report --clean --single-file
+[INFO] - [23-10-2025 22:18:40] [utils.common.TerminalUtils] - Command executed: allure generate test_outputs/allure_results -o test_outputs/allure_report --clean --single-file
+[INFO] - [23-10-2025 22:18:40] [utils.common.AllureUtils] - Allure report generated successfully
+[INFO] - [23-10-2025 22:18:40] [utils.common.FilesUtils] - Found latest file in test_outputs\allure_report: test_outputs\allure_report\index.html
+[INFO] - [23-10-2025 22:18:40] [utils.common.FilesUtils] - File renamed successfully from test_outputs\allure_report\index.html to test_outputs\allure_report\Report 2025-10-23 22-18-40.html
+[INFO] - [23-10-2025 22:18:40] [utils.common.AllureUtils] - Allure report renamed successfully to: test_outputs\allure_report\Report 2025-10-23 22-18-40.html
+[INFO] - [23-10-2025 22:18:40] [utils.common.AllureUtils] - Opening allure report: test_outputs\allure_report\Report 2025-10-23 22-18-40.html
+[INFO] - [23-10-2025 22:18:40] [utils.common.TerminalUtils] - Executing command: start "" "test_outputs\allure_report\Report 2025-10-23 22-18-40.html"
+[INFO] - [23-10-2025 22:18:41] [utils.common.TerminalUtils] - Command executed: start "" "test_outputs\allure_report\Report 2025-10-23 22-18-40.html"
+[INFO] - [23-10-2025 22:18:41] [utils.appium.TerminalLogsCapture$1] - ￰ﾟﾛﾑ Appium server stopped.

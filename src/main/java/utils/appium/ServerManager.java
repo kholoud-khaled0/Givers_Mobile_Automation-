@@ -8,11 +8,11 @@ import java.io.File;
 import java.net.URL;
 
 public class ServerManager {
+
     private static AppiumDriverLocalService instance;
 
     private static AppiumDriverLocalService getInstance() {
         if (instance == null) {
-            // ✅ حددي مكان ملف Appium الرئيسي
             String appiumMainJsPath = "C:\\Users\\Kholoud\\AppData\\Roaming\\npm\\node_modules\\appium\\build\\lib\\main.js";
 
             AppiumServiceBuilder builder = new AppiumServiceBuilder()
@@ -30,14 +30,28 @@ public class ServerManager {
     }
 
     public static void startService() {
-        getInstance().start();
-        System.out.println("✅ Appium server started at: " + getInstance().getUrl());
+        try {
+            if (instance == null || !instance.isRunning()) {
+                getInstance().start();
+                System.out.println("✅ Appium server started at: " + getInstance().getUrl());
+            } else {
+                System.out.println("[INFO] Appium server already running.");
+            }
+        } catch (Exception e) {
+            System.out.println("❌ Failed to start Appium server: " + e.getMessage());
+        }
     }
 
     public static void stopService() {
-        if (instance != null && instance.isRunning()) {
-            instance.stop();
-            System.out.println("🛑 Appium server stopped.");
+        try {
+            if (instance != null && instance.isRunning()) {
+                instance.stop();
+                System.out.println("🛑 Appium server stopped.");
+            } else {
+                System.out.println("[INFO] No Appium server to stop.");
+            }
+        } catch (Exception e) {
+            System.out.println("[WARN] Error stopping Appium server: " + e.getMessage());
         }
     }
 
