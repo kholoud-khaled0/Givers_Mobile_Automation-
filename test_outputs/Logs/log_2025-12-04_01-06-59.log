@@ -1,0 +1,26 @@
+[DEBUG] - [04-12-2025 01:06:59] [org.testng.TestNG] - suiteXmlPath: "C:\Users\Kholoud\IdeaProjects\Givers\test_runners\AndroidTestSuite.xml"
+[INFO] - [04-12-2025 01:07:00] [utils.common.FilesUtils] - Directory already exists: test_outputs\logs
+[INFO] - [04-12-2025 01:07:00] [utils.common.FilesUtils] - Directory already exists: test_outputs\allure_results
+[INFO] - [04-12-2025 01:07:00] [utils.common.FilesUtils] - Directory already exists: test_outputs\screenshots
+[INFO] - [04-12-2025 01:07:00] [utils.common.FilesUtils] - Directory already exists: test_outputs\allure_report
+[INFO] - [04-12-2025 01:07:00] [utils.common.FilesUtils] - Deleting files or folders in: C:\Users\Kholoud\IdeaProjects\Givers\test_outputs\allure_results
+[INFO] - [04-12-2025 01:07:00] [utils.common.FilesUtils] - Deleting files or folders in: C:\Users\Kholoud\IdeaProjects\Givers\test_outputs\screenshots
+[WARN] - [04-12-2025 01:07:05] [utils.appium.TerminalLogsCapture$1] - WARN Appium Appium encountered 1 warning while validating plugins found in manifest C:\Users\Kholoud\.appium\node_modules\.cache\appium\extensions.yaml
+[WARN] - [04-12-2025 01:07:05] [utils.appium.TerminalLogsCapture$1] - WARN Appium Plugin "images" has 1 potential problem:
+[WARN] - [04-12-2025 01:07:05] [utils.appium.TerminalLogsCapture$1] - WARN Appium   - Plugin "images" (package `@appium/images-plugin`) may be incompatible with the current version of Appium (v3.1.0) due to its peer dependency on Appium ^2.0.0. Please install a compatible version of the plugin.
+[WARN] - [04-12-2025 01:07:08] [utils.appium.TerminalLogsCapture$1] - WARN Appium Appium encountered 3 warnings while validating drivers found in manifest C:\Users\Kholoud\.appium\node_modules\.cache\appium\extensions.yaml
+[WARN] - [04-12-2025 01:07:08] [utils.appium.TerminalLogsCapture$1] - WARN Appium Driver "xcuitest" has 1 potential problem:
+[WARN] - [04-12-2025 01:07:08] [utils.appium.TerminalLogsCapture$1] - WARN Appium   - Driver "xcuitest" (package `appium-xcuitest-driver`) may be incompatible with the current version of Appium (v3.1.0) due to its peer dependency on Appium ^2.5.4. Try to upgrade `appium-xcuitest-driver` to v9.10.5 or newer.
+[WARN] - [04-12-2025 01:07:08] [utils.appium.TerminalLogsCapture$1] - WARN Appium Driver "espresso" has 1 potential problem:
+[WARN] - [04-12-2025 01:07:08] [utils.appium.TerminalLogsCapture$1] - WARN Appium   - Driver "espresso" (package `appium-espresso-driver`) may be incompatible with the current version of Appium (v3.1.0) due to its peer dependency on Appium ^2.4.1. Try to upgrade `appium-espresso-driver` to v4.1.17 or newer.
+[INFO] - [04-12-2025 01:07:08] [utils.appium.TerminalLogsCapture$1] - [Appium] Welcome to Appium v3.1.0
+[INFO] - [04-12-2025 01:07:08] [utils.appium.TerminalLogsCapture$1] - [Appium] Non-default server args:
+[INFO] - [04-12-2025 01:07:08] [utils.appium.TerminalLogsCapture$1] - [Appium] { address: '127.0.0.1',
+[INFO] - [04-12-2025 01:07:08] [utils.appium.TerminalLogsCapture$1] - loglevel: 'info',
+[INFO] - [04-12-2025 01:07:08] [utils.appium.TerminalLogsCapture$1] - logNoColors: true,
+[INFO] - [04-12-2025 01:07:09] [utils.appium.TerminalLogsCapture$1] - relaxedSecurityEnabled: true,
+[INFO] - [04-12-2025 01:07:09] [utils.appium.TerminalLogsCapture$1] - sessionOverride: true }
+[INFO] - [04-12-2025 01:07:09] [utils.appium.TerminalLogsCapture$1] - [Appium] Enabling relaxed security. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[INFO] - [04-12-2025 01:07:09] [utils.appium.TerminalLogsCapture$1] - [Appium] Attempting to load driver uiautomator2...
+[INFO] - [04-12-2025 01:07:09] [utils.appium.TerminalLogsCapture$1] - [Appium] Attempting to load driver xcuitest...
+[INFO] - [04-12-2025 01:07:09] [utils.appium.TerminalLogsCapture$1] - [Appium] Attempting to load driver espresso...

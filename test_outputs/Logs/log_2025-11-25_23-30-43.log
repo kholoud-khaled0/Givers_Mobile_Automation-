@@ -1,0 +1,45 @@
+[DEBUG] - [25-11-2025 23:30:44] [org.testng.TestNG] - suiteXmlPath: "C:\Users\Kholoud\IdeaProjects\Givers\test_runners\AndroidTestSuite.xml"
+[INFO] - [25-11-2025 23:30:44] [utils.common.FilesUtils] - Directory already exists: test_outputs\logs
+[INFO] - [25-11-2025 23:30:44] [utils.common.FilesUtils] - Directory already exists: test_outputs\allure_results
+[INFO] - [25-11-2025 23:30:44] [utils.common.FilesUtils] - Directory already exists: test_outputs\screenshots
+[INFO] - [25-11-2025 23:30:44] [utils.common.FilesUtils] - Directory already exists: test_outputs\allure_report
+[INFO] - [25-11-2025 23:30:44] [utils.common.FilesUtils] - Deleting files or folders in: C:\Users\Kholoud\IdeaProjects\Givers\test_outputs\allure_results
+[INFO] - [25-11-2025 23:30:44] [utils.common.FilesUtils] - Deleting files or folders in: C:\Users\Kholoud\IdeaProjects\Givers\test_outputs\screenshots
+[INFO] - [25-11-2025 23:30:44] [utils.appium.TerminalLogsCapture$1] - ￢ﾜﾅ Appium server started at: http://127.0.0.1:4723/
+[INFO] - [25-11-2025 23:30:45] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\Kholoud\IdeaProjects\Givers\test_runners\AndroidTestSuite.xml
+
+[INFO] - [25-11-2025 23:30:45] [listeners.TestResultListener] - Test run started
+[INFO] - [25-11-2025 23:30:45] [utils.common.PropertiesUtils] - Loading Android properties from: src/main/resources/Env/AndroidEnv.properties
+[INFO] - [25-11-2025 23:30:45] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/loginTestData.json
+[INFO] - [25-11-2025 23:30:45] [utils.common.JsonUtils] - Successfully deserialized JSON to: LoginTestData[]
+[INFO] - [25-11-2025 23:30:45] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/registerTestData.json
+[INFO] - [25-11-2025 23:30:45] [utils.common.JsonUtils] - Successfully deserialized JSON to: RegisterTestData[]
+[INFO] - [25-11-2025 23:30:45] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/resetPasswordTestData.json
+[INFO] - [25-11-2025 23:30:45] [utils.common.JsonUtils] - Successfully deserialized JSON to: ResetPasswordTestData[]
+[INFO] - [25-11-2025 23:30:45] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [25-11-2025 23:30:45] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [25-11-2025 23:30:45] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [25-11-2025 23:30:45] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [25-11-2025 23:30:45] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ForgotPasswordTestData.json
+[INFO] - [25-11-2025 23:30:45] [utils.common.JsonUtils] - Successfully deserialized JSON to: ForgotPasswordTestData[]
+[INFO] - [25-11-2025 23:30:45] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyTestData.json
+[INFO] - [25-11-2025 23:30:45] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyTestData[]
+[INFO] - [25-11-2025 23:30:45] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreateNeedyTestData.json
+[ERROR] - [25-11-2025 23:30:45] [utils.common.JsonUtils] - Failed to read JSON file: src/test/resources/CreateNeedyTestData.json. Error: src\test\resources\CreateNeedyTestData.json (The system cannot find the file specified)
+[INFO] - [25-11-2025 23:30:45] [listeners.TestResultListener] - Test failed: testFullNeedyProfileFlow
+[INFO] - [25-11-2025 23:30:46] [listeners.TestResultListener] - Test run finished
+[INFO] - [25-11-2025 23:30:46] [utils.appium.TerminalLogsCapture$1] - ===============================================
+[INFO] - [25-11-2025 23:30:46] [utils.appium.TerminalLogsCapture$1] - Authentication Suite
+[INFO] - [25-11-2025 23:30:46] [utils.appium.TerminalLogsCapture$1] - Total tests run: 1, Passes: 0, Failures: 1, Skips: 0
+[INFO] - [25-11-2025 23:30:46] [utils.appium.TerminalLogsCapture$1] - ===============================================
+[INFO] - [25-11-2025 23:30:46] [utils.common.TerminalUtils] - Executing command: allure generate test_outputs/allure_results -o test_outputs/allure_report --clean --single-file
+[INFO] - [25-11-2025 23:30:49] [utils.common.TerminalUtils] - Command executed: allure generate test_outputs/allure_results -o test_outputs/allure_report --clean --single-file
+[INFO] - [25-11-2025 23:30:49] [utils.common.AllureUtils] - Allure report generated successfully
+[INFO] - [25-11-2025 23:30:49] [utils.common.FilesUtils] - Found latest file in test_outputs\allure_report: test_outputs\allure_report\index.html
+[INFO] - [25-11-2025 23:30:49] [utils.common.FilesUtils] - File renamed successfully from test_outputs\allure_report\index.html to test_outputs\allure_report\Report 2025-11-25 23-30-49.html
+[INFO] - [25-11-2025 23:30:49] [utils.common.AllureUtils] - Allure report renamed successfully to: test_outputs\allure_report\Report 2025-11-25 23-30-49.html
+[INFO] - [25-11-2025 23:30:49] [utils.common.AllureUtils] - Opening allure report: test_outputs\allure_report\Report 2025-11-25 23-30-49.html
+[INFO] - [25-11-2025 23:30:49] [utils.common.TerminalUtils] - Executing command: start "" "test_outputs\allure_report\Report 2025-11-25 23-30-49.html"
+[INFO] - [25-11-2025 23:30:50] [utils.common.TerminalUtils] - Command executed: start "" "test_outputs\allure_report\Report 2025-11-25 23-30-49.html"
+[INFO] - [25-11-2025 23:30:50] [utils.appium.TerminalLogsCapture$1] - ￰ﾟﾛﾑ Appium server stopped.

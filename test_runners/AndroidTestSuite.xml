@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Android Automation Suite" parallel="false">
+
+    <!-- ================= Listeners ================= -->
+    <listeners>
+        <listener class-name="listeners.TestResultListener"/>
+        <listener class-name="listeners.MethodInvocationListener"/>
+        <listener class-name="listeners.ExecutionListener"/>
+        <listener class-name="listeners.RetryListener"/>
+    </listeners>
+
+    <!-- ================= Test ================= -->
+    <test name="Android Ordered Tests">
+
+        <!-- Platform Parameter -->
+        <parameter name="platformName" value="Android"/>
+
+        <!-- Only TestFactory is referenced here -->
+        <classes>
+            <class name="utils.testFactory.TestFactory"/>
+        </classes>
+
+    </test>
+
+</suite>

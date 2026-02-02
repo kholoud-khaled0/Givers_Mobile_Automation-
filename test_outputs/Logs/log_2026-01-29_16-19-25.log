@@ -1,0 +1,87 @@
+[DEBUG] - [29-01-2026 16:19:25] [org.testng.TestNG] - suiteXmlPath: "C:\Users\Kholoud\IdeaProjects\Givers\test_runners\AndroidTestSuite.xml"
+[INFO] - [29-01-2026 16:19:26] [utils.common.FilesUtils] - Directory already exists: test_outputs\logs
+[INFO] - [29-01-2026 16:19:26] [utils.common.FilesUtils] - Directory already exists: test_outputs\allure_results
+[INFO] - [29-01-2026 16:19:26] [utils.common.FilesUtils] - Directory already exists: test_outputs\screenshots
+[INFO] - [29-01-2026 16:19:26] [utils.common.FilesUtils] - Directory already exists: test_outputs\allure_report
+[INFO] - [29-01-2026 16:19:26] [utils.common.FilesUtils] - Deleting files or folders in: C:\Users\Kholoud\IdeaProjects\Givers\test_outputs\allure_results
+[INFO] - [29-01-2026 16:19:26] [utils.common.FilesUtils] - Deleting files or folders in: C:\Users\Kholoud\IdeaProjects\Givers\test_outputs\screenshots
+[INFO] - [29-01-2026 16:19:27] [utils.appium.TerminalLogsCapture$1] - ￢ﾜﾅ Appium server started at: http://127.0.0.1:4723/
+[INFO] - [29-01-2026 16:19:27] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\Kholoud\IdeaProjects\Givers\test_runners\AndroidTestSuite.xml
+
+[INFO] - [29-01-2026 16:19:27] [listeners.TestResultListener] - Test run started
+[INFO] - [29-01-2026 16:19:27] [utils.common.PropertiesUtils] - Loading Android properties from: src/main/resources/Env/AndroidEnv.properties
+[INFO] - [29-01-2026 16:19:28] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/loginTestData.json
+[INFO] - [29-01-2026 16:19:28] [utils.common.JsonUtils] - Successfully deserialized JSON to: LoginTestData[]
+[INFO] - [29-01-2026 16:19:28] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/registerTestData.json
+[INFO] - [29-01-2026 16:19:28] [utils.common.JsonUtils] - Successfully deserialized JSON to: RegisterTestData[]
+[INFO] - [29-01-2026 16:19:28] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/resetPasswordTestData.json
+[INFO] - [29-01-2026 16:19:28] [utils.common.JsonUtils] - Successfully deserialized JSON to: ResetPasswordTestData[]
+[INFO] - [29-01-2026 16:19:28] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [29-01-2026 16:19:28] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [29-01-2026 16:19:28] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [29-01-2026 16:19:28] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [29-01-2026 16:19:28] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ForgotPasswordTestData.json
+[INFO] - [29-01-2026 16:19:28] [utils.common.JsonUtils] - Successfully deserialized JSON to: ForgotPasswordTestData[]
+[INFO] - [29-01-2026 16:19:28] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyTestData.json
+[INFO] - [29-01-2026 16:19:28] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyTestData[]
+[INFO] - [29-01-2026 16:19:28] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreateNeedyProfileTestData.json
+[INFO] - [29-01-2026 16:19:29] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyProfileTestData[]
+[INFO] - [29-01-2026 16:19:29] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyFunctionTestData.json
+[INFO] - [29-01-2026 16:19:29] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyFunctionsTestData[]
+[INFO] - [29-01-2026 16:19:29] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/DonationTestData.json
+[INFO] - [29-01-2026 16:19:29] [utils.common.JsonUtils] - Successfully deserialized JSON to: EasyGiveTestData[]
+[INFO] - [29-01-2026 16:19:29] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/SingleDonationTestData.json
+[INFO] - [29-01-2026 16:19:29] [utils.common.JsonUtils] - Successfully deserialized JSON to: SingleDonationTestData[]
+[INFO] - [29-01-2026 16:19:29] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CommunityTestData.json
+[INFO] - [29-01-2026 16:19:29] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [29-01-2026 16:19:29] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ModeratorCommunity.json
+[INFO] - [29-01-2026 16:19:29] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [29-01-2026 16:19:29] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreationCommunityTestData.json
+[INFO] - [29-01-2026 16:19:29] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [29-01-2026 16:19:29] [utils.appium.TerminalLogsCapture$1] - [INFO] Appium server already running.
+[WARN] - [29-01-2026 16:19:29] [utils.appium.TerminalLogsCapture$1] - [WARN] Could not clear port 8100: Cannot run program "npx": CreateProcess error=2, The system cannot find the file specified
+[WARN] - [29-01-2026 16:19:35] [utils.appium.TerminalLogsCapture$1] - WARN Appium Appium encountered 1 warning while validating plugins found in manifest C:\Users\Kholoud\.appium\node_modules\.cache\appium\extensions.yaml
+[WARN] - [29-01-2026 16:19:35] [utils.appium.TerminalLogsCapture$1] - WARN Appium Plugin "images" has 1 potential problem:
+[WARN] - [29-01-2026 16:19:35] [utils.appium.TerminalLogsCapture$1] - WARN Appium   - Plugin "images" (package `@appium/images-plugin`) may be incompatible with the current version of Appium (v3.1.0) due to its peer dependency on Appium ^2.0.0. Please install a compatible version of the plugin.
+[ERROR] - [29-01-2026 16:19:35] [utils.appium.driverManager.DriverManager] - ❌ Failed to initialize driver: Could not start a new session. Response code 500. Message: UiAutomator2 Server cannot start because the local port #8100 is busy. Make sure the port you provide via 'systemPort' capability is not occupied. This situation might often be a result of an inaccurate sessions management, e.g. old automation sessions on the same device must always be closed before starting new ones. 
+Host info: host: 'LODY', ip: '192.168.1.14'
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: io.appium.java_client.AppiumDriver
+Command: [null, newSession {capabilities=[Capabilities {appium:app: C:/Users/Kholoud/IdeaProjec..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: Emu2, appium:systemPort: 8100, platformName: ANDROID}]}]
+Capabilities {appium:app: C:/Users/Kholoud/IdeaProjec..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: Emu2, appium:systemPort: 8100, platformName: ANDROID}
+[INFO] - [29-01-2026 16:19:35] [listeners.MethodInvocationListener] - Finished test: testFilterNeedyFlow
+[INFO] - [29-01-2026 16:19:35] [utils.common.AllureUtils] - Attaching logs for test: testFilterNeedyFlow
+[INFO] - [29-01-2026 16:19:35] [utils.common.AllureUtils] - Logs attached successfully for test: testFilterNeedyFlow
+[INFO] - [29-01-2026 16:19:35] [listeners.TestResultListener] - Test failed: testFilterNeedyFlow
+[INFO] - [29-01-2026 16:19:35] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/loginTestData.json
+[INFO] - [29-01-2026 16:19:35] [utils.common.JsonUtils] - Successfully deserialized JSON to: LoginTestData[]
+[INFO] - [29-01-2026 16:19:35] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/registerTestData.json
+[INFO] - [29-01-2026 16:19:35] [utils.common.JsonUtils] - Successfully deserialized JSON to: RegisterTestData[]
+[INFO] - [29-01-2026 16:19:35] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/resetPasswordTestData.json
+[INFO] - [29-01-2026 16:19:35] [utils.common.JsonUtils] - Successfully deserialized JSON to: ResetPasswordTestData[]
+[INFO] - [29-01-2026 16:19:35] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [29-01-2026 16:19:35] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [29-01-2026 16:19:35] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [29-01-2026 16:19:35] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [29-01-2026 16:19:35] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ForgotPasswordTestData.json
+[INFO] - [29-01-2026 16:19:35] [utils.common.JsonUtils] - Successfully deserialized JSON to: ForgotPasswordTestData[]
+[INFO] - [29-01-2026 16:19:35] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyTestData.json
+[INFO] - [29-01-2026 16:19:35] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyTestData[]
+[INFO] - [29-01-2026 16:19:35] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreateNeedyProfileTestData.json
+[INFO] - [29-01-2026 16:19:35] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyProfileTestData[]
+[INFO] - [29-01-2026 16:19:35] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyFunctionTestData.json
+[INFO] - [29-01-2026 16:19:35] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyFunctionsTestData[]
+[INFO] - [29-01-2026 16:19:35] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/DonationTestData.json
+[INFO] - [29-01-2026 16:19:35] [utils.common.JsonUtils] - Successfully deserialized JSON to: EasyGiveTestData[]
+[INFO] - [29-01-2026 16:19:35] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/SingleDonationTestData.json
+[INFO] - [29-01-2026 16:19:35] [utils.common.JsonUtils] - Successfully deserialized JSON to: SingleDonationTestData[]
+[INFO] - [29-01-2026 16:19:35] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CommunityTestData.json
+[INFO] - [29-01-2026 16:19:35] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [29-01-2026 16:19:35] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ModeratorCommunity.json
+[INFO] - [29-01-2026 16:19:35] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [29-01-2026 16:19:35] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreationCommunityTestData.json
+[INFO] - [29-01-2026 16:19:35] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [29-01-2026 16:19:35] [utils.appium.TerminalLogsCapture$1] - [INFO] Appium server already running.
+[WARN] - [29-01-2026 16:19:35] [utils.appium.TerminalLogsCapture$1] - [WARN] Could not clear port 8100: Cannot run program "npx": CreateProcess error=2, The system cannot find the file specified

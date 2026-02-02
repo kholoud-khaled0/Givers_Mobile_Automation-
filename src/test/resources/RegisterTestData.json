@@ -1,0 +1,12 @@
+[
+  {
+    "story": "Valid Registration",
+    "description": "User registers successfully with valid data",
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "john.doe@giversapp.com",
+    "password": "Password123#",
+    "otp": "00700",
+    "shouldRegister": true
+  }
+]

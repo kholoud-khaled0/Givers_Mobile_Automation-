@@ -1,0 +1,240 @@
+[DEBUG] - [27-12-2025 20:39:27] [org.testng.TestNG] - suiteXmlPath: "C:\Users\Kholoud\IdeaProjects\Givers\test_runners\AndroidTestSuite.xml"
+[INFO] - [27-12-2025 20:39:28] [utils.common.FilesUtils] - Directory already exists: test_outputs\logs
+[INFO] - [27-12-2025 20:39:28] [utils.common.FilesUtils] - Directory already exists: test_outputs\allure_results
+[INFO] - [27-12-2025 20:39:28] [utils.common.FilesUtils] - Directory already exists: test_outputs\screenshots
+[INFO] - [27-12-2025 20:39:28] [utils.common.FilesUtils] - Directory already exists: test_outputs\allure_report
+[INFO] - [27-12-2025 20:39:28] [utils.common.FilesUtils] - Deleting files or folders in: C:\Users\Kholoud\IdeaProjects\Givers\test_outputs\allure_results
+[INFO] - [27-12-2025 20:39:28] [utils.common.FilesUtils] - Deleting files or folders in: C:\Users\Kholoud\IdeaProjects\Givers\test_outputs\screenshots
+[INFO] - [27-12-2025 20:39:28] [utils.appium.TerminalLogsCapture$1] - ￢ﾜﾅ Appium server started at: http://127.0.0.1:4723/
+[INFO] - [27-12-2025 20:39:29] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\Kholoud\IdeaProjects\Givers\test_runners\AndroidTestSuite.xml
+
+[INFO] - [27-12-2025 20:39:29] [listeners.TestResultListener] - Test run started
+[INFO] - [27-12-2025 20:39:29] [utils.common.PropertiesUtils] - Loading Android properties from: src/main/resources/Env/AndroidEnv.properties
+[INFO] - [27-12-2025 20:39:29] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/loginTestData.json
+[INFO] - [27-12-2025 20:39:29] [utils.common.JsonUtils] - Successfully deserialized JSON to: LoginTestData[]
+[INFO] - [27-12-2025 20:39:29] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/registerTestData.json
+[INFO] - [27-12-2025 20:39:29] [utils.common.JsonUtils] - Successfully deserialized JSON to: RegisterTestData[]
+[INFO] - [27-12-2025 20:39:29] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/resetPasswordTestData.json
+[INFO] - [27-12-2025 20:39:29] [utils.common.JsonUtils] - Successfully deserialized JSON to: ResetPasswordTestData[]
+[INFO] - [27-12-2025 20:39:29] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [27-12-2025 20:39:29] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [27-12-2025 20:39:29] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [27-12-2025 20:39:29] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [27-12-2025 20:39:29] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ForgotPasswordTestData.json
+[INFO] - [27-12-2025 20:39:29] [utils.common.JsonUtils] - Successfully deserialized JSON to: ForgotPasswordTestData[]
+[INFO] - [27-12-2025 20:39:29] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyTestData.json
+[INFO] - [27-12-2025 20:39:29] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyTestData[]
+[INFO] - [27-12-2025 20:39:29] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreateNeedyProfileTestData.json
+[INFO] - [27-12-2025 20:39:29] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyProfileTestData[]
+[INFO] - [27-12-2025 20:39:29] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyFunctionTestData.json
+[INFO] - [27-12-2025 20:39:29] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyFunctionsTestData[]
+[INFO] - [27-12-2025 20:39:29] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/DonationTestData.json
+[INFO] - [27-12-2025 20:39:29] [utils.common.JsonUtils] - Successfully deserialized JSON to: EasyGiveTestData[]
+[INFO] - [27-12-2025 20:39:29] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/SingleDonationTestData.json
+[INFO] - [27-12-2025 20:39:29] [utils.common.JsonUtils] - Successfully deserialized JSON to: SingleDonationTestData[]
+[INFO] - [27-12-2025 20:39:30] [utils.appium.TerminalLogsCapture$1] - [INFO] Appium server already running.
+[WARN] - [27-12-2025 20:39:30] [utils.appium.TerminalLogsCapture$1] - [WARN] Could not clear port 8100: Cannot run program "npx": CreateProcess error=2, The system cannot find the file specified
+[WARN] - [27-12-2025 20:39:33] [utils.appium.TerminalLogsCapture$1] - WARN Appium Appium encountered 1 warning while validating plugins found in manifest C:\Users\Kholoud\.appium\node_modules\.cache\appium\extensions.yaml
+[WARN] - [27-12-2025 20:39:33] [utils.appium.TerminalLogsCapture$1] - WARN Appium Plugin "images" has 1 potential problem:
+[WARN] - [27-12-2025 20:39:33] [utils.appium.TerminalLogsCapture$1] - WARN Appium   - Plugin "images" (package `@appium/images-plugin`) may be incompatible with the current version of Appium (v3.1.0) due to its peer dependency on Appium ^2.0.0. Please install a compatible version of the plugin.
+[INFO] - [27-12-2025 20:39:39] [listeners.MethodInvocationListener] - Starting test: testSingleDonationAboveMax
+[WARN] - [27-12-2025 20:39:46] [utils.appium.TerminalLogsCapture$1] - WARN Appium Appium encountered 3 warnings while validating drivers found in manifest C:\Users\Kholoud\.appium\node_modules\.cache\appium\extensions.yaml
+[WARN] - [27-12-2025 20:39:46] [utils.appium.TerminalLogsCapture$1] - WARN Appium Driver "xcuitest" has 1 potential problem:
+[WARN] - [27-12-2025 20:39:46] [utils.appium.TerminalLogsCapture$1] - WARN Appium   - Driver "xcuitest" (package `appium-xcuitest-driver`) may be incompatible with the current version of Appium (v3.1.0) due to its peer dependency on Appium ^2.5.4. Try to upgrade `appium-xcuitest-driver` to v9.10.5 or newer.
+[WARN] - [27-12-2025 20:39:46] [utils.appium.TerminalLogsCapture$1] - WARN Appium Driver "espresso" has 1 potential problem:
+[WARN] - [27-12-2025 20:39:46] [utils.appium.TerminalLogsCapture$1] - WARN Appium   - Driver "espresso" (package `appium-espresso-driver`) may be incompatible with the current version of Appium (v3.1.0) due to its peer dependency on Appium ^2.4.1. Try to upgrade `appium-espresso-driver` to v4.1.17 or newer.
+[INFO] - [27-12-2025 20:39:46] [utils.appium.TerminalLogsCapture$1] - [Appium] Welcome to Appium v3.1.0
+[INFO] - [27-12-2025 20:39:46] [utils.appium.TerminalLogsCapture$1] - [Appium] Non-default server args:
+[INFO] - [27-12-2025 20:39:46] [utils.appium.TerminalLogsCapture$1] - [Appium] { address: '127.0.0.1',
+[INFO] - [27-12-2025 20:39:46] [utils.appium.TerminalLogsCapture$1] - loglevel: 'info',
+[INFO] - [27-12-2025 20:39:46] [utils.appium.TerminalLogsCapture$1] - logNoColors: true,
+[INFO] - [27-12-2025 20:39:46] [utils.appium.TerminalLogsCapture$1] - relaxedSecurityEnabled: true,
+[INFO] - [27-12-2025 20:39:46] [utils.appium.TerminalLogsCapture$1] - sessionOverride: true }
+[INFO] - [27-12-2025 20:39:46] [utils.appium.TerminalLogsCapture$1] - [Appium] Enabling relaxed security. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[INFO] - [27-12-2025 20:39:46] [utils.appium.TerminalLogsCapture$1] - [Appium] Attempting to load driver uiautomator2...
+[INFO] - [27-12-2025 20:39:46] [utils.appium.TerminalLogsCapture$1] - [Appium] Attempting to load driver xcuitest...
+[INFO] - [27-12-2025 20:39:46] [utils.appium.TerminalLogsCapture$1] - [Appium] Attempting to load driver espresso...
+[INFO] - [27-12-2025 20:39:49] [utils.appium.TerminalLogsCapture$1] - [Appium] Appium REST http interface listener started on http://127.0.0.1:4723
+[INFO] - [27-12-2025 20:39:49] [utils.appium.TerminalLogsCapture$1] - [Appium] Available drivers:
+[INFO] - [27-12-2025 20:39:49] [utils.appium.TerminalLogsCapture$1] - [Appium]   - uiautomator2@4.2.9 (automationName 'UiAutomator2')
+[INFO] - [27-12-2025 20:39:49] [utils.appium.TerminalLogsCapture$1] - [Appium]   - xcuitest@9.9.4 (automationName 'XCUITest')
+[INFO] - [27-12-2025 20:39:49] [utils.appium.TerminalLogsCapture$1] - [Appium]   - espresso@4.1.13 (automationName 'Espresso')
+[INFO] - [27-12-2025 20:39:49] [utils.appium.TerminalLogsCapture$1] - [Appium] Available plugins:
+[INFO] - [27-12-2025 20:39:49] [utils.appium.TerminalLogsCapture$1] - [Appium]   - images@3.1.3
+[INFO] - [27-12-2025 20:39:49] [utils.appium.TerminalLogsCapture$1] - [Appium] No plugins activated. Use the --use-plugins flag with names of plugins to activate
+[INFO] - [27-12-2025 20:40:00] [utils.appium.ElementsActions] - ✅ Scrolled to element: AppiumBy.androidUIAutomator: new UiSelector().textContains("EGP")
+[INFO] - [27-12-2025 20:40:06] [utils.appium.TerminalLogsCapture$1] - Actual needed amount = 8000
+[INFO] - [27-12-2025 20:40:12] [utils.appium.ElementsActions] - ✅ Cleared field successfully: AppiumBy.androidUIAutomator: new UiSelector().className("android.widget.EditText")
+[INFO] - [27-12-2025 20:40:17] [utils.appium.ElementsActions] - ✅ Sent text '0' to element: AppiumBy.androidUIAutomator: new UiSelector().className("android.widget.EditText")
+[INFO] - [27-12-2025 20:40:21] [utils.appium.ElementsActions] - ✅ Cleared field successfully: AppiumBy.androidUIAutomator: new UiSelector().className("android.widget.EditText")
+[INFO] - [27-12-2025 20:40:25] [utils.appium.ElementsActions] - ✅ Sent text '0' to element: AppiumBy.androidUIAutomator: new UiSelector().className("android.widget.EditText")
+[WARN] - [27-12-2025 20:40:26] [screens.base.DonationScreen] - Error message displayed for amount: 8000. Stopping the flow.
+[INFO] - [27-12-2025 20:40:26] [listeners.MethodInvocationListener] - Finished test: testSingleDonationAboveMax
+[INFO] - [27-12-2025 20:40:26] [utils.common.AllureUtils] - Attaching logs for test: testSingleDonationAboveMax
+[INFO] - [27-12-2025 20:40:26] [utils.common.AllureUtils] - Logs attached successfully for test: testSingleDonationAboveMax
+[INFO] - [27-12-2025 20:40:26] [utils.appium.TerminalLogsCapture$1] - ￢ﾜﾅ Driver session closed successfully
+[INFO] - [27-12-2025 20:40:26] [utils.appium.TerminalLogsCapture$1] - [HTTP] --> GET /status
+[INFO] - [27-12-2025 20:40:26] [utils.appium.TerminalLogsCapture$1] - ￰ﾟﾛﾑ Appium server stopped.
+[INFO] - [27-12-2025 20:40:26] [listeners.TestResultListener] - Test passed: testSingleDonationAboveMax
+[INFO] - [27-12-2025 20:40:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/loginTestData.json
+[INFO] - [27-12-2025 20:40:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: LoginTestData[]
+[INFO] - [27-12-2025 20:40:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/registerTestData.json
+[INFO] - [27-12-2025 20:40:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: RegisterTestData[]
+[INFO] - [27-12-2025 20:40:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/resetPasswordTestData.json
+[INFO] - [27-12-2025 20:40:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: ResetPasswordTestData[]
+[INFO] - [27-12-2025 20:40:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [27-12-2025 20:40:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [27-12-2025 20:40:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [27-12-2025 20:40:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [27-12-2025 20:40:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ForgotPasswordTestData.json
+[INFO] - [27-12-2025 20:40:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: ForgotPasswordTestData[]
+[INFO] - [27-12-2025 20:40:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyTestData.json
+[INFO] - [27-12-2025 20:40:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyTestData[]
+[INFO] - [27-12-2025 20:40:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreateNeedyProfileTestData.json
+[INFO] - [27-12-2025 20:40:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyProfileTestData[]
+[INFO] - [27-12-2025 20:40:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyFunctionTestData.json
+[INFO] - [27-12-2025 20:40:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyFunctionsTestData[]
+[INFO] - [27-12-2025 20:40:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/DonationTestData.json
+[INFO] - [27-12-2025 20:40:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: EasyGiveTestData[]
+[INFO] - [27-12-2025 20:40:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/SingleDonationTestData.json
+[INFO] - [27-12-2025 20:40:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: SingleDonationTestData[]
+[INFO] - [27-12-2025 20:40:27] [utils.appium.TerminalLogsCapture$1] - ￢ﾜﾅ Appium server started at: http://127.0.0.1:4723/
+[WARN] - [27-12-2025 20:40:27] [utils.appium.TerminalLogsCapture$1] - [WARN] Could not clear port 8100: Cannot run program "npx": CreateProcess error=2, The system cannot find the file specified
+[INFO] - [27-12-2025 20:40:34] [listeners.MethodInvocationListener] - Starting test: testSingleDonationBelowMin
+[WARN] - [27-12-2025 20:40:34] [utils.appium.TerminalLogsCapture$1] - WARN Appium Appium encountered 1 warning while validating plugins found in manifest C:\Users\Kholoud\.appium\node_modules\.cache\appium\extensions.yaml
+[WARN] - [27-12-2025 20:40:34] [utils.appium.TerminalLogsCapture$1] - WARN Appium Plugin "images" has 1 potential problem:
+[WARN] - [27-12-2025 20:40:34] [utils.appium.TerminalLogsCapture$1] - WARN Appium   - Plugin "images" (package `@appium/images-plugin`) may be incompatible with the current version of Appium (v3.1.0) due to its peer dependency on Appium ^2.0.0. Please install a compatible version of the plugin.
+[WARN] - [27-12-2025 20:40:43] [utils.appium.TerminalLogsCapture$1] - WARN Appium Appium encountered 3 warnings while validating drivers found in manifest C:\Users\Kholoud\.appium\node_modules\.cache\appium\extensions.yaml
+[WARN] - [27-12-2025 20:40:43] [utils.appium.TerminalLogsCapture$1] - WARN Appium Driver "xcuitest" has 1 potential problem:
+[WARN] - [27-12-2025 20:40:43] [utils.appium.TerminalLogsCapture$1] - WARN Appium   - Driver "xcuitest" (package `appium-xcuitest-driver`) may be incompatible with the current version of Appium (v3.1.0) due to its peer dependency on Appium ^2.5.4. Try to upgrade `appium-xcuitest-driver` to v9.10.5 or newer.
+[WARN] - [27-12-2025 20:40:43] [utils.appium.TerminalLogsCapture$1] - WARN Appium Driver "espresso" has 1 potential problem:
+[WARN] - [27-12-2025 20:40:43] [utils.appium.TerminalLogsCapture$1] - WARN Appium   - Driver "espresso" (package `appium-espresso-driver`) may be incompatible with the current version of Appium (v3.1.0) due to its peer dependency on Appium ^2.4.1. Try to upgrade `appium-espresso-driver` to v4.1.17 or newer.
+[INFO] - [27-12-2025 20:40:43] [utils.appium.TerminalLogsCapture$1] - [Appium] Welcome to Appium v3.1.0
+[INFO] - [27-12-2025 20:40:43] [utils.appium.TerminalLogsCapture$1] - [Appium] Non-default server args:
+[INFO] - [27-12-2025 20:40:43] [utils.appium.TerminalLogsCapture$1] - [Appium] { address: '127.0.0.1',
+[INFO] - [27-12-2025 20:40:43] [utils.appium.TerminalLogsCapture$1] - loglevel: 'info',
+[INFO] - [27-12-2025 20:40:43] [utils.appium.TerminalLogsCapture$1] - logNoColors: true,
+[INFO] - [27-12-2025 20:40:43] [utils.appium.TerminalLogsCapture$1] - relaxedSecurityEnabled: true,
+[INFO] - [27-12-2025 20:40:43] [utils.appium.TerminalLogsCapture$1] - sessionOverride: true }
+[INFO] - [27-12-2025 20:40:43] [utils.appium.TerminalLogsCapture$1] - [Appium] Enabling relaxed security. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[INFO] - [27-12-2025 20:40:43] [utils.appium.TerminalLogsCapture$1] - [Appium] Attempting to load driver uiautomator2...
+[INFO] - [27-12-2025 20:40:43] [utils.appium.TerminalLogsCapture$1] - [Appium] Attempting to load driver xcuitest...
+[INFO] - [27-12-2025 20:40:43] [utils.appium.TerminalLogsCapture$1] - [Appium] Attempting to load driver espresso...
+[INFO] - [27-12-2025 20:40:46] [utils.appium.TerminalLogsCapture$1] - [Appium] Appium REST http interface listener started on http://127.0.0.1:4723
+[INFO] - [27-12-2025 20:40:46] [utils.appium.TerminalLogsCapture$1] - [Appium] Available drivers:
+[INFO] - [27-12-2025 20:40:46] [utils.appium.TerminalLogsCapture$1] - [Appium]   - uiautomator2@4.2.9 (automationName 'UiAutomator2')
+[INFO] - [27-12-2025 20:40:46] [utils.appium.TerminalLogsCapture$1] - [Appium]   - xcuitest@9.9.4 (automationName 'XCUITest')
+[INFO] - [27-12-2025 20:40:46] [utils.appium.TerminalLogsCapture$1] - [Appium]   - espresso@4.1.13 (automationName 'Espresso')
+[INFO] - [27-12-2025 20:40:46] [utils.appium.TerminalLogsCapture$1] - [Appium] Available plugins:
+[INFO] - [27-12-2025 20:40:46] [utils.appium.TerminalLogsCapture$1] - [Appium]   - images@3.1.3
+[INFO] - [27-12-2025 20:40:46] [utils.appium.TerminalLogsCapture$1] - [Appium] No plugins activated. Use the --use-plugins flag with names of plugins to activate
+[INFO] - [27-12-2025 20:41:04] [utils.appium.TerminalLogsCapture$1] - Actual needed amount = 49
+[INFO] - [27-12-2025 20:41:10] [utils.appium.ElementsActions] - ✅ Cleared field successfully: AppiumBy.androidUIAutomator: new UiSelector().className("android.widget.EditText")
+[INFO] - [27-12-2025 20:41:16] [utils.appium.ElementsActions] - ✅ Cleared field successfully: AppiumBy.androidUIAutomator: new UiSelector().className("android.widget.EditText")
+[WARN] - [27-12-2025 20:41:24] [screens.base.DonationScreen] - Error message displayed for amount: 49. Stopping the flow.
+[INFO] - [27-12-2025 20:41:24] [listeners.MethodInvocationListener] - Finished test: testSingleDonationBelowMin
+[INFO] - [27-12-2025 20:41:24] [utils.common.AllureUtils] - Attaching logs for test: testSingleDonationBelowMin
+[INFO] - [27-12-2025 20:41:24] [utils.common.AllureUtils] - Logs attached successfully for test: testSingleDonationBelowMin
+[INFO] - [27-12-2025 20:41:25] [utils.appium.TerminalLogsCapture$1] - ￢ﾜﾅ Driver session closed successfully
+[INFO] - [27-12-2025 20:41:25] [utils.appium.TerminalLogsCapture$1] - [HTTP] --> GET /status
+[INFO] - [27-12-2025 20:41:25] [utils.appium.TerminalLogsCapture$1] - ￰ﾟﾛﾑ Appium server stopped.
+[INFO] - [27-12-2025 20:41:25] [listeners.TestResultListener] - Test passed: testSingleDonationBelowMin
+[INFO] - [27-12-2025 20:41:25] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/loginTestData.json
+[INFO] - [27-12-2025 20:41:25] [utils.common.JsonUtils] - Successfully deserialized JSON to: LoginTestData[]
+[INFO] - [27-12-2025 20:41:25] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/registerTestData.json
+[INFO] - [27-12-2025 20:41:25] [utils.common.JsonUtils] - Successfully deserialized JSON to: RegisterTestData[]
+[INFO] - [27-12-2025 20:41:25] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/resetPasswordTestData.json
+[INFO] - [27-12-2025 20:41:25] [utils.common.JsonUtils] - Successfully deserialized JSON to: ResetPasswordTestData[]
+[INFO] - [27-12-2025 20:41:25] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [27-12-2025 20:41:25] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [27-12-2025 20:41:25] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [27-12-2025 20:41:25] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [27-12-2025 20:41:25] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ForgotPasswordTestData.json
+[INFO] - [27-12-2025 20:41:25] [utils.common.JsonUtils] - Successfully deserialized JSON to: ForgotPasswordTestData[]
+[INFO] - [27-12-2025 20:41:25] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyTestData.json
+[INFO] - [27-12-2025 20:41:25] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyTestData[]
+[INFO] - [27-12-2025 20:41:25] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreateNeedyProfileTestData.json
+[INFO] - [27-12-2025 20:41:25] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyProfileTestData[]
+[INFO] - [27-12-2025 20:41:25] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyFunctionTestData.json
+[INFO] - [27-12-2025 20:41:25] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyFunctionsTestData[]
+[INFO] - [27-12-2025 20:41:25] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/DonationTestData.json
+[INFO] - [27-12-2025 20:41:25] [utils.common.JsonUtils] - Successfully deserialized JSON to: EasyGiveTestData[]
+[INFO] - [27-12-2025 20:41:25] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/SingleDonationTestData.json
+[INFO] - [27-12-2025 20:41:25] [utils.common.JsonUtils] - Successfully deserialized JSON to: SingleDonationTestData[]
+[INFO] - [27-12-2025 20:41:25] [utils.appium.TerminalLogsCapture$1] - ￢ﾜﾅ Appium server started at: http://127.0.0.1:4723/
+[WARN] - [27-12-2025 20:41:25] [utils.appium.TerminalLogsCapture$1] - [WARN] Could not clear port 8100: Cannot run program "npx": CreateProcess error=2, The system cannot find the file specified
+[WARN] - [27-12-2025 20:41:30] [utils.appium.TerminalLogsCapture$1] - WARN Appium Appium encountered 1 warning while validating plugins found in manifest C:\Users\Kholoud\.appium\node_modules\.cache\appium\extensions.yaml
+[WARN] - [27-12-2025 20:41:30] [utils.appium.TerminalLogsCapture$1] - WARN Appium Plugin "images" has 1 potential problem:
+[WARN] - [27-12-2025 20:41:30] [utils.appium.TerminalLogsCapture$1] - WARN Appium   - Plugin "images" (package `@appium/images-plugin`) may be incompatible with the current version of Appium (v3.1.0) due to its peer dependency on Appium ^2.0.0. Please install a compatible version of the plugin.
+[INFO] - [27-12-2025 20:41:33] [listeners.MethodInvocationListener] - Starting test: testSingleDonationExactAmount
+[WARN] - [27-12-2025 20:41:37] [utils.appium.TerminalLogsCapture$1] - WARN Appium Appium encountered 3 warnings while validating drivers found in manifest C:\Users\Kholoud\.appium\node_modules\.cache\appium\extensions.yaml
+[WARN] - [27-12-2025 20:41:37] [utils.appium.TerminalLogsCapture$1] - WARN Appium Driver "xcuitest" has 1 potential problem:
+[WARN] - [27-12-2025 20:41:37] [utils.appium.TerminalLogsCapture$1] - WARN Appium   - Driver "xcuitest" (package `appium-xcuitest-driver`) may be incompatible with the current version of Appium (v3.1.0) due to its peer dependency on Appium ^2.5.4. Try to upgrade `appium-xcuitest-driver` to v9.10.5 or newer.
+[WARN] - [27-12-2025 20:41:37] [utils.appium.TerminalLogsCapture$1] - WARN Appium Driver "espresso" has 1 potential problem:
+[WARN] - [27-12-2025 20:41:37] [utils.appium.TerminalLogsCapture$1] - WARN Appium   - Driver "espresso" (package `appium-espresso-driver`) may be incompatible with the current version of Appium (v3.1.0) due to its peer dependency on Appium ^2.4.1. Try to upgrade `appium-espresso-driver` to v4.1.17 or newer.
+[INFO] - [27-12-2025 20:41:37] [utils.appium.TerminalLogsCapture$1] - [Appium] Welcome to Appium v3.1.0
+[INFO] - [27-12-2025 20:41:37] [utils.appium.TerminalLogsCapture$1] - [Appium] Non-default server args:
+[INFO] - [27-12-2025 20:41:37] [utils.appium.TerminalLogsCapture$1] - [Appium] { address: '127.0.0.1',
+[INFO] - [27-12-2025 20:41:37] [utils.appium.TerminalLogsCapture$1] - loglevel: 'info',
+[INFO] - [27-12-2025 20:41:37] [utils.appium.TerminalLogsCapture$1] - logNoColors: true,
+[INFO] - [27-12-2025 20:41:37] [utils.appium.TerminalLogsCapture$1] - relaxedSecurityEnabled: true,
+[INFO] - [27-12-2025 20:41:37] [utils.appium.TerminalLogsCapture$1] - sessionOverride: true }
+[INFO] - [27-12-2025 20:41:37] [utils.appium.TerminalLogsCapture$1] - [Appium] Enabling relaxed security. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[INFO] - [27-12-2025 20:41:37] [utils.appium.TerminalLogsCapture$1] - [Appium] Attempting to load driver uiautomator2...
+[INFO] - [27-12-2025 20:41:37] [utils.appium.TerminalLogsCapture$1] - [Appium] Attempting to load driver xcuitest...
+[INFO] - [27-12-2025 20:41:37] [utils.appium.TerminalLogsCapture$1] - [Appium] Attempting to load driver espresso...
+[INFO] - [27-12-2025 20:41:40] [utils.appium.TerminalLogsCapture$1] - [Appium] Appium REST http interface listener started on http://127.0.0.1:4723
+[INFO] - [27-12-2025 20:41:40] [utils.appium.TerminalLogsCapture$1] - [Appium] Available drivers:
+[INFO] - [27-12-2025 20:41:40] [utils.appium.TerminalLogsCapture$1] - [Appium]   - uiautomator2@4.2.9 (automationName 'UiAutomator2')
+[INFO] - [27-12-2025 20:41:40] [utils.appium.TerminalLogsCapture$1] - [Appium]   - xcuitest@9.9.4 (automationName 'XCUITest')
+[INFO] - [27-12-2025 20:41:40] [utils.appium.TerminalLogsCapture$1] - [Appium]   - espresso@4.1.13 (automationName 'Espresso')
+[INFO] - [27-12-2025 20:41:40] [utils.appium.TerminalLogsCapture$1] - [Appium] Available plugins:
+[INFO] - [27-12-2025 20:41:40] [utils.appium.TerminalLogsCapture$1] - [Appium]   - images@3.1.3
+[INFO] - [27-12-2025 20:41:40] [utils.appium.TerminalLogsCapture$1] - [Appium] No plugins activated. Use the --use-plugins flag with names of plugins to activate
+[INFO] - [27-12-2025 20:42:02] [utils.appium.ElementsActions] - ✅ Scrolled to element: AppiumBy.androidUIAutomator: new UiSelector().textContains("EGP")
+[INFO] - [27-12-2025 20:42:04] [utils.appium.TerminalLogsCapture$1] - Actual needed amount = 5000
+[INFO] - [27-12-2025 20:42:09] [utils.appium.ElementsActions] - ✅ Cleared field successfully: AppiumBy.androidUIAutomator: new UiSelector().className("android.widget.EditText")
+[INFO] - [27-12-2025 20:42:13] [utils.appium.ElementsActions] - ✅ Sent text '0' to element: AppiumBy.androidUIAutomator: new UiSelector().className("android.widget.EditText")
+[INFO] - [27-12-2025 20:42:17] [utils.appium.ElementsActions] - ✅ Cleared field successfully: AppiumBy.androidUIAutomator: new UiSelector().className("android.widget.EditText")
+[INFO] - [27-12-2025 20:42:21] [utils.appium.ElementsActions] - ✅ Sent text '0' to element: AppiumBy.androidUIAutomator: new UiSelector().className("android.widget.EditText")
+[INFO] - [27-12-2025 20:42:32] [screens.base.DonationScreen] - No error message for amount: 5000. Continuing flow.
+[INFO] - [27-12-2025 20:43:17] [screens.base.DonationScreen] - Payment success verified with correct amount: 5000 EGP
+[INFO] - [27-12-2025 20:43:19] [utils.appium.ElementsActions] - ✅ Scrolled to the bottom of the page successfully.
+[ERROR] - [27-12-2025 20:43:19] [io.qameta.allure.util.NamingUtils] - Could not find parameter index
+[INFO] - [27-12-2025 20:43:20] [utils.appium.ElementsActions] - ✅ Scrolled to element: AppiumBy.androidUIAutomator: new UiSelector().textContains("EGP")
+[INFO] - [27-12-2025 20:43:21] [utils.appium.TerminalLogsCapture$1] - Actual needed amount = 0
+[INFO] - [27-12-2025 20:43:25] [utils.appium.ElementsActions] - ✅ Cleared field successfully: AppiumBy.androidUIAutomator: new UiSelector().className("android.widget.EditText")
+[WARN] - [27-12-2025 20:43:38] [utils.appium.ElementsActions] - ⚠️ Failed to clear field: AppiumBy.androidUIAutomator: new UiSelector().className("android.widget.EditText") | The referenced element is no longer attached to the DOM
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: io.appium.java_client.AppiumDriver
+Command: [548b6455-3a6f-471b-ac8f-d6a89c21fa6e, sendKeysToElement {id=00000000-0000-00bd-ffff-ffff000007e1, value=[Ljava.lang.CharSequence;@1b48784a}]
+Capabilities {appium:app: C:/Users/Kholoud/IdeaProjec..., appium:appActivity: com.giversapp.GiversApp.sta..., appium:appPackage: com.giversapp.GiversApp.sta..., appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {app: C:/Users/Kholoud/IdeaProjec..., automationName: UiAutomator2, deviceName: Emu2, platformName: ANDROID, systemPort: 8100}, appium:deviceApiLevel: 36, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.625, appium:platformVersion: 16, appium:statBarHeight: 151, appium:systemPort: 8100, appium:takesScreenshot: true, appium:viewportRect: {height: 2249, left: 0, top: 151, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Element: [[AppiumDriver:  on ANDROID (548b6455-3a6f-471b-ac8f-d6a89c21fa6e)] -> -android uiautomator: new UiSelector().className("android.widget.EditText")]
+Session ID: 548b6455-3a6f-471b-ac8f-d6a89c21fa6e
+[INFO] - [27-12-2025 20:43:50] [screens.base.DonationScreen] - No error message for amount: 0. Continuing flow.
+[INFO] - [27-12-2025 20:44:31] [screens.base.DonationScreen] - Payment success verified with correct amount: 0 EGP
+[INFO] - [27-12-2025 20:44:31] [listeners.MethodInvocationListener] - Finished test: testSingleDonationExactAmount
+[INFO] - [27-12-2025 20:44:31] [utils.common.AllureUtils] - Attaching logs for test: testSingleDonationExactAmount
+[INFO] - [27-12-2025 20:44:31] [utils.common.AllureUtils] - Logs attached successfully for test: testSingleDonationExactAmount
+[INFO] - [27-12-2025 20:44:32] [utils.appium.TerminalLogsCapture$1] - ￢ﾜﾅ Driver session closed successfully
+[INFO] - [27-12-2025 20:44:32] [utils.appium.TerminalLogsCapture$1] - [HTTP] --> GET /status
+[INFO] - [27-12-2025 20:44:32] [utils.appium.TerminalLogsCapture$1] - ￰ﾟﾛﾑ Appium server stopped.
+[INFO] - [27-12-2025 20:44:32] [listeners.TestResultListener] - Test passed: testSingleDonationExactAmount
+[INFO] - [27-12-2025 20:44:32] [listeners.TestResultListener] - Test run finished
+[INFO] - [27-12-2025 20:44:32] [utils.appium.TerminalLogsCapture$1] - ===============================================
+[INFO] - [27-12-2025 20:44:32] [utils.appium.TerminalLogsCapture$1] - Authentication Suite
+[INFO] - [27-12-2025 20:44:32] [utils.appium.TerminalLogsCapture$1] - Total tests run: 3, Passes: 3, Failures: 0, Skips: 0
+[INFO] - [27-12-2025 20:44:32] [utils.appium.TerminalLogsCapture$1] - ===============================================
+[INFO] - [27-12-2025 20:44:32] [utils.common.TerminalUtils] - Executing command: allure generate test_outputs/allure_results -o test_outputs/allure_report --clean --single-file
+[INFO] - [27-12-2025 20:44:35] [utils.common.TerminalUtils] - Command executed: allure generate test_outputs/allure_results -o test_outputs/allure_report --clean --single-file
+[INFO] - [27-12-2025 20:44:35] [utils.common.AllureUtils] - Allure report generated successfully
+[INFO] - [27-12-2025 20:44:35] [utils.common.FilesUtils] - Found latest file in test_outputs\allure_report: test_outputs\allure_report\index.html
+[INFO] - [27-12-2025 20:44:35] [utils.common.FilesUtils] - File renamed successfully from test_outputs\allure_report\index.html to test_outputs\allure_report\Report 2025-12-27 20-44-35.html
+[INFO] - [27-12-2025 20:44:35] [utils.common.AllureUtils] - Allure report renamed successfully to: test_outputs\allure_report\Report 2025-12-27 20-44-35.html
+[INFO] - [27-12-2025 20:44:35] [utils.common.AllureUtils] - Opening allure report: test_outputs\allure_report\Report 2025-12-27 20-44-35.html
+[INFO] - [27-12-2025 20:44:35] [utils.common.TerminalUtils] - Executing command: start "" "test_outputs\allure_report\Report 2025-12-27 20-44-35.html"
+[INFO] - [27-12-2025 20:44:35] [utils.common.TerminalUtils] - Command executed: start "" "test_outputs\allure_report\Report 2025-12-27 20-44-35.html"
+[INFO] - [27-12-2025 20:44:35] [utils.appium.TerminalLogsCapture$1] - [INFO] No Appium server to stop.

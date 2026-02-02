@@ -1,0 +1,54 @@
+[DEBUG] - [05-11-2025 00:15:44] [org.testng.TestNG] - suiteXmlPath: "C:\Users\Kholoud\IdeaProjects\Givers\test_runners\AndroidTestSuite.xml"
+[INFO] - [05-11-2025 00:15:45] [utils.common.FilesUtils] - Directory already exists: test_outputs\logs
+[INFO] - [05-11-2025 00:15:45] [utils.common.FilesUtils] - Directory already exists: test_outputs\allure_results
+[INFO] - [05-11-2025 00:15:45] [utils.common.FilesUtils] - Directory already exists: test_outputs\screenshots
+[INFO] - [05-11-2025 00:15:45] [utils.common.FilesUtils] - Directory already exists: test_outputs\allure_report
+[INFO] - [05-11-2025 00:15:45] [utils.common.FilesUtils] - Deleting files or folders in: C:\Users\Kholoud\IdeaProjects\Givers\test_outputs\allure_results
+[INFO] - [05-11-2025 00:15:45] [utils.common.FilesUtils] - Deleting files or folders in: C:\Users\Kholoud\IdeaProjects\Givers\test_outputs\screenshots
+[INFO] - [05-11-2025 00:15:45] [utils.appium.TerminalLogsCapture$1] - ￢ﾜﾅ Appium server started at: http://127.0.0.1:4723/
+[INFO] - [05-11-2025 00:15:46] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\Kholoud\IdeaProjects\Givers\test_runners\AndroidTestSuite.xml
+
+[INFO] - [05-11-2025 00:15:46] [listeners.TestResultListener] - Test run started
+[INFO] - [05-11-2025 00:15:46] [utils.common.PropertiesUtils] - Loading Android properties from: src/main/resources/Env/AndroidEnv.properties
+[INFO] - [05-11-2025 00:15:46] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/loginTestData.json
+[INFO] - [05-11-2025 00:15:47] [utils.common.JsonUtils] - Successfully deserialized JSON to: LoginTestData[]
+[INFO] - [05-11-2025 00:15:47] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/registerTestData.json
+[INFO] - [05-11-2025 00:15:47] [utils.common.JsonUtils] - Successfully deserialized JSON to: RegisterTestData[]
+[INFO] - [05-11-2025 00:15:47] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/resetPasswordTestData.json
+[INFO] - [05-11-2025 00:15:47] [utils.common.JsonUtils] - Successfully deserialized JSON to: ResetPasswordTestData[]
+[INFO] - [05-11-2025 00:15:47] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [05-11-2025 00:15:47] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [05-11-2025 00:15:47] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [05-11-2025 00:15:47] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [05-11-2025 00:15:47] [utils.appium.TerminalLogsCapture$1] - [INFO] Appium server already running.
+[WARN] - [05-11-2025 00:15:47] [utils.appium.TerminalLogsCapture$1] - [WARN] Could not clear port 8100: Cannot run program "npx": CreateProcess error=2, The system cannot find the file specified
+[ERROR] - [05-11-2025 00:15:51] [utils.appium.driverManager.DriverManager] - ❌ Failed to initialize driver: Could not start a new session. Response code 500. Message: UiAutomator2 Server cannot start because the local port #8100 is busy. Make sure the port you provide via 'systemPort' capability is not occupied. This situation might often be a result of an inaccurate sessions management, e.g. old automation sessions on the same device must always be closed before starting new ones. 
+Host info: host: 'LODY', ip: '192.168.202.1'
+Build info: version: '4.37.0', revision: '3c1da1e342'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: io.appium.java_client.AppiumDriver
+Command: [null, newSession {capabilities=[Capabilities {appium:app: C:/Users/Kholoud/IdeaProjec..., appium:automationName: UiAutomator2, appium:deviceName: Emu2, appium:systemPort: 8100, platformName: ANDROID}]}]
+Capabilities {appium:app: C:/Users/Kholoud/IdeaProjec..., appium:automationName: UiAutomator2, appium:deviceName: Emu2, appium:systemPort: 8100, platformName: ANDROID}
+[INFO] - [05-11-2025 00:15:51] [listeners.MethodInvocationListener] - Finished test: testFullResetPasswordFlow
+[INFO] - [05-11-2025 00:15:51] [utils.common.AllureUtils] - Attaching logs for test: testFullResetPasswordFlow
+[INFO] - [05-11-2025 00:15:51] [utils.common.AllureUtils] - Logs attached successfully for test: testFullResetPasswordFlow
+[INFO] - [05-11-2025 00:15:51] [listeners.TestResultListener] - Test failed: testFullResetPasswordFlow
+[INFO] - [05-11-2025 00:15:51] [listeners.TestResultListener] - Test run finished
+[INFO] - [05-11-2025 00:15:51] [utils.appium.TerminalLogsCapture$1] - ===============================================
+[INFO] - [05-11-2025 00:15:51] [utils.appium.TerminalLogsCapture$1] - Authentication Suite
+[INFO] - [05-11-2025 00:15:51] [utils.appium.TerminalLogsCapture$1] - Total tests run: 1, Passes: 0, Failures: 1, Skips: 0
+[INFO] - [05-11-2025 00:15:51] [utils.appium.TerminalLogsCapture$1] - ===============================================
+[INFO] - [05-11-2025 00:15:51] [utils.common.TerminalUtils] - Executing command: allure generate test_outputs/allure_results -o test_outputs/allure_report --clean --single-file
+[WARN] - [05-11-2025 00:15:52] [utils.appium.TerminalLogsCapture$1] - WARN Appium Appium encountered 1 warning while validating plugins found in manifest C:\Users\Kholoud\.appium\node_modules\.cache\appium\extensions.yaml
+[WARN] - [05-11-2025 00:15:52] [utils.appium.TerminalLogsCapture$1] - WARN Appium Plugin "images" has 1 potential problem:
+[WARN] - [05-11-2025 00:15:52] [utils.appium.TerminalLogsCapture$1] - WARN Appium   - Plugin "images" (package `@appium/images-plugin`) may be incompatible with the current version of Appium (v3.1.0) due to its peer dependency on Appium ^2.0.0. Please install a compatible version of the plugin.
+[INFO] - [05-11-2025 00:15:55] [utils.common.TerminalUtils] - Command executed: allure generate test_outputs/allure_results -o test_outputs/allure_report --clean --single-file
+[INFO] - [05-11-2025 00:15:55] [utils.common.AllureUtils] - Allure report generated successfully
+[INFO] - [05-11-2025 00:15:55] [utils.common.FilesUtils] - Found latest file in test_outputs\allure_report: test_outputs\allure_report\index.html
+[INFO] - [05-11-2025 00:15:55] [utils.common.FilesUtils] - File renamed successfully from test_outputs\allure_report\index.html to test_outputs\allure_report\Report 2025-11-05 00-15-55.html
+[INFO] - [05-11-2025 00:15:55] [utils.common.AllureUtils] - Allure report renamed successfully to: test_outputs\allure_report\Report 2025-11-05 00-15-55.html
+[INFO] - [05-11-2025 00:15:55] [utils.common.AllureUtils] - Opening allure report: test_outputs\allure_report\Report 2025-11-05 00-15-55.html
+[INFO] - [05-11-2025 00:15:55] [utils.common.TerminalUtils] - Executing command: start "" "test_outputs\allure_report\Report 2025-11-05 00-15-55.html"
+[INFO] - [05-11-2025 00:15:55] [utils.common.TerminalUtils] - Command executed: start "" "test_outputs\allure_report\Report 2025-11-05 00-15-55.html"
+[INFO] - [05-11-2025 00:15:55] [utils.appium.TerminalLogsCapture$1] - ￰ﾟﾛﾑ Appium server stopped.

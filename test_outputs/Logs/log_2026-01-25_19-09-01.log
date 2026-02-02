@@ -1,0 +1,66 @@
+[DEBUG] - [25-01-2026 19:09:01] [org.testng.TestNG] - suiteXmlPath: "C:\Users\Kholoud\IdeaProjects\Givers\test_runners\AndroidTestSuite.xml"
+[INFO] - [25-01-2026 19:09:03] [utils.common.FilesUtils] - Directory already exists: test_outputs\logs
+[INFO] - [25-01-2026 19:09:04] [utils.common.FilesUtils] - Directory already exists: test_outputs\allure_results
+[INFO] - [25-01-2026 19:09:04] [utils.common.FilesUtils] - Directory already exists: test_outputs\screenshots
+[INFO] - [25-01-2026 19:09:04] [utils.common.FilesUtils] - Directory already exists: test_outputs\allure_report
+[INFO] - [25-01-2026 19:09:04] [utils.common.FilesUtils] - Deleting files or folders in: C:\Users\Kholoud\IdeaProjects\Givers\test_outputs\allure_results
+[INFO] - [25-01-2026 19:09:04] [utils.common.FilesUtils] - Deleting files or folders in: C:\Users\Kholoud\IdeaProjects\Givers\test_outputs\screenshots
+[INFO] - [25-01-2026 19:09:04] [utils.appium.TerminalLogsCapture$1] - ￢ﾜﾅ Appium server started at: http://127.0.0.1:4723/
+[INFO] - [25-01-2026 19:09:05] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\Kholoud\IdeaProjects\Givers\test_runners\AndroidTestSuite.xml
+
+[INFO] - [25-01-2026 19:09:05] [listeners.TestResultListener] - Test run started
+[INFO] - [25-01-2026 19:09:05] [utils.common.PropertiesUtils] - Loading Android properties from: src/main/resources/Env/AndroidEnv.properties
+[INFO] - [25-01-2026 19:09:06] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/loginTestData.json
+[INFO] - [25-01-2026 19:09:06] [utils.common.JsonUtils] - Successfully deserialized JSON to: LoginTestData[]
+[INFO] - [25-01-2026 19:09:06] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/registerTestData.json
+[INFO] - [25-01-2026 19:09:06] [utils.common.JsonUtils] - Successfully deserialized JSON to: RegisterTestData[]
+[INFO] - [25-01-2026 19:09:06] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/resetPasswordTestData.json
+[INFO] - [25-01-2026 19:09:06] [utils.common.JsonUtils] - Successfully deserialized JSON to: ResetPasswordTestData[]
+[INFO] - [25-01-2026 19:09:06] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [25-01-2026 19:09:06] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [25-01-2026 19:09:06] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [25-01-2026 19:09:06] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [25-01-2026 19:09:06] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ForgotPasswordTestData.json
+[INFO] - [25-01-2026 19:09:06] [utils.common.JsonUtils] - Successfully deserialized JSON to: ForgotPasswordTestData[]
+[INFO] - [25-01-2026 19:09:06] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyTestData.json
+[INFO] - [25-01-2026 19:09:06] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyTestData[]
+[INFO] - [25-01-2026 19:09:06] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreateNeedyProfileTestData.json
+[INFO] - [25-01-2026 19:09:06] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyProfileTestData[]
+[INFO] - [25-01-2026 19:09:06] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyFunctionTestData.json
+[INFO] - [25-01-2026 19:09:06] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyFunctionsTestData[]
+[INFO] - [25-01-2026 19:09:06] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/DonationTestData.json
+[INFO] - [25-01-2026 19:09:06] [utils.common.JsonUtils] - Successfully deserialized JSON to: EasyGiveTestData[]
+[INFO] - [25-01-2026 19:09:06] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/SingleDonationTestData.json
+[INFO] - [25-01-2026 19:09:06] [utils.common.JsonUtils] - Successfully deserialized JSON to: SingleDonationTestData[]
+[INFO] - [25-01-2026 19:09:06] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CommunityTestData.json
+[INFO] - [25-01-2026 19:09:06] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [25-01-2026 19:09:07] [utils.appium.TerminalLogsCapture$1] - [INFO] Appium server already running.
+[WARN] - [25-01-2026 19:09:07] [utils.appium.TerminalLogsCapture$1] - [WARN] Could not clear port 8100: Cannot run program "npx": CreateProcess error=2, The system cannot find the file specified
+[WARN] - [25-01-2026 19:09:14] [utils.appium.TerminalLogsCapture$1] - WARN Appium Appium encountered 1 warning while validating plugins found in manifest C:\Users\Kholoud\.appium\node_modules\.cache\appium\extensions.yaml
+[WARN] - [25-01-2026 19:09:14] [utils.appium.TerminalLogsCapture$1] - WARN Appium Plugin "images" has 1 potential problem:
+[WARN] - [25-01-2026 19:09:14] [utils.appium.TerminalLogsCapture$1] - WARN Appium   - Plugin "images" (package `@appium/images-plugin`) may be incompatible with the current version of Appium (v3.1.0) due to its peer dependency on Appium ^2.0.0. Please install a compatible version of the plugin.
+[ERROR] - [25-01-2026 19:09:15] [utils.appium.driverManager.DriverManager] - ❌ Failed to initialize driver: Could not start a new session. Response code 500. Message: UiAutomator2 Server cannot start because the local port #8100 is busy. Make sure the port you provide via 'systemPort' capability is not occupied. This situation might often be a result of an inaccurate sessions management, e.g. old automation sessions on the same device must always be closed before starting new ones. 
+Host info: host: 'LODY', ip: '192.168.1.14'
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: io.appium.java_client.AppiumDriver
+Command: [null, newSession {capabilities=[Capabilities {appium:app: C:/Users/Kholoud/IdeaProjec..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: Emu2, appium:systemPort: 8100, platformName: ANDROID}]}]
+Capabilities {appium:app: C:/Users/Kholoud/IdeaProjec..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: Emu2, appium:systemPort: 8100, platformName: ANDROID}
+[INFO] - [25-01-2026 19:09:15] [listeners.MethodInvocationListener] - Finished test: testSearchAndValidateCommunity
+[INFO] - [25-01-2026 19:09:15] [utils.common.AllureUtils] - Attaching logs for test: testSearchAndValidateCommunity
+[INFO] - [25-01-2026 19:09:15] [utils.common.AllureUtils] - Logs attached successfully for test: testSearchAndValidateCommunity
+[INFO] - [25-01-2026 19:09:15] [listeners.TestResultListener] - Test failed: testSearchAndValidateCommunity
+[INFO] - [25-01-2026 19:09:16] [listeners.TestResultListener] - Test run finished
+[INFO] - [25-01-2026 19:09:16] [utils.appium.TerminalLogsCapture$1] - ===============================================
+[INFO] - [25-01-2026 19:09:16] [utils.appium.TerminalLogsCapture$1] - Suite
+[INFO] - [25-01-2026 19:09:16] [utils.appium.TerminalLogsCapture$1] - Total tests run: 1, Passes: 0, Failures: 1, Skips: 0
+[INFO] - [25-01-2026 19:09:16] [utils.appium.TerminalLogsCapture$1] - ===============================================
+[INFO] - [25-01-2026 19:09:16] [utils.common.TerminalUtils] - Executing command: allure generate test_outputs/allure_results -o test_outputs/allure_report --clean --single-file
+[INFO] - [25-01-2026 19:09:22] [utils.common.TerminalUtils] - Command executed: allure generate test_outputs/allure_results -o test_outputs/allure_report --clean --single-file
+[INFO] - [25-01-2026 19:09:22] [utils.common.AllureUtils] - Allure report generated successfully
+[INFO] - [25-01-2026 19:09:22] [utils.common.FilesUtils] - Found latest file in test_outputs\allure_report: test_outputs\allure_report\index.html
+[INFO] - [25-01-2026 19:09:22] [utils.common.FilesUtils] - File renamed successfully from test_outputs\allure_report\index.html to test_outputs\allure_report\Report 2026-01-25 19-09-22.html
+[INFO] - [25-01-2026 19:09:22] [utils.common.AllureUtils] - Allure report renamed successfully to: test_outputs\allure_report\Report 2026-01-25 19-09-22.html
+[INFO] - [25-01-2026 19:09:22] [utils.common.AllureUtils] - Opening allure report: test_outputs\allure_report\Report 2026-01-25 19-09-22.html
+[INFO] - [25-01-2026 19:09:22] [utils.common.TerminalUtils] - Executing command: start "" "test_outputs\allure_report\Report 2026-01-25 19-09-22.html"

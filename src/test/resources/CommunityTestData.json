@@ -1,0 +1,42 @@
+[
+{
+  "scenarioType": "FULL_COMMUNITY_FLOW",
+  "email": "kholoud155312+5@gmail.com",
+  "password": "Kholoud155#",
+  "communityName": "Hello Samya",
+  "expectedType": "Created by Givers",
+  "otp": "00700",
+  "description": "Full community flow"
+},
+  {
+    "scenarioType": "FULL_COMMUNITY_FLOW",
+    "email": "kholoud155312+5@gmail.com",
+    "password": "Kholoud155#",
+    "communityName": "Analyticws",
+    "expectedType": "Official Community",
+    "story": "Search community",
+    "description": "Verify user can search and validate official community"
+  },
+  {
+  "scenarioType": "SEARCH_ONLY",
+  "email": "kholoud155312+5@gmail.com",
+  "password": "Kholoud155#",
+  "communityName": "Hello Samya",
+  "description": "Search only scenario"
+},
+  {
+    "scenarioType": "SEARCH_ONLY",
+    "email": "kholoud155312+5@gmail.com",
+    "password": "Kholoud155#",
+    "communityName": "Analyticws",
+    "description": "Search only scenario"
+  },
+  {
+    "scenarioType": "SEARCH_ONLY",
+    "email": "kholoud155312+5@gmail.com",
+    "password": "Kholoud155#",
+    "communityName": "nothing",
+    "description": "Search only scenario"
+  }
+
+]

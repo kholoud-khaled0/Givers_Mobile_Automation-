@@ -1,0 +1,116 @@
+[DEBUG] - [14-12-2025 16:36:17] [org.testng.TestNG] - suiteXmlPath: "C:\Users\Kholoud\IdeaProjects\Givers\test_runners\AndroidTestSuite.xml"
+[INFO] - [14-12-2025 16:36:17] [utils.common.FilesUtils] - Directory already exists: test_outputs\logs
+[INFO] - [14-12-2025 16:36:17] [utils.common.FilesUtils] - Directory already exists: test_outputs\allure_results
+[INFO] - [14-12-2025 16:36:17] [utils.common.FilesUtils] - Directory already exists: test_outputs\screenshots
+[INFO] - [14-12-2025 16:36:17] [utils.common.FilesUtils] - Directory already exists: test_outputs\allure_report
+[INFO] - [14-12-2025 16:36:17] [utils.common.FilesUtils] - Deleting files or folders in: C:\Users\Kholoud\IdeaProjects\Givers\test_outputs\allure_results
+[INFO] - [14-12-2025 16:36:17] [utils.common.FilesUtils] - Deleting files or folders in: C:\Users\Kholoud\IdeaProjects\Givers\test_outputs\screenshots
+[INFO] - [14-12-2025 16:36:18] [utils.appium.TerminalLogsCapture$1] - ￢ﾜﾅ Appium server started at: http://127.0.0.1:4723/
+[INFO] - [14-12-2025 16:36:18] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\Kholoud\IdeaProjects\Givers\test_runners\AndroidTestSuite.xml
+
+[INFO] - [14-12-2025 16:36:18] [listeners.TestResultListener] - Test run started
+[INFO] - [14-12-2025 16:36:18] [utils.common.PropertiesUtils] - Loading Android properties from: src/main/resources/Env/AndroidEnv.properties
+[INFO] - [14-12-2025 16:36:18] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/loginTestData.json
+[INFO] - [14-12-2025 16:36:18] [utils.common.JsonUtils] - Successfully deserialized JSON to: LoginTestData[]
+[INFO] - [14-12-2025 16:36:18] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/registerTestData.json
+[INFO] - [14-12-2025 16:36:18] [utils.common.JsonUtils] - Successfully deserialized JSON to: RegisterTestData[]
+[INFO] - [14-12-2025 16:36:18] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/resetPasswordTestData.json
+[INFO] - [14-12-2025 16:36:18] [utils.common.JsonUtils] - Successfully deserialized JSON to: ResetPasswordTestData[]
+[INFO] - [14-12-2025 16:36:18] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [14-12-2025 16:36:18] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [14-12-2025 16:36:18] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [14-12-2025 16:36:18] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [14-12-2025 16:36:18] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ForgotPasswordTestData.json
+[INFO] - [14-12-2025 16:36:18] [utils.common.JsonUtils] - Successfully deserialized JSON to: ForgotPasswordTestData[]
+[INFO] - [14-12-2025 16:36:18] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyTestData.json
+[INFO] - [14-12-2025 16:36:18] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyTestData[]
+[INFO] - [14-12-2025 16:36:18] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreateNeedyProfileTestData.json
+[INFO] - [14-12-2025 16:36:19] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyProfileTestData[]
+[INFO] - [14-12-2025 16:36:19] [utils.appium.TerminalLogsCapture$1] - [INFO] Appium server already running.
+[WARN] - [14-12-2025 16:36:19] [utils.appium.TerminalLogsCapture$1] - [WARN] Could not clear port 8100: Cannot run program "npx": CreateProcess error=2, The system cannot find the file specified
+[WARN] - [14-12-2025 16:36:23] [utils.appium.TerminalLogsCapture$1] - WARN Appium Appium encountered 1 warning while validating plugins found in manifest C:\Users\Kholoud\.appium\node_modules\.cache\appium\extensions.yaml
+[WARN] - [14-12-2025 16:36:23] [utils.appium.TerminalLogsCapture$1] - WARN Appium Plugin "images" has 1 potential problem:
+[WARN] - [14-12-2025 16:36:23] [utils.appium.TerminalLogsCapture$1] - WARN Appium   - Plugin "images" (package `@appium/images-plugin`) may be incompatible with the current version of Appium (v3.1.0) due to its peer dependency on Appium ^2.0.0. Please install a compatible version of the plugin.
+[WARN] - [14-12-2025 16:36:27] [utils.appium.TerminalLogsCapture$1] - WARN Appium Appium encountered 3 warnings while validating drivers found in manifest C:\Users\Kholoud\.appium\node_modules\.cache\appium\extensions.yaml
+[WARN] - [14-12-2025 16:36:27] [utils.appium.TerminalLogsCapture$1] - WARN Appium Driver "xcuitest" has 1 potential problem:
+[WARN] - [14-12-2025 16:36:27] [utils.appium.TerminalLogsCapture$1] - WARN Appium   - Driver "xcuitest" (package `appium-xcuitest-driver`) may be incompatible with the current version of Appium (v3.1.0) due to its peer dependency on Appium ^2.5.4. Try to upgrade `appium-xcuitest-driver` to v9.10.5 or newer.
+[WARN] - [14-12-2025 16:36:27] [utils.appium.TerminalLogsCapture$1] - WARN Appium Driver "espresso" has 1 potential problem:
+[WARN] - [14-12-2025 16:36:27] [utils.appium.TerminalLogsCapture$1] - WARN Appium   - Driver "espresso" (package `appium-espresso-driver`) may be incompatible with the current version of Appium (v3.1.0) due to its peer dependency on Appium ^2.4.1. Try to upgrade `appium-espresso-driver` to v4.1.17 or newer.
+[INFO] - [14-12-2025 16:36:28] [utils.appium.TerminalLogsCapture$1] - [Appium] Welcome to Appium v3.1.0
+[INFO] - [14-12-2025 16:36:28] [utils.appium.TerminalLogsCapture$1] - [Appium] Non-default server args:
+[INFO] - [14-12-2025 16:36:28] [utils.appium.TerminalLogsCapture$1] - [Appium] { address: '127.0.0.1',
+[INFO] - [14-12-2025 16:36:28] [utils.appium.TerminalLogsCapture$1] - loglevel: 'info',
+[INFO] - [14-12-2025 16:36:28] [utils.appium.TerminalLogsCapture$1] - logNoColors: true,
+[INFO] - [14-12-2025 16:36:28] [utils.appium.TerminalLogsCapture$1] - relaxedSecurityEnabled: true,
+[INFO] - [14-12-2025 16:36:28] [utils.appium.TerminalLogsCapture$1] - sessionOverride: true }
+[INFO] - [14-12-2025 16:36:28] [utils.appium.TerminalLogsCapture$1] - [Appium] Enabling relaxed security. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[INFO] - [14-12-2025 16:36:28] [utils.appium.TerminalLogsCapture$1] - [Appium] Attempting to load driver uiautomator2...
+[INFO] - [14-12-2025 16:36:28] [utils.appium.TerminalLogsCapture$1] - [Appium] Attempting to load driver xcuitest...
+[INFO] - [14-12-2025 16:36:28] [utils.appium.TerminalLogsCapture$1] - [Appium] Attempting to load driver espresso...
+[INFO] - [14-12-2025 16:36:32] [utils.appium.TerminalLogsCapture$1] - [Appium] Appium REST http interface listener started on http://127.0.0.1:4723
+[INFO] - [14-12-2025 16:36:32] [utils.appium.TerminalLogsCapture$1] - [Appium] Available drivers:
+[INFO] - [14-12-2025 16:36:32] [utils.appium.TerminalLogsCapture$1] - [Appium]   - uiautomator2@4.2.9 (automationName 'UiAutomator2')
+[INFO] - [14-12-2025 16:36:32] [utils.appium.TerminalLogsCapture$1] - [Appium]   - xcuitest@9.9.4 (automationName 'XCUITest')
+[INFO] - [14-12-2025 16:36:32] [utils.appium.TerminalLogsCapture$1] - [Appium]   - espresso@4.1.13 (automationName 'Espresso')
+[INFO] - [14-12-2025 16:36:32] [utils.appium.TerminalLogsCapture$1] - [Appium] Available plugins:
+[INFO] - [14-12-2025 16:36:32] [utils.appium.TerminalLogsCapture$1] - [Appium]   - images@3.1.3
+[INFO] - [14-12-2025 16:36:32] [utils.appium.TerminalLogsCapture$1] - [Appium] No plugins activated. Use the --use-plugins flag with names of plugins to activate
+[INFO] - [14-12-2025 16:36:34] [listeners.MethodInvocationListener] - Starting test: testFullNeedyProfileFlow
+[INFO] - [14-12-2025 16:37:31] [utils.appium.ElementsActions] - ✅ Scrolled to the bottom of the page (1-2 swipes).
+[INFO] - [14-12-2025 16:37:58] [utils.appium.ElementsActions] - ✅ Scrolled to the bottom of the page (1-2 swipes).
+[INFO] - [14-12-2025 16:38:23] [utils.appium.ElementsActions] - ✅ Scrolled to the bottom of the page (1-2 swipes).
+[INFO] - [14-12-2025 16:38:56] [utils.appium.ElementsActions] - ✅ Scrolled to the bottom of the page (1-2 swipes).
+[INFO] - [14-12-2025 16:39:24] [utils.appium.ElementsActions] - ✅ Scrolled to the bottom of the page (1-2 swipes).
+[INFO] - [14-12-2025 16:39:49] [utils.appium.ElementsActions] - ✅ Scrolled to the bottom of the page (1-2 swipes).
+[INFO] - [14-12-2025 16:40:14] [utils.appium.ElementsActions] - ✅ Scrolled to the bottom of the page (1-2 swipes).
+[INFO] - [14-12-2025 16:40:24] [listeners.MethodInvocationListener] - Finished test: testFullNeedyProfileFlow
+[INFO] - [14-12-2025 16:40:24] [utils.common.AllureUtils] - Attaching logs for test: testFullNeedyProfileFlow
+[INFO] - [14-12-2025 16:40:24] [utils.common.AllureUtils] - Logs attached successfully for test: testFullNeedyProfileFlow
+[INFO] - [14-12-2025 16:40:25] [utils.appium.TerminalLogsCapture$1] - ￢ﾜﾅ Driver session closed successfully
+[INFO] - [14-12-2025 16:40:25] [utils.appium.TerminalLogsCapture$1] - [HTTP] --> GET /status
+[INFO] - [14-12-2025 16:40:25] [utils.appium.TerminalLogsCapture$1] - ￰ﾟﾛﾑ Appium server stopped.
+[INFO] - [14-12-2025 16:40:25] [listeners.TestResultListener] - Test skipped: testFullNeedyProfileFlow
+[INFO] - [14-12-2025 16:40:25] [utils.appium.TerminalLogsCapture$1] - ￢ﾜﾅ Appium server started at: http://127.0.0.1:4723/
+[WARN] - [14-12-2025 16:40:25] [utils.appium.TerminalLogsCapture$1] - [WARN] Could not clear port 8100: Cannot run program "npx": CreateProcess error=2, The system cannot find the file specified
+[WARN] - [14-12-2025 16:40:30] [utils.appium.TerminalLogsCapture$1] - WARN Appium Appium encountered 1 warning while validating plugins found in manifest C:\Users\Kholoud\.appium\node_modules\.cache\appium\extensions.yaml
+[WARN] - [14-12-2025 16:40:30] [utils.appium.TerminalLogsCapture$1] - WARN Appium Plugin "images" has 1 potential problem:
+[WARN] - [14-12-2025 16:40:30] [utils.appium.TerminalLogsCapture$1] - WARN Appium   - Plugin "images" (package `@appium/images-plugin`) may be incompatible with the current version of Appium (v3.1.0) due to its peer dependency on Appium ^2.0.0. Please install a compatible version of the plugin.
+[WARN] - [14-12-2025 16:40:35] [utils.appium.TerminalLogsCapture$1] - WARN Appium Appium encountered 3 warnings while validating drivers found in manifest C:\Users\Kholoud\.appium\node_modules\.cache\appium\extensions.yaml
+[WARN] - [14-12-2025 16:40:35] [utils.appium.TerminalLogsCapture$1] - WARN Appium Driver "xcuitest" has 1 potential problem:
+[WARN] - [14-12-2025 16:40:35] [utils.appium.TerminalLogsCapture$1] - WARN Appium   - Driver "xcuitest" (package `appium-xcuitest-driver`) may be incompatible with the current version of Appium (v3.1.0) due to its peer dependency on Appium ^2.5.4. Try to upgrade `appium-xcuitest-driver` to v9.10.5 or newer.
+[WARN] - [14-12-2025 16:40:35] [utils.appium.TerminalLogsCapture$1] - WARN Appium Driver "espresso" has 1 potential problem:
+[WARN] - [14-12-2025 16:40:35] [utils.appium.TerminalLogsCapture$1] - WARN Appium   - Driver "espresso" (package `appium-espresso-driver`) may be incompatible with the current version of Appium (v3.1.0) due to its peer dependency on Appium ^2.4.1. Try to upgrade `appium-espresso-driver` to v4.1.17 or newer.
+[INFO] - [14-12-2025 16:40:35] [utils.appium.TerminalLogsCapture$1] - [Appium] Welcome to Appium v3.1.0
+[INFO] - [14-12-2025 16:40:35] [utils.appium.TerminalLogsCapture$1] - [Appium] Non-default server args:
+[INFO] - [14-12-2025 16:40:35] [utils.appium.TerminalLogsCapture$1] - [Appium] { address: '127.0.0.1',
+[INFO] - [14-12-2025 16:40:35] [utils.appium.TerminalLogsCapture$1] - loglevel: 'info',
+[INFO] - [14-12-2025 16:40:35] [utils.appium.TerminalLogsCapture$1] - logNoColors: true,
+[INFO] - [14-12-2025 16:40:35] [utils.appium.TerminalLogsCapture$1] - relaxedSecurityEnabled: true,
+[INFO] - [14-12-2025 16:40:35] [utils.appium.TerminalLogsCapture$1] - sessionOverride: true }
+[INFO] - [14-12-2025 16:40:35] [utils.appium.TerminalLogsCapture$1] - [Appium] Enabling relaxed security. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[INFO] - [14-12-2025 16:40:35] [utils.appium.TerminalLogsCapture$1] - [Appium] Attempting to load driver uiautomator2...
+[INFO] - [14-12-2025 16:40:35] [utils.appium.TerminalLogsCapture$1] - [Appium] Attempting to load driver xcuitest...
+[INFO] - [14-12-2025 16:40:35] [utils.appium.TerminalLogsCapture$1] - [Appium] Attempting to load driver espresso...
+[INFO] - [14-12-2025 16:40:36] [listeners.MethodInvocationListener] - Starting test: testFullNeedyProfileFlow
+[INFO] - [14-12-2025 16:40:38] [utils.appium.TerminalLogsCapture$1] - [Appium] Appium REST http interface listener started on http://127.0.0.1:4723
+[INFO] - [14-12-2025 16:40:38] [utils.appium.TerminalLogsCapture$1] - [Appium] Available drivers:
+[INFO] - [14-12-2025 16:40:38] [utils.appium.TerminalLogsCapture$1] - [Appium]   - uiautomator2@4.2.9 (automationName 'UiAutomator2')
+[INFO] - [14-12-2025 16:40:38] [utils.appium.TerminalLogsCapture$1] - [Appium]   - xcuitest@9.9.4 (automationName 'XCUITest')
+[INFO] - [14-12-2025 16:40:38] [utils.appium.TerminalLogsCapture$1] - [Appium]   - espresso@4.1.13 (automationName 'Espresso')
+[INFO] - [14-12-2025 16:40:38] [utils.appium.TerminalLogsCapture$1] - [Appium] Available plugins:
+[INFO] - [14-12-2025 16:40:38] [utils.appium.TerminalLogsCapture$1] - [Appium]   - images@3.1.3
+[INFO] - [14-12-2025 16:40:38] [utils.appium.TerminalLogsCapture$1] - [Appium] No plugins activated. Use the --use-plugins flag with names of plugins to activate
+[INFO] - [14-12-2025 16:41:19] [listeners.MethodInvocationListener] - Finished test: testFullNeedyProfileFlow
+[INFO] - [14-12-2025 16:41:19] [utils.common.AllureUtils] - Attaching logs for test: testFullNeedyProfileFlow
+[INFO] - [14-12-2025 16:41:19] [utils.common.AllureUtils] - Logs attached successfully for test: testFullNeedyProfileFlow
+[INFO] - [14-12-2025 16:41:20] [utils.appium.TerminalLogsCapture$1] - ￢ﾜﾅ Driver session closed successfully
+[INFO] - [14-12-2025 16:41:20] [utils.appium.TerminalLogsCapture$1] - [HTTP] --> GET /status
+[INFO] - [14-12-2025 16:41:20] [utils.appium.TerminalLogsCapture$1] - ￰ﾟﾛﾑ Appium server stopped.
+[INFO] - [14-12-2025 16:41:20] [listeners.TestResultListener] - Test failed: testFullNeedyProfileFlow
+[INFO] - [14-12-2025 16:41:20] [listeners.TestResultListener] - Test run finished
+[INFO] - [14-12-2025 16:41:20] [utils.appium.TerminalLogsCapture$1] - ===============================================
+[INFO] - [14-12-2025 16:41:20] [utils.appium.TerminalLogsCapture$1] - Authentication Suite
+[INFO] - [14-12-2025 16:41:20] [utils.appium.TerminalLogsCapture$1] - Total tests run: 2, Passes: 0, Failures: 1, Skips: 0, Retries: 1
+[INFO] - [14-12-2025 16:41:20] [utils.appium.TerminalLogsCapture$1] - ===============================================
+[INFO] - [14-12-2025 16:41:20] [utils.common.TerminalUtils] - Executing command: allure generate test_outputs/allure_results -o test_outputs/allure_report --clean --single-file

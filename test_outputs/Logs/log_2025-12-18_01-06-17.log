@@ -1,0 +1,14 @@
+[DEBUG] - [18-12-2025 01:06:17] [org.testng.TestNG] - suiteXmlPath: "C:\Users\Kholoud\IdeaProjects\Givers\test_runners\AndroidTestSuite.xml"
+[INFO] - [18-12-2025 01:06:18] [utils.common.FilesUtils] - Directory already exists: test_outputs\logs
+[INFO] - [18-12-2025 01:06:18] [utils.common.FilesUtils] - Directory already exists: test_outputs\allure_results
+[INFO] - [18-12-2025 01:06:18] [utils.common.FilesUtils] - Directory already exists: test_outputs\screenshots
+[INFO] - [18-12-2025 01:06:18] [utils.common.FilesUtils] - Directory already exists: test_outputs\allure_report
+[INFO] - [18-12-2025 01:06:18] [utils.common.FilesUtils] - Deleting files or folders in: C:\Users\Kholoud\IdeaProjects\Givers\test_outputs\allure_results
+[INFO] - [18-12-2025 01:06:18] [utils.common.FilesUtils] - Deleting files or folders in: C:\Users\Kholoud\IdeaProjects\Givers\test_outputs\screenshots
+[INFO] - [18-12-2025 01:06:18] [utils.appium.TerminalLogsCapture$1] - ￢ﾜﾅ Appium server started at: http://127.0.0.1:4723/
+[INFO] - [18-12-2025 01:06:18] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\Kholoud\IdeaProjects\Givers\test_runners\AndroidTestSuite.xml
+
+[INFO] - [18-12-2025 01:06:18] [listeners.TestResultListener] - Test run started
+[INFO] - [18-12-2025 01:06:18] [utils.common.PropertiesUtils] - Loading Android properties from: src/main/resources/Env/AndroidEnv.properties
+[INFO] - [18-12-2025 01:06:19] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/loginTestData.json

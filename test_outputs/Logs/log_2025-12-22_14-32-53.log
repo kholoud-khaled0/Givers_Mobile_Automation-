@@ -1,0 +1,24 @@
+[DEBUG] - [22-12-2025 14:32:53] [org.testng.TestNG] - suiteXmlPath: "C:\Users\Kholoud\AppData\Local\JetBrains\IntelliJIdea2024.2\temp-testng-customsuite.xml"
+[INFO] - [22-12-2025 14:32:54] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\Kholoud\AppData\Local\JetBrains\IntelliJIdea2024.2\temp-testng-customsuite.xml
+
+[INFO] - [22-12-2025 14:32:54] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/loginTestData.json
+[INFO] - [22-12-2025 14:32:54] [utils.common.JsonUtils] - Successfully deserialized JSON to: LoginTestData[]
+[INFO] - [22-12-2025 14:32:54] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/registerTestData.json
+[INFO] - [22-12-2025 14:32:55] [utils.common.JsonUtils] - Successfully deserialized JSON to: RegisterTestData[]
+[INFO] - [22-12-2025 14:32:55] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/resetPasswordTestData.json
+[INFO] - [22-12-2025 14:32:55] [utils.common.JsonUtils] - Successfully deserialized JSON to: ResetPasswordTestData[]
+[INFO] - [22-12-2025 14:32:55] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [22-12-2025 14:32:55] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [22-12-2025 14:32:55] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [22-12-2025 14:32:55] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [22-12-2025 14:32:55] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ForgotPasswordTestData.json
+[INFO] - [22-12-2025 14:32:55] [utils.common.JsonUtils] - Successfully deserialized JSON to: ForgotPasswordTestData[]
+[INFO] - [22-12-2025 14:32:55] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyTestData.json
+[INFO] - [22-12-2025 14:32:55] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyTestData[]
+[INFO] - [22-12-2025 14:32:55] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreateNeedyProfileTestData.json
+[INFO] - [22-12-2025 14:32:55] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyProfileTestData[]
+[INFO] - [22-12-2025 14:32:55] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyFunctionTestData.json
+[INFO] - [22-12-2025 14:32:55] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyFunctionsTestData[]
+[INFO] - [22-12-2025 14:32:55] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/DonationTestData.json
+[INFO] - [22-12-2025 14:32:55] [utils.common.JsonUtils] - Successfully deserialized JSON to: EasyGiveTestData[]

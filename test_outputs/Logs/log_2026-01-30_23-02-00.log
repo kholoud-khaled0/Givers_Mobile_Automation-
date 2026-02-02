@@ -1,0 +1,29 @@
+[DEBUG] - [30-01-2026 23:02:01] [org.testng.TestNG] - suiteXmlPath: "C:\Users\Kholoud\IdeaProjects\Givers\test_runners\AndroidTestSuite.xml"
+[INFO] - [30-01-2026 23:02:03] [utils.common.FilesUtils] - Directory already exists: test_outputs\logs
+[INFO] - [30-01-2026 23:02:03] [utils.common.FilesUtils] - Directory already exists: test_outputs\allure_results
+[INFO] - [30-01-2026 23:02:03] [utils.common.FilesUtils] - Directory already exists: test_outputs\screenshots
+[INFO] - [30-01-2026 23:02:03] [utils.common.FilesUtils] - Directory already exists: test_outputs\allure_report
+[INFO] - [30-01-2026 23:02:03] [utils.common.FilesUtils] - Deleting files or folders in: C:\Users\Kholoud\IdeaProjects\Givers\test_outputs\allure_results
+[INFO] - [30-01-2026 23:02:03] [utils.common.FilesUtils] - Deleting files or folders in: C:\Users\Kholoud\IdeaProjects\Givers\test_outputs\screenshots
+[INFO] - [30-01-2026 23:02:04] [utils.appium.TerminalLogsCapture$1] - ￢ﾜﾅ Appium server started at: http://127.0.0.1:4723/
+[INFO] - [30-01-2026 23:02:04] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\Kholoud\IdeaProjects\Givers\test_runners\AndroidTestSuite.xml
+
+[INFO] - [30-01-2026 23:02:04] [listeners.TestResultListener] - Test run started
+[INFO] - [30-01-2026 23:02:04] [utils.common.PropertiesUtils] - Loading Android properties from: src/main/resources/Env/AndroidEnv.properties
+[INFO] - [30-01-2026 23:02:05] [listeners.TestResultListener] - Test failed: testValidateNotification
+[INFO] - [30-01-2026 23:02:05] [listeners.TestResultListener] - Test run finished
+[INFO] - [30-01-2026 23:02:05] [utils.appium.TerminalLogsCapture$1] - ===============================================
+[INFO] - [30-01-2026 23:02:05] [utils.appium.TerminalLogsCapture$1] - Suite
+[INFO] - [30-01-2026 23:02:05] [utils.appium.TerminalLogsCapture$1] - Total tests run: 1, Passes: 0, Failures: 1, Skips: 0
+[INFO] - [30-01-2026 23:02:05] [utils.appium.TerminalLogsCapture$1] - ===============================================
+[INFO] - [30-01-2026 23:02:05] [utils.common.TerminalUtils] - Executing command: allure generate test_outputs/allure_results -o test_outputs/allure_report --clean --single-file
+[INFO] - [30-01-2026 23:02:09] [utils.common.TerminalUtils] - Command executed: allure generate test_outputs/allure_results -o test_outputs/allure_report --clean --single-file
+[INFO] - [30-01-2026 23:02:09] [utils.common.AllureUtils] - Allure report generated successfully
+[INFO] - [30-01-2026 23:02:09] [utils.common.FilesUtils] - Found latest file in test_outputs\allure_report: test_outputs\allure_report\index.html
+[INFO] - [30-01-2026 23:02:09] [utils.common.FilesUtils] - File renamed successfully from test_outputs\allure_report\index.html to test_outputs\allure_report\Report 2026-01-30 23-02-09.html
+[INFO] - [30-01-2026 23:02:09] [utils.common.AllureUtils] - Allure report renamed successfully to: test_outputs\allure_report\Report 2026-01-30 23-02-09.html
+[INFO] - [30-01-2026 23:02:09] [utils.common.AllureUtils] - Opening allure report: test_outputs\allure_report\Report 2026-01-30 23-02-09.html
+[INFO] - [30-01-2026 23:02:09] [utils.common.TerminalUtils] - Executing command: start "" "test_outputs\allure_report\Report 2026-01-30 23-02-09.html"
+[INFO] - [30-01-2026 23:02:10] [utils.common.TerminalUtils] - Command executed: start "" "test_outputs\allure_report\Report 2026-01-30 23-02-09.html"
+[INFO] - [30-01-2026 23:02:10] [utils.appium.TerminalLogsCapture$1] - ￰ﾟﾛﾑ Appium server stopped.

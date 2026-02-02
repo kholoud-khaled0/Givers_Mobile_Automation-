@@ -1,0 +1,80 @@
+[DEBUG] - [23-10-2025 22:44:21] [org.testng.TestNG] - suiteXmlPath: "C:\Users\Kholoud\IdeaProjects\Givers\test_runners\AndroidTestSuite.xml"
+[INFO] - [23-10-2025 22:44:22] [utils.common.FilesUtils] - Directory already exists: test_outputs\logs
+[INFO] - [23-10-2025 22:44:22] [utils.common.FilesUtils] - Directory already exists: test_outputs\allure_results
+[INFO] - [23-10-2025 22:44:22] [utils.common.FilesUtils] - Directory already exists: test_outputs\screenshots
+[INFO] - [23-10-2025 22:44:22] [utils.common.FilesUtils] - Directory already exists: test_outputs\allure_report
+[INFO] - [23-10-2025 22:44:22] [utils.common.FilesUtils] - Deleting files or folders in: C:\Users\Kholoud\IdeaProjects\Givers\test_outputs\allure_results
+[INFO] - [23-10-2025 22:44:22] [utils.common.FilesUtils] - Deleting files or folders in: C:\Users\Kholoud\IdeaProjects\Givers\test_outputs\screenshots
+[INFO] - [23-10-2025 22:44:22] [utils.appium.TerminalLogsCapture$1] - ￢ﾜﾅ Appium server started at: http://127.0.0.1:4723/
+[INFO] - [23-10-2025 22:44:22] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\Kholoud\IdeaProjects\Givers\test_runners\AndroidTestSuite.xml
+
+[INFO] - [23-10-2025 22:44:22] [listeners.TestResultListener] - Test run started
+[INFO] - [23-10-2025 22:44:22] [utils.common.PropertiesUtils] - Loading Android properties from: src/main/resources/Env/AndroidEnv.properties
+[INFO] - [23-10-2025 22:44:23] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/loginTestData.json
+[INFO] - [23-10-2025 22:44:23] [utils.common.JsonUtils] - Successfully deserialized JSON to: LoginTestData[]
+[INFO] - [23-10-2025 22:44:23] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/registerTestData.json
+[INFO] - [23-10-2025 22:44:23] [utils.common.JsonUtils] - Successfully deserialized JSON to: RegisterTestData[]
+[INFO] - [23-10-2025 22:44:23] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/resetPasswordTestData.json
+[INFO] - [23-10-2025 22:44:23] [utils.common.JsonUtils] - Successfully deserialized JSON to: ResetPasswordTestData[]
+[WARN] - [23-10-2025 22:44:27] [utils.appium.TerminalLogsCapture$1] - WARN Appium Appium encountered 1 warning while validating plugins found in manifest C:\Users\Kholoud\.appium\node_modules\.cache\appium\extensions.yaml
+[WARN] - [23-10-2025 22:44:27] [utils.appium.TerminalLogsCapture$1] - WARN Appium Plugin "images" has 1 potential problem:
+[WARN] - [23-10-2025 22:44:27] [utils.appium.TerminalLogsCapture$1] - WARN Appium   - Plugin "images" (package `@appium/images-plugin`) may be incompatible with the current version of Appium (v3.1.0) due to its peer dependency on Appium ^2.0.0. Please install a compatible version of the plugin.
+[WARN] - [23-10-2025 22:44:33] [utils.appium.TerminalLogsCapture$1] - WARN Appium Appium encountered 3 warnings while validating drivers found in manifest C:\Users\Kholoud\.appium\node_modules\.cache\appium\extensions.yaml
+[WARN] - [23-10-2025 22:44:33] [utils.appium.TerminalLogsCapture$1] - WARN Appium Driver "xcuitest" has 1 potential problem:
+[WARN] - [23-10-2025 22:44:33] [utils.appium.TerminalLogsCapture$1] - WARN Appium   - Driver "xcuitest" (package `appium-xcuitest-driver`) may be incompatible with the current version of Appium (v3.1.0) due to its peer dependency on Appium ^2.5.4. Try to upgrade `appium-xcuitest-driver` to v9.10.5 or newer.
+[WARN] - [23-10-2025 22:44:33] [utils.appium.TerminalLogsCapture$1] - WARN Appium Driver "espresso" has 1 potential problem:
+[WARN] - [23-10-2025 22:44:33] [utils.appium.TerminalLogsCapture$1] - WARN Appium   - Driver "espresso" (package `appium-espresso-driver`) may be incompatible with the current version of Appium (v3.1.0) due to its peer dependency on Appium ^2.4.1. Try to upgrade `appium-espresso-driver` to v4.1.17 or newer.
+[INFO] - [23-10-2025 22:44:33] [utils.appium.TerminalLogsCapture$1] - [Appium] Welcome to Appium v3.1.0
+[INFO] - [23-10-2025 22:44:33] [utils.appium.TerminalLogsCapture$1] - [Appium] Non-default server args:
+[INFO] - [23-10-2025 22:44:33] [utils.appium.TerminalLogsCapture$1] - [Appium] { address: '127.0.0.1',
+[INFO] - [23-10-2025 22:44:33] [utils.appium.TerminalLogsCapture$1] - loglevel: 'info',
+[INFO] - [23-10-2025 22:44:33] [utils.appium.TerminalLogsCapture$1] - logNoColors: true,
+[INFO] - [23-10-2025 22:44:33] [utils.appium.TerminalLogsCapture$1] - relaxedSecurityEnabled: true,
+[INFO] - [23-10-2025 22:44:33] [utils.appium.TerminalLogsCapture$1] - sessionOverride: true }
+[INFO] - [23-10-2025 22:44:33] [utils.appium.TerminalLogsCapture$1] - [Appium] Enabling relaxed security. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[INFO] - [23-10-2025 22:44:33] [utils.appium.TerminalLogsCapture$1] - [Appium] Attempting to load driver uiautomator2...
+[INFO] - [23-10-2025 22:44:33] [utils.appium.TerminalLogsCapture$1] - [Appium] Attempting to load driver xcuitest...
+[INFO] - [23-10-2025 22:44:33] [utils.appium.TerminalLogsCapture$1] - [Appium] Attempting to load driver espresso...
+[INFO] - [23-10-2025 22:44:35] [listeners.MethodInvocationListener] - Starting test: testFullResetPasswordFlow
+[INFO] - [23-10-2025 22:44:38] [utils.appium.TerminalLogsCapture$1] - [Appium] Appium REST http interface listener started on http://127.0.0.1:4723
+[INFO] - [23-10-2025 22:44:38] [utils.appium.TerminalLogsCapture$1] - [Appium] Available drivers:
+[INFO] - [23-10-2025 22:44:38] [utils.appium.TerminalLogsCapture$1] - [Appium]   - uiautomator2@4.2.9 (automationName 'UiAutomator2')
+[INFO] - [23-10-2025 22:44:38] [utils.appium.TerminalLogsCapture$1] - [Appium]   - xcuitest@9.9.4 (automationName 'XCUITest')
+[INFO] - [23-10-2025 22:44:38] [utils.appium.TerminalLogsCapture$1] - [Appium]   - espresso@4.1.13 (automationName 'Espresso')
+[INFO] - [23-10-2025 22:44:38] [utils.appium.TerminalLogsCapture$1] - [Appium] Available plugins:
+[INFO] - [23-10-2025 22:44:38] [utils.appium.TerminalLogsCapture$1] - [Appium]   - images@3.1.3
+[INFO] - [23-10-2025 22:44:38] [utils.appium.TerminalLogsCapture$1] - [Appium] No plugins activated. Use the --use-plugins flag with names of plugins to activate
+[INFO] - [23-10-2025 22:44:55] [listeners.MethodInvocationListener] - Finished test: testFullResetPasswordFlow
+[INFO] - [23-10-2025 22:44:55] [utils.common.AllureUtils] - Attaching logs for test: testFullResetPasswordFlow
+[INFO] - [23-10-2025 22:44:55] [utils.common.AllureUtils] - Logs attached successfully for test: testFullResetPasswordFlow
+[INFO] - [23-10-2025 22:44:56] [listeners.TestResultListener] - Test skipped: testFullResetPasswordFlow
+[INFO] - [23-10-2025 22:44:56] [utils.appium.TerminalLogsCapture$1] - [HTTP] --> POST /session {"capabilities":{"firstMatch":[{"appium:systemPort":"8100","appium:deviceName":"Emu4","platformName":"ANDROID","appium:automationName":"UiAutomator2","appium:app":"C:/Users/Kholoud/IdeaProjects/Givers/src/main/resources/AUT/app-staging-release.apk"}]}}
+[INFO] - [23-10-2025 22:44:56] [utils.appium.TerminalLogsCapture$1] - [Appium] Attempting to find matching driver for automationName 'UiAutomator2' and platformName 'ANDROID'
+[INFO] - [23-10-2025 22:44:56] [utils.appium.TerminalLogsCapture$1] - [Appium] The 'uiautomator2' driver was installed and matched caps.
+[INFO] - [23-10-2025 22:44:56] [utils.appium.TerminalLogsCapture$1] - [Appium] Will require it at C:\Users\Kholoud\.appium\node_modules\appium-uiautomator2-driver
+[INFO] - [23-10-2025 22:44:56] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@101b] Appium v3.1.0 creating new AndroidUiautomator2Driver (v4.2.9) session
+[INFO] - [23-10-2025 22:44:56] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@101b] Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[INFO] - [23-10-2025 22:44:56] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@101b] Appium's BaseDriver version is 10.1.0
+[INFO] - [23-10-2025 22:44:56] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@101b] AndroidUiautomator2Driver's BaseDriver version is 10.1.0
+[INFO] - [23-10-2025 22:44:56] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@101b] Enabling relaxed security for this session as per the server configuration. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[INFO] - [23-10-2025 22:44:56] [utils.appium.TerminalLogsCapture$1] - [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+[INFO] - [23-10-2025 22:44:56] [utils.appium.TerminalLogsCapture$1] - [AndroidUiautomator2Driver@eaec] Capability 'systemPort' changed from string ('8100') to integer (8100). This may cause unexpected behavior
+[INFO] - [23-10-2025 22:44:57] [utils.appium.TerminalLogsCapture$1] - [c1381740][AndroidUiautomator2Driver@eaec] Session created with session id: c1381740-8e88-400a-a8aa-235a99035c91
+[INFO] - [23-10-2025 22:44:57] [utils.appium.TerminalLogsCapture$1] - [c1381740][ADB] Found 2 'build-tools' folders under 'C:\Users\Kholoud\AppData\Local\Android\Sdk' (newest first):
+[INFO] - [23-10-2025 22:44:57] [utils.appium.TerminalLogsCapture$1] - [c1381740][ADB]     C:\Users\Kholoud\AppData\Local\Android\Sdk\build-tools\36.0.0
+[INFO] - [23-10-2025 22:44:57] [utils.appium.TerminalLogsCapture$1] - [c1381740][ADB]     C:\Users\Kholoud\AppData\Local\Android\Sdk\build-tools\35.0.0
+[INFO] - [23-10-2025 22:44:57] [utils.appium.TerminalLogsCapture$1] - [c1381740][ADB] Using 'adb.exe' from 'C:\Users\Kholoud\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[INFO] - [23-10-2025 22:44:57] [utils.appium.TerminalLogsCapture$1] - [c1381740][AndroidUiautomator2Driver@eaec] Retrieving device list
+[INFO] - [23-10-2025 22:44:57] [utils.appium.TerminalLogsCapture$1] - [c1381740][AndroidUiautomator2Driver@eaec] Using device: emulator-5556
+[INFO] - [23-10-2025 22:44:57] [utils.appium.TerminalLogsCapture$1] - [c1381740][ADB] Using 'adb.exe' from 'C:\Users\Kholoud\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[INFO] - [23-10-2025 22:44:57] [utils.appium.TerminalLogsCapture$1] - [c1381740][BaseDriver] Using local app 'C:/Users/Kholoud/IdeaProjects/Givers/src/main/resources/AUT/app-staging-release.apk'
+[INFO] - [23-10-2025 22:44:57] [utils.appium.TerminalLogsCapture$1] - [c1381740][ADB] Getting device platform version
+[INFO] - [23-10-2025 22:44:57] [utils.appium.TerminalLogsCapture$1] - [c1381740][AndroidUiautomator2Driver@eaec] Relaxing hidden api policy
+[INFO] - [23-10-2025 22:44:57] [utils.appium.TerminalLogsCapture$1] - [c1381740][ADB] Using 'aapt2.exe' from 'C:\Users\Kholoud\AppData\Local\Android\Sdk\build-tools\36.0.0\aapt2.exe'
+[INFO] - [23-10-2025 22:44:58] [utils.appium.TerminalLogsCapture$1] - [c1381740][ADB] Package name: 'com.giversapp.GiversApp.staging'
+[INFO] - [23-10-2025 22:44:58] [utils.appium.TerminalLogsCapture$1] - [c1381740][ADB] Main activity name: 'com.giversapp.GiversApp.staging.MainActivity'
+[INFO] - [23-10-2025 22:44:58] [utils.appium.TerminalLogsCapture$1] - [c1381740][AndroidUiautomator2Driver@eaec] Server packages are not going to be (re)installed
+[INFO] - [23-10-2025 22:44:58] [utils.appium.TerminalLogsCapture$1] - [c1381740][ADB] Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[INFO] - [23-10-2025 22:44:58] [utils.appium.TerminalLogsCapture$1] - [c1381740][ADB] Using 'apksigner.jar' from 'C:\Users\Kholoud\AppData\Local\Android\Sdk\build-tools\36.0.0\lib\apksigner.jar'
+[INFO] - [23-10-2025 22:45:00] [utils.appium.TerminalLogsCapture$1] - [c1381740][ADB] 'C:/Users/Kholoud/IdeaProjects/Givers/src/main/resources/AUT/app-staging-release.apk' is signed with a non-default certificate

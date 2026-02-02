@@ -1,0 +1,822 @@
+[DEBUG] - [02-02-2026 20:32:36] [org.testng.TestNG] - suiteXmlPath: "C:\Users\Kholoud\IdeaProjects\Givers\test_runners\AndroidTestSuite.xml"
+[INFO] - [02-02-2026 20:32:36] [org.testng.internal.Utils] - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+[INFO] - [02-02-2026 20:32:37] [utils.common.FilesUtils] - Directory already exists: test_outputs\logs
+[INFO] - [02-02-2026 20:32:37] [utils.common.FilesUtils] - Directory already exists: test_outputs\allure_results
+[INFO] - [02-02-2026 20:32:37] [utils.common.FilesUtils] - Directory already exists: test_outputs\screenshots
+[INFO] - [02-02-2026 20:32:37] [utils.common.FilesUtils] - Directory already exists: test_outputs\allure_report
+[INFO] - [02-02-2026 20:32:37] [utils.common.FilesUtils] - Deleting files or folders in: C:\Users\Kholoud\IdeaProjects\Givers\test_outputs\allure_results
+[INFO] - [02-02-2026 20:32:37] [utils.common.FilesUtils] - Deleting files or folders in: C:\Users\Kholoud\IdeaProjects\Givers\test_outputs\screenshots
+[INFO] - [02-02-2026 20:32:37] [utils.appium.TerminalLogsCapture$1] - Appium server started at: http://127.0.0.1:4723/
+[INFO] - [02-02-2026 20:32:37] [listeners.TestResultListener] - Test run started
+[INFO] - [02-02-2026 20:32:37] [utils.common.PropertiesUtils] - Loading Android properties from: src/main/resources/Env/AndroidEnv.properties
+[INFO] - [02-02-2026 20:32:38] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CommunityTestData.json
+[INFO] - [02-02-2026 20:32:38] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [02-02-2026 20:32:38] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/loginTestData.json
+[INFO] - [02-02-2026 20:32:38] [utils.common.JsonUtils] - Successfully deserialized JSON to: LoginTestData[]
+[INFO] - [02-02-2026 20:32:38] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/registerTestData.json
+[INFO] - [02-02-2026 20:32:38] [utils.common.JsonUtils] - Successfully deserialized JSON to: RegisterTestData[]
+[INFO] - [02-02-2026 20:32:38] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/resetPasswordTestData.json
+[INFO] - [02-02-2026 20:32:38] [utils.common.JsonUtils] - Successfully deserialized JSON to: ResetPasswordTestData[]
+[INFO] - [02-02-2026 20:32:38] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [02-02-2026 20:32:38] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [02-02-2026 20:32:38] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [02-02-2026 20:32:38] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [02-02-2026 20:32:38] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ForgotPasswordTestData.json
+[INFO] - [02-02-2026 20:32:38] [utils.common.JsonUtils] - Successfully deserialized JSON to: ForgotPasswordTestData[]
+[INFO] - [02-02-2026 20:32:38] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyTestData.json
+[INFO] - [02-02-2026 20:32:38] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyTestData[]
+[INFO] - [02-02-2026 20:32:38] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreateNeedyProfileTestData.json
+[INFO] - [02-02-2026 20:32:38] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyProfileTestData[]
+[INFO] - [02-02-2026 20:32:38] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyFunctionTestData.json
+[INFO] - [02-02-2026 20:32:38] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyFunctionsTestData[]
+[INFO] - [02-02-2026 20:32:38] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/DonationTestData.json
+[INFO] - [02-02-2026 20:32:38] [utils.common.JsonUtils] - Successfully deserialized JSON to: EasyGiveTestData[]
+[INFO] - [02-02-2026 20:32:38] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/SingleDonationTestData.json
+[INFO] - [02-02-2026 20:32:38] [utils.common.JsonUtils] - Successfully deserialized JSON to: SingleDonationTestData[]
+[INFO] - [02-02-2026 20:32:38] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ModeratorCommunity.json
+[INFO] - [02-02-2026 20:32:38] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [02-02-2026 20:32:38] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreationCommunityTestData.json
+[INFO] - [02-02-2026 20:32:38] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [02-02-2026 20:32:38] [utils.appium.TerminalLogsCapture$1] - [INFO] Appium server already running.
+[WARN] - [02-02-2026 20:32:38] [utils.appium.TerminalLogsCapture$1] - [WARN] Could not clear port 8100: Cannot run program "npx": CreateProcess error=2, The system cannot find the file specified
+[WARN] - [02-02-2026 20:32:42] [utils.appium.TerminalLogsCapture$1] - WARN Appium Appium encountered 1 warning while validating plugins found in manifest C:\Users\Kholoud\.appium\node_modules\.cache\appium\extensions.yaml
+[WARN] - [02-02-2026 20:32:42] [utils.appium.TerminalLogsCapture$1] - WARN Appium Plugin "images" has 1 potential problem:
+[WARN] - [02-02-2026 20:32:42] [utils.appium.TerminalLogsCapture$1] - WARN Appium   - Plugin "images" (package `@appium/images-plugin`) may be incompatible with the current version of Appium (v3.1.0) due to its peer dependency on Appium ^2.0.0. Please install a compatible version of the plugin.
+[WARN] - [02-02-2026 20:32:49] [utils.appium.TerminalLogsCapture$1] - WARN Appium Appium encountered 3 warnings while validating drivers found in manifest C:\Users\Kholoud\.appium\node_modules\.cache\appium\extensions.yaml
+[WARN] - [02-02-2026 20:32:49] [utils.appium.TerminalLogsCapture$1] - WARN Appium Driver "xcuitest" has 1 potential problem:
+[WARN] - [02-02-2026 20:32:49] [utils.appium.TerminalLogsCapture$1] - WARN Appium   - Driver "xcuitest" (package `appium-xcuitest-driver`) may be incompatible with the current version of Appium (v3.1.0) due to its peer dependency on Appium ^2.5.4. Try to upgrade `appium-xcuitest-driver` to v9.10.5 or newer.
+[WARN] - [02-02-2026 20:32:49] [utils.appium.TerminalLogsCapture$1] - WARN Appium Driver "espresso" has 1 potential problem:
+[WARN] - [02-02-2026 20:32:49] [utils.appium.TerminalLogsCapture$1] - WARN Appium   - Driver "espresso" (package `appium-espresso-driver`) may be incompatible with the current version of Appium (v3.1.0) due to its peer dependency on Appium ^2.4.1. Try to upgrade `appium-espresso-driver` to v4.1.17 or newer.
+[INFO] - [02-02-2026 20:32:50] [utils.appium.TerminalLogsCapture$1] - [Appium] Welcome to Appium v3.1.0
+[INFO] - [02-02-2026 20:32:50] [utils.appium.TerminalLogsCapture$1] - [Appium] Non-default server args:
+[INFO] - [02-02-2026 20:32:50] [utils.appium.TerminalLogsCapture$1] - [Appium] { address: '127.0.0.1',
+[INFO] - [02-02-2026 20:32:50] [utils.appium.TerminalLogsCapture$1] - loglevel: 'info',
+[INFO] - [02-02-2026 20:32:50] [utils.appium.TerminalLogsCapture$1] - logNoColors: true,
+[INFO] - [02-02-2026 20:32:50] [utils.appium.TerminalLogsCapture$1] - relaxedSecurityEnabled: true,
+[INFO] - [02-02-2026 20:32:50] [utils.appium.TerminalLogsCapture$1] - sessionOverride: true }
+[INFO] - [02-02-2026 20:32:50] [utils.appium.TerminalLogsCapture$1] - [Appium] Enabling relaxed security. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[INFO] - [02-02-2026 20:32:50] [utils.appium.TerminalLogsCapture$1] - [Appium] Attempting to load driver uiautomator2...
+[INFO] - [02-02-2026 20:32:50] [utils.appium.TerminalLogsCapture$1] - [Appium] Attempting to load driver xcuitest...
+[INFO] - [02-02-2026 20:32:50] [utils.appium.TerminalLogsCapture$1] - [Appium] Attempting to load driver espresso...
+[INFO] - [02-02-2026 20:32:56] [utils.appium.TerminalLogsCapture$1] - [Appium] Appium REST http interface listener started on http://127.0.0.1:4723
+[INFO] - [02-02-2026 20:32:56] [utils.appium.TerminalLogsCapture$1] - [Appium] Available drivers:
+[INFO] - [02-02-2026 20:32:56] [utils.appium.TerminalLogsCapture$1] - [Appium]   - uiautomator2@4.2.9 (automationName 'UiAutomator2')
+[INFO] - [02-02-2026 20:32:56] [utils.appium.TerminalLogsCapture$1] - [Appium]   - xcuitest@9.9.4 (automationName 'XCUITest')
+[INFO] - [02-02-2026 20:32:56] [utils.appium.TerminalLogsCapture$1] - [Appium]   - espresso@4.1.13 (automationName 'Espresso')
+[INFO] - [02-02-2026 20:32:56] [utils.appium.TerminalLogsCapture$1] - [Appium] Available plugins:
+[INFO] - [02-02-2026 20:32:56] [utils.appium.TerminalLogsCapture$1] - [Appium]   - images@3.1.3
+[INFO] - [02-02-2026 20:32:56] [utils.appium.TerminalLogsCapture$1] - [Appium] No plugins activated. Use the --use-plugins flag with names of plugins to activate
+[ERROR] - [02-02-2026 20:32:57] [utils.appium.driverManager.DriverManager] -  Failed to initialize driver: Could not start a new session. Response code 500. Message: Error executing adbExec. Original error: 'Command 'C:\\Users\\Kholoud\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy'' exited with code 20'; Command output: cmd: Can't find service: settings
+cmd: Can't find service: settings
+cmd: Can't find service: settings
+ 
+Host info: host: 'LODY', ip: '192.168.1.14'
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25'
+Driver info: io.appium.java_client.AppiumDriver
+Command: [null, newSession {capabilities=[Capabilities {appium:app: C:/Users/Kholoud/IdeaProjec..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: Emu2, appium:systemPort: 8100, platformName: ANDROID}]}]
+Capabilities {appium:app: C:/Users/Kholoud/IdeaProjec..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: Emu2, appium:systemPort: 8100, platformName: ANDROID}
+[INFO] - [02-02-2026 20:32:57] [listeners.MethodInvocationListener] - Finished test: testForgotPasswordFullFlow
+[INFO] - [02-02-2026 20:32:57] [utils.common.AllureUtils] - Attaching logs for test: testForgotPasswordFullFlow
+[INFO] - [02-02-2026 20:32:57] [utils.common.AllureUtils] - Logs attached successfully for test: testForgotPasswordFullFlow
+[INFO] - [02-02-2026 20:32:57] [listeners.TestResultListener] - Test failed: testForgotPasswordFullFlow
+[INFO] - [02-02-2026 20:32:57] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/loginTestData.json
+[INFO] - [02-02-2026 20:32:57] [utils.common.JsonUtils] - Successfully deserialized JSON to: LoginTestData[]
+[INFO] - [02-02-2026 20:32:57] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/registerTestData.json
+[INFO] - [02-02-2026 20:32:57] [utils.common.JsonUtils] - Successfully deserialized JSON to: RegisterTestData[]
+[INFO] - [02-02-2026 20:32:57] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/resetPasswordTestData.json
+[INFO] - [02-02-2026 20:32:57] [utils.common.JsonUtils] - Successfully deserialized JSON to: ResetPasswordTestData[]
+[INFO] - [02-02-2026 20:32:57] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [02-02-2026 20:32:57] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [02-02-2026 20:32:57] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [02-02-2026 20:32:57] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [02-02-2026 20:32:57] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ForgotPasswordTestData.json
+[INFO] - [02-02-2026 20:32:57] [utils.common.JsonUtils] - Successfully deserialized JSON to: ForgotPasswordTestData[]
+[INFO] - [02-02-2026 20:32:58] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyTestData.json
+[INFO] - [02-02-2026 20:32:58] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyTestData[]
+[INFO] - [02-02-2026 20:32:58] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreateNeedyProfileTestData.json
+[INFO] - [02-02-2026 20:32:58] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyProfileTestData[]
+[INFO] - [02-02-2026 20:32:58] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyFunctionTestData.json
+[INFO] - [02-02-2026 20:32:58] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyFunctionsTestData[]
+[INFO] - [02-02-2026 20:32:58] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/DonationTestData.json
+[INFO] - [02-02-2026 20:32:58] [utils.common.JsonUtils] - Successfully deserialized JSON to: EasyGiveTestData[]
+[INFO] - [02-02-2026 20:32:58] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/SingleDonationTestData.json
+[INFO] - [02-02-2026 20:32:58] [utils.common.JsonUtils] - Successfully deserialized JSON to: SingleDonationTestData[]
+[INFO] - [02-02-2026 20:32:58] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ModeratorCommunity.json
+[INFO] - [02-02-2026 20:32:58] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [02-02-2026 20:32:58] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreationCommunityTestData.json
+[INFO] - [02-02-2026 20:32:58] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [02-02-2026 20:32:58] [utils.appium.TerminalLogsCapture$1] - [HTTP] --> GET /status
+[INFO] - [02-02-2026 20:32:58] [utils.appium.TerminalLogsCapture$1] - [INFO] Appium server already running.
+[INFO] - [02-02-2026 20:32:58] [utils.appium.TerminalLogsCapture$1] - [HTTP] <-- GET /status 200 37 ms - 110
+[WARN] - [02-02-2026 20:32:58] [utils.appium.TerminalLogsCapture$1] - [WARN] Could not clear port 8100: Cannot run program "npx": CreateProcess error=2, The system cannot find the file specified
+[INFO] - [02-02-2026 20:32:58] [utils.appium.TerminalLogsCapture$1] - [HTTP] --> POST /session {"capabilities":{"firstMatch":[{"appium:systemPort":"8100","appium:autoGrantPermissions":true,"appium:deviceName":"Emu2","platformName":"ANDROID","appium:automationName":"UiAutomator2","appium:app":"C:/Users/Kholoud/IdeaProjects/Givers/src/main/resources/AUT/app-staging-release.apk"}]}}
+[INFO] - [02-02-2026 20:32:58] [utils.appium.TerminalLogsCapture$1] - [Appium] Attempting to find matching driver for automationName 'UiAutomator2' and platformName 'ANDROID'
+[INFO] - [02-02-2026 20:32:58] [utils.appium.TerminalLogsCapture$1] - [Appium] The 'uiautomator2' driver was installed and matched caps.
+[INFO] - [02-02-2026 20:32:58] [utils.appium.TerminalLogsCapture$1] - [Appium] Will require it at C:\Users\Kholoud\.appium\node_modules\appium-uiautomator2-driver
+[INFO] - [02-02-2026 20:32:58] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@47fa] Appium v3.1.0 creating new AndroidUiautomator2Driver (v4.2.9) session
+[INFO] - [02-02-2026 20:32:58] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@47fa] Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[INFO] - [02-02-2026 20:32:58] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@47fa] Appium's BaseDriver version is 10.1.0
+[INFO] - [02-02-2026 20:32:58] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@47fa] AndroidUiautomator2Driver's BaseDriver version is 10.1.0
+[INFO] - [02-02-2026 20:32:58] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@47fa] Enabling relaxed security for this session as per the server configuration. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[INFO] - [02-02-2026 20:32:58] [utils.appium.TerminalLogsCapture$1] - [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+[INFO] - [02-02-2026 20:32:58] [utils.appium.TerminalLogsCapture$1] - [AndroidUiautomator2Driver@0276] Capability 'systemPort' changed from string ('8100') to integer (8100). This may cause unexpected behavior
+[INFO] - [02-02-2026 20:32:58] [utils.appium.TerminalLogsCapture$1] - [e6bacdf6][AndroidUiautomator2Driver@0276] Session created with session id: e6bacdf6-6143-49cc-bffc-87c39d0e574c
+[INFO] - [02-02-2026 20:32:58] [utils.appium.TerminalLogsCapture$1] - [e6bacdf6][ADB] Found 2 'build-tools' folders under 'C:\Users\Kholoud\AppData\Local\Android\Sdk' (newest first):
+[INFO] - [02-02-2026 20:32:58] [utils.appium.TerminalLogsCapture$1] - [e6bacdf6][ADB]     C:\Users\Kholoud\AppData\Local\Android\Sdk\build-tools\36.0.0
+[INFO] - [02-02-2026 20:32:58] [utils.appium.TerminalLogsCapture$1] - [e6bacdf6][ADB]     C:\Users\Kholoud\AppData\Local\Android\Sdk\build-tools\35.0.0
+[INFO] - [02-02-2026 20:32:58] [utils.appium.TerminalLogsCapture$1] - [e6bacdf6][ADB] Using 'adb.exe' from 'C:\Users\Kholoud\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[INFO] - [02-02-2026 20:32:58] [utils.appium.TerminalLogsCapture$1] - [e6bacdf6][AndroidUiautomator2Driver@0276] Retrieving device list
+[INFO] - [02-02-2026 20:32:58] [utils.appium.TerminalLogsCapture$1] - [e6bacdf6][AndroidUiautomator2Driver@0276] Using device: emulator-5554
+[INFO] - [02-02-2026 20:32:58] [utils.appium.TerminalLogsCapture$1] - [e6bacdf6][ADB] Using 'adb.exe' from 'C:\Users\Kholoud\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[INFO] - [02-02-2026 20:32:58] [utils.appium.TerminalLogsCapture$1] - [e6bacdf6][BaseDriver] Using local app 'C:/Users/Kholoud/IdeaProjects/Givers/src/main/resources/AUT/app-staging-release.apk'
+[INFO] - [02-02-2026 20:33:00] [utils.appium.TerminalLogsCapture$1] - [e6bacdf6][ADB] Getting device platform version
+[INFO] - [02-02-2026 20:33:00] [utils.appium.TerminalLogsCapture$1] - [e6bacdf6][AndroidUiautomator2Driver@0276] Relaxing hidden api policy
+[INFO] - [02-02-2026 20:33:00] [utils.appium.TerminalLogsCapture$1] - [e6bacdf6][ADB] Using 'aapt2.exe' from 'C:\Users\Kholoud\AppData\Local\Android\Sdk\build-tools\36.0.0\aapt2.exe'
+[INFO] - [02-02-2026 20:33:01] [utils.appium.TerminalLogsCapture$1] - [e6bacdf6][AndroidUiautomator2Driver@0276] Hidden API policy (https://developer.android.com/guide/app-compatibility/restrictions-non-sdk-interfaces) cannot be enabled. This might be happening because the device under test is not configured properly. Please check https://github.com/appium/appium/issues/13802 for more details. You could also set the "appium:ignoreHiddenApiPolicyError" capability to true in order to ignore this error, which might later lead to unexpected crashes or behavior of the automation server. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\Kholoud\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 shell 'settings put global hidden_api_policy_pre_p_apps 1;settings put global hidden_api_policy_p_apps 1;settings put global hidden_api_policy 1'' exited with code 20'; Command output: cmd: Can't find service: settings
+[INFO] - [02-02-2026 20:33:01] [utils.appium.TerminalLogsCapture$1] - cmd: Can't find service: settings
+[INFO] - [02-02-2026 20:33:01] [utils.appium.TerminalLogsCapture$1] - cmd: Can't find service: settings
+[INFO] - [02-02-2026 20:33:01] [utils.appium.TerminalLogsCapture$1] - [e6bacdf6][AndroidUiautomator2Driver@0276] Restoring hidden api policy to the device default configuration
+[INFO] - [02-02-2026 20:33:01] [utils.appium.TerminalLogsCapture$1] - [e6bacdf6][ADB] The application at 'C:\Users\Kholoud\.appium\node_modules\appium-uiautomator2-driver\node_modules\io.appium.settings\apks\settings_apk-debug.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[INFO] - [02-02-2026 20:33:01] [utils.appium.TerminalLogsCapture$1] - [e6bacdf6][ADB] Package name: 'com.giversapp.GiversApp.staging'
+[INFO] - [02-02-2026 20:33:01] [utils.appium.TerminalLogsCapture$1] - [e6bacdf6][ADB] Main activity name: 'com.giversapp.GiversApp.staging.MainActivity'
+[INFO] - [02-02-2026 20:33:01] [utils.appium.TerminalLogsCapture$1] - [e6bacdf6][HTTP] <-- POST /session 500 3611 ms - 2245
+[ERROR] - [02-02-2026 20:33:01] [utils.appium.driverManager.DriverManager] -  Failed to initialize driver: Could not start a new session. Response code 500. Message: Error executing adbExec. Original error: 'Command 'C:\\Users\\Kholoud\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy'' exited with code 20'; Command output: cmd: Can't find service: settings
+cmd: Can't find service: settings
+cmd: Can't find service: settings
+ 
+Host info: host: 'LODY', ip: '192.168.1.14'
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25'
+Driver info: io.appium.java_client.AppiumDriver
+Command: [null, newSession {capabilities=[Capabilities {appium:app: C:/Users/Kholoud/IdeaProjec..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: Emu2, appium:systemPort: 8100, platformName: ANDROID}]}]
+Capabilities {appium:app: C:/Users/Kholoud/IdeaProjec..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: Emu2, appium:systemPort: 8100, platformName: ANDROID}
+[INFO] - [02-02-2026 20:33:01] [listeners.MethodInvocationListener] - Finished test: testLogin
+[INFO] - [02-02-2026 20:33:01] [utils.common.AllureUtils] - Attaching logs for test: testLogin
+[INFO] - [02-02-2026 20:33:01] [utils.common.AllureUtils] - Logs attached successfully for test: testLogin
+[INFO] - [02-02-2026 20:33:01] [listeners.TestResultListener] - Test failed: testLogin
+[INFO] - [02-02-2026 20:33:01] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/loginTestData.json
+[INFO] - [02-02-2026 20:33:01] [utils.common.JsonUtils] - Successfully deserialized JSON to: LoginTestData[]
+[INFO] - [02-02-2026 20:33:01] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/registerTestData.json
+[INFO] - [02-02-2026 20:33:01] [utils.common.JsonUtils] - Successfully deserialized JSON to: RegisterTestData[]
+[INFO] - [02-02-2026 20:33:01] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/resetPasswordTestData.json
+[INFO] - [02-02-2026 20:33:01] [utils.common.JsonUtils] - Successfully deserialized JSON to: ResetPasswordTestData[]
+[INFO] - [02-02-2026 20:33:01] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [02-02-2026 20:33:01] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [02-02-2026 20:33:01] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [02-02-2026 20:33:01] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [02-02-2026 20:33:01] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ForgotPasswordTestData.json
+[INFO] - [02-02-2026 20:33:01] [utils.common.JsonUtils] - Successfully deserialized JSON to: ForgotPasswordTestData[]
+[INFO] - [02-02-2026 20:33:01] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyTestData.json
+[INFO] - [02-02-2026 20:33:01] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyTestData[]
+[INFO] - [02-02-2026 20:33:01] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreateNeedyProfileTestData.json
+[INFO] - [02-02-2026 20:33:01] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyProfileTestData[]
+[INFO] - [02-02-2026 20:33:01] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyFunctionTestData.json
+[INFO] - [02-02-2026 20:33:01] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyFunctionsTestData[]
+[INFO] - [02-02-2026 20:33:01] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/DonationTestData.json
+[INFO] - [02-02-2026 20:33:01] [utils.common.JsonUtils] - Successfully deserialized JSON to: EasyGiveTestData[]
+[INFO] - [02-02-2026 20:33:01] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/SingleDonationTestData.json
+[INFO] - [02-02-2026 20:33:01] [utils.common.JsonUtils] - Successfully deserialized JSON to: SingleDonationTestData[]
+[INFO] - [02-02-2026 20:33:01] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ModeratorCommunity.json
+[INFO] - [02-02-2026 20:33:01] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [02-02-2026 20:33:01] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreationCommunityTestData.json
+[INFO] - [02-02-2026 20:33:01] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [02-02-2026 20:33:02] [utils.appium.TerminalLogsCapture$1] - [HTTP] --> GET /status
+[INFO] - [02-02-2026 20:33:02] [utils.appium.TerminalLogsCapture$1] - [INFO] Appium server already running.
+[INFO] - [02-02-2026 20:33:02] [utils.appium.TerminalLogsCapture$1] - [HTTP] <-- GET /status 200 7 ms - 110
+[WARN] - [02-02-2026 20:33:02] [utils.appium.TerminalLogsCapture$1] - [WARN] Could not clear port 8100: Cannot run program "npx": CreateProcess error=2, The system cannot find the file specified
+[INFO] - [02-02-2026 20:33:02] [utils.appium.TerminalLogsCapture$1] - [HTTP] --> POST /session {"capabilities":{"firstMatch":[{"appium:systemPort":"8100","appium:autoGrantPermissions":true,"appium:deviceName":"Emu2","platformName":"ANDROID","appium:automationName":"UiAutomator2","appium:app":"C:/Users/Kholoud/IdeaProjects/Givers/src/main/resources/AUT/app-staging-release.apk"}]}}
+[INFO] - [02-02-2026 20:33:02] [utils.appium.TerminalLogsCapture$1] - [Appium] Attempting to find matching driver for automationName 'UiAutomator2' and platformName 'ANDROID'
+[INFO] - [02-02-2026 20:33:02] [utils.appium.TerminalLogsCapture$1] - [Appium] The 'uiautomator2' driver was installed and matched caps.
+[INFO] - [02-02-2026 20:33:02] [utils.appium.TerminalLogsCapture$1] - [Appium] Will require it at C:\Users\Kholoud\.appium\node_modules\appium-uiautomator2-driver
+[INFO] - [02-02-2026 20:33:02] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@47fa] Appium v3.1.0 creating new AndroidUiautomator2Driver (v4.2.9) session
+[INFO] - [02-02-2026 20:33:02] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@47fa] Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[INFO] - [02-02-2026 20:33:02] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@47fa] Appium's BaseDriver version is 10.1.0
+[INFO] - [02-02-2026 20:33:02] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@47fa] AndroidUiautomator2Driver's BaseDriver version is 10.1.0
+[INFO] - [02-02-2026 20:33:02] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@47fa] Enabling relaxed security for this session as per the server configuration. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[INFO] - [02-02-2026 20:33:02] [utils.appium.TerminalLogsCapture$1] - [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+[INFO] - [02-02-2026 20:33:02] [utils.appium.TerminalLogsCapture$1] - [AndroidUiautomator2Driver@ce93] Capability 'systemPort' changed from string ('8100') to integer (8100). This may cause unexpected behavior
+[INFO] - [02-02-2026 20:33:02] [utils.appium.TerminalLogsCapture$1] - [4cb0aadd][AndroidUiautomator2Driver@ce93] Session created with session id: 4cb0aadd-9370-47be-99ba-ada5aa170179
+[INFO] - [02-02-2026 20:33:02] [utils.appium.TerminalLogsCapture$1] - [4cb0aadd][ADB] Using 'adb.exe' from 'C:\Users\Kholoud\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[INFO] - [02-02-2026 20:33:02] [utils.appium.TerminalLogsCapture$1] - [4cb0aadd][AndroidUiautomator2Driver@ce93] Retrieving device list
+[INFO] - [02-02-2026 20:33:02] [utils.appium.TerminalLogsCapture$1] - [4cb0aadd][AndroidUiautomator2Driver@ce93] Using device: emulator-5554
+[INFO] - [02-02-2026 20:33:02] [utils.appium.TerminalLogsCapture$1] - [4cb0aadd][ADB] Using 'adb.exe' from 'C:\Users\Kholoud\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[INFO] - [02-02-2026 20:33:02] [utils.appium.TerminalLogsCapture$1] - [4cb0aadd][BaseDriver] Using local app 'C:/Users/Kholoud/IdeaProjects/Givers/src/main/resources/AUT/app-staging-release.apk'
+[INFO] - [02-02-2026 20:33:04] [utils.appium.TerminalLogsCapture$1] - [4cb0aadd][ADB] Getting device platform version
+[INFO] - [02-02-2026 20:33:05] [utils.appium.TerminalLogsCapture$1] - [4cb0aadd][AndroidUiautomator2Driver@ce93] Relaxing hidden api policy
+[INFO] - [02-02-2026 20:33:05] [utils.appium.TerminalLogsCapture$1] - [4cb0aadd][ADB] Using 'aapt2.exe' from 'C:\Users\Kholoud\AppData\Local\Android\Sdk\build-tools\36.0.0\aapt2.exe'
+[INFO] - [02-02-2026 20:33:05] [utils.appium.TerminalLogsCapture$1] - [4cb0aadd][AndroidUiautomator2Driver@ce93] Hidden API policy (https://developer.android.com/guide/app-compatibility/restrictions-non-sdk-interfaces) cannot be enabled. This might be happening because the device under test is not configured properly. Please check https://github.com/appium/appium/issues/13802 for more details. You could also set the "appium:ignoreHiddenApiPolicyError" capability to true in order to ignore this error, which might later lead to unexpected crashes or behavior of the automation server. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\Kholoud\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 shell 'settings put global hidden_api_policy_pre_p_apps 1;settings put global hidden_api_policy_p_apps 1;settings put global hidden_api_policy 1'' exited with code 20'; Command output: cmd: Can't find service: settings
+[INFO] - [02-02-2026 20:33:05] [utils.appium.TerminalLogsCapture$1] - cmd: Can't find service: settings
+[INFO] - [02-02-2026 20:33:05] [utils.appium.TerminalLogsCapture$1] - cmd: Can't find service: settings
+[INFO] - [02-02-2026 20:33:05] [utils.appium.TerminalLogsCapture$1] - [4cb0aadd][AndroidUiautomator2Driver@ce93] Restoring hidden api policy to the device default configuration
+[INFO] - [02-02-2026 20:33:05] [utils.appium.TerminalLogsCapture$1] - [4cb0aadd][ADB] The application at 'C:\Users\Kholoud\.appium\node_modules\appium-uiautomator2-driver\node_modules\io.appium.settings\apks\settings_apk-debug.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[INFO] - [02-02-2026 20:33:05] [utils.appium.TerminalLogsCapture$1] - [4cb0aadd][ADB] Package name: 'com.giversapp.GiversApp.staging'
+[INFO] - [02-02-2026 20:33:05] [utils.appium.TerminalLogsCapture$1] - [4cb0aadd][ADB] Main activity name: 'com.giversapp.GiversApp.staging.MainActivity'
+[INFO] - [02-02-2026 20:33:06] [utils.appium.TerminalLogsCapture$1] - [4cb0aadd][HTTP] <-- POST /session 500 3900 ms - 2245
+[ERROR] - [02-02-2026 20:33:06] [utils.appium.driverManager.DriverManager] -  Failed to initialize driver: Could not start a new session. Response code 500. Message: Error executing adbExec. Original error: 'Command 'C:\\Users\\Kholoud\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy'' exited with code 20'; Command output: cmd: Can't find service: settings
+cmd: Can't find service: settings
+cmd: Can't find service: settings
+ 
+Host info: host: 'LODY', ip: '192.168.1.14'
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25'
+Driver info: io.appium.java_client.AppiumDriver
+Command: [null, newSession {capabilities=[Capabilities {appium:app: C:/Users/Kholoud/IdeaProjec..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: Emu2, appium:systemPort: 8100, platformName: ANDROID}]}]
+Capabilities {appium:app: C:/Users/Kholoud/IdeaProjec..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: Emu2, appium:systemPort: 8100, platformName: ANDROID}
+[INFO] - [02-02-2026 20:33:06] [listeners.MethodInvocationListener] - Finished test: testRegistration
+[INFO] - [02-02-2026 20:33:06] [utils.common.AllureUtils] - Attaching logs for test: testRegistration
+[INFO] - [02-02-2026 20:33:06] [utils.common.AllureUtils] - Logs attached successfully for test: testRegistration
+[INFO] - [02-02-2026 20:33:06] [listeners.TestResultListener] - Test failed: testRegistration
+[INFO] - [02-02-2026 20:33:06] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/loginTestData.json
+[INFO] - [02-02-2026 20:33:06] [utils.common.JsonUtils] - Successfully deserialized JSON to: LoginTestData[]
+[INFO] - [02-02-2026 20:33:06] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/registerTestData.json
+[INFO] - [02-02-2026 20:33:06] [utils.common.JsonUtils] - Successfully deserialized JSON to: RegisterTestData[]
+[INFO] - [02-02-2026 20:33:06] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/resetPasswordTestData.json
+[INFO] - [02-02-2026 20:33:06] [utils.common.JsonUtils] - Successfully deserialized JSON to: ResetPasswordTestData[]
+[INFO] - [02-02-2026 20:33:06] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [02-02-2026 20:33:06] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [02-02-2026 20:33:06] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [02-02-2026 20:33:06] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [02-02-2026 20:33:06] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ForgotPasswordTestData.json
+[INFO] - [02-02-2026 20:33:06] [utils.common.JsonUtils] - Successfully deserialized JSON to: ForgotPasswordTestData[]
+[INFO] - [02-02-2026 20:33:06] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyTestData.json
+[INFO] - [02-02-2026 20:33:06] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyTestData[]
+[INFO] - [02-02-2026 20:33:06] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreateNeedyProfileTestData.json
+[INFO] - [02-02-2026 20:33:06] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyProfileTestData[]
+[INFO] - [02-02-2026 20:33:06] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyFunctionTestData.json
+[INFO] - [02-02-2026 20:33:06] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyFunctionsTestData[]
+[INFO] - [02-02-2026 20:33:06] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/DonationTestData.json
+[INFO] - [02-02-2026 20:33:06] [utils.common.JsonUtils] - Successfully deserialized JSON to: EasyGiveTestData[]
+[INFO] - [02-02-2026 20:33:06] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/SingleDonationTestData.json
+[INFO] - [02-02-2026 20:33:06] [utils.common.JsonUtils] - Successfully deserialized JSON to: SingleDonationTestData[]
+[INFO] - [02-02-2026 20:33:06] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ModeratorCommunity.json
+[INFO] - [02-02-2026 20:33:06] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [02-02-2026 20:33:06] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreationCommunityTestData.json
+[INFO] - [02-02-2026 20:33:06] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [02-02-2026 20:33:06] [utils.appium.TerminalLogsCapture$1] - [HTTP] --> GET /status
+[INFO] - [02-02-2026 20:33:06] [utils.appium.TerminalLogsCapture$1] - [INFO] Appium server already running.
+[INFO] - [02-02-2026 20:33:06] [utils.appium.TerminalLogsCapture$1] - [HTTP] <-- GET /status 200 6 ms - 110
+[WARN] - [02-02-2026 20:33:06] [utils.appium.TerminalLogsCapture$1] - [WARN] Could not clear port 8100: Cannot run program "npx": CreateProcess error=2, The system cannot find the file specified
+[INFO] - [02-02-2026 20:33:06] [utils.appium.TerminalLogsCapture$1] - [HTTP] --> POST /session {"capabilities":{"firstMatch":[{"appium:systemPort":"8100","appium:autoGrantPermissions":true,"appium:deviceName":"Emu2","platformName":"ANDROID","appium:automationName":"UiAutomator2","appium:app":"C:/Users/Kholoud/IdeaProjects/Givers/src/main/resources/AUT/app-staging-release.apk"}]}}
+[INFO] - [02-02-2026 20:33:06] [utils.appium.TerminalLogsCapture$1] - [Appium] Attempting to find matching driver for automationName 'UiAutomator2' and platformName 'ANDROID'
+[INFO] - [02-02-2026 20:33:06] [utils.appium.TerminalLogsCapture$1] - [Appium] The 'uiautomator2' driver was installed and matched caps.
+[INFO] - [02-02-2026 20:33:06] [utils.appium.TerminalLogsCapture$1] - [Appium] Will require it at C:\Users\Kholoud\.appium\node_modules\appium-uiautomator2-driver
+[INFO] - [02-02-2026 20:33:06] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@47fa] Appium v3.1.0 creating new AndroidUiautomator2Driver (v4.2.9) session
+[INFO] - [02-02-2026 20:33:06] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@47fa] Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[INFO] - [02-02-2026 20:33:06] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@47fa] Appium's BaseDriver version is 10.1.0
+[INFO] - [02-02-2026 20:33:06] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@47fa] AndroidUiautomator2Driver's BaseDriver version is 10.1.0
+[INFO] - [02-02-2026 20:33:06] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@47fa] Enabling relaxed security for this session as per the server configuration. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[INFO] - [02-02-2026 20:33:06] [utils.appium.TerminalLogsCapture$1] - [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+[INFO] - [02-02-2026 20:33:06] [utils.appium.TerminalLogsCapture$1] - [AndroidUiautomator2Driver@5380] Capability 'systemPort' changed from string ('8100') to integer (8100). This may cause unexpected behavior
+[INFO] - [02-02-2026 20:33:06] [utils.appium.TerminalLogsCapture$1] - [5a85a5e1][AndroidUiautomator2Driver@5380] Session created with session id: 5a85a5e1-f27d-4d60-86bf-52da3d35f6fe
+[INFO] - [02-02-2026 20:33:06] [utils.appium.TerminalLogsCapture$1] - [5a85a5e1][ADB] Using 'adb.exe' from 'C:\Users\Kholoud\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[INFO] - [02-02-2026 20:33:06] [utils.appium.TerminalLogsCapture$1] - [5a85a5e1][AndroidUiautomator2Driver@5380] Retrieving device list
+[INFO] - [02-02-2026 20:33:06] [utils.appium.TerminalLogsCapture$1] - [5a85a5e1][AndroidUiautomator2Driver@5380] Using device: emulator-5554
+[INFO] - [02-02-2026 20:33:06] [utils.appium.TerminalLogsCapture$1] - [5a85a5e1][ADB] Using 'adb.exe' from 'C:\Users\Kholoud\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[INFO] - [02-02-2026 20:33:06] [utils.appium.TerminalLogsCapture$1] - [5a85a5e1][BaseDriver] Using local app 'C:/Users/Kholoud/IdeaProjects/Givers/src/main/resources/AUT/app-staging-release.apk'
+[INFO] - [02-02-2026 20:33:06] [utils.appium.TerminalLogsCapture$1] - [e6bacdf6][ADB] The application at 'C:\Users\Kholoud\.appium\node_modules\appium-uiautomator2-driver\node_modules\io.appium.settings\apks\settings_apk-debug.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[INFO] - [02-02-2026 20:33:08] [utils.appium.TerminalLogsCapture$1] - [5a85a5e1][ADB] Getting device platform version
+[INFO] - [02-02-2026 20:33:08] [utils.appium.TerminalLogsCapture$1] - [5a85a5e1][AndroidUiautomator2Driver@5380] Relaxing hidden api policy
+[INFO] - [02-02-2026 20:33:08] [utils.appium.TerminalLogsCapture$1] - [5a85a5e1][ADB] Using 'aapt2.exe' from 'C:\Users\Kholoud\AppData\Local\Android\Sdk\build-tools\36.0.0\aapt2.exe'
+[INFO] - [02-02-2026 20:33:08] [utils.appium.TerminalLogsCapture$1] - [5a85a5e1][AndroidUiautomator2Driver@5380] Hidden API policy (https://developer.android.com/guide/app-compatibility/restrictions-non-sdk-interfaces) cannot be enabled. This might be happening because the device under test is not configured properly. Please check https://github.com/appium/appium/issues/13802 for more details. You could also set the "appium:ignoreHiddenApiPolicyError" capability to true in order to ignore this error, which might later lead to unexpected crashes or behavior of the automation server. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\Kholoud\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 shell 'settings put global hidden_api_policy_pre_p_apps 1;settings put global hidden_api_policy_p_apps 1;settings put global hidden_api_policy 1'' exited with code 20'; Command output: cmd: Can't find service: settings
+[INFO] - [02-02-2026 20:33:08] [utils.appium.TerminalLogsCapture$1] - cmd: Can't find service: settings
+[INFO] - [02-02-2026 20:33:08] [utils.appium.TerminalLogsCapture$1] - cmd: Can't find service: settings
+[INFO] - [02-02-2026 20:33:08] [utils.appium.TerminalLogsCapture$1] - [5a85a5e1][AndroidUiautomator2Driver@5380] Restoring hidden api policy to the device default configuration
+[INFO] - [02-02-2026 20:33:08] [utils.appium.TerminalLogsCapture$1] - [5a85a5e1][ADB] The application at 'C:\Users\Kholoud\.appium\node_modules\appium-uiautomator2-driver\node_modules\io.appium.settings\apks\settings_apk-debug.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[INFO] - [02-02-2026 20:33:08] [utils.appium.TerminalLogsCapture$1] - [5a85a5e1][ADB] Package name: 'com.giversapp.GiversApp.staging'
+[INFO] - [02-02-2026 20:33:08] [utils.appium.TerminalLogsCapture$1] - [5a85a5e1][ADB] Main activity name: 'com.giversapp.GiversApp.staging.MainActivity'
+[INFO] - [02-02-2026 20:33:09] [utils.appium.TerminalLogsCapture$1] - [5a85a5e1][HTTP] <-- POST /session 500 2988 ms - 2245
+[ERROR] - [02-02-2026 20:33:09] [utils.appium.driverManager.DriverManager] -  Failed to initialize driver: Could not start a new session. Response code 500. Message: Error executing adbExec. Original error: 'Command 'C:\\Users\\Kholoud\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy'' exited with code 20'; Command output: cmd: Can't find service: settings
+cmd: Can't find service: settings
+cmd: Can't find service: settings
+ 
+Host info: host: 'LODY', ip: '192.168.1.14'
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25'
+Driver info: io.appium.java_client.AppiumDriver
+Command: [null, newSession {capabilities=[Capabilities {appium:app: C:/Users/Kholoud/IdeaProjec..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: Emu2, appium:systemPort: 8100, platformName: ANDROID}]}]
+Capabilities {appium:app: C:/Users/Kholoud/IdeaProjec..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: Emu2, appium:systemPort: 8100, platformName: ANDROID}
+[INFO] - [02-02-2026 20:33:09] [listeners.MethodInvocationListener] - Finished test: testFullResetPasswordFlow
+[INFO] - [02-02-2026 20:33:09] [utils.common.AllureUtils] - Attaching logs for test: testFullResetPasswordFlow
+[INFO] - [02-02-2026 20:33:09] [utils.common.AllureUtils] - Logs attached successfully for test: testFullResetPasswordFlow
+[INFO] - [02-02-2026 20:33:09] [listeners.TestResultListener] - Test failed: testFullResetPasswordFlow
+[INFO] - [02-02-2026 20:33:09] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/loginTestData.json
+[INFO] - [02-02-2026 20:33:09] [utils.common.JsonUtils] - Successfully deserialized JSON to: LoginTestData[]
+[INFO] - [02-02-2026 20:33:09] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/registerTestData.json
+[INFO] - [02-02-2026 20:33:09] [utils.common.JsonUtils] - Successfully deserialized JSON to: RegisterTestData[]
+[INFO] - [02-02-2026 20:33:09] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/resetPasswordTestData.json
+[INFO] - [02-02-2026 20:33:09] [utils.common.JsonUtils] - Successfully deserialized JSON to: ResetPasswordTestData[]
+[INFO] - [02-02-2026 20:33:09] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [02-02-2026 20:33:09] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [02-02-2026 20:33:09] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [02-02-2026 20:33:09] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [02-02-2026 20:33:09] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ForgotPasswordTestData.json
+[INFO] - [02-02-2026 20:33:09] [utils.common.JsonUtils] - Successfully deserialized JSON to: ForgotPasswordTestData[]
+[INFO] - [02-02-2026 20:33:09] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyTestData.json
+[INFO] - [02-02-2026 20:33:09] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyTestData[]
+[INFO] - [02-02-2026 20:33:09] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreateNeedyProfileTestData.json
+[INFO] - [02-02-2026 20:33:09] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyProfileTestData[]
+[INFO] - [02-02-2026 20:33:09] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyFunctionTestData.json
+[INFO] - [02-02-2026 20:33:09] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyFunctionsTestData[]
+[INFO] - [02-02-2026 20:33:09] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/DonationTestData.json
+[INFO] - [02-02-2026 20:33:09] [utils.common.JsonUtils] - Successfully deserialized JSON to: EasyGiveTestData[]
+[INFO] - [02-02-2026 20:33:09] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/SingleDonationTestData.json
+[INFO] - [02-02-2026 20:33:09] [utils.common.JsonUtils] - Successfully deserialized JSON to: SingleDonationTestData[]
+[INFO] - [02-02-2026 20:33:09] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ModeratorCommunity.json
+[INFO] - [02-02-2026 20:33:09] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [02-02-2026 20:33:09] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreationCommunityTestData.json
+[INFO] - [02-02-2026 20:33:09] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [02-02-2026 20:33:09] [utils.appium.TerminalLogsCapture$1] - [HTTP] --> GET /status
+[INFO] - [02-02-2026 20:33:09] [utils.appium.TerminalLogsCapture$1] - [INFO] Appium server already running.
+[INFO] - [02-02-2026 20:33:09] [utils.appium.TerminalLogsCapture$1] - [HTTP] <-- GET /status 200 4 ms - 110
+[WARN] - [02-02-2026 20:33:09] [utils.appium.TerminalLogsCapture$1] - [WARN] Could not clear port 8100: Cannot run program "npx": CreateProcess error=2, The system cannot find the file specified
+[INFO] - [02-02-2026 20:33:09] [utils.appium.TerminalLogsCapture$1] - [HTTP] --> POST /session {"capabilities":{"firstMatch":[{"appium:systemPort":"8100","appium:autoGrantPermissions":true,"appium:deviceName":"Emu2","platformName":"ANDROID","appium:automationName":"UiAutomator2","appium:app":"C:/Users/Kholoud/IdeaProjects/Givers/src/main/resources/AUT/app-staging-release.apk"}]}}
+[INFO] - [02-02-2026 20:33:09] [utils.appium.TerminalLogsCapture$1] - [Appium] Attempting to find matching driver for automationName 'UiAutomator2' and platformName 'ANDROID'
+[INFO] - [02-02-2026 20:33:09] [utils.appium.TerminalLogsCapture$1] - [Appium] The 'uiautomator2' driver was installed and matched caps.
+[INFO] - [02-02-2026 20:33:09] [utils.appium.TerminalLogsCapture$1] - [Appium] Will require it at C:\Users\Kholoud\.appium\node_modules\appium-uiautomator2-driver
+[INFO] - [02-02-2026 20:33:09] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@47fa] Appium v3.1.0 creating new AndroidUiautomator2Driver (v4.2.9) session
+[INFO] - [02-02-2026 20:33:09] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@47fa] Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[INFO] - [02-02-2026 20:33:09] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@47fa] Appium's BaseDriver version is 10.1.0
+[INFO] - [02-02-2026 20:33:09] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@47fa] AndroidUiautomator2Driver's BaseDriver version is 10.1.0
+[INFO] - [02-02-2026 20:33:09] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@47fa] Enabling relaxed security for this session as per the server configuration. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[INFO] - [02-02-2026 20:33:09] [utils.appium.TerminalLogsCapture$1] - [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+[INFO] - [02-02-2026 20:33:09] [utils.appium.TerminalLogsCapture$1] - [AndroidUiautomator2Driver@36be] Capability 'systemPort' changed from string ('8100') to integer (8100). This may cause unexpected behavior
+[INFO] - [02-02-2026 20:33:09] [utils.appium.TerminalLogsCapture$1] - [58b812b5][AndroidUiautomator2Driver@36be] Session created with session id: 58b812b5-3794-4a0b-a338-6e043cef2ce5
+[INFO] - [02-02-2026 20:33:09] [utils.appium.TerminalLogsCapture$1] - [58b812b5][ADB] Using 'adb.exe' from 'C:\Users\Kholoud\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[INFO] - [02-02-2026 20:33:09] [utils.appium.TerminalLogsCapture$1] - [58b812b5][AndroidUiautomator2Driver@36be] Retrieving device list
+[INFO] - [02-02-2026 20:33:09] [utils.appium.TerminalLogsCapture$1] - [58b812b5][AndroidUiautomator2Driver@36be] Using device: emulator-5554
+[INFO] - [02-02-2026 20:33:09] [utils.appium.TerminalLogsCapture$1] - [58b812b5][ADB] Using 'adb.exe' from 'C:\Users\Kholoud\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[INFO] - [02-02-2026 20:33:09] [utils.appium.TerminalLogsCapture$1] - [58b812b5][BaseDriver] Using local app 'C:/Users/Kholoud/IdeaProjects/Givers/src/main/resources/AUT/app-staging-release.apk'
+[INFO] - [02-02-2026 20:33:11] [utils.appium.TerminalLogsCapture$1] - [4cb0aadd][ADB] The application at 'C:\Users\Kholoud\.appium\node_modules\appium-uiautomator2-driver\node_modules\io.appium.settings\apks\settings_apk-debug.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[INFO] - [02-02-2026 20:33:11] [utils.appium.TerminalLogsCapture$1] - [58b812b5][ADB] Getting device platform version
+[INFO] - [02-02-2026 20:33:11] [utils.appium.TerminalLogsCapture$1] - [58b812b5][AndroidUiautomator2Driver@36be] Relaxing hidden api policy
+[INFO] - [02-02-2026 20:33:11] [utils.appium.TerminalLogsCapture$1] - [58b812b5][ADB] Using 'aapt2.exe' from 'C:\Users\Kholoud\AppData\Local\Android\Sdk\build-tools\36.0.0\aapt2.exe'
+[INFO] - [02-02-2026 20:33:11] [utils.appium.TerminalLogsCapture$1] - [58b812b5][AndroidUiautomator2Driver@36be] Hidden API policy (https://developer.android.com/guide/app-compatibility/restrictions-non-sdk-interfaces) cannot be enabled. This might be happening because the device under test is not configured properly. Please check https://github.com/appium/appium/issues/13802 for more details. You could also set the "appium:ignoreHiddenApiPolicyError" capability to true in order to ignore this error, which might later lead to unexpected crashes or behavior of the automation server. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\Kholoud\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 shell 'settings put global hidden_api_policy_pre_p_apps 1;settings put global hidden_api_policy_p_apps 1;settings put global hidden_api_policy 1'' exited with code 20'; Command output: cmd: Can't find service: settings
+[INFO] - [02-02-2026 20:33:11] [utils.appium.TerminalLogsCapture$1] - cmd: Can't find service: settings
+[INFO] - [02-02-2026 20:33:11] [utils.appium.TerminalLogsCapture$1] - cmd: Can't find service: settings
+[INFO] - [02-02-2026 20:33:11] [utils.appium.TerminalLogsCapture$1] - [58b812b5][AndroidUiautomator2Driver@36be] Restoring hidden api policy to the device default configuration
+[INFO] - [02-02-2026 20:33:11] [utils.appium.TerminalLogsCapture$1] - [58b812b5][ADB] The application at 'C:\Users\Kholoud\.appium\node_modules\appium-uiautomator2-driver\node_modules\io.appium.settings\apks\settings_apk-debug.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[INFO] - [02-02-2026 20:33:11] [utils.appium.TerminalLogsCapture$1] - [e6bacdf6][ADB] The application at 'C:\Users\Kholoud\.appium\node_modules\appium-uiautomator2-driver\node_modules\io.appium.settings\apks\settings_apk-debug.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[INFO] - [02-02-2026 20:33:11] [utils.appium.TerminalLogsCapture$1] - [58b812b5][ADB] Package name: 'com.giversapp.GiversApp.staging'
+[INFO] - [02-02-2026 20:33:11] [utils.appium.TerminalLogsCapture$1] - [58b812b5][ADB] Main activity name: 'com.giversapp.GiversApp.staging.MainActivity'
+[INFO] - [02-02-2026 20:33:12] [utils.appium.TerminalLogsCapture$1] - [58b812b5][HTTP] <-- POST /session 500 3086 ms - 2245
+[ERROR] - [02-02-2026 20:33:12] [utils.appium.driverManager.DriverManager] -  Failed to initialize driver: Could not start a new session. Response code 500. Message: Error executing adbExec. Original error: 'Command 'C:\\Users\\Kholoud\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy'' exited with code 20'; Command output: cmd: Can't find service: settings
+cmd: Can't find service: settings
+cmd: Can't find service: settings
+ 
+Host info: host: 'LODY', ip: '192.168.1.14'
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25'
+Driver info: io.appium.java_client.AppiumDriver
+Command: [null, newSession {capabilities=[Capabilities {appium:app: C:/Users/Kholoud/IdeaProjec..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: Emu2, appium:systemPort: 8100, platformName: ANDROID}]}]
+Capabilities {appium:app: C:/Users/Kholoud/IdeaProjec..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: Emu2, appium:systemPort: 8100, platformName: ANDROID}
+[INFO] - [02-02-2026 20:33:12] [listeners.MethodInvocationListener] - Finished test: testBadgesValidation
+[INFO] - [02-02-2026 20:33:12] [utils.common.AllureUtils] - Attaching logs for test: testBadgesValidation
+[INFO] - [02-02-2026 20:33:12] [utils.common.AllureUtils] - Logs attached successfully for test: testBadgesValidation
+[INFO] - [02-02-2026 20:33:12] [listeners.TestResultListener] - Test failed: testBadgesValidation
+[INFO] - [02-02-2026 20:33:12] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/loginTestData.json
+[INFO] - [02-02-2026 20:33:12] [utils.common.JsonUtils] - Successfully deserialized JSON to: LoginTestData[]
+[INFO] - [02-02-2026 20:33:12] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/registerTestData.json
+[INFO] - [02-02-2026 20:33:12] [utils.common.JsonUtils] - Successfully deserialized JSON to: RegisterTestData[]
+[INFO] - [02-02-2026 20:33:12] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/resetPasswordTestData.json
+[INFO] - [02-02-2026 20:33:12] [utils.common.JsonUtils] - Successfully deserialized JSON to: ResetPasswordTestData[]
+[INFO] - [02-02-2026 20:33:12] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [02-02-2026 20:33:12] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [02-02-2026 20:33:12] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [02-02-2026 20:33:12] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [02-02-2026 20:33:12] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ForgotPasswordTestData.json
+[INFO] - [02-02-2026 20:33:12] [utils.common.JsonUtils] - Successfully deserialized JSON to: ForgotPasswordTestData[]
+[INFO] - [02-02-2026 20:33:12] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyTestData.json
+[INFO] - [02-02-2026 20:33:12] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyTestData[]
+[INFO] - [02-02-2026 20:33:12] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreateNeedyProfileTestData.json
+[INFO] - [02-02-2026 20:33:12] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyProfileTestData[]
+[INFO] - [02-02-2026 20:33:12] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyFunctionTestData.json
+[INFO] - [02-02-2026 20:33:12] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyFunctionsTestData[]
+[INFO] - [02-02-2026 20:33:12] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/DonationTestData.json
+[INFO] - [02-02-2026 20:33:12] [utils.common.JsonUtils] - Successfully deserialized JSON to: EasyGiveTestData[]
+[INFO] - [02-02-2026 20:33:12] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/SingleDonationTestData.json
+[INFO] - [02-02-2026 20:33:12] [utils.common.JsonUtils] - Successfully deserialized JSON to: SingleDonationTestData[]
+[INFO] - [02-02-2026 20:33:12] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ModeratorCommunity.json
+[INFO] - [02-02-2026 20:33:12] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [02-02-2026 20:33:12] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreationCommunityTestData.json
+[INFO] - [02-02-2026 20:33:12] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [02-02-2026 20:33:12] [utils.appium.TerminalLogsCapture$1] - [HTTP] --> GET /status
+[INFO] - [02-02-2026 20:33:12] [utils.appium.TerminalLogsCapture$1] - [INFO] Appium server already running.
+[INFO] - [02-02-2026 20:33:12] [utils.appium.TerminalLogsCapture$1] - [HTTP] <-- GET /status 200 4 ms - 110
+[WARN] - [02-02-2026 20:33:12] [utils.appium.TerminalLogsCapture$1] - [WARN] Could not clear port 8100: Cannot run program "npx": CreateProcess error=2, The system cannot find the file specified
+[INFO] - [02-02-2026 20:33:12] [utils.appium.TerminalLogsCapture$1] - [HTTP] --> POST /session {"capabilities":{"firstMatch":[{"appium:systemPort":"8100","appium:autoGrantPermissions":true,"appium:deviceName":"Emu2","platformName":"ANDROID","appium:automationName":"UiAutomator2","appium:app":"C:/Users/Kholoud/IdeaProjects/Givers/src/main/resources/AUT/app-staging-release.apk"}]}}
+[INFO] - [02-02-2026 20:33:12] [utils.appium.TerminalLogsCapture$1] - [Appium] Attempting to find matching driver for automationName 'UiAutomator2' and platformName 'ANDROID'
+[INFO] - [02-02-2026 20:33:12] [utils.appium.TerminalLogsCapture$1] - [Appium] The 'uiautomator2' driver was installed and matched caps.
+[INFO] - [02-02-2026 20:33:12] [utils.appium.TerminalLogsCapture$1] - [Appium] Will require it at C:\Users\Kholoud\.appium\node_modules\appium-uiautomator2-driver
+[INFO] - [02-02-2026 20:33:12] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@47fa] Appium v3.1.0 creating new AndroidUiautomator2Driver (v4.2.9) session
+[INFO] - [02-02-2026 20:33:12] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@47fa] Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[INFO] - [02-02-2026 20:33:12] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@47fa] Appium's BaseDriver version is 10.1.0
+[INFO] - [02-02-2026 20:33:12] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@47fa] AndroidUiautomator2Driver's BaseDriver version is 10.1.0
+[INFO] - [02-02-2026 20:33:12] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@47fa] Enabling relaxed security for this session as per the server configuration. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[INFO] - [02-02-2026 20:33:12] [utils.appium.TerminalLogsCapture$1] - [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+[INFO] - [02-02-2026 20:33:12] [utils.appium.TerminalLogsCapture$1] - [AndroidUiautomator2Driver@f6b2] Capability 'systemPort' changed from string ('8100') to integer (8100). This may cause unexpected behavior
+[INFO] - [02-02-2026 20:33:12] [utils.appium.TerminalLogsCapture$1] - [8919f747][AndroidUiautomator2Driver@f6b2] Session created with session id: 8919f747-1831-4d42-b7e1-3fa44b367373
+[INFO] - [02-02-2026 20:33:12] [utils.appium.TerminalLogsCapture$1] - [8919f747][ADB] Using 'adb.exe' from 'C:\Users\Kholoud\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[INFO] - [02-02-2026 20:33:12] [utils.appium.TerminalLogsCapture$1] - [8919f747][AndroidUiautomator2Driver@f6b2] Retrieving device list
+[INFO] - [02-02-2026 20:33:12] [utils.appium.TerminalLogsCapture$1] - [8919f747][AndroidUiautomator2Driver@f6b2] Using device: emulator-5554
+[INFO] - [02-02-2026 20:33:12] [utils.appium.TerminalLogsCapture$1] - [8919f747][ADB] Using 'adb.exe' from 'C:\Users\Kholoud\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[INFO] - [02-02-2026 20:33:12] [utils.appium.TerminalLogsCapture$1] - [8919f747][BaseDriver] Using local app 'C:/Users/Kholoud/IdeaProjects/Givers/src/main/resources/AUT/app-staging-release.apk'
+[INFO] - [02-02-2026 20:33:14] [utils.appium.TerminalLogsCapture$1] - [5a85a5e1][ADB] The application at 'C:\Users\Kholoud\.appium\node_modules\appium-uiautomator2-driver\node_modules\io.appium.settings\apks\settings_apk-debug.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[INFO] - [02-02-2026 20:33:16] [utils.appium.TerminalLogsCapture$1] - [4cb0aadd][ADB] The application at 'C:\Users\Kholoud\.appium\node_modules\appium-uiautomator2-driver\node_modules\io.appium.settings\apks\settings_apk-debug.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[INFO] - [02-02-2026 20:33:16] [utils.appium.TerminalLogsCapture$1] - [8919f747][ADB] Getting device platform version
+[INFO] - [02-02-2026 20:33:16] [utils.appium.TerminalLogsCapture$1] - [8919f747][AndroidUiautomator2Driver@f6b2] Relaxing hidden api policy
+[INFO] - [02-02-2026 20:33:16] [utils.appium.TerminalLogsCapture$1] - [8919f747][ADB] Using 'aapt2.exe' from 'C:\Users\Kholoud\AppData\Local\Android\Sdk\build-tools\36.0.0\aapt2.exe'
+[INFO] - [02-02-2026 20:33:17] [utils.appium.TerminalLogsCapture$1] - [58b812b5][ADB] The application at 'C:\Users\Kholoud\.appium\node_modules\appium-uiautomator2-driver\node_modules\io.appium.settings\apks\settings_apk-debug.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[INFO] - [02-02-2026 20:33:17] [utils.appium.TerminalLogsCapture$1] - [8919f747][ADB] Package name: 'com.giversapp.GiversApp.staging'
+[INFO] - [02-02-2026 20:33:17] [utils.appium.TerminalLogsCapture$1] - [8919f747][ADB] Main activity name: 'com.giversapp.GiversApp.staging.MainActivity'
+[INFO] - [02-02-2026 20:33:17] [utils.appium.TerminalLogsCapture$1] - [8919f747][ADB] The application at 'C:\Users\Kholoud\.appium\node_modules\appium-uiautomator2-driver\node_modules\io.appium.settings\apks\settings_apk-debug.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[INFO] - [02-02-2026 20:33:17] [utils.appium.TerminalLogsCapture$1] - [8919f747][AndroidUiautomator2Driver@f6b2] Hidden API policy (https://developer.android.com/guide/app-compatibility/restrictions-non-sdk-interfaces) cannot be enabled. This might be happening because the device under test is not configured properly. Please check https://github.com/appium/appium/issues/13802 for more details. You could also set the "appium:ignoreHiddenApiPolicyError" capability to true in order to ignore this error, which might later lead to unexpected crashes or behavior of the automation server. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\Kholoud\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 shell 'settings put global hidden_api_policy_pre_p_apps 1;settings put global hidden_api_policy_p_apps 1;settings put global hidden_api_policy 1'' exited with code 20'; Command output: cmd: Can't find service: settings
+[INFO] - [02-02-2026 20:33:17] [utils.appium.TerminalLogsCapture$1] - cmd: Can't find service: settings
+[INFO] - [02-02-2026 20:33:17] [utils.appium.TerminalLogsCapture$1] - cmd: Can't find service: settings
+[INFO] - [02-02-2026 20:33:17] [utils.appium.TerminalLogsCapture$1] - [8919f747][AndroidUiautomator2Driver@f6b2] Restoring hidden api policy to the device default configuration
+[INFO] - [02-02-2026 20:33:18] [utils.appium.TerminalLogsCapture$1] - [8919f747][HTTP] <-- POST /session 500 6073 ms - 2245
+[ERROR] - [02-02-2026 20:33:18] [utils.appium.driverManager.DriverManager] -  Failed to initialize driver: Could not start a new session. Response code 500. Message: Error executing adbExec. Original error: 'Command 'C:\\Users\\Kholoud\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy'' exited with code 20'; Command output: cmd: Can't find service: settings
+cmd: Can't find service: settings
+cmd: Can't find service: settings
+ 
+Host info: host: 'LODY', ip: '192.168.1.14'
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25'
+Driver info: io.appium.java_client.AppiumDriver
+Command: [null, newSession {capabilities=[Capabilities {appium:app: C:/Users/Kholoud/IdeaProjec..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: Emu2, appium:systemPort: 8100, platformName: ANDROID}]}]
+Capabilities {appium:app: C:/Users/Kholoud/IdeaProjec..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: Emu2, appium:systemPort: 8100, platformName: ANDROID}
+[INFO] - [02-02-2026 20:33:18] [listeners.MethodInvocationListener] - Finished test: testCreationCommunityScenario
+[INFO] - [02-02-2026 20:33:18] [utils.common.AllureUtils] - Attaching logs for test: testCreationCommunityScenario
+[INFO] - [02-02-2026 20:33:18] [utils.common.AllureUtils] - Logs attached successfully for test: testCreationCommunityScenario
+[INFO] - [02-02-2026 20:33:18] [listeners.TestResultListener] - Test failed: testCreationCommunityScenario
+[INFO] - [02-02-2026 20:33:18] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/loginTestData.json
+[INFO] - [02-02-2026 20:33:18] [utils.common.JsonUtils] - Successfully deserialized JSON to: LoginTestData[]
+[INFO] - [02-02-2026 20:33:18] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/registerTestData.json
+[INFO] - [02-02-2026 20:33:18] [utils.common.JsonUtils] - Successfully deserialized JSON to: RegisterTestData[]
+[INFO] - [02-02-2026 20:33:18] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/resetPasswordTestData.json
+[INFO] - [02-02-2026 20:33:18] [utils.common.JsonUtils] - Successfully deserialized JSON to: ResetPasswordTestData[]
+[INFO] - [02-02-2026 20:33:18] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [02-02-2026 20:33:18] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [02-02-2026 20:33:18] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [02-02-2026 20:33:18] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [02-02-2026 20:33:18] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ForgotPasswordTestData.json
+[INFO] - [02-02-2026 20:33:18] [utils.common.JsonUtils] - Successfully deserialized JSON to: ForgotPasswordTestData[]
+[INFO] - [02-02-2026 20:33:18] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyTestData.json
+[INFO] - [02-02-2026 20:33:18] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyTestData[]
+[INFO] - [02-02-2026 20:33:18] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreateNeedyProfileTestData.json
+[INFO] - [02-02-2026 20:33:18] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyProfileTestData[]
+[INFO] - [02-02-2026 20:33:18] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyFunctionTestData.json
+[INFO] - [02-02-2026 20:33:18] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyFunctionsTestData[]
+[INFO] - [02-02-2026 20:33:18] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/DonationTestData.json
+[INFO] - [02-02-2026 20:33:18] [utils.common.JsonUtils] - Successfully deserialized JSON to: EasyGiveTestData[]
+[INFO] - [02-02-2026 20:33:18] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/SingleDonationTestData.json
+[INFO] - [02-02-2026 20:33:18] [utils.common.JsonUtils] - Successfully deserialized JSON to: SingleDonationTestData[]
+[INFO] - [02-02-2026 20:33:18] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ModeratorCommunity.json
+[INFO] - [02-02-2026 20:33:18] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [02-02-2026 20:33:18] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreationCommunityTestData.json
+[INFO] - [02-02-2026 20:33:18] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [02-02-2026 20:33:18] [utils.appium.TerminalLogsCapture$1] - [HTTP] --> GET /status
+[INFO] - [02-02-2026 20:33:18] [utils.appium.TerminalLogsCapture$1] - [HTTP] <-- GET /status 200 2 ms - 110
+[INFO] - [02-02-2026 20:33:18] [utils.appium.TerminalLogsCapture$1] - [INFO] Appium server already running.
+[WARN] - [02-02-2026 20:33:18] [utils.appium.TerminalLogsCapture$1] - [WARN] Could not clear port 8100: Cannot run program "npx": CreateProcess error=2, The system cannot find the file specified
+[INFO] - [02-02-2026 20:33:18] [utils.appium.TerminalLogsCapture$1] - [HTTP] --> POST /session {"capabilities":{"firstMatch":[{"appium:systemPort":"8100","appium:autoGrantPermissions":true,"appium:deviceName":"Emu2","platformName":"ANDROID","appium:automationName":"UiAutomator2","appium:app":"C:/Users/Kholoud/IdeaProjects/Givers/src/main/resources/AUT/app-staging-release.apk"}]}}
+[INFO] - [02-02-2026 20:33:18] [utils.appium.TerminalLogsCapture$1] - [Appium] Attempting to find matching driver for automationName 'UiAutomator2' and platformName 'ANDROID'
+[INFO] - [02-02-2026 20:33:18] [utils.appium.TerminalLogsCapture$1] - [Appium] The 'uiautomator2' driver was installed and matched caps.
+[INFO] - [02-02-2026 20:33:18] [utils.appium.TerminalLogsCapture$1] - [Appium] Will require it at C:\Users\Kholoud\.appium\node_modules\appium-uiautomator2-driver
+[INFO] - [02-02-2026 20:33:18] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@47fa] Appium v3.1.0 creating new AndroidUiautomator2Driver (v4.2.9) session
+[INFO] - [02-02-2026 20:33:18] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@47fa] Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[INFO] - [02-02-2026 20:33:18] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@47fa] Appium's BaseDriver version is 10.1.0
+[INFO] - [02-02-2026 20:33:18] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@47fa] AndroidUiautomator2Driver's BaseDriver version is 10.1.0
+[INFO] - [02-02-2026 20:33:18] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@47fa] Enabling relaxed security for this session as per the server configuration. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[INFO] - [02-02-2026 20:33:18] [utils.appium.TerminalLogsCapture$1] - [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+[INFO] - [02-02-2026 20:33:18] [utils.appium.TerminalLogsCapture$1] - [AndroidUiautomator2Driver@4785] Capability 'systemPort' changed from string ('8100') to integer (8100). This may cause unexpected behavior
+[INFO] - [02-02-2026 20:33:18] [utils.appium.TerminalLogsCapture$1] - [7d1bbea1][AndroidUiautomator2Driver@4785] Session created with session id: 7d1bbea1-5ec8-4807-a537-ac99e188af7d
+[INFO] - [02-02-2026 20:33:18] [utils.appium.TerminalLogsCapture$1] - [7d1bbea1][ADB] Using 'adb.exe' from 'C:\Users\Kholoud\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[INFO] - [02-02-2026 20:33:19] [utils.appium.TerminalLogsCapture$1] - [7d1bbea1][AndroidUiautomator2Driver@4785] Retrieving device list
+[INFO] - [02-02-2026 20:33:19] [utils.appium.TerminalLogsCapture$1] - [7d1bbea1][AndroidUiautomator2Driver@4785] Using device: emulator-5554
+[INFO] - [02-02-2026 20:33:19] [utils.appium.TerminalLogsCapture$1] - [7d1bbea1][ADB] Using 'adb.exe' from 'C:\Users\Kholoud\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[INFO] - [02-02-2026 20:33:19] [utils.appium.TerminalLogsCapture$1] - [7d1bbea1][BaseDriver] Using local app 'C:/Users/Kholoud/IdeaProjects/Givers/src/main/resources/AUT/app-staging-release.apk'
+[INFO] - [02-02-2026 20:33:20] [utils.appium.TerminalLogsCapture$1] - [5a85a5e1][ADB] The application at 'C:\Users\Kholoud\.appium\node_modules\appium-uiautomator2-driver\node_modules\io.appium.settings\apks\settings_apk-debug.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[INFO] - [02-02-2026 20:33:21] [utils.appium.TerminalLogsCapture$1] - [7d1bbea1][ADB] Getting device platform version
+[INFO] - [02-02-2026 20:33:21] [utils.appium.TerminalLogsCapture$1] - [7d1bbea1][AndroidUiautomator2Driver@4785] Relaxing hidden api policy
+[INFO] - [02-02-2026 20:33:21] [utils.appium.TerminalLogsCapture$1] - [7d1bbea1][ADB] Using 'aapt2.exe' from 'C:\Users\Kholoud\AppData\Local\Android\Sdk\build-tools\36.0.0\aapt2.exe'
+[INFO] - [02-02-2026 20:33:22] [utils.appium.TerminalLogsCapture$1] - [7d1bbea1][AndroidUiautomator2Driver@4785] Hidden API policy (https://developer.android.com/guide/app-compatibility/restrictions-non-sdk-interfaces) cannot be enabled. This might be happening because the device under test is not configured properly. Please check https://github.com/appium/appium/issues/13802 for more details. You could also set the "appium:ignoreHiddenApiPolicyError" capability to true in order to ignore this error, which might later lead to unexpected crashes or behavior of the automation server. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\Kholoud\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 shell 'settings put global hidden_api_policy_pre_p_apps 1;settings put global hidden_api_policy_p_apps 1;settings put global hidden_api_policy 1'' exited with code 20'; Command output: cmd: Can't find service: settings
+[INFO] - [02-02-2026 20:33:22] [utils.appium.TerminalLogsCapture$1] - cmd: Can't find service: settings
+[INFO] - [02-02-2026 20:33:22] [utils.appium.TerminalLogsCapture$1] - cmd: Can't find service: settings
+[INFO] - [02-02-2026 20:33:22] [utils.appium.TerminalLogsCapture$1] - [7d1bbea1][AndroidUiautomator2Driver@4785] Restoring hidden api policy to the device default configuration
+[INFO] - [02-02-2026 20:33:22] [utils.appium.TerminalLogsCapture$1] - [7d1bbea1][ADB] The application at 'C:\Users\Kholoud\.appium\node_modules\appium-uiautomator2-driver\node_modules\io.appium.settings\apks\settings_apk-debug.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[INFO] - [02-02-2026 20:33:22] [utils.appium.TerminalLogsCapture$1] - [7d1bbea1][ADB] Package name: 'com.giversapp.GiversApp.staging'
+[INFO] - [02-02-2026 20:33:22] [utils.appium.TerminalLogsCapture$1] - [7d1bbea1][ADB] Main activity name: 'com.giversapp.GiversApp.staging.MainActivity'
+[INFO] - [02-02-2026 20:33:22] [utils.appium.TerminalLogsCapture$1] - [7d1bbea1][HTTP] <-- POST /session 500 3673 ms - 2245
+[ERROR] - [02-02-2026 20:33:22] [utils.appium.driverManager.DriverManager] -  Failed to initialize driver: Could not start a new session. Response code 500. Message: Error executing adbExec. Original error: 'Command 'C:\\Users\\Kholoud\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy'' exited with code 20'; Command output: cmd: Can't find service: settings
+cmd: Can't find service: settings
+cmd: Can't find service: settings
+ 
+Host info: host: 'LODY', ip: '192.168.1.14'
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25'
+Driver info: io.appium.java_client.AppiumDriver
+Command: [null, newSession {capabilities=[Capabilities {appium:app: C:/Users/Kholoud/IdeaProjec..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: Emu2, appium:systemPort: 8100, platformName: ANDROID}]}]
+Capabilities {appium:app: C:/Users/Kholoud/IdeaProjec..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: Emu2, appium:systemPort: 8100, platformName: ANDROID}
+[INFO] - [02-02-2026 20:33:22] [listeners.MethodInvocationListener] - Finished test: testModeratorCommunityScenario
+[INFO] - [02-02-2026 20:33:22] [utils.common.AllureUtils] - Attaching logs for test: testModeratorCommunityScenario
+[INFO] - [02-02-2026 20:33:22] [utils.common.AllureUtils] - Logs attached successfully for test: testModeratorCommunityScenario
+[INFO] - [02-02-2026 20:33:22] [listeners.TestResultListener] - Test failed: testModeratorCommunityScenario
+[INFO] - [02-02-2026 20:33:22] [utils.appium.TerminalLogsCapture$1] - [HTTP] --> GET /status
+[INFO] - [02-02-2026 20:33:22] [utils.appium.TerminalLogsCapture$1] - [INFO] Appium server already running.
+[INFO] - [02-02-2026 20:33:22] [utils.appium.TerminalLogsCapture$1] - [HTTP] <-- GET /status 200 5 ms - 110
+[INFO] - [02-02-2026 20:33:22] [utils.appium.TerminalLogsCapture$1] - [58b812b5][ADB] The application at 'C:\Users\Kholoud\.appium\node_modules\appium-uiautomator2-driver\node_modules\io.appium.settings\apks\settings_apk-debug.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[WARN] - [02-02-2026 20:33:22] [utils.appium.TerminalLogsCapture$1] - [WARN] Could not clear port 8100: Cannot run program "npx": CreateProcess error=2, The system cannot find the file specified
+[INFO] - [02-02-2026 20:33:22] [utils.appium.TerminalLogsCapture$1] - [HTTP] --> POST /session {"capabilities":{"firstMatch":[{"appium:systemPort":"8100","appium:autoGrantPermissions":true,"appium:deviceName":"Emu2","platformName":"ANDROID","appium:automationName":"UiAutomator2","appium:app":"C:/Users/Kholoud/IdeaProjects/Givers/src/main/resources/AUT/app-staging-release.apk"}]}}
+[INFO] - [02-02-2026 20:33:22] [utils.appium.TerminalLogsCapture$1] - [Appium] Attempting to find matching driver for automationName 'UiAutomator2' and platformName 'ANDROID'
+[INFO] - [02-02-2026 20:33:22] [utils.appium.TerminalLogsCapture$1] - [Appium] The 'uiautomator2' driver was installed and matched caps.
+[INFO] - [02-02-2026 20:33:22] [utils.appium.TerminalLogsCapture$1] - [Appium] Will require it at C:\Users\Kholoud\.appium\node_modules\appium-uiautomator2-driver
+[INFO] - [02-02-2026 20:33:22] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@47fa] Appium v3.1.0 creating new AndroidUiautomator2Driver (v4.2.9) session
+[INFO] - [02-02-2026 20:33:22] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@47fa] Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[INFO] - [02-02-2026 20:33:22] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@47fa] Appium's BaseDriver version is 10.1.0
+[INFO] - [02-02-2026 20:33:22] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@47fa] AndroidUiautomator2Driver's BaseDriver version is 10.1.0
+[INFO] - [02-02-2026 20:33:22] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@47fa] Enabling relaxed security for this session as per the server configuration. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[INFO] - [02-02-2026 20:33:22] [utils.appium.TerminalLogsCapture$1] - [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+[INFO] - [02-02-2026 20:33:22] [utils.appium.TerminalLogsCapture$1] - [AndroidUiautomator2Driver@265d] Capability 'systemPort' changed from string ('8100') to integer (8100). This may cause unexpected behavior
+[INFO] - [02-02-2026 20:33:22] [utils.appium.TerminalLogsCapture$1] - [602ab927][AndroidUiautomator2Driver@265d] Session created with session id: 602ab927-c2a9-4526-81e6-439d3f8c6052
+[INFO] - [02-02-2026 20:33:22] [utils.appium.TerminalLogsCapture$1] - [602ab927][ADB] Using 'adb.exe' from 'C:\Users\Kholoud\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[INFO] - [02-02-2026 20:33:22] [utils.appium.TerminalLogsCapture$1] - [602ab927][AndroidUiautomator2Driver@265d] Retrieving device list
+[INFO] - [02-02-2026 20:33:22] [utils.appium.TerminalLogsCapture$1] - [602ab927][AndroidUiautomator2Driver@265d] Using device: emulator-5554
+[INFO] - [02-02-2026 20:33:22] [utils.appium.TerminalLogsCapture$1] - [602ab927][ADB] Using 'adb.exe' from 'C:\Users\Kholoud\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[INFO] - [02-02-2026 20:33:23] [utils.appium.TerminalLogsCapture$1] - [602ab927][BaseDriver] Using local app 'C:/Users/Kholoud/IdeaProjects/Givers/src/main/resources/AUT/app-staging-release.apk'
+[INFO] - [02-02-2026 20:33:23] [utils.appium.TerminalLogsCapture$1] - [8919f747][ADB] The application at 'C:\Users\Kholoud\.appium\node_modules\appium-uiautomator2-driver\node_modules\io.appium.settings\apks\settings_apk-debug.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[INFO] - [02-02-2026 20:33:25] [utils.appium.TerminalLogsCapture$1] - [602ab927][ADB] Getting device platform version
+[INFO] - [02-02-2026 20:33:25] [utils.appium.TerminalLogsCapture$1] - [602ab927][AndroidUiautomator2Driver@265d] Relaxing hidden api policy
+[INFO] - [02-02-2026 20:33:25] [utils.appium.TerminalLogsCapture$1] - [602ab927][ADB] Using 'aapt2.exe' from 'C:\Users\Kholoud\AppData\Local\Android\Sdk\build-tools\36.0.0\aapt2.exe'
+[INFO] - [02-02-2026 20:33:25] [utils.appium.TerminalLogsCapture$1] - [602ab927][ADB] Package name: 'com.giversapp.GiversApp.staging'
+[INFO] - [02-02-2026 20:33:25] [utils.appium.TerminalLogsCapture$1] - [602ab927][ADB] Main activity name: 'com.giversapp.GiversApp.staging.MainActivity'
+[INFO] - [02-02-2026 20:33:27] [utils.appium.TerminalLogsCapture$1] - [602ab927][AndroidUiautomator2Driver@265d] Restoring hidden api policy to the device default configuration
+[INFO] - [02-02-2026 20:33:28] [utils.appium.TerminalLogsCapture$1] - [602ab927][HTTP] <-- POST /session 500 5572 ms - 2834
+[ERROR] - [02-02-2026 20:33:28] [utils.appium.driverManager.DriverManager] -  Failed to initialize driver: Could not start a new session. Response code 500. Message: Cannot start the 'io.appium.settings' application. Consider checking the driver's troubleshooting documentation. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\Kholoud\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 shell am start-activity -n io.appium.settings/.Settings -a android.intent.action.MAIN -c android.intent.category.LAUNCHER' exited with code 1'; Command output: Error type 3
+Error: Activity class {io.appium.settings/io.appium.settings.Settings} does not exist.
+ 
+Host info: host: 'LODY', ip: '192.168.1.14'
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25'
+Driver info: io.appium.java_client.AppiumDriver
+Command: [null, newSession {capabilities=[Capabilities {appium:app: C:/Users/Kholoud/IdeaProjec..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: Emu2, appium:systemPort: 8100, platformName: ANDROID}]}]
+Capabilities {appium:app: C:/Users/Kholoud/IdeaProjec..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: Emu2, appium:systemPort: 8100, platformName: ANDROID}
+[INFO] - [02-02-2026 20:33:28] [listeners.MethodInvocationListener] - Finished test: testSearchCommunityOnly
+[INFO] - [02-02-2026 20:33:28] [utils.common.AllureUtils] - Attaching logs for test: testSearchCommunityOnly
+[INFO] - [02-02-2026 20:33:28] [utils.common.AllureUtils] - Logs attached successfully for test: testSearchCommunityOnly
+[INFO] - [02-02-2026 20:33:28] [listeners.TestResultListener] - Test failed: testSearchCommunityOnly
+[INFO] - [02-02-2026 20:33:28] [utils.appium.TerminalLogsCapture$1] - [HTTP] --> GET /status
+[INFO] - [02-02-2026 20:33:28] [utils.appium.TerminalLogsCapture$1] - [INFO] Appium server already running.
+[INFO] - [02-02-2026 20:33:28] [utils.appium.TerminalLogsCapture$1] - [HTTP] <-- GET /status 200 3 ms - 110
+[WARN] - [02-02-2026 20:33:28] [utils.appium.TerminalLogsCapture$1] - [WARN] Could not clear port 8100: Cannot run program "npx": CreateProcess error=2, The system cannot find the file specified
+[INFO] - [02-02-2026 20:33:28] [utils.appium.TerminalLogsCapture$1] - [HTTP] --> POST /session {"capabilities":{"firstMatch":[{"appium:systemPort":"8100","appium:autoGrantPermissions":true,"appium:deviceName":"Emu2","platformName":"ANDROID","appium:automationName":"UiAutomator2","appium:app":"C:/Users/Kholoud/IdeaProjects/Givers/src/main/resources/AUT/app-staging-release.apk"}]}}
+[INFO] - [02-02-2026 20:33:28] [utils.appium.TerminalLogsCapture$1] - [Appium] Attempting to find matching driver for automationName 'UiAutomator2' and platformName 'ANDROID'
+[INFO] - [02-02-2026 20:33:28] [utils.appium.TerminalLogsCapture$1] - [Appium] The 'uiautomator2' driver was installed and matched caps.
+[INFO] - [02-02-2026 20:33:28] [utils.appium.TerminalLogsCapture$1] - [Appium] Will require it at C:\Users\Kholoud\.appium\node_modules\appium-uiautomator2-driver
+[INFO] - [02-02-2026 20:33:28] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@47fa] Appium v3.1.0 creating new AndroidUiautomator2Driver (v4.2.9) session
+[INFO] - [02-02-2026 20:33:28] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@47fa] Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[INFO] - [02-02-2026 20:33:28] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@47fa] Appium's BaseDriver version is 10.1.0
+[INFO] - [02-02-2026 20:33:28] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@47fa] AndroidUiautomator2Driver's BaseDriver version is 10.1.0
+[INFO] - [02-02-2026 20:33:28] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@47fa] Enabling relaxed security for this session as per the server configuration. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[INFO] - [02-02-2026 20:33:28] [utils.appium.TerminalLogsCapture$1] - [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+[INFO] - [02-02-2026 20:33:28] [utils.appium.TerminalLogsCapture$1] - [AndroidUiautomator2Driver@089c] Capability 'systemPort' changed from string ('8100') to integer (8100). This may cause unexpected behavior
+[INFO] - [02-02-2026 20:33:28] [utils.appium.TerminalLogsCapture$1] - [ea28f03d][AndroidUiautomator2Driver@089c] Session created with session id: ea28f03d-fe41-4aaa-9557-50692279e8df
+[INFO] - [02-02-2026 20:33:28] [utils.appium.TerminalLogsCapture$1] - [ea28f03d][ADB] Using 'adb.exe' from 'C:\Users\Kholoud\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[INFO] - [02-02-2026 20:33:28] [utils.appium.TerminalLogsCapture$1] - [ea28f03d][AndroidUiautomator2Driver@089c] Retrieving device list
+[INFO] - [02-02-2026 20:33:28] [utils.appium.TerminalLogsCapture$1] - [ea28f03d][AndroidUiautomator2Driver@089c] Using device: emulator-5554
+[INFO] - [02-02-2026 20:33:28] [utils.appium.TerminalLogsCapture$1] - [ea28f03d][ADB] Using 'adb.exe' from 'C:\Users\Kholoud\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[INFO] - [02-02-2026 20:33:28] [utils.appium.TerminalLogsCapture$1] - [ea28f03d][BaseDriver] Using local app 'C:/Users/Kholoud/IdeaProjects/Givers/src/main/resources/AUT/app-staging-release.apk'
+[INFO] - [02-02-2026 20:33:30] [utils.appium.TerminalLogsCapture$1] - [ea28f03d][ADB] Getting device platform version
+[INFO] - [02-02-2026 20:33:30] [utils.appium.TerminalLogsCapture$1] - [ea28f03d][AndroidUiautomator2Driver@089c] Relaxing hidden api policy
+[INFO] - [02-02-2026 20:33:30] [utils.appium.TerminalLogsCapture$1] - [ea28f03d][ADB] Using 'aapt2.exe' from 'C:\Users\Kholoud\AppData\Local\Android\Sdk\build-tools\36.0.0\aapt2.exe'
+[INFO] - [02-02-2026 20:33:31] [utils.appium.TerminalLogsCapture$1] - [ea28f03d][ADB] Package name: 'com.giversapp.GiversApp.staging'
+[INFO] - [02-02-2026 20:33:31] [utils.appium.TerminalLogsCapture$1] - [ea28f03d][ADB] Main activity name: 'com.giversapp.GiversApp.staging.MainActivity'
+[INFO] - [02-02-2026 20:33:32] [utils.appium.TerminalLogsCapture$1] - [ea28f03d][AndroidUiautomator2Driver@089c] Restoring hidden api policy to the device default configuration
+[INFO] - [02-02-2026 20:33:32] [utils.appium.TerminalLogsCapture$1] - [ea28f03d][HTTP] <-- POST /session 500 4540 ms - 2834
+[ERROR] - [02-02-2026 20:33:32] [utils.appium.driverManager.DriverManager] -  Failed to initialize driver: Could not start a new session. Response code 500. Message: Cannot start the 'io.appium.settings' application. Consider checking the driver's troubleshooting documentation. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\Kholoud\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 shell am start-activity -n io.appium.settings/.Settings -a android.intent.action.MAIN -c android.intent.category.LAUNCHER' exited with code 1'; Command output: Error type 3
+Error: Activity class {io.appium.settings/io.appium.settings.Settings} does not exist.
+ 
+Host info: host: 'LODY', ip: '192.168.1.14'
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25'
+Driver info: io.appium.java_client.AppiumDriver
+Command: [null, newSession {capabilities=[Capabilities {appium:app: C:/Users/Kholoud/IdeaProjec..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: Emu2, appium:systemPort: 8100, platformName: ANDROID}]}]
+Capabilities {appium:app: C:/Users/Kholoud/IdeaProjec..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: Emu2, appium:systemPort: 8100, platformName: ANDROID}
+[INFO] - [02-02-2026 20:33:32] [listeners.MethodInvocationListener] - Finished test: testSearchCommunityOnly
+[INFO] - [02-02-2026 20:33:32] [utils.common.AllureUtils] - Attaching logs for test: testSearchCommunityOnly
+[INFO] - [02-02-2026 20:33:32] [utils.common.AllureUtils] - Logs attached successfully for test: testSearchCommunityOnly
+[INFO] - [02-02-2026 20:33:32] [listeners.TestResultListener] - Test failed: testSearchCommunityOnly
+[INFO] - [02-02-2026 20:33:32] [utils.appium.TerminalLogsCapture$1] - [HTTP] --> GET /status
+[INFO] - [02-02-2026 20:33:32] [utils.appium.TerminalLogsCapture$1] - [HTTP] <-- GET /status 200 2 ms - 110
+[INFO] - [02-02-2026 20:33:32] [utils.appium.TerminalLogsCapture$1] - [INFO] Appium server already running.
+[WARN] - [02-02-2026 20:33:32] [utils.appium.TerminalLogsCapture$1] - [WARN] Could not clear port 8100: Cannot run program "npx": CreateProcess error=2, The system cannot find the file specified
+[INFO] - [02-02-2026 20:33:32] [utils.appium.TerminalLogsCapture$1] - [HTTP] --> POST /session {"capabilities":{"firstMatch":[{"appium:systemPort":"8100","appium:autoGrantPermissions":true,"appium:deviceName":"Emu2","platformName":"ANDROID","appium:automationName":"UiAutomator2","appium:app":"C:/Users/Kholoud/IdeaProjects/Givers/src/main/resources/AUT/app-staging-release.apk"}]}}
+[INFO] - [02-02-2026 20:33:32] [utils.appium.TerminalLogsCapture$1] - [Appium] Attempting to find matching driver for automationName 'UiAutomator2' and platformName 'ANDROID'
+[INFO] - [02-02-2026 20:33:32] [utils.appium.TerminalLogsCapture$1] - [Appium] The 'uiautomator2' driver was installed and matched caps.
+[INFO] - [02-02-2026 20:33:32] [utils.appium.TerminalLogsCapture$1] - [Appium] Will require it at C:\Users\Kholoud\.appium\node_modules\appium-uiautomator2-driver
+[INFO] - [02-02-2026 20:33:32] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@47fa] Appium v3.1.0 creating new AndroidUiautomator2Driver (v4.2.9) session
+[INFO] - [02-02-2026 20:33:32] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@47fa] Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[INFO] - [02-02-2026 20:33:32] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@47fa] Appium's BaseDriver version is 10.1.0
+[INFO] - [02-02-2026 20:33:32] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@47fa] AndroidUiautomator2Driver's BaseDriver version is 10.1.0
+[INFO] - [02-02-2026 20:33:32] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@47fa] Enabling relaxed security for this session as per the server configuration. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[INFO] - [02-02-2026 20:33:32] [utils.appium.TerminalLogsCapture$1] - [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+[INFO] - [02-02-2026 20:33:32] [utils.appium.TerminalLogsCapture$1] - [AndroidUiautomator2Driver@e661] Capability 'systemPort' changed from string ('8100') to integer (8100). This may cause unexpected behavior
+[INFO] - [02-02-2026 20:33:32] [utils.appium.TerminalLogsCapture$1] - [b0e32679][AndroidUiautomator2Driver@e661] Session created with session id: b0e32679-e01e-4aab-ad7a-a1976772206d
+[INFO] - [02-02-2026 20:33:32] [utils.appium.TerminalLogsCapture$1] - [b0e32679][ADB] Using 'adb.exe' from 'C:\Users\Kholoud\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[INFO] - [02-02-2026 20:33:33] [utils.appium.TerminalLogsCapture$1] - [b0e32679][AndroidUiautomator2Driver@e661] Retrieving device list
+[INFO] - [02-02-2026 20:33:33] [utils.appium.TerminalLogsCapture$1] - [b0e32679][AndroidUiautomator2Driver@e661] Using device: emulator-5554
+[INFO] - [02-02-2026 20:33:33] [utils.appium.TerminalLogsCapture$1] - [b0e32679][ADB] Using 'adb.exe' from 'C:\Users\Kholoud\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[INFO] - [02-02-2026 20:33:33] [utils.appium.TerminalLogsCapture$1] - [b0e32679][BaseDriver] Using local app 'C:/Users/Kholoud/IdeaProjects/Givers/src/main/resources/AUT/app-staging-release.apk'
+[INFO] - [02-02-2026 20:33:34] [utils.appium.TerminalLogsCapture$1] - [b0e32679][ADB] Getting device platform version
+[INFO] - [02-02-2026 20:33:34] [utils.appium.TerminalLogsCapture$1] - [b0e32679][AndroidUiautomator2Driver@e661] Relaxing hidden api policy
+[INFO] - [02-02-2026 20:33:34] [utils.appium.TerminalLogsCapture$1] - [b0e32679][ADB] Using 'aapt2.exe' from 'C:\Users\Kholoud\AppData\Local\Android\Sdk\build-tools\36.0.0\aapt2.exe'
+[INFO] - [02-02-2026 20:33:34] [utils.appium.TerminalLogsCapture$1] - [b0e32679][ADB] Package name: 'com.giversapp.GiversApp.staging'
+[INFO] - [02-02-2026 20:33:34] [utils.appium.TerminalLogsCapture$1] - [b0e32679][ADB] Main activity name: 'com.giversapp.GiversApp.staging.MainActivity'
+[INFO] - [02-02-2026 20:33:37] [utils.appium.TerminalLogsCapture$1] - [b0e32679][AndroidUiautomator2Driver@e661] Restoring hidden api policy to the device default configuration
+[INFO] - [02-02-2026 20:33:38] [utils.appium.TerminalLogsCapture$1] - [b0e32679][HTTP] <-- POST /session 500 5348 ms - 2834
+[ERROR] - [02-02-2026 20:33:38] [utils.appium.driverManager.DriverManager] -  Failed to initialize driver: Could not start a new session. Response code 500. Message: Cannot start the 'io.appium.settings' application. Consider checking the driver's troubleshooting documentation. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\Kholoud\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 shell am start-activity -n io.appium.settings/.Settings -a android.intent.action.MAIN -c android.intent.category.LAUNCHER' exited with code 1'; Command output: Error type 3
+Error: Activity class {io.appium.settings/io.appium.settings.Settings} does not exist.
+ 
+Host info: host: 'LODY', ip: '192.168.1.14'
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25'
+Driver info: io.appium.java_client.AppiumDriver
+Command: [null, newSession {capabilities=[Capabilities {appium:app: C:/Users/Kholoud/IdeaProjec..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: Emu2, appium:systemPort: 8100, platformName: ANDROID}]}]
+Capabilities {appium:app: C:/Users/Kholoud/IdeaProjec..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: Emu2, appium:systemPort: 8100, platformName: ANDROID}
+[INFO] - [02-02-2026 20:33:38] [listeners.MethodInvocationListener] - Finished test: testSearchCommunityOnly
+[INFO] - [02-02-2026 20:33:38] [utils.common.AllureUtils] - Attaching logs for test: testSearchCommunityOnly
+[INFO] - [02-02-2026 20:33:38] [utils.common.AllureUtils] - Logs attached successfully for test: testSearchCommunityOnly
+[INFO] - [02-02-2026 20:33:38] [listeners.TestResultListener] - Test failed: testSearchCommunityOnly
+[INFO] - [02-02-2026 20:33:38] [utils.appium.TerminalLogsCapture$1] - [HTTP] --> GET /status
+[INFO] - [02-02-2026 20:33:38] [utils.appium.TerminalLogsCapture$1] - [INFO] Appium server already running.
+[INFO] - [02-02-2026 20:33:38] [utils.appium.TerminalLogsCapture$1] - [HTTP] <-- GET /status 200 3 ms - 110
+[WARN] - [02-02-2026 20:33:38] [utils.appium.TerminalLogsCapture$1] - [WARN] Could not clear port 8100: Cannot run program "npx": CreateProcess error=2, The system cannot find the file specified
+[INFO] - [02-02-2026 20:33:38] [utils.appium.TerminalLogsCapture$1] - [HTTP] --> POST /session {"capabilities":{"firstMatch":[{"appium:systemPort":"8100","appium:autoGrantPermissions":true,"appium:deviceName":"Emu2","platformName":"ANDROID","appium:automationName":"UiAutomator2","appium:app":"C:/Users/Kholoud/IdeaProjects/Givers/src/main/resources/AUT/app-staging-release.apk"}]}}
+[INFO] - [02-02-2026 20:33:38] [utils.appium.TerminalLogsCapture$1] - [Appium] Attempting to find matching driver for automationName 'UiAutomator2' and platformName 'ANDROID'
+[INFO] - [02-02-2026 20:33:38] [utils.appium.TerminalLogsCapture$1] - [Appium] The 'uiautomator2' driver was installed and matched caps.
+[INFO] - [02-02-2026 20:33:38] [utils.appium.TerminalLogsCapture$1] - [Appium] Will require it at C:\Users\Kholoud\.appium\node_modules\appium-uiautomator2-driver
+[INFO] - [02-02-2026 20:33:38] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@47fa] Appium v3.1.0 creating new AndroidUiautomator2Driver (v4.2.9) session
+[INFO] - [02-02-2026 20:33:38] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@47fa] Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[INFO] - [02-02-2026 20:33:38] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@47fa] Appium's BaseDriver version is 10.1.0
+[INFO] - [02-02-2026 20:33:38] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@47fa] AndroidUiautomator2Driver's BaseDriver version is 10.1.0
+[INFO] - [02-02-2026 20:33:38] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@47fa] Enabling relaxed security for this session as per the server configuration. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[INFO] - [02-02-2026 20:33:38] [utils.appium.TerminalLogsCapture$1] - [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+[INFO] - [02-02-2026 20:33:38] [utils.appium.TerminalLogsCapture$1] - [AndroidUiautomator2Driver@f435] Capability 'systemPort' changed from string ('8100') to integer (8100). This may cause unexpected behavior
+[INFO] - [02-02-2026 20:33:38] [utils.appium.TerminalLogsCapture$1] - [5418b61c][AndroidUiautomator2Driver@f435] Session created with session id: 5418b61c-e76e-451f-baec-4d0aa463dd07
+[INFO] - [02-02-2026 20:33:38] [utils.appium.TerminalLogsCapture$1] - [5418b61c][ADB] Using 'adb.exe' from 'C:\Users\Kholoud\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[INFO] - [02-02-2026 20:33:38] [utils.appium.TerminalLogsCapture$1] - [5418b61c][AndroidUiautomator2Driver@f435] Retrieving device list
+[INFO] - [02-02-2026 20:33:38] [utils.appium.TerminalLogsCapture$1] - [5418b61c][AndroidUiautomator2Driver@f435] Using device: emulator-5554
+[INFO] - [02-02-2026 20:33:38] [utils.appium.TerminalLogsCapture$1] - [5418b61c][ADB] Using 'adb.exe' from 'C:\Users\Kholoud\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[INFO] - [02-02-2026 20:33:38] [utils.appium.TerminalLogsCapture$1] - [5418b61c][BaseDriver] Using local app 'C:/Users/Kholoud/IdeaProjects/Givers/src/main/resources/AUT/app-staging-release.apk'
+[INFO] - [02-02-2026 20:33:40] [utils.appium.TerminalLogsCapture$1] - [5418b61c][ADB] Getting device platform version
+[INFO] - [02-02-2026 20:33:40] [utils.appium.TerminalLogsCapture$1] - [5418b61c][AndroidUiautomator2Driver@f435] Relaxing hidden api policy
+[INFO] - [02-02-2026 20:33:40] [utils.appium.TerminalLogsCapture$1] - [5418b61c][ADB] Using 'aapt2.exe' from 'C:\Users\Kholoud\AppData\Local\Android\Sdk\build-tools\36.0.0\aapt2.exe'
+[INFO] - [02-02-2026 20:33:41] [utils.appium.TerminalLogsCapture$1] - [5418b61c][ADB] Package name: 'com.giversapp.GiversApp.staging'
+[INFO] - [02-02-2026 20:33:41] [utils.appium.TerminalLogsCapture$1] - [5418b61c][ADB] Main activity name: 'com.giversapp.GiversApp.staging.MainActivity'
+[INFO] - [02-02-2026 20:33:42] [utils.appium.TerminalLogsCapture$1] - [5418b61c][AndroidUiautomator2Driver@f435] Restoring hidden api policy to the device default configuration
+[INFO] - [02-02-2026 20:33:43] [utils.appium.TerminalLogsCapture$1] - [5418b61c][HTTP] <-- POST /session 500 5243 ms - 2834
+[ERROR] - [02-02-2026 20:33:43] [utils.appium.driverManager.DriverManager] -  Failed to initialize driver: Could not start a new session. Response code 500. Message: Cannot start the 'io.appium.settings' application. Consider checking the driver's troubleshooting documentation. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\Kholoud\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 shell am start-activity -n io.appium.settings/.Settings -a android.intent.action.MAIN -c android.intent.category.LAUNCHER' exited with code 1'; Command output: Error type 3
+Error: Activity class {io.appium.settings/io.appium.settings.Settings} does not exist.
+ 
+Host info: host: 'LODY', ip: '192.168.1.14'
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25'
+Driver info: io.appium.java_client.AppiumDriver
+Command: [null, newSession {capabilities=[Capabilities {appium:app: C:/Users/Kholoud/IdeaProjec..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: Emu2, appium:systemPort: 8100, platformName: ANDROID}]}]
+Capabilities {appium:app: C:/Users/Kholoud/IdeaProjec..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: Emu2, appium:systemPort: 8100, platformName: ANDROID}
+[INFO] - [02-02-2026 20:33:43] [listeners.MethodInvocationListener] - Finished test: testValidateCommunityFullFlow
+[INFO] - [02-02-2026 20:33:43] [utils.common.AllureUtils] - Attaching logs for test: testValidateCommunityFullFlow
+[INFO] - [02-02-2026 20:33:43] [utils.common.AllureUtils] - Logs attached successfully for test: testValidateCommunityFullFlow
+[INFO] - [02-02-2026 20:33:43] [listeners.TestResultListener] - Test failed: testValidateCommunityFullFlow
+[INFO] - [02-02-2026 20:33:43] [utils.appium.TerminalLogsCapture$1] - [HTTP] --> GET /status
+[INFO] - [02-02-2026 20:33:43] [utils.appium.TerminalLogsCapture$1] - [INFO] Appium server already running.
+[INFO] - [02-02-2026 20:33:43] [utils.appium.TerminalLogsCapture$1] - [HTTP] <-- GET /status 200 3 ms - 110
+[WARN] - [02-02-2026 20:33:43] [utils.appium.TerminalLogsCapture$1] - [WARN] Could not clear port 8100: Cannot run program "npx": CreateProcess error=2, The system cannot find the file specified
+[INFO] - [02-02-2026 20:33:43] [utils.appium.TerminalLogsCapture$1] - [HTTP] --> POST /session {"capabilities":{"firstMatch":[{"appium:systemPort":"8100","appium:autoGrantPermissions":true,"appium:deviceName":"Emu2","platformName":"ANDROID","appium:automationName":"UiAutomator2","appium:app":"C:/Users/Kholoud/IdeaProjects/Givers/src/main/resources/AUT/app-staging-release.apk"}]}}
+[INFO] - [02-02-2026 20:33:43] [utils.appium.TerminalLogsCapture$1] - [Appium] Attempting to find matching driver for automationName 'UiAutomator2' and platformName 'ANDROID'
+[INFO] - [02-02-2026 20:33:43] [utils.appium.TerminalLogsCapture$1] - [Appium] The 'uiautomator2' driver was installed and matched caps.
+[INFO] - [02-02-2026 20:33:43] [utils.appium.TerminalLogsCapture$1] - [Appium] Will require it at C:\Users\Kholoud\.appium\node_modules\appium-uiautomator2-driver
+[INFO] - [02-02-2026 20:33:43] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@47fa] Appium v3.1.0 creating new AndroidUiautomator2Driver (v4.2.9) session
+[INFO] - [02-02-2026 20:33:43] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@47fa] Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[INFO] - [02-02-2026 20:33:43] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@47fa] Appium's BaseDriver version is 10.1.0
+[INFO] - [02-02-2026 20:33:43] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@47fa] AndroidUiautomator2Driver's BaseDriver version is 10.1.0
+[INFO] - [02-02-2026 20:33:43] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@47fa] Enabling relaxed security for this session as per the server configuration. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[INFO] - [02-02-2026 20:33:43] [utils.appium.TerminalLogsCapture$1] - [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+[INFO] - [02-02-2026 20:33:43] [utils.appium.TerminalLogsCapture$1] - [AndroidUiautomator2Driver@4960] Capability 'systemPort' changed from string ('8100') to integer (8100). This may cause unexpected behavior
+[INFO] - [02-02-2026 20:33:43] [utils.appium.TerminalLogsCapture$1] - [20824e7c][AndroidUiautomator2Driver@4960] Session created with session id: 20824e7c-5ec0-4dff-ab37-63b1b5aed7ea
+[INFO] - [02-02-2026 20:33:43] [utils.appium.TerminalLogsCapture$1] - [20824e7c][ADB] Using 'adb.exe' from 'C:\Users\Kholoud\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[INFO] - [02-02-2026 20:33:43] [utils.appium.TerminalLogsCapture$1] - [20824e7c][AndroidUiautomator2Driver@4960] Retrieving device list
+[INFO] - [02-02-2026 20:33:43] [utils.appium.TerminalLogsCapture$1] - [20824e7c][AndroidUiautomator2Driver@4960] Using device: emulator-5554
+[INFO] - [02-02-2026 20:33:43] [utils.appium.TerminalLogsCapture$1] - [20824e7c][ADB] Using 'adb.exe' from 'C:\Users\Kholoud\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[INFO] - [02-02-2026 20:33:43] [utils.appium.TerminalLogsCapture$1] - [20824e7c][BaseDriver] Using local app 'C:/Users/Kholoud/IdeaProjects/Givers/src/main/resources/AUT/app-staging-release.apk'
+[INFO] - [02-02-2026 20:33:45] [utils.appium.TerminalLogsCapture$1] - [20824e7c][ADB] Getting device platform version
+[INFO] - [02-02-2026 20:33:45] [utils.appium.TerminalLogsCapture$1] - [20824e7c][AndroidUiautomator2Driver@4960] Relaxing hidden api policy
+[INFO] - [02-02-2026 20:33:45] [utils.appium.TerminalLogsCapture$1] - [20824e7c][ADB] Using 'aapt2.exe' from 'C:\Users\Kholoud\AppData\Local\Android\Sdk\build-tools\36.0.0\aapt2.exe'
+[INFO] - [02-02-2026 20:33:45] [utils.appium.TerminalLogsCapture$1] - [20824e7c][ADB] Package name: 'com.giversapp.GiversApp.staging'
+[INFO] - [02-02-2026 20:33:45] [utils.appium.TerminalLogsCapture$1] - [20824e7c][ADB] Main activity name: 'com.giversapp.GiversApp.staging.MainActivity'
+[INFO] - [02-02-2026 20:33:47] [utils.appium.TerminalLogsCapture$1] - [20824e7c][AndroidUiautomator2Driver@4960] Restoring hidden api policy to the device default configuration
+[INFO] - [02-02-2026 20:33:48] [utils.appium.TerminalLogsCapture$1] - [20824e7c][HTTP] <-- POST /session 500 4381 ms - 2834
+[ERROR] - [02-02-2026 20:33:48] [utils.appium.driverManager.DriverManager] -  Failed to initialize driver: Could not start a new session. Response code 500. Message: Cannot start the 'io.appium.settings' application. Consider checking the driver's troubleshooting documentation. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\Kholoud\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 shell am start-activity -n io.appium.settings/.Settings -a android.intent.action.MAIN -c android.intent.category.LAUNCHER' exited with code 1'; Command output: Error type 3
+Error: Activity class {io.appium.settings/io.appium.settings.Settings} does not exist.
+ 
+Host info: host: 'LODY', ip: '192.168.1.14'
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25'
+Driver info: io.appium.java_client.AppiumDriver
+Command: [null, newSession {capabilities=[Capabilities {appium:app: C:/Users/Kholoud/IdeaProjec..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: Emu2, appium:systemPort: 8100, platformName: ANDROID}]}]
+Capabilities {appium:app: C:/Users/Kholoud/IdeaProjec..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: Emu2, appium:systemPort: 8100, platformName: ANDROID}
+[INFO] - [02-02-2026 20:33:48] [listeners.MethodInvocationListener] - Finished test: testValidateCommunityFullFlow
+[INFO] - [02-02-2026 20:33:48] [utils.common.AllureUtils] - Attaching logs for test: testValidateCommunityFullFlow
+[INFO] - [02-02-2026 20:33:48] [utils.common.AllureUtils] - Logs attached successfully for test: testValidateCommunityFullFlow
+[INFO] - [02-02-2026 20:33:48] [listeners.TestResultListener] - Test failed: testValidateCommunityFullFlow
+[INFO] - [02-02-2026 20:33:48] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/loginTestData.json
+[INFO] - [02-02-2026 20:33:48] [utils.common.JsonUtils] - Successfully deserialized JSON to: LoginTestData[]
+[INFO] - [02-02-2026 20:33:48] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/registerTestData.json
+[INFO] - [02-02-2026 20:33:48] [utils.common.JsonUtils] - Successfully deserialized JSON to: RegisterTestData[]
+[INFO] - [02-02-2026 20:33:48] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/resetPasswordTestData.json
+[INFO] - [02-02-2026 20:33:48] [utils.common.JsonUtils] - Successfully deserialized JSON to: ResetPasswordTestData[]
+[INFO] - [02-02-2026 20:33:48] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [02-02-2026 20:33:48] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [02-02-2026 20:33:48] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [02-02-2026 20:33:48] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [02-02-2026 20:33:48] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ForgotPasswordTestData.json
+[INFO] - [02-02-2026 20:33:48] [utils.common.JsonUtils] - Successfully deserialized JSON to: ForgotPasswordTestData[]
+[INFO] - [02-02-2026 20:33:48] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyTestData.json
+[INFO] - [02-02-2026 20:33:48] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyTestData[]
+[INFO] - [02-02-2026 20:33:48] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreateNeedyProfileTestData.json
+[INFO] - [02-02-2026 20:33:48] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyProfileTestData[]
+[INFO] - [02-02-2026 20:33:48] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyFunctionTestData.json
+[INFO] - [02-02-2026 20:33:48] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyFunctionsTestData[]
+[INFO] - [02-02-2026 20:33:48] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/DonationTestData.json
+[INFO] - [02-02-2026 20:33:48] [utils.common.JsonUtils] - Successfully deserialized JSON to: EasyGiveTestData[]
+[INFO] - [02-02-2026 20:33:48] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/SingleDonationTestData.json
+[INFO] - [02-02-2026 20:33:48] [utils.common.JsonUtils] - Successfully deserialized JSON to: SingleDonationTestData[]
+[INFO] - [02-02-2026 20:33:48] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ModeratorCommunity.json
+[INFO] - [02-02-2026 20:33:48] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [02-02-2026 20:33:48] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreationCommunityTestData.json
+[INFO] - [02-02-2026 20:33:48] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [02-02-2026 20:33:48] [utils.appium.TerminalLogsCapture$1] - [HTTP] --> GET /status
+[INFO] - [02-02-2026 20:33:48] [utils.appium.TerminalLogsCapture$1] - [INFO] Appium server already running.
+[INFO] - [02-02-2026 20:33:48] [utils.appium.TerminalLogsCapture$1] - [HTTP] <-- GET /status 200 3 ms - 110
+[WARN] - [02-02-2026 20:33:48] [utils.appium.TerminalLogsCapture$1] - [WARN] Could not clear port 8100: Cannot run program "npx": CreateProcess error=2, The system cannot find the file specified
+[INFO] - [02-02-2026 20:33:48] [utils.appium.TerminalLogsCapture$1] - [HTTP] --> POST /session {"capabilities":{"firstMatch":[{"appium:systemPort":"8100","appium:autoGrantPermissions":true,"appium:deviceName":"Emu2","platformName":"ANDROID","appium:automationName":"UiAutomator2","appium:app":"C:/Users/Kholoud/IdeaProjects/Givers/src/main/resources/AUT/app-staging-release.apk"}]}}
+[INFO] - [02-02-2026 20:33:48] [utils.appium.TerminalLogsCapture$1] - [Appium] Attempting to find matching driver for automationName 'UiAutomator2' and platformName 'ANDROID'
+[INFO] - [02-02-2026 20:33:48] [utils.appium.TerminalLogsCapture$1] - [Appium] The 'uiautomator2' driver was installed and matched caps.
+[INFO] - [02-02-2026 20:33:48] [utils.appium.TerminalLogsCapture$1] - [Appium] Will require it at C:\Users\Kholoud\.appium\node_modules\appium-uiautomator2-driver
+[INFO] - [02-02-2026 20:33:48] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@47fa] Appium v3.1.0 creating new AndroidUiautomator2Driver (v4.2.9) session
+[INFO] - [02-02-2026 20:33:48] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@47fa] Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[INFO] - [02-02-2026 20:33:48] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@47fa] Appium's BaseDriver version is 10.1.0
+[INFO] - [02-02-2026 20:33:48] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@47fa] AndroidUiautomator2Driver's BaseDriver version is 10.1.0
+[INFO] - [02-02-2026 20:33:48] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@47fa] Enabling relaxed security for this session as per the server configuration. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[INFO] - [02-02-2026 20:33:48] [utils.appium.TerminalLogsCapture$1] - [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+[INFO] - [02-02-2026 20:33:48] [utils.appium.TerminalLogsCapture$1] - [AndroidUiautomator2Driver@eb53] Capability 'systemPort' changed from string ('8100') to integer (8100). This may cause unexpected behavior
+[INFO] - [02-02-2026 20:33:48] [utils.appium.TerminalLogsCapture$1] - [0365876d][AndroidUiautomator2Driver@eb53] Session created with session id: 0365876d-48e9-486b-8508-09b11f33164d
+[INFO] - [02-02-2026 20:33:48] [utils.appium.TerminalLogsCapture$1] - [0365876d][ADB] Using 'adb.exe' from 'C:\Users\Kholoud\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[INFO] - [02-02-2026 20:33:48] [utils.appium.TerminalLogsCapture$1] - [0365876d][AndroidUiautomator2Driver@eb53] Retrieving device list
+[INFO] - [02-02-2026 20:33:48] [utils.appium.TerminalLogsCapture$1] - [0365876d][AndroidUiautomator2Driver@eb53] Using device: emulator-5554
+[INFO] - [02-02-2026 20:33:48] [utils.appium.TerminalLogsCapture$1] - [0365876d][ADB] Using 'adb.exe' from 'C:\Users\Kholoud\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[INFO] - [02-02-2026 20:33:48] [utils.appium.TerminalLogsCapture$1] - [0365876d][BaseDriver] Using local app 'C:/Users/Kholoud/IdeaProjects/Givers/src/main/resources/AUT/app-staging-release.apk'
+[INFO] - [02-02-2026 20:33:49] [utils.appium.TerminalLogsCapture$1] - [0365876d][ADB] Getting device platform version
+[INFO] - [02-02-2026 20:33:49] [utils.appium.TerminalLogsCapture$1] - [0365876d][AndroidUiautomator2Driver@eb53] Relaxing hidden api policy
+[INFO] - [02-02-2026 20:33:49] [utils.appium.TerminalLogsCapture$1] - [0365876d][ADB] Using 'aapt2.exe' from 'C:\Users\Kholoud\AppData\Local\Android\Sdk\build-tools\36.0.0\aapt2.exe'
+[INFO] - [02-02-2026 20:33:50] [utils.appium.TerminalLogsCapture$1] - [0365876d][ADB] Package name: 'com.giversapp.GiversApp.staging'
+[INFO] - [02-02-2026 20:33:50] [utils.appium.TerminalLogsCapture$1] - [0365876d][ADB] Main activity name: 'com.giversapp.GiversApp.staging.MainActivity'
+[INFO] - [02-02-2026 20:33:58] [utils.appium.TerminalLogsCapture$1] - [0365876d][AndroidUiautomator2Driver@eb53] Server packages are not going to be (re)installed
+[INFO] - [02-02-2026 20:33:58] [utils.appium.TerminalLogsCapture$1] - [0365876d][ADB] Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[INFO] - [02-02-2026 20:33:59] [utils.appium.TerminalLogsCapture$1] - [0365876d][ADB] Using 'apksigner.jar' from 'C:\Users\Kholoud\AppData\Local\Android\Sdk\build-tools\36.0.0\lib\apksigner.jar'
+[INFO] - [02-02-2026 20:34:01] [utils.appium.TerminalLogsCapture$1] - [0365876d][ADB] 'C:/Users/Kholoud/IdeaProjects/Givers/src/main/resources/AUT/app-staging-release.apk' is signed with a non-default certificate
+[INFO] - [02-02-2026 20:34:03] [utils.appium.TerminalLogsCapture$1] - [0365876d][AndroidUiautomator2Driver@eb53] Performing fast reset on 'com.giversapp.GiversApp.staging'
+[INFO] - [02-02-2026 20:34:10] [utils.appium.TerminalLogsCapture$1] - [0365876d][AndroidUiautomator2Driver@eb53] Starting UIAutomator2 server 7.7.1
+[INFO] - [02-02-2026 20:34:10] [utils.appium.TerminalLogsCapture$1] - [0365876d][AndroidUiautomator2Driver@eb53] Using UIAutomator2 server from 'C:\Users\Kholoud\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v7.7.1.apk' and test from 'C:\Users\Kholoud\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[INFO] - [02-02-2026 20:34:10] [utils.appium.TerminalLogsCapture$1] - [0365876d][AndroidUiautomator2Driver@eb53] Waiting up to 30000ms for UiAutomator2 to be online...
+[INFO] - [02-02-2026 20:34:10] [utils.appium.TerminalLogsCapture$1] - [0365876d][AndroidUiautomator2Driver@eb53] socket hang up
+[INFO] - [02-02-2026 20:34:11] [utils.appium.TerminalLogsCapture$1] - [0365876d][AndroidUiautomator2Driver@eb53] socket hang up
+[INFO] - [02-02-2026 20:34:12] [utils.appium.TerminalLogsCapture$1] - [0365876d][AndroidUiautomator2Driver@eb53] socket hang up
+[INFO] - [02-02-2026 20:34:13] [utils.appium.TerminalLogsCapture$1] - [0365876d][AndroidUiautomator2Driver@eb53] socket hang up
+[INFO] - [02-02-2026 20:34:14] [utils.appium.TerminalLogsCapture$1] - [0365876d][AndroidUiautomator2Driver@eb53] socket hang up
+[INFO] - [02-02-2026 20:34:15] [utils.appium.TerminalLogsCapture$1] - [0365876d][AndroidUiautomator2Driver@eb53] socket hang up
+[INFO] - [02-02-2026 20:34:16] [utils.appium.TerminalLogsCapture$1] - [0365876d][AndroidUiautomator2Driver@eb53] socket hang up
+[INFO] - [02-02-2026 20:34:17] [utils.appium.TerminalLogsCapture$1] - [0365876d][AndroidUiautomator2Driver@eb53] socket hang up
+[INFO] - [02-02-2026 20:34:18] [utils.appium.TerminalLogsCapture$1] - [0365876d][AndroidUiautomator2Driver@eb53] socket hang up
+[INFO] - [02-02-2026 20:34:19] [utils.appium.TerminalLogsCapture$1] - [0365876d][AndroidUiautomator2Driver@eb53] socket hang up
+[INFO] - [02-02-2026 20:34:20] [utils.appium.TerminalLogsCapture$1] - [0365876d][AndroidUiautomator2Driver@eb53] socket hang up
+[INFO] - [02-02-2026 20:34:21] [utils.appium.TerminalLogsCapture$1] - [0365876d][AndroidUiautomator2Driver@eb53] socket hang up
+[INFO] - [02-02-2026 20:34:23] [utils.appium.TerminalLogsCapture$1] - [0365876d][AndroidUiautomator2Driver@eb53] socket hang up
+[INFO] - [02-02-2026 20:34:24] [utils.appium.TerminalLogsCapture$1] - [0365876d][AndroidUiautomator2Driver@eb53] socket hang up
+[INFO] - [02-02-2026 20:34:25] [utils.appium.TerminalLogsCapture$1] - [0365876d][AndroidUiautomator2Driver@eb53] socket hang up
+[INFO] - [02-02-2026 20:34:26] [utils.appium.TerminalLogsCapture$1] - [0365876d][AndroidUiautomator2Driver@eb53] socket hang up
+[INFO] - [02-02-2026 20:34:27] [utils.appium.TerminalLogsCapture$1] - [0365876d][AndroidUiautomator2Driver@eb53] socket hang up
+[INFO] - [02-02-2026 20:34:28] [utils.appium.TerminalLogsCapture$1] - [0365876d][AndroidUiautomator2Driver@eb53] socket hang up
+[INFO] - [02-02-2026 20:34:29] [utils.appium.TerminalLogsCapture$1] - [0365876d][AndroidUiautomator2Driver@eb53] socket hang up
+[INFO] - [02-02-2026 20:34:30] [utils.appium.TerminalLogsCapture$1] - [0365876d][AndroidUiautomator2Driver@eb53] socket hang up
+[INFO] - [02-02-2026 20:34:31] [utils.appium.TerminalLogsCapture$1] - [0365876d][AndroidUiautomator2Driver@eb53] socket hang up
+[INFO] - [02-02-2026 20:34:32] [utils.appium.TerminalLogsCapture$1] - [0365876d][AndroidUiautomator2Driver@eb53] socket hang up
+[INFO] - [02-02-2026 20:34:33] [utils.appium.TerminalLogsCapture$1] - [0365876d][AndroidUiautomator2Driver@eb53] socket hang up
+[INFO] - [02-02-2026 20:34:34] [utils.appium.TerminalLogsCapture$1] - [0365876d][AndroidUiautomator2Driver@eb53] socket hang up
+[INFO] - [02-02-2026 20:34:35] [utils.appium.TerminalLogsCapture$1] - [0365876d][AndroidUiautomator2Driver@eb53] socket hang up
+[INFO] - [02-02-2026 20:34:36] [utils.appium.TerminalLogsCapture$1] - [0365876d][AndroidUiautomator2Driver@eb53] socket hang up
+[INFO] - [02-02-2026 20:34:37] [utils.appium.TerminalLogsCapture$1] - [0365876d][AndroidUiautomator2Driver@eb53] socket hang up
+[INFO] - [02-02-2026 20:34:38] [utils.appium.TerminalLogsCapture$1] - [0365876d][AndroidUiautomator2Driver@eb53] Determined the downstream protocol as 'W3C'
+[INFO] - [02-02-2026 20:34:39] [utils.appium.TerminalLogsCapture$1] - [0365876d][AndroidUiautomator2Driver@eb53] Neither 'unlockType' nor 'unlockKey' capability is provided. Assuming the device is locked with a simple lock screen.
+[INFO] - [02-02-2026 20:34:39] [utils.appium.TerminalLogsCapture$1] - [0365876d][ADB] Waking up the device to dismiss the keyguard
+[INFO] - [02-02-2026 20:34:41] [utils.appium.TerminalLogsCapture$1] - [0365876d][AndroidUiautomator2Driver@eb53] Starting 'com.giversapp.GiversApp.staging/com.giversapp.GiversApp.staging.MainActivity' and waiting for 'com.giversapp.GiversApp.staging/com.giversapp.GiversApp.staging.MainActivity'

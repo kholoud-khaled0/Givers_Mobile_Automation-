@@ -1,0 +1,48 @@
+[DEBUG] - [05-11-2025 00:41:00] [org.testng.TestNG] - suiteXmlPath: "C:\Users\Kholoud\IdeaProjects\Givers\test_runners\AndroidTestSuite.xml"
+[INFO] - [05-11-2025 00:41:01] [utils.common.FilesUtils] - Directory already exists: test_outputs\logs
+[INFO] - [05-11-2025 00:41:01] [utils.common.FilesUtils] - Directory already exists: test_outputs\allure_results
+[INFO] - [05-11-2025 00:41:01] [utils.common.FilesUtils] - Directory already exists: test_outputs\screenshots
+[INFO] - [05-11-2025 00:41:01] [utils.common.FilesUtils] - Directory already exists: test_outputs\allure_report
+[INFO] - [05-11-2025 00:41:01] [utils.common.FilesUtils] - Deleting files or folders in: C:\Users\Kholoud\IdeaProjects\Givers\test_outputs\allure_results
+[INFO] - [05-11-2025 00:41:01] [utils.common.FilesUtils] - Deleting files or folders in: C:\Users\Kholoud\IdeaProjects\Givers\test_outputs\screenshots
+[INFO] - [05-11-2025 00:41:01] [utils.appium.TerminalLogsCapture$1] - ￢ﾜﾅ Appium server started at: http://127.0.0.1:4723/
+[INFO] - [05-11-2025 00:41:01] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\Kholoud\IdeaProjects\Givers\test_runners\AndroidTestSuite.xml
+
+[INFO] - [05-11-2025 00:41:01] [listeners.TestResultListener] - Test run started
+[INFO] - [05-11-2025 00:41:01] [utils.common.PropertiesUtils] - Loading Android properties from: src/main/resources/Env/AndroidEnv.properties
+[INFO] - [05-11-2025 00:41:02] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/loginTestData.json
+[INFO] - [05-11-2025 00:41:02] [utils.common.JsonUtils] - Successfully deserialized JSON to: LoginTestData[]
+[INFO] - [05-11-2025 00:41:02] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/registerTestData.json
+[INFO] - [05-11-2025 00:41:02] [utils.common.JsonUtils] - Successfully deserialized JSON to: RegisterTestData[]
+[INFO] - [05-11-2025 00:41:02] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/resetPasswordTestData.json
+[INFO] - [05-11-2025 00:41:02] [utils.common.JsonUtils] - Successfully deserialized JSON to: ResetPasswordTestData[]
+[INFO] - [05-11-2025 00:41:02] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [05-11-2025 00:41:02] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [05-11-2025 00:41:02] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [05-11-2025 00:41:02] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [05-11-2025 00:41:02] [utils.appium.TerminalLogsCapture$1] - [INFO] Appium server already running.
+[WARN] - [05-11-2025 00:41:02] [utils.appium.TerminalLogsCapture$1] - [WARN] Could not clear port 8100: Cannot run program "npx": CreateProcess error=2, The system cannot find the file specified
+[INFO] - [05-11-2025 00:41:19] [listeners.MethodInvocationListener] - Starting test: testFullResetPasswordFlow
+[INFO] - [05-11-2025 00:42:01] [listeners.MethodInvocationListener] - Finished test: testFullResetPasswordFlow
+[INFO] - [05-11-2025 00:42:01] [utils.common.AllureUtils] - Attaching logs for test: testFullResetPasswordFlow
+[INFO] - [05-11-2025 00:42:01] [utils.common.AllureUtils] - Logs attached successfully for test: testFullResetPasswordFlow
+[INFO] - [05-11-2025 00:42:03] [utils.appium.TerminalLogsCapture$1] - ￢ﾜﾅ Driver session closed successfully
+[INFO] - [05-11-2025 00:42:03] [utils.appium.TerminalLogsCapture$1] - ￰ﾟﾛﾑ Appium server stopped.
+[INFO] - [05-11-2025 00:42:03] [listeners.TestResultListener] - Test skipped: testFullResetPasswordFlow
+[INFO] - [05-11-2025 00:42:03] [utils.appium.TerminalLogsCapture$1] - ￢ﾜﾅ Appium server started at: http://127.0.0.1:4723/
+[WARN] - [05-11-2025 00:42:03] [utils.appium.TerminalLogsCapture$1] - [WARN] Could not clear port 8100: Cannot run program "npx": CreateProcess error=2, The system cannot find the file specified
+[INFO] - [05-11-2025 00:42:15] [listeners.MethodInvocationListener] - Starting test: testFullResetPasswordFlow
+[INFO] - [05-11-2025 00:43:07] [utils.appium.TerminalLogsCapture$1] - Scrolled to text: Logout
+[INFO] - [05-11-2025 00:43:20] [listeners.MethodInvocationListener] - Finished test: testFullResetPasswordFlow
+[INFO] - [05-11-2025 00:43:20] [utils.common.AllureUtils] - Attaching logs for test: testFullResetPasswordFlow
+[INFO] - [05-11-2025 00:43:20] [utils.common.AllureUtils] - Logs attached successfully for test: testFullResetPasswordFlow
+[INFO] - [05-11-2025 00:43:21] [utils.appium.TerminalLogsCapture$1] - ￢ﾜﾅ Driver session closed successfully
+[INFO] - [05-11-2025 00:43:21] [utils.appium.TerminalLogsCapture$1] - ￰ﾟﾛﾑ Appium server stopped.
+[INFO] - [05-11-2025 00:43:21] [listeners.TestResultListener] - Test failed: testFullResetPasswordFlow
+[INFO] - [05-11-2025 00:43:21] [listeners.TestResultListener] - Test run finished
+[INFO] - [05-11-2025 00:43:21] [utils.appium.TerminalLogsCapture$1] - ===============================================
+[INFO] - [05-11-2025 00:43:21] [utils.appium.TerminalLogsCapture$1] - Authentication Suite
+[INFO] - [05-11-2025 00:43:21] [utils.appium.TerminalLogsCapture$1] - Total tests run: 2, Passes: 0, Failures: 1, Skips: 0, Retries: 1
+[INFO] - [05-11-2025 00:43:21] [utils.appium.TerminalLogsCapture$1] - ===============================================
+[INFO] - [05-11-2025 00:43:21] [utils.common.TerminalUtils] - Executing command: allure generate test_outputs/allure_results -o test_outputs/allure_report --clean --single-file

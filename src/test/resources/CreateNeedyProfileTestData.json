@@ -1,0 +1,156 @@
+[
+  {
+    "email": "kholoud155312+5@gmail.com",
+    "password": "Kholoud155#",
+    "maritalStatus": "Single",
+    "state": "Giza",
+    "city": "Saf",
+    "address": "El Giza Saf ....",
+    "housingCondition": "Homeless",
+    "needyDocuments": [
+      { "documentName": "national-id-documents", "dropdownValue": null },
+      { "documentName": "birth-certificate-documents", "dropdownValue": null }
+    ],
+    "amount": "5000",
+    "relationShip": "Spouse",
+    "memberDocuments": [
+      { "documentName": "national-id-documents", "dropdownValue": null },
+      { "documentName": "birth-certificate-documents", "dropdownValue": null }
+    ],
+    "story": "Hi my name is Ahmed and my story is ....",
+    "note": "my age is ..."
+  },
+
+  {
+    "email": "kholoud155312+5@gmail.com",
+    "password": "Kholoud155#",
+    "maritalStatus": "Single",
+    "state": "Giza",
+    "city": "Saf",
+    "address": "El Giza Saf ....",
+    "housingCondition": "Homeless",
+    "needyDocuments": [
+      { "documentName": "national-id-documents", "dropdownValue": null },
+      { "documentName": "birth-certificate-documents", "dropdownValue": null },
+      { "documentName": "school-letter-document", "dropdownValue": null }
+    ],
+    "amount": "5000",
+    "relationShip": "Spouse",
+    "memberDocuments": [
+      { "documentName": "school-letter-document", "dropdownValue": null },
+      { "documentName": "national-id-documents", "dropdownValue": null },
+      { "documentName": "birth-certificate-documents", "dropdownValue": null }
+    ],
+    "story": "Hi my name is Ahmed and my story is ....",
+    "note": "my age is ..."
+  },
+
+  {
+    "email": "kholoud155312+5@gmail.com",
+    "password": "Kholoud155#",
+    "maritalStatus": "Married",
+    "state": "Giza",
+    "city": "Saf",
+    "address": "El Giza Saf ....",
+    "housingCondition": "Homeless",
+    "needyDocuments": [
+      { "documentName": "national-id-documents", "dropdownValue": null },
+      { "documentName": "birth-certificate-documents", "dropdownValue": null }
+    ],
+    "amount": "5000",
+    "relationShip": "Biological child",
+    "memberDocuments": [
+      { "documentName": "national-id-documents", "dropdownValue": null },
+      { "documentName": "birth-certificate-documents", "dropdownValue": null }
+    ],
+    "story": "Hi my name is Ahmed and my story is ....",
+    "note": "my age is ..."
+  },
+  {
+    "email": "kholoud155312+5@gmail.com",
+    "password": "Kholoud155#",
+    "maritalStatus": "Divorced",
+    "state": "Giza",
+    "city": "Saf",
+    "address": "El Giza Saf ....",
+    "housingCondition": "Homeless",
+    "needyDocuments": [
+      { "documentName": "national-id-documents", "dropdownValue": null },
+      { "documentName": "birth-certificate-documents", "dropdownValue": null }
+    ],
+    "amount": "5000",
+    "relationShip": "Non biological child",
+    "memberDocuments": [
+      { "documentName": "national-id-documents", "dropdownValue": null },
+      { "documentName": "birth-certificate-documents", "dropdownValue": null }
+    ],
+    "story": "Hi my name is Ahmed and my story is ....",
+    "note": "my age is ..."
+  },
+
+  {
+    "email": "kholoud155312+5@gmail.com",
+    "password": "Kholoud155#",
+    "maritalStatus": "Widowed",
+    "state": "Giza",
+    "city": "Saf",
+    "address": "El Giza Saf ....",
+    "housingCondition": "Homeless",
+    "needyDocuments": [
+      { "documentName": "national-id-documents", "dropdownValue": null },
+      { "documentName": "birth-certificate-documents", "dropdownValue": null }
+    ],
+    "amount": "5000",
+    "relationShip": "Parent",
+    "memberDocuments": [
+      { "documentName": "national-id-documents", "dropdownValue": null },
+      { "documentName": "birth-certificate-documents", "dropdownValue": null }
+    ],
+    "story": "Hi my name is Ahmed and my story is ....",
+    "note": "my age is ..."
+  },
+
+  {
+    "email": "kholoud155312+5@gmail.com",
+    "password": "Kholoud155#",
+    "maritalStatus": "Abandoned",
+    "state": "Giza",
+    "city": "Saf",
+    "address": "El Giza Saf ....",
+    "housingCondition": "Homeless",
+    "needyDocuments": [
+      { "documentName": "national-id-documents", "dropdownValue": null },
+      { "documentName": "birth-certificate-documents", "dropdownValue": null }
+    ],
+    "amount": "5000",
+    "relationShip": "Grand parent",
+    "memberDocuments": [
+      { "documentName": "national-id-documents", "dropdownValue": null },
+      { "documentName": "birth-certificate-documents", "dropdownValue": null }
+    ],
+    "story": "Hi my name is Ahmed and my story is ....",
+    "note": "my age is ..."
+  },
+
+  {
+    "email": "kholoud155312+5@gmail.com",
+    "password": "Kholoud155#",
+    "maritalStatus": "Spouse in prison",
+    "state": "Giza",
+    "city": "Saf",
+    "address": "El Giza Saf ....",
+    "housingCondition": "Homeless",
+    "needyDocuments": [
+      { "documentName": "national-id-documents", "dropdownValue": null },
+      { "documentName": "birth-certificate-documents", "dropdownValue": null }
+    ],
+    "amount": "5000",
+    "relationShip": "Other",
+    "memberDocuments": [
+      { "documentName": "national-id-documents", "dropdownValue": null },
+      { "documentName": "birth-certificate-documents", "dropdownValue": null }
+    ],
+    "story": "Hi my name is Ahmed and my story is ....",
+    "note": "my age is ..."
+  }
+]

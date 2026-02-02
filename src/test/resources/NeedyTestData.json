@@ -1,0 +1,37 @@
+[
+  {
+    "email": "kholoud155312+5@gmail.com",
+    "password": "Kholoud155#",
+    "ID": "31207300102065",
+    "Name": "ندى عادل الحكيم",
+    "story": "Existing household member",
+    "description": "Verify that a user can log in, navigate to Needy Check, enter valid ID and Name, and see the 'Existing household member' message."
+  }
+,
+  {
+    "email": "kholoud155312+5@gmail.com",
+    "password": "Kholoud155#",
+    "ID": "31304142202415",
+    "Name": "محمد جعفر محمد احمد عبدالفتاح",
+    "story": "Not existing profile",
+    "description": "Verify that a user can log in, navigate to Needy Check, enter an invalid ID and Name, and see the 'We didn’t find any profile using this ID!' message."
+  }
+,
+  {
+    "email": "kholoud155312+5@gmail.com",
+    "password": "Kholoud155#",
+    "ID": "31304142202414",
+    "Name": "اسم خاطئ للاختبار",
+    "story": "Mismatched Name for existing profile",
+    "description": "Verify that a user can log in, navigate to Needy Check, enter a valid ID with an incorrect Name, and see the system handles the mismatch appropriately."
+  },
+  {
+    "email": "kholoud155312+5@gmail.com",
+    "password": "Kholoud155#",
+    "ID": "30005010102902",
+    "Name": "كوتش ريفيرو",
+    "story": "Existing needy member",
+    "description": "Verify that a user can log in, navigate to Needy Check, enter valid ID and Name, and see the 'Existing needy member' message."
+  }
+]
+

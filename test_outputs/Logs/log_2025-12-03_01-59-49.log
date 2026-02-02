@@ -1,0 +1,31 @@
+[DEBUG] - [03-12-2025 01:59:49] [org.testng.TestNG] - suiteXmlPath: "C:\Users\Kholoud\IdeaProjects\Givers\test_runners\AndroidTestSuite.xml"
+[INFO] - [03-12-2025 01:59:53] [utils.common.FilesUtils] - Directory already exists: test_outputs\logs
+[INFO] - [03-12-2025 01:59:53] [utils.common.FilesUtils] - Directory already exists: test_outputs\allure_results
+[INFO] - [03-12-2025 01:59:53] [utils.common.FilesUtils] - Directory already exists: test_outputs\screenshots
+[INFO] - [03-12-2025 01:59:53] [utils.common.FilesUtils] - Directory already exists: test_outputs\allure_report
+[INFO] - [03-12-2025 01:59:53] [utils.common.FilesUtils] - Deleting files or folders in: C:\Users\Kholoud\IdeaProjects\Givers\test_outputs\allure_results
+[INFO] - [03-12-2025 01:59:53] [utils.common.FilesUtils] - Deleting files or folders in: C:\Users\Kholoud\IdeaProjects\Givers\test_outputs\screenshots
+[INFO] - [03-12-2025 01:59:53] [utils.appium.TerminalLogsCapture$1] - ￢ﾜﾅ Appium server started at: http://127.0.0.1:4723/
+[INFO] - [03-12-2025 01:59:54] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\Kholoud\IdeaProjects\Givers\test_runners\AndroidTestSuite.xml
+
+[INFO] - [03-12-2025 01:59:54] [listeners.TestResultListener] - Test run started
+[INFO] - [03-12-2025 01:59:54] [utils.common.PropertiesUtils] - Loading Android properties from: src/main/resources/Env/AndroidEnv.properties
+[INFO] - [03-12-2025 01:59:56] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/loginTestData.json
+[INFO] - [03-12-2025 01:59:57] [utils.common.JsonUtils] - Successfully deserialized JSON to: LoginTestData[]
+[INFO] - [03-12-2025 01:59:57] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/registerTestData.json
+[INFO] - [03-12-2025 01:59:57] [utils.common.JsonUtils] - Successfully deserialized JSON to: RegisterTestData[]
+[INFO] - [03-12-2025 01:59:57] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/resetPasswordTestData.json
+[INFO] - [03-12-2025 01:59:57] [utils.common.JsonUtils] - Successfully deserialized JSON to: ResetPasswordTestData[]
+[INFO] - [03-12-2025 01:59:57] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [03-12-2025 01:59:57] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [03-12-2025 01:59:57] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [03-12-2025 01:59:57] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [03-12-2025 01:59:57] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ForgotPasswordTestData.json
+[INFO] - [03-12-2025 01:59:57] [utils.common.JsonUtils] - Successfully deserialized JSON to: ForgotPasswordTestData[]
+[INFO] - [03-12-2025 01:59:57] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyTestData.json
+[INFO] - [03-12-2025 01:59:57] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyTestData[]
+[INFO] - [03-12-2025 01:59:57] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreateNeedyProfileTestData.json
+[INFO] - [03-12-2025 01:59:57] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyProfileTestData[]
+[INFO] - [03-12-2025 01:59:57] [utils.appium.TerminalLogsCapture$1] - [INFO] Appium server already running.
+[WARN] - [03-12-2025 01:59:57] [utils.appium.TerminalLogsCapture$1] - [WARN] Could not clear port 8100: Cannot run program "npx": CreateProcess error=2, The system cannot find the file specified

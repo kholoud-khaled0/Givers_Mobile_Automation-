@@ -1,0 +1,7 @@
+[DEBUG] - [09-01-2026 15:16:15] [org.testng.TestNG] - suiteXmlPath: "C:\Users\Kholoud\IdeaProjects\Givers\test_runners\AndroidTestSuite.xml"
+[INFO] - [09-01-2026 15:16:15] [utils.common.FilesUtils] - Directory already exists: test_outputs\logs
+[INFO] - [09-01-2026 15:16:15] [utils.common.FilesUtils] - Directory already exists: test_outputs\allure_results
+[INFO] - [09-01-2026 15:16:15] [utils.common.FilesUtils] - Directory already exists: test_outputs\screenshots
+[INFO] - [09-01-2026 15:16:15] [utils.common.FilesUtils] - Directory already exists: test_outputs\allure_report
+[INFO] - [09-01-2026 15:16:15] [utils.common.FilesUtils] - Deleting files or folders in: C:\Users\Kholoud\IdeaProjects\Givers\test_outputs\allure_results
+[INFO] - [09-01-2026 15:16:15] [utils.common.FilesUtils] - Deleting files or folders in: C:\Users\Kholoud\IdeaProjects\Givers\test_outputs\screenshots
