@@ -1,0 +1,10 @@
+[DEBUG] - [18-10-2025 18:09:54] [org.testng.TestNG] - suiteXmlPath: "C:\Users\Kholoud\IdeaProjects\Givers\test_runners\AndroidTestSuite.xml"
+[INFO] - [18-10-2025 18:09:54] [utils.common.FilesUtils] - Directory already exists: test_outputs\logs
+[INFO] - [18-10-2025 18:09:54] [utils.common.FilesUtils] - Directory already exists: test_outputs\allure_results
+[INFO] - [18-10-2025 18:09:54] [utils.common.FilesUtils] - Directory already exists: test_outputs\screenshots
+[INFO] - [18-10-2025 18:09:54] [utils.common.FilesUtils] - Directory already exists: test_outputs\allure_report
+[INFO] - [18-10-2025 18:09:54] [utils.common.FilesUtils] - Deleting files or folders in: C:\Users\Kholoud\IdeaProjects\Givers\test_outputs\allure_results
+[INFO] - [18-10-2025 18:09:54] [utils.common.FilesUtils] - Deleting files or folders in: C:\Users\Kholoud\IdeaProjects\Givers\test_outputs\screenshots
+[WARN] - [18-10-2025 18:10:01] [utils.appium.TerminalLogsCapture$1] - WARN Appium Appium encountered 1 warning while validating plugins found in manifest C:\Users\Kholoud\.appium\node_modules\.cache\appium\extensions.yaml
+[WARN] - [18-10-2025 18:10:01] [utils.appium.TerminalLogsCapture$1] - WARN Appium Plugin "images" has 1 potential problem:
+[WARN] - [18-10-2025 18:10:01] [utils.appium.TerminalLogsCapture$1] - WARN Appium   - Plugin "images" (package `@appium/images-plugin`) may be incompatible with the current version of Appium (v3.1.0) due to its peer dependency on Appium ^2.0.0. Please install a compatible version of the plugin.

@@ -1,0 +1,24 @@
+[DEBUG] - [18-10-2025 18:07:48] [org.testng.TestNG] - suiteXmlPath: "C:\Users\Kholoud\IdeaProjects\Givers\test_runners\AndroidTestSuite.xml"
+[INFO] - [18-10-2025 18:07:49] [utils.common.FilesUtils] - Directory already exists: test_outputs\logs
+[INFO] - [18-10-2025 18:07:49] [utils.common.FilesUtils] - Directory already exists: test_outputs\allure_results
+[INFO] - [18-10-2025 18:07:49] [utils.common.FilesUtils] - Directory already exists: test_outputs\screenshots
+[INFO] - [18-10-2025 18:07:49] [utils.common.FilesUtils] - Directory already exists: test_outputs\allure_report
+[INFO] - [18-10-2025 18:07:49] [utils.common.FilesUtils] - Deleting files or folders in: C:\Users\Kholoud\IdeaProjects\Givers\test_outputs\allure_results
+[INFO] - [18-10-2025 18:07:49] [utils.common.FilesUtils] - Deleting files or folders in: C:\Users\Kholoud\IdeaProjects\Givers\test_outputs\screenshots
+[WARN] - [18-10-2025 18:07:54] [utils.appium.TerminalLogsCapture$1] - WARN Appium Appium encountered 1 warning while validating plugins found in manifest C:\Users\Kholoud\.appium\node_modules\.cache\appium\extensions.yaml
+[WARN] - [18-10-2025 18:07:54] [utils.appium.TerminalLogsCapture$1] - WARN Appium Plugin "images" has 1 potential problem:
+[WARN] - [18-10-2025 18:07:54] [utils.appium.TerminalLogsCapture$1] - WARN Appium   - Plugin "images" (package `@appium/images-plugin`) may be incompatible with the current version of Appium (v3.1.0) due to its peer dependency on Appium ^2.0.0. Please install a compatible version of the plugin.
+[WARN] - [18-10-2025 18:07:58] [utils.appium.TerminalLogsCapture$1] - WARN Appium Appium encountered 3 warnings while validating drivers found in manifest C:\Users\Kholoud\.appium\node_modules\.cache\appium\extensions.yaml
+[WARN] - [18-10-2025 18:07:58] [utils.appium.TerminalLogsCapture$1] - WARN Appium Driver "xcuitest" has 1 potential problem:
+[WARN] - [18-10-2025 18:07:58] [utils.appium.TerminalLogsCapture$1] - WARN Appium   - Driver "xcuitest" (package `appium-xcuitest-driver`) may be incompatible with the current version of Appium (v3.1.0) due to its peer dependency on Appium ^2.5.4. Try to upgrade `appium-xcuitest-driver` to v9.10.5 or newer.
+[WARN] - [18-10-2025 18:07:58] [utils.appium.TerminalLogsCapture$1] - WARN Appium Driver "espresso" has 1 potential problem:
+[WARN] - [18-10-2025 18:07:58] [utils.appium.TerminalLogsCapture$1] - WARN Appium   - Driver "espresso" (package `appium-espresso-driver`) may be incompatible with the current version of Appium (v3.1.0) due to its peer dependency on Appium ^2.4.1. Try to upgrade `appium-espresso-driver` to v4.1.17 or newer.
+[INFO] - [18-10-2025 18:07:59] [utils.appium.TerminalLogsCapture$1] - [Appium] Welcome to Appium v3.1.0
+[INFO] - [18-10-2025 18:07:59] [utils.appium.TerminalLogsCapture$1] - [Appium] Non-default server args:
+[INFO] - [18-10-2025 18:07:59] [utils.appium.TerminalLogsCapture$1] - [Appium] { allowInsecure: [ 'get_server_logs' ], logNoColors: true }
+[INFO] - [18-10-2025 18:07:59] [utils.appium.TerminalLogsCapture$1] - Fatal Error: The full feature name must include both the destination automation name or the '*' wildcard to apply the feature to all installed drivers, and the feature name split by a colon. Got 'get_server_logs' instead
+[INFO] - [18-10-2025 18:07:59] [utils.appium.TerminalLogsCapture$1] - at validator (C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\lib\insecure-features.ts:94:13)
+[INFO] - [18-10-2025 18:07:59] [utils.appium.TerminalLogsCapture$1] - at Array.map (<anonymous>)
+[INFO] - [18-10-2025 18:07:59] [utils.appium.TerminalLogsCapture$1] - at validateFeatures (C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\lib\insecure-features.ts:105:19)
+[INFO] - [18-10-2025 18:07:59] [utils.appium.TerminalLogsCapture$1] - at AppiumDriver.configureGlobalFeatures (C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\lib\insecure-features.ts:24:26)
+[INFO] - [18-10-2025 18:07:59] [utils.appium.TerminalLogsCapture$1] - at main (C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\lib\main.js:379:16)

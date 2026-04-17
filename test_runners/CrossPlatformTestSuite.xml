@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TheApp Feature Based Testing" parallel="tests" thread-count="2">
+    <listeners>
+        <listener class-name="listeners.TestResultListener"/>
+        <listener class-name="listeners.MethodInvocationListener"/>
+        <listener class-name="listeners.ExecutionListener"/>
+        <listener class-name="listeners.RetryListener"/>
+    </listeners>
+    <test name="Android Test" >
+        <parameter name="platformName" value="Android"/>
+        <classes>
+            <class name="utils.testFactory.TestFactory"/>
+        </classes>
+    </test>
+    <test name="IOS Test" >
+        <parameter name="platformName" value="IOS"/>
+        <classes>
+            <class name="utils.testFactory.TestFactory"/>
+        </classes>
+    </test>
+</suite>
