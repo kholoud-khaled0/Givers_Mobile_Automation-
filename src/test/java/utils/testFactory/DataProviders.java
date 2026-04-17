@@ -153,6 +153,18 @@ public class DataProviders {
                 return new Object[][] {
                         { createNeedyDataList[1] }
                 };
+            case "testNeedyProfile_Disability":
+                return Arrays.stream(createNeedyDataList)
+                        .filter(data -> "Disability".equalsIgnoreCase(data.healthStatus()))
+                        .map(data -> new Object[]{data})
+                        .toArray(Object[][]::new);
+
+
+            case "testNeedyProfile_Chronic":
+                return Arrays.stream(createNeedyDataList)
+                        .filter(data -> "Chronic disease".equalsIgnoreCase(data.healthStatus()))
+                        .map(data -> new Object[]{data})
+                        .toArray(Object[][]::new);
 
             default:
                 return new Object[0][];

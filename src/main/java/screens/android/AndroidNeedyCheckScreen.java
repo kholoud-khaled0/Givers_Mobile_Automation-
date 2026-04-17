@@ -31,21 +31,26 @@ public class AndroidNeedyCheckScreen extends NeedyScreen {
     }
 
     @Override
-    public void performCreateNeedyFlow( String ID,
-                                        String firstName,
-                                        String maritalStatus,
-                                        String motherName,
-                                        String phoneNumber,
-                                        List<DocumentData> needyDocuments,
-                                        List<DocumentData> memberDocuments,
-                                        String state,
-                                        String city,
-                                        String address,
-                                        String housingCondition,
-                                        String amount,
-                                        String relationShip,
-                                        String story,
-                                        String note) {
+    public void performCreateNeedyFlow(    String ID,
+                                           String firstName,
+                                           String maritalStatus,
+                                           String motherName,
+                                           String phoneNumber,
+                                           List<DocumentData> needyDocuments,
+                                           List<DocumentData> memberDocuments,
+                                           String state,
+                                           String city,
+                                           String address,
+                                           String housingCondition,
+                                           String amount,
+                                           String relationShip,
+                                           String story,
+                                           String note,
+                                           String healthStatus,
+                                           String disabilityLevel,
+                                           List<String> disabilityTypes,
+                                           String chronicDiseaseType,
+                                           String monthlyExpenses) {
 
     }
 

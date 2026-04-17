@@ -33,8 +33,7 @@ public class ForgotPasswordTest {
 
         // Step 1: Navigate to Forgot Password
         forgotPasswordScreen.tapSkipButton();
-        forgotPasswordScreen.tapSignUpButton();
-        forgotPasswordScreen.tapSignInButton();
+        forgotPasswordScreen.tapSignInWithEmailButton();
         forgotPasswordScreen.tapForgotPasswordButton();
 
         // Step 2: Enter email and send OTP

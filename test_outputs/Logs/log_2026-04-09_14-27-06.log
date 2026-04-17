@@ -1,0 +1,58 @@
+[DEBUG] - [09-04-2026 14:27:06] [org.testng.TestNG] - suiteXmlPath: "C:\Users\EELU\Downloads\Givers\test_runners\AndroidTestSuite.xml"
+[INFO] - [09-04-2026 14:27:06] [org.testng.internal.Utils] - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+[INFO] - [09-04-2026 14:27:06] [utils.common.FilesUtils] - Directory already exists: test_outputs\logs
+[INFO] - [09-04-2026 14:27:06] [utils.common.FilesUtils] - Directory already exists: test_outputs\allure_results
+[INFO] - [09-04-2026 14:27:06] [utils.common.FilesUtils] - Directory already exists: test_outputs\screenshots
+[INFO] - [09-04-2026 14:27:06] [utils.common.FilesUtils] - Directory already exists: test_outputs\allure_report
+[INFO] - [09-04-2026 14:27:06] [utils.common.FilesUtils] - Deleting files or folders in: C:\Users\EELU\Downloads\Givers\test_outputs\allure_results
+[INFO] - [09-04-2026 14:27:06] [utils.common.FilesUtils] - Deleting files or folders in: C:\Users\EELU\Downloads\Givers\test_outputs\screenshots
+[INFO] - [09-04-2026 14:27:07] [utils.appium.TerminalLogsCapture$1] - Appium server started at: http://127.0.0.1:4723/
+[INFO] - [09-04-2026 14:27:07] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\EELU\Downloads\Givers\test_runners\AndroidTestSuite.xml
+
+[INFO] - [09-04-2026 14:27:07] [listeners.TestResultListener] - Test run started
+[INFO] - [09-04-2026 14:27:07] [utils.common.PropertiesUtils] - Loading Android properties from: src/main/resources/Env/AndroidEnv.properties
+[INFO] - [09-04-2026 14:27:07] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CommunityTestData.json
+[INFO] - [09-04-2026 14:27:07] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [09-04-2026 14:27:07] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/loginTestData.json
+[INFO] - [09-04-2026 14:27:07] [utils.common.JsonUtils] - Successfully deserialized JSON to: LoginTestData[]
+[INFO] - [09-04-2026 14:27:07] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/registerTestData.json
+[INFO] - [09-04-2026 14:27:07] [utils.common.JsonUtils] - Successfully deserialized JSON to: RegisterTestData[]
+[INFO] - [09-04-2026 14:27:07] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/resetPasswordTestData.json
+[INFO] - [09-04-2026 14:27:07] [utils.common.JsonUtils] - Successfully deserialized JSON to: ResetPasswordTestData[]
+[INFO] - [09-04-2026 14:27:07] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [09-04-2026 14:27:07] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [09-04-2026 14:27:07] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [09-04-2026 14:27:07] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [09-04-2026 14:27:07] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ForgotPasswordTestData.json
+[INFO] - [09-04-2026 14:27:07] [utils.common.JsonUtils] - Successfully deserialized JSON to: ForgotPasswordTestData[]
+[INFO] - [09-04-2026 14:27:07] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyTestData.json
+[INFO] - [09-04-2026 14:27:07] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyTestData[]
+[INFO] - [09-04-2026 14:27:07] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreateNeedyProfileTestData.json
+[INFO] - [09-04-2026 14:27:07] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyProfileTestData[]
+[INFO] - [09-04-2026 14:27:07] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyFunctionTestData.json
+[INFO] - [09-04-2026 14:27:07] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyFunctionsTestData[]
+[INFO] - [09-04-2026 14:27:07] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/DonationTestData.json
+[INFO] - [09-04-2026 14:27:07] [utils.common.JsonUtils] - Successfully deserialized JSON to: EasyGiveTestData[]
+[INFO] - [09-04-2026 14:27:07] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/SingleDonationTestData.json
+[INFO] - [09-04-2026 14:27:07] [utils.common.JsonUtils] - Successfully deserialized JSON to: SingleDonationTestData[]
+[INFO] - [09-04-2026 14:27:07] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ModeratorCommunity.json
+[INFO] - [09-04-2026 14:27:07] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [09-04-2026 14:27:07] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreationCommunityTestData.json
+[INFO] - [09-04-2026 14:27:07] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[WARN] - [09-04-2026 14:27:07] [org.testng.internal.Utils] - The test method 'testClasses.features.Needy.CreateNeedyProfileTest.testNeedyProfile_Disability' will be skipped since its data provider 'needyProfileData' returned an empty array or iterator. 
+[INFO] - [09-04-2026 14:27:07] [listeners.TestResultListener] - Test run finished
+[INFO] - [09-04-2026 14:27:07] [utils.appium.TerminalLogsCapture$1] - ===============================================
+[INFO] - [09-04-2026 14:27:07] [utils.appium.TerminalLogsCapture$1] - Android Automation Suite
+[INFO] - [09-04-2026 14:27:07] [utils.appium.TerminalLogsCapture$1] - Total tests run: 0, Passes: 0, Failures: 0, Skips: 0
+[INFO] - [09-04-2026 14:27:07] [utils.appium.TerminalLogsCapture$1] - ===============================================
+[INFO] - [09-04-2026 14:27:07] [utils.common.TerminalUtils] - Executing command: allure generate test_outputs/allure_results -o test_outputs/allure_report --clean --single-file
+[INFO] - [09-04-2026 14:27:07] [utils.common.TerminalUtils] - Command executed: allure generate test_outputs/allure_results -o test_outputs/allure_report --clean --single-file
+[ERROR] - [09-04-2026 14:27:07] [utils.common.AllureUtils] - Failed to generate allure report
+[INFO] - [09-04-2026 14:27:07] [utils.common.FilesUtils] - Found latest file in test_outputs\allure_report: test_outputs\allure_report\Report 2026-04-08 14-32-30.html
+[INFO] - [09-04-2026 14:27:07] [utils.common.FilesUtils] - File renamed successfully from test_outputs\allure_report\Report 2026-04-08 14-32-30.html to test_outputs\allure_report\Report 2026-04-09 14-27-07.html
+[INFO] - [09-04-2026 14:27:07] [utils.common.AllureUtils] - Allure report renamed successfully to: test_outputs\allure_report\Report 2026-04-09 14-27-07.html
+[INFO] - [09-04-2026 14:27:07] [utils.common.AllureUtils] - Opening allure report: test_outputs\allure_report\Report 2026-04-09 14-27-07.html
+[INFO] - [09-04-2026 14:27:07] [utils.common.TerminalUtils] - Executing command: start "" "test_outputs\allure_report\Report 2026-04-09 14-27-07.html"
+[INFO] - [09-04-2026 14:27:08] [utils.common.TerminalUtils] - Command executed: start "" "test_outputs\allure_report\Report 2026-04-09 14-27-07.html"
+[INFO] - [09-04-2026 14:27:08] [utils.appium.TerminalLogsCapture$1] - Appium server stopped.

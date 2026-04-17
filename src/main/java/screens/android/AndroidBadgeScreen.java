@@ -9,6 +9,7 @@ public class AndroidBadgeScreen extends BadgeScreen {
     @Step("Complete Badges flow from profile to enabled and disabled badges")
     public void completeBadgesFlow() {
 
+        tapMoreButton();
         tapOnProfileImage();
         verifyMyBadgesTitleIsDisplayed();
 

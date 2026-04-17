@@ -19,7 +19,11 @@
 
         <!-- Only TestFactory is referenced here -->
         <classes>
-            <class name="utils.testFactory.TestFactory"/>
+            <class name="testClasses.features.Donation.DonationHistoryTest"/>
+            <class name="testClasses.features.Donation.EasyGiveTest"/>
+            <class name="testClasses.features.Donation.SingleDonationTest"/>
+
+
         </classes>
 
     </test>

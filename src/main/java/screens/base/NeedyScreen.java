@@ -55,8 +55,6 @@ public abstract class NeedyScreen {
             AppiumBy.androidUIAutomator("new UiSelector().text(\"National ID number\")");
     protected static final By nameNIDField =
             AppiumBy.androidUIAutomator("new UiSelector().text(\"Full name as in national ID\")");
-    protected static final By arrow =
-            AppiumBy.androidUIAutomator("new UiSelector().text(\"\uE819\").instance(1)");
     protected static final By dropdown =
             AppiumBy.androidUIAutomator("new UiSelector().description(\"select-dropdown-trigger\").instance(2)");
     protected static final By motherNameField =
@@ -67,24 +65,21 @@ public abstract class NeedyScreen {
             AppiumBy.androidUIAutomator("new UiSelector().text(\"Add another number\")");
     protected static final By phoneNumberField2 =
             AppiumBy.androidUIAutomator("new UiSelector().text(\"Enter number\").instance(1)");
-    protected static final By showDatePickerBtn =
-            AppiumBy.androidUIAutomator("new UiSelector().resourceId(\"showDatePickerBtn\").instance(1)");
-    protected static final By btn_next =
-            AppiumBy.id("btn-next");
     protected static final By shutterBtn =
             AppiumBy.accessibilityId("Shutter");
     protected static final By doneBtn =
             AppiumBy.accessibilityId("Done");
     protected static final By launchCameraBtn =
             AppiumBy.accessibilityId("launch-camera");
+    protected static final By createNeedyTitle =
+            AppiumBy.androidUIAutomator("new UiSelector().text(\"Create A Needy Profile\")");
+
     protected static final By uploadProfilePictureTitle =
             AppiumBy.androidUIAutomator("new UiSelector().text(\"Upload Profile Picture\")");
     protected static final By imageCameraBox =
             AppiumBy.className("android.view.ViewGroup");
     protected static final By file_list_item =
             AppiumBy.accessibilityId("file-list-item");
-    protected static final By selectYearDropDownList =
-            AppiumBy.androidUIAutomator("new UiSelector().text(\"Select year\")");
     protected static final By nextBtn =
             AppiumBy.accessibilityId("Next");
     protected static final By backBtn =
@@ -94,7 +89,7 @@ public abstract class NeedyScreen {
     protected static final By diseaseTypeField =
             AppiumBy.androidUIAutomator("new UiSelector().text(\"Enter the types of chronic diseases\")");
     protected static final By monthlyHealthExpensesNeededField =
-            AppiumBy.androidUIAutomator("new UiSelector().text(\"0\")");
+            AppiumBy.androidUIAutomator("new UiSelector().text(\"Enter the monthly medical expenses\")");
     protected static final By chronic_diseases_documents =
             AppiumBy.accessibilityId("chronic-diseases-documents");
     protected static final By partial_DisabilityBtn =
@@ -145,10 +140,15 @@ public abstract class NeedyScreen {
             AppiumBy.accessibilityId("\uE822, Needy");
 
 
+    @Step("Tap 'Create Needy' title")
+    public void tapCreateNeedy() {
+        ElementsActions.click(createNeedyTitle);
+    }
     @Step("Tap 'More' button")
     public void tapMoreButton() {
         ElementsActions.click(moreBtn);
     }
+
     @Step("Tap 'NeedyCheck' button")
     public void tapNeedyCheckButton() {
         ElementsActions.click(needyCheckBtn);
@@ -163,6 +163,7 @@ public abstract class NeedyScreen {
     public void setID(String ID) {
         ElementsActions.setValue(idField, ID);
     }
+
     @Step("Set Name: {Name}")
     public void setName(String Name) {
         ElementsActions.setValue(nameField, Name);
@@ -188,6 +189,7 @@ public abstract class NeedyScreen {
     public boolean isNotExistingDisplayed() {
         return ElementsActions.isDisplayed(notExisting);
     }
+
     @Step("Select day: {day}")
     public void selectDay(String day) {
         By dayBtn = AppiumBy.xpath("//android.widget.Button[@content-desc='" + day + "']");
@@ -208,11 +210,13 @@ public abstract class NeedyScreen {
         waitForElementToBeVisibleForNeedy(option);
         ElementsActions.click(option);
     }
+
     public static By dropdownByInstance(int index) {
         return AppiumBy.androidUIAutomator(
                 "new UiSelector().description(\"select-dropdown-trigger\").instance(" + index + ")"
         );
     }
+
     public static By documentsByType(String type) {
         return AppiumBy.androidUIAutomator(
                 "new UiSelector().description(\"" + type + "\")"
@@ -246,6 +250,7 @@ public abstract class NeedyScreen {
         waitForElementToBeClickableForNeedy(recordBtn);
         ElementsActions.click(recordBtn);
     }
+
     @Step("Tap CheckBox Button")
     public void tapCheckBox() {
         waitForElementToBeClickableForNeedy(checkBox);
@@ -314,12 +319,14 @@ public abstract class NeedyScreen {
     public void setSecondPhoneNumber(String phone) {
         ElementsActions.setValue(phoneNumberField2, phone);
     }
+
     @Step("Enter dynamic date of birth")
     public void enterDynamicDate() {
         String generatedDate = generateDynamicDate();
         waitForElementToBeVisibleForNeedy(dateField);
         ElementsActions.setValue(dateField, generatedDate);
     }
+
     private String generateDynamicDate() {
         int day = (int) (Math.random() * 28) + 1;
         int month = (int) (Math.random() * 12) + 1;
@@ -369,7 +376,9 @@ public abstract class NeedyScreen {
         waitForElementToBeVisibleForNeedy(nextBtn);
         waitForElementToBeClickableForNeedy(nextBtn);
         ElementsActions.click(nextBtn);
-    }    @Step("Tap Back Button")
+    }
+
+    @Step("Tap Back Button")
     public void tapBack() {
         waitForElementToBeVisibleForNeedy(backBtn);
         ElementsActions.click(backBtn);
@@ -477,8 +486,9 @@ public abstract class NeedyScreen {
         ElementsActions.click(dropdown);
         selectFromDropdownByDescription(value);
     }
+
     @Step("Select from dropdown with index: {index} and value: {value}")
-    public void openDropdownAndSelectByValue(String dropDownName , String value) {
+    public void openDropdownAndSelectByValue(String dropDownName, String value) {
         selectFromDropdownByDescription(dropDownName);
         selectFromDropdownByDescription(value);
     }
@@ -502,7 +512,6 @@ public abstract class NeedyScreen {
     }
 
 
-
     @Step("Upload document '{documentName}' using camera")
     public void uploadDocumentWithCamera(String documentName) {
         By documentBtn = documentsByType(documentName);
@@ -524,7 +533,7 @@ public abstract class NeedyScreen {
 
 
     @Step("Capture photo using camera")
-    public  void capturePhoto() {
+    public void capturePhoto() {
 
         tapLaunchCamera();
 
@@ -545,6 +554,80 @@ public abstract class NeedyScreen {
     }
 
 
+    @Step("Handle Health Status Section")
+    public void handleHealthStatus(
+            String healthStatus,
+            String disabilityLevel,
+            List<String> disabilityTypes,
+            String chronicDiseaseType,
+            String monthlyExpenses
+    ) {
+
+        if (healthStatus == null || healthStatus.isEmpty()) {
+            tapNext();
+            return;
+        }
+
+        selectFromDropdownByDescription("Healthy, ");
+        selectFromDropdownByDescription(healthStatus);
+
+        // =========================
+        // CASE 1: Chronic disease
+        // =========================
+        if ("Chronic disease".equalsIgnoreCase(healthStatus)) {
+
+            tapDone();
+
+            // ✅ dynamic disease type
+            if (chronicDiseaseType != null) {
+                setDiseaseType(chronicDiseaseType);
+            }
+
+            // ✅ dynamic expenses
+            By expensesField = AppiumBy.androidUIAutomator(
+                    "new UiSelector().text(\"Enter the monthly medical expenses\")"
+            );
+
+            if (monthlyExpenses != null) {
+                ElementsActions.setValue(expensesField, monthlyExpenses);
+            }
+
+            // ✅ upload document
+            tapFilePickerTrigger(0);
+            capturePhoto();
+
+            Waits.waitForUIStability();
+        }
+
+        // =========================
+        // CASE 2: Disability
+        // =========================
+        else if ("Disability".equalsIgnoreCase(healthStatus)) {
+
+            tapDone();
+
+            if ("Fully Disabled".equalsIgnoreCase(disabilityLevel)) {
+                selectFullyDisability();
+            } else {
+                selectPartialDisability();
+            }
+
+            selectFromDropdownByDescription("Select type, ");
+
+            if (disabilityTypes != null) {
+                for (String type : disabilityTypes) {
+                    selectFromDropdownByDescription(type);
+                }
+            }
+
+            tapDone();
+            tapFilePickerTrigger(0);
+            capturePhoto();
+
+            Waits.waitForUIStability();
+        }
+    }
+
     @Step("Record video using camera")
     public void recordVideo(int recordingSeconds) {
 
@@ -554,37 +637,45 @@ public abstract class NeedyScreen {
 
         try {
             Thread.sleep(recordingSeconds * 1000L);
-        } catch (InterruptedException ignored) {}
+        } catch (InterruptedException ignored) {
+        }
 
         tapShutter(); // stop recording
         tapDone();    // confirm video
 
         Waits.waitForCameraDialogToDisappear();
     }
+
     @Step("Tap Apply Filters button")
     public void tapApplyFiltersButton() {
         ElementsActions.click(applyFiltersBtn);
     }
+
     @Step("Tap Sort button")
     public void tapSortButton() {
         ElementsActions.click(sortBtn);
     }
+
     @Step("Select 'Presence of dependants' checkbox")
     public void selectPresenceOfDependants() {
         ElementsActions.click(presenceOfDependantsCheckBox);
     }
+
     @Step("Select 'Use my current location' checkbox")
     public void selectUseCurrentLocation() {
         ElementsActions.click(useCurrentLocationCheckBox);
     }
+
     @Step("Tap Filter button")
     public void tapFilterButton() {
         ElementsActions.click(filterBtn);
     }
+
     @Step("Search by Needy ID: {needyID}")
     public void searchByNeedyID(String needyID) {
         ElementsActions.setValue(searchByNeedyIDField, needyID);
     }
+
     @Step("Select school year: {year}")
     public void selectSchoolYear(String year) {
 
@@ -594,6 +685,7 @@ public abstract class NeedyScreen {
         ElementsActions.click(schoolYearOption(year));
         waitForUIStability();
     }
+
     @Step("Click Next until leaving Members of Household page")
     protected void clickNextUntilLeaveMembersOfHousehold() {
 
@@ -611,7 +703,10 @@ public abstract class NeedyScreen {
             tapNext();
 
             counter++;
-            try { Thread.sleep(500); } catch (InterruptedException ignored) {}
+            try {
+                Thread.sleep(500);
+            } catch (InterruptedException ignored) {
+            }
         }
 
         if (ElementsActions.isDisplayed(membersOfHouseholdTitle)) {
@@ -630,10 +725,12 @@ public abstract class NeedyScreen {
 
         return (currentYear - birthYear) <= 24;
     }
+
     private final By selectYearDropdown =
             AppiumBy.androidUIAutomator(
                     "new UiSelector().description(\"Select year, \uE819\")"
             );
+
     private By schoolYearOption(String value) {
         return AppiumBy.accessibilityId(value);
     }
@@ -646,21 +743,33 @@ public abstract class NeedyScreen {
     public static void waitForElementToBeClickableForNeedy(By locator) {
         waitForElementToBeClickable(locator, Duration.ofSeconds(120));
     }
+
+    @Step("Perform full Needy Profile flow from NeedyProfileTestData")
+    public abstract void performCreateNeedyFlow(
+            String ID,
+            String firstName,
+            String maritalStatus,
+            String motherName,
+            String phoneNumber,
+            List<DocumentData> needyDocuments,
+            List<DocumentData> memberDocuments,
+            String state,
+            String city,
+            String address,
+            String housingCondition,
+            String amount,
+            String relationShip,
+            String story,
+            String note,
+            String healthStatus,
+            String disabilityLevel,
+            List<String> disabilityTypes,
+            String chronicDiseaseType,
+            String monthlyExpenses
+
+    );
+
     @Step("Perform full registration flow")
-    public abstract void performNeedyCheckFlow(String ID , String Name );
-    public abstract void performCreateNeedyFlow( String ID,
-                                                 String firstName,
-                                                 String maritalStatus,
-                                                 String motherName,
-                                                 String phoneNumber,
-                                                 List<DocumentData> needyDocuments,
-                                                 List<DocumentData> memberDocuments,
-                                                 String state,
-                                                 String city,
-                                                 String address,
-                                                 String housingCondition,
-                                                 String amount,
-                                                 String relationShip,
-                                                 String story,
-                                                 String note);
+    public abstract void performNeedyCheckFlow(String ID, String Name);
 }
+

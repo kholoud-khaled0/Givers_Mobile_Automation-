@@ -1,0 +1,1239 @@
+[DEBUG] - [08-04-2026 14:24:25] [org.testng.TestNG] - suiteXmlPath: "C:\Users\EELU\Downloads\Givers\test_runners\AndroidTestSuite.xml"
+[INFO] - [08-04-2026 14:24:25] [org.testng.internal.Utils] - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+[INFO] - [08-04-2026 14:24:26] [utils.common.FilesUtils] - Directory already exists: test_outputs\logs
+[INFO] - [08-04-2026 14:24:26] [utils.common.FilesUtils] - Directory already exists: test_outputs\allure_results
+[INFO] - [08-04-2026 14:24:26] [utils.common.FilesUtils] - Directory already exists: test_outputs\screenshots
+[INFO] - [08-04-2026 14:24:26] [utils.common.FilesUtils] - Directory already exists: test_outputs\allure_report
+[INFO] - [08-04-2026 14:24:26] [utils.common.FilesUtils] - Deleting files or folders in: C:\Users\EELU\Downloads\Givers\test_outputs\allure_results
+[INFO] - [08-04-2026 14:24:26] [utils.common.FilesUtils] - Deleting files or folders in: C:\Users\EELU\Downloads\Givers\test_outputs\screenshots
+[INFO] - [08-04-2026 14:24:26] [utils.appium.TerminalLogsCapture$1] - Failed to start Appium server: The main Appium script does not exist at 'C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\build\lib\main.js'
+[INFO] - [08-04-2026 14:24:26] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\EELU\Downloads\Givers\test_runners\AndroidTestSuite.xml
+
+[INFO] - [08-04-2026 14:24:26] [listeners.TestResultListener] - Test run started
+[INFO] - [08-04-2026 14:24:26] [utils.common.PropertiesUtils] - Loading Android properties from: src/main/resources/Env/AndroidEnv.properties
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CommunityTestData.json
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/loginTestData.json
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Successfully deserialized JSON to: LoginTestData[]
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/registerTestData.json
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Successfully deserialized JSON to: RegisterTestData[]
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/resetPasswordTestData.json
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Successfully deserialized JSON to: ResetPasswordTestData[]
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ForgotPasswordTestData.json
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Successfully deserialized JSON to: ForgotPasswordTestData[]
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyTestData.json
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyTestData[]
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreateNeedyProfileTestData.json
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyProfileTestData[]
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyFunctionTestData.json
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyFunctionsTestData[]
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/DonationTestData.json
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Successfully deserialized JSON to: EasyGiveTestData[]
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/SingleDonationTestData.json
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Successfully deserialized JSON to: SingleDonationTestData[]
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ModeratorCommunity.json
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreationCommunityTestData.json
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 14:24:26] [utils.appium.TerminalLogsCapture$1] - Failed to start Appium server: The main Appium script does not exist at 'C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\build\lib\main.js'
+[WARN] - [08-04-2026 14:24:26] [utils.appium.TerminalLogsCapture$1] - [WARN] Could not clear port 8100: Cannot run program "npx": CreateProcess error=2, The system cannot find the file specified
+[ERROR] - [08-04-2026 14:24:26] [utils.appium.driverManager.DriverManager] -  Failed to initialize driver: The main Appium script does not exist at 'C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\build\lib\main.js'
+[INFO] - [08-04-2026 14:24:26] [listeners.MethodInvocationListener] - Finished test: testForgotPasswordFullFlow
+[INFO] - [08-04-2026 14:24:26] [utils.common.AllureUtils] - Attaching logs for test: testForgotPasswordFullFlow
+[INFO] - [08-04-2026 14:24:26] [utils.common.AllureUtils] - Logs attached successfully for test: testForgotPasswordFullFlow
+[INFO] - [08-04-2026 14:24:26] [listeners.TestResultListener] - Test failed: testForgotPasswordFullFlow
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/loginTestData.json
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Successfully deserialized JSON to: LoginTestData[]
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/registerTestData.json
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Successfully deserialized JSON to: RegisterTestData[]
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/resetPasswordTestData.json
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Successfully deserialized JSON to: ResetPasswordTestData[]
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ForgotPasswordTestData.json
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Successfully deserialized JSON to: ForgotPasswordTestData[]
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyTestData.json
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyTestData[]
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreateNeedyProfileTestData.json
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyProfileTestData[]
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyFunctionTestData.json
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyFunctionsTestData[]
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/DonationTestData.json
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Successfully deserialized JSON to: EasyGiveTestData[]
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/SingleDonationTestData.json
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Successfully deserialized JSON to: SingleDonationTestData[]
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ModeratorCommunity.json
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreationCommunityTestData.json
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 14:24:26] [utils.appium.TerminalLogsCapture$1] - Failed to start Appium server: The main Appium script does not exist at 'C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\build\lib\main.js'
+[WARN] - [08-04-2026 14:24:26] [utils.appium.TerminalLogsCapture$1] - [WARN] Could not clear port 8100: Cannot run program "npx": CreateProcess error=2, The system cannot find the file specified
+[ERROR] - [08-04-2026 14:24:26] [utils.appium.driverManager.DriverManager] -  Failed to initialize driver: The main Appium script does not exist at 'C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\build\lib\main.js'
+[INFO] - [08-04-2026 14:24:26] [listeners.MethodInvocationListener] - Finished test: testLogin
+[INFO] - [08-04-2026 14:24:26] [utils.common.AllureUtils] - Attaching logs for test: testLogin
+[INFO] - [08-04-2026 14:24:26] [utils.common.AllureUtils] - Logs attached successfully for test: testLogin
+[INFO] - [08-04-2026 14:24:26] [listeners.TestResultListener] - Test failed: testLogin
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/loginTestData.json
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Successfully deserialized JSON to: LoginTestData[]
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/registerTestData.json
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Successfully deserialized JSON to: RegisterTestData[]
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/resetPasswordTestData.json
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Successfully deserialized JSON to: ResetPasswordTestData[]
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ForgotPasswordTestData.json
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Successfully deserialized JSON to: ForgotPasswordTestData[]
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyTestData.json
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyTestData[]
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreateNeedyProfileTestData.json
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyProfileTestData[]
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyFunctionTestData.json
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyFunctionsTestData[]
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/DonationTestData.json
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Successfully deserialized JSON to: EasyGiveTestData[]
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/SingleDonationTestData.json
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Successfully deserialized JSON to: SingleDonationTestData[]
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ModeratorCommunity.json
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreationCommunityTestData.json
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 14:24:26] [utils.appium.TerminalLogsCapture$1] - Failed to start Appium server: The main Appium script does not exist at 'C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\build\lib\main.js'
+[WARN] - [08-04-2026 14:24:26] [utils.appium.TerminalLogsCapture$1] - [WARN] Could not clear port 8100: Cannot run program "npx": CreateProcess error=2, The system cannot find the file specified
+[ERROR] - [08-04-2026 14:24:26] [utils.appium.driverManager.DriverManager] -  Failed to initialize driver: The main Appium script does not exist at 'C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\build\lib\main.js'
+[INFO] - [08-04-2026 14:24:26] [listeners.MethodInvocationListener] - Finished test: testRegistration
+[INFO] - [08-04-2026 14:24:26] [utils.common.AllureUtils] - Attaching logs for test: testRegistration
+[INFO] - [08-04-2026 14:24:26] [utils.common.AllureUtils] - Logs attached successfully for test: testRegistration
+[INFO] - [08-04-2026 14:24:26] [listeners.TestResultListener] - Test failed: testRegistration
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/loginTestData.json
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Successfully deserialized JSON to: LoginTestData[]
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/registerTestData.json
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Successfully deserialized JSON to: RegisterTestData[]
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/resetPasswordTestData.json
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Successfully deserialized JSON to: ResetPasswordTestData[]
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ForgotPasswordTestData.json
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Successfully deserialized JSON to: ForgotPasswordTestData[]
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyTestData.json
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyTestData[]
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreateNeedyProfileTestData.json
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyProfileTestData[]
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyFunctionTestData.json
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyFunctionsTestData[]
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/DonationTestData.json
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Successfully deserialized JSON to: EasyGiveTestData[]
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/SingleDonationTestData.json
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Successfully deserialized JSON to: SingleDonationTestData[]
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ModeratorCommunity.json
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreationCommunityTestData.json
+[INFO] - [08-04-2026 14:24:26] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 14:24:26] [utils.appium.TerminalLogsCapture$1] - Failed to start Appium server: The main Appium script does not exist at 'C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\build\lib\main.js'
+[WARN] - [08-04-2026 14:24:26] [utils.appium.TerminalLogsCapture$1] - [WARN] Could not clear port 8100: Cannot run program "npx": CreateProcess error=2, The system cannot find the file specified
+[ERROR] - [08-04-2026 14:24:26] [utils.appium.driverManager.DriverManager] -  Failed to initialize driver: The main Appium script does not exist at 'C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\build\lib\main.js'
+[INFO] - [08-04-2026 14:24:27] [listeners.MethodInvocationListener] - Finished test: testFullResetPasswordFlow
+[INFO] - [08-04-2026 14:24:27] [utils.common.AllureUtils] - Attaching logs for test: testFullResetPasswordFlow
+[INFO] - [08-04-2026 14:24:27] [utils.common.AllureUtils] - Logs attached successfully for test: testFullResetPasswordFlow
+[INFO] - [08-04-2026 14:24:27] [listeners.TestResultListener] - Test failed: testFullResetPasswordFlow
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/loginTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: LoginTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/registerTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: RegisterTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/resetPasswordTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: ResetPasswordTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ForgotPasswordTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: ForgotPasswordTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreateNeedyProfileTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyProfileTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyFunctionTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyFunctionsTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/DonationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: EasyGiveTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/SingleDonationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: SingleDonationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ModeratorCommunity.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreationCommunityTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.appium.TerminalLogsCapture$1] - Failed to start Appium server: The main Appium script does not exist at 'C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\build\lib\main.js'
+[WARN] - [08-04-2026 14:24:27] [utils.appium.TerminalLogsCapture$1] - [WARN] Could not clear port 8100: Cannot run program "npx": CreateProcess error=2, The system cannot find the file specified
+[ERROR] - [08-04-2026 14:24:27] [utils.appium.driverManager.DriverManager] -  Failed to initialize driver: The main Appium script does not exist at 'C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\build\lib\main.js'
+[INFO] - [08-04-2026 14:24:27] [listeners.MethodInvocationListener] - Finished test: testBadgesValidation
+[INFO] - [08-04-2026 14:24:27] [utils.common.AllureUtils] - Attaching logs for test: testBadgesValidation
+[INFO] - [08-04-2026 14:24:27] [utils.common.AllureUtils] - Logs attached successfully for test: testBadgesValidation
+[INFO] - [08-04-2026 14:24:27] [listeners.TestResultListener] - Test failed: testBadgesValidation
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/loginTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: LoginTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/registerTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: RegisterTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/resetPasswordTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: ResetPasswordTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ForgotPasswordTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: ForgotPasswordTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreateNeedyProfileTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyProfileTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyFunctionTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyFunctionsTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/DonationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: EasyGiveTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/SingleDonationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: SingleDonationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ModeratorCommunity.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreationCommunityTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.appium.TerminalLogsCapture$1] - Failed to start Appium server: The main Appium script does not exist at 'C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\build\lib\main.js'
+[WARN] - [08-04-2026 14:24:27] [utils.appium.TerminalLogsCapture$1] - [WARN] Could not clear port 8100: Cannot run program "npx": CreateProcess error=2, The system cannot find the file specified
+[ERROR] - [08-04-2026 14:24:27] [utils.appium.driverManager.DriverManager] -  Failed to initialize driver: The main Appium script does not exist at 'C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\build\lib\main.js'
+[INFO] - [08-04-2026 14:24:27] [listeners.MethodInvocationListener] - Finished test: testCreationCommunityScenario
+[INFO] - [08-04-2026 14:24:27] [utils.common.AllureUtils] - Attaching logs for test: testCreationCommunityScenario
+[INFO] - [08-04-2026 14:24:27] [utils.common.AllureUtils] - Logs attached successfully for test: testCreationCommunityScenario
+[INFO] - [08-04-2026 14:24:27] [listeners.TestResultListener] - Test failed: testCreationCommunityScenario
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/loginTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: LoginTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/registerTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: RegisterTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/resetPasswordTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: ResetPasswordTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ForgotPasswordTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: ForgotPasswordTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreateNeedyProfileTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyProfileTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyFunctionTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyFunctionsTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/DonationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: EasyGiveTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/SingleDonationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: SingleDonationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ModeratorCommunity.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreationCommunityTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.appium.TerminalLogsCapture$1] - Failed to start Appium server: The main Appium script does not exist at 'C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\build\lib\main.js'
+[WARN] - [08-04-2026 14:24:27] [utils.appium.TerminalLogsCapture$1] - [WARN] Could not clear port 8100: Cannot run program "npx": CreateProcess error=2, The system cannot find the file specified
+[ERROR] - [08-04-2026 14:24:27] [utils.appium.driverManager.DriverManager] -  Failed to initialize driver: The main Appium script does not exist at 'C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\build\lib\main.js'
+[INFO] - [08-04-2026 14:24:27] [listeners.MethodInvocationListener] - Finished test: testModeratorCommunityScenario
+[INFO] - [08-04-2026 14:24:27] [utils.common.AllureUtils] - Attaching logs for test: testModeratorCommunityScenario
+[INFO] - [08-04-2026 14:24:27] [utils.common.AllureUtils] - Logs attached successfully for test: testModeratorCommunityScenario
+[INFO] - [08-04-2026 14:24:27] [listeners.TestResultListener] - Test failed: testModeratorCommunityScenario
+[INFO] - [08-04-2026 14:24:27] [utils.appium.TerminalLogsCapture$1] - Failed to start Appium server: The main Appium script does not exist at 'C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\build\lib\main.js'
+[WARN] - [08-04-2026 14:24:27] [utils.appium.TerminalLogsCapture$1] - [WARN] Could not clear port 8100: Cannot run program "npx": CreateProcess error=2, The system cannot find the file specified
+[ERROR] - [08-04-2026 14:24:27] [utils.appium.driverManager.DriverManager] -  Failed to initialize driver: The main Appium script does not exist at 'C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\build\lib\main.js'
+[INFO] - [08-04-2026 14:24:27] [listeners.MethodInvocationListener] - Finished test: testSearchCommunityOnly
+[INFO] - [08-04-2026 14:24:27] [utils.common.AllureUtils] - Attaching logs for test: testSearchCommunityOnly
+[INFO] - [08-04-2026 14:24:27] [utils.common.AllureUtils] - Logs attached successfully for test: testSearchCommunityOnly
+[INFO] - [08-04-2026 14:24:27] [listeners.TestResultListener] - Test failed: testSearchCommunityOnly
+[INFO] - [08-04-2026 14:24:27] [utils.appium.TerminalLogsCapture$1] - Failed to start Appium server: The main Appium script does not exist at 'C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\build\lib\main.js'
+[WARN] - [08-04-2026 14:24:27] [utils.appium.TerminalLogsCapture$1] - [WARN] Could not clear port 8100: Cannot run program "npx": CreateProcess error=2, The system cannot find the file specified
+[ERROR] - [08-04-2026 14:24:27] [utils.appium.driverManager.DriverManager] -  Failed to initialize driver: The main Appium script does not exist at 'C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\build\lib\main.js'
+[INFO] - [08-04-2026 14:24:27] [listeners.MethodInvocationListener] - Finished test: testSearchCommunityOnly
+[INFO] - [08-04-2026 14:24:27] [utils.common.AllureUtils] - Attaching logs for test: testSearchCommunityOnly
+[INFO] - [08-04-2026 14:24:27] [utils.common.AllureUtils] - Logs attached successfully for test: testSearchCommunityOnly
+[INFO] - [08-04-2026 14:24:27] [listeners.TestResultListener] - Test failed: testSearchCommunityOnly
+[INFO] - [08-04-2026 14:24:27] [utils.appium.TerminalLogsCapture$1] - Failed to start Appium server: The main Appium script does not exist at 'C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\build\lib\main.js'
+[WARN] - [08-04-2026 14:24:27] [utils.appium.TerminalLogsCapture$1] - [WARN] Could not clear port 8100: Cannot run program "npx": CreateProcess error=2, The system cannot find the file specified
+[ERROR] - [08-04-2026 14:24:27] [utils.appium.driverManager.DriverManager] -  Failed to initialize driver: The main Appium script does not exist at 'C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\build\lib\main.js'
+[INFO] - [08-04-2026 14:24:27] [listeners.MethodInvocationListener] - Finished test: testSearchCommunityOnly
+[INFO] - [08-04-2026 14:24:27] [utils.common.AllureUtils] - Attaching logs for test: testSearchCommunityOnly
+[INFO] - [08-04-2026 14:24:27] [utils.common.AllureUtils] - Logs attached successfully for test: testSearchCommunityOnly
+[INFO] - [08-04-2026 14:24:27] [listeners.TestResultListener] - Test failed: testSearchCommunityOnly
+[INFO] - [08-04-2026 14:24:27] [utils.appium.TerminalLogsCapture$1] - Failed to start Appium server: The main Appium script does not exist at 'C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\build\lib\main.js'
+[WARN] - [08-04-2026 14:24:27] [utils.appium.TerminalLogsCapture$1] - [WARN] Could not clear port 8100: Cannot run program "npx": CreateProcess error=2, The system cannot find the file specified
+[ERROR] - [08-04-2026 14:24:27] [utils.appium.driverManager.DriverManager] -  Failed to initialize driver: The main Appium script does not exist at 'C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\build\lib\main.js'
+[INFO] - [08-04-2026 14:24:27] [listeners.MethodInvocationListener] - Finished test: testValidateCommunityFullFlow
+[INFO] - [08-04-2026 14:24:27] [utils.common.AllureUtils] - Attaching logs for test: testValidateCommunityFullFlow
+[INFO] - [08-04-2026 14:24:27] [utils.common.AllureUtils] - Logs attached successfully for test: testValidateCommunityFullFlow
+[INFO] - [08-04-2026 14:24:27] [listeners.TestResultListener] - Test failed: testValidateCommunityFullFlow
+[INFO] - [08-04-2026 14:24:27] [utils.appium.TerminalLogsCapture$1] - Failed to start Appium server: The main Appium script does not exist at 'C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\build\lib\main.js'
+[WARN] - [08-04-2026 14:24:27] [utils.appium.TerminalLogsCapture$1] - [WARN] Could not clear port 8100: Cannot run program "npx": CreateProcess error=2, The system cannot find the file specified
+[ERROR] - [08-04-2026 14:24:27] [utils.appium.driverManager.DriverManager] -  Failed to initialize driver: The main Appium script does not exist at 'C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\build\lib\main.js'
+[INFO] - [08-04-2026 14:24:27] [listeners.MethodInvocationListener] - Finished test: testValidateCommunityFullFlow
+[INFO] - [08-04-2026 14:24:27] [utils.common.AllureUtils] - Attaching logs for test: testValidateCommunityFullFlow
+[INFO] - [08-04-2026 14:24:27] [utils.common.AllureUtils] - Logs attached successfully for test: testValidateCommunityFullFlow
+[INFO] - [08-04-2026 14:24:27] [listeners.TestResultListener] - Test failed: testValidateCommunityFullFlow
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/loginTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: LoginTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/registerTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: RegisterTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/resetPasswordTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: ResetPasswordTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ForgotPasswordTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: ForgotPasswordTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreateNeedyProfileTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyProfileTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyFunctionTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyFunctionsTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/DonationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: EasyGiveTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/SingleDonationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: SingleDonationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ModeratorCommunity.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreationCommunityTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.appium.TerminalLogsCapture$1] - Failed to start Appium server: The main Appium script does not exist at 'C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\build\lib\main.js'
+[WARN] - [08-04-2026 14:24:27] [utils.appium.TerminalLogsCapture$1] - [WARN] Could not clear port 8100: Cannot run program "npx": CreateProcess error=2, The system cannot find the file specified
+[ERROR] - [08-04-2026 14:24:27] [utils.appium.driverManager.DriverManager] -  Failed to initialize driver: The main Appium script does not exist at 'C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\build\lib\main.js'
+[INFO] - [08-04-2026 14:24:27] [listeners.MethodInvocationListener] - Finished test: testEasyGiveFullFlow
+[INFO] - [08-04-2026 14:24:27] [utils.common.AllureUtils] - Attaching logs for test: testEasyGiveFullFlow
+[INFO] - [08-04-2026 14:24:27] [utils.common.AllureUtils] - Logs attached successfully for test: testEasyGiveFullFlow
+[INFO] - [08-04-2026 14:24:27] [listeners.TestResultListener] - Test failed: testEasyGiveFullFlow
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/loginTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: LoginTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/registerTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: RegisterTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/resetPasswordTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: ResetPasswordTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ForgotPasswordTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: ForgotPasswordTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreateNeedyProfileTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyProfileTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyFunctionTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyFunctionsTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/DonationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: EasyGiveTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/SingleDonationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: SingleDonationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ModeratorCommunity.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreationCommunityTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.appium.TerminalLogsCapture$1] - Failed to start Appium server: The main Appium script does not exist at 'C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\build\lib\main.js'
+[WARN] - [08-04-2026 14:24:27] [utils.appium.TerminalLogsCapture$1] - [WARN] Could not clear port 8100: Cannot run program "npx": CreateProcess error=2, The system cannot find the file specified
+[ERROR] - [08-04-2026 14:24:27] [utils.appium.driverManager.DriverManager] -  Failed to initialize driver: The main Appium script does not exist at 'C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\build\lib\main.js'
+[INFO] - [08-04-2026 14:24:27] [listeners.MethodInvocationListener] - Finished test: testSingleDonationAboveMax
+[INFO] - [08-04-2026 14:24:27] [utils.common.AllureUtils] - Attaching logs for test: testSingleDonationAboveMax
+[INFO] - [08-04-2026 14:24:27] [utils.common.AllureUtils] - Logs attached successfully for test: testSingleDonationAboveMax
+[INFO] - [08-04-2026 14:24:27] [listeners.TestResultListener] - Test failed: testSingleDonationAboveMax
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/loginTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: LoginTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/registerTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: RegisterTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/resetPasswordTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: ResetPasswordTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ForgotPasswordTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: ForgotPasswordTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreateNeedyProfileTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyProfileTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyFunctionTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyFunctionsTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/DonationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: EasyGiveTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/SingleDonationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: SingleDonationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ModeratorCommunity.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreationCommunityTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.appium.TerminalLogsCapture$1] - Failed to start Appium server: The main Appium script does not exist at 'C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\build\lib\main.js'
+[WARN] - [08-04-2026 14:24:27] [utils.appium.TerminalLogsCapture$1] - [WARN] Could not clear port 8100: Cannot run program "npx": CreateProcess error=2, The system cannot find the file specified
+[ERROR] - [08-04-2026 14:24:27] [utils.appium.driverManager.DriverManager] -  Failed to initialize driver: The main Appium script does not exist at 'C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\build\lib\main.js'
+[INFO] - [08-04-2026 14:24:27] [listeners.MethodInvocationListener] - Finished test: testSingleDonationBelowMin
+[INFO] - [08-04-2026 14:24:27] [utils.common.AllureUtils] - Attaching logs for test: testSingleDonationBelowMin
+[INFO] - [08-04-2026 14:24:27] [utils.common.AllureUtils] - Logs attached successfully for test: testSingleDonationBelowMin
+[INFO] - [08-04-2026 14:24:27] [listeners.TestResultListener] - Test failed: testSingleDonationBelowMin
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/loginTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: LoginTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/registerTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: RegisterTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/resetPasswordTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: ResetPasswordTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ForgotPasswordTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: ForgotPasswordTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreateNeedyProfileTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyProfileTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyFunctionTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyFunctionsTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/DonationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: EasyGiveTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/SingleDonationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: SingleDonationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ModeratorCommunity.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreationCommunityTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.appium.TerminalLogsCapture$1] - Failed to start Appium server: The main Appium script does not exist at 'C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\build\lib\main.js'
+[WARN] - [08-04-2026 14:24:27] [utils.appium.TerminalLogsCapture$1] - [WARN] Could not clear port 8100: Cannot run program "npx": CreateProcess error=2, The system cannot find the file specified
+[ERROR] - [08-04-2026 14:24:27] [utils.appium.driverManager.DriverManager] -  Failed to initialize driver: The main Appium script does not exist at 'C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\build\lib\main.js'
+[INFO] - [08-04-2026 14:24:27] [listeners.MethodInvocationListener] - Finished test: testSingleDonationExactAmount
+[INFO] - [08-04-2026 14:24:27] [utils.common.AllureUtils] - Attaching logs for test: testSingleDonationExactAmount
+[INFO] - [08-04-2026 14:24:27] [utils.common.AllureUtils] - Logs attached successfully for test: testSingleDonationExactAmount
+[INFO] - [08-04-2026 14:24:27] [listeners.TestResultListener] - Test failed: testSingleDonationExactAmount
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/loginTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: LoginTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/registerTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: RegisterTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/resetPasswordTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: ResetPasswordTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ForgotPasswordTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: ForgotPasswordTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreateNeedyProfileTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyProfileTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyFunctionTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyFunctionsTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/DonationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: EasyGiveTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/SingleDonationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: SingleDonationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ModeratorCommunity.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreationCommunityTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.appium.TerminalLogsCapture$1] - Failed to start Appium server: The main Appium script does not exist at 'C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\build\lib\main.js'
+[WARN] - [08-04-2026 14:24:27] [utils.appium.TerminalLogsCapture$1] - [WARN] Could not clear port 8100: Cannot run program "npx": CreateProcess error=2, The system cannot find the file specified
+[ERROR] - [08-04-2026 14:24:27] [utils.appium.driverManager.DriverManager] -  Failed to initialize driver: The main Appium script does not exist at 'C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\build\lib\main.js'
+[INFO] - [08-04-2026 14:24:27] [listeners.MethodInvocationListener] - Finished test: testSingleDonationWithMakeAnotherDonation
+[INFO] - [08-04-2026 14:24:27] [utils.common.AllureUtils] - Attaching logs for test: testSingleDonationWithMakeAnotherDonation
+[INFO] - [08-04-2026 14:24:27] [utils.common.AllureUtils] - Logs attached successfully for test: testSingleDonationWithMakeAnotherDonation
+[INFO] - [08-04-2026 14:24:27] [listeners.TestResultListener] - Test failed: testSingleDonationWithMakeAnotherDonation
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/loginTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: LoginTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/registerTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: RegisterTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/resetPasswordTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: ResetPasswordTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ForgotPasswordTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: ForgotPasswordTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreateNeedyProfileTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyProfileTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyFunctionTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyFunctionsTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/DonationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: EasyGiveTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/SingleDonationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: SingleDonationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ModeratorCommunity.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreationCommunityTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.appium.TerminalLogsCapture$1] - Failed to start Appium server: The main Appium script does not exist at 'C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\build\lib\main.js'
+[WARN] - [08-04-2026 14:24:27] [utils.appium.TerminalLogsCapture$1] - [WARN] Could not clear port 8100: Cannot run program "npx": CreateProcess error=2, The system cannot find the file specified
+[ERROR] - [08-04-2026 14:24:27] [utils.appium.driverManager.DriverManager] -  Failed to initialize driver: The main Appium script does not exist at 'C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\build\lib\main.js'
+[INFO] - [08-04-2026 14:24:27] [listeners.MethodInvocationListener] - Finished test: testFAQsFlow
+[INFO] - [08-04-2026 14:24:27] [utils.common.AllureUtils] - Attaching logs for test: testFAQsFlow
+[INFO] - [08-04-2026 14:24:27] [utils.common.AllureUtils] - Logs attached successfully for test: testFAQsFlow
+[INFO] - [08-04-2026 14:24:27] [listeners.TestResultListener] - Test failed: testFAQsFlow
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/loginTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: LoginTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/registerTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: RegisterTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/resetPasswordTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: ResetPasswordTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ForgotPasswordTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: ForgotPasswordTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreateNeedyProfileTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyProfileTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyFunctionTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyFunctionsTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/DonationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: EasyGiveTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/SingleDonationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: SingleDonationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ModeratorCommunity.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreationCommunityTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.appium.TerminalLogsCapture$1] - Failed to start Appium server: The main Appium script does not exist at 'C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\build\lib\main.js'
+[WARN] - [08-04-2026 14:24:27] [utils.appium.TerminalLogsCapture$1] - [WARN] Could not clear port 8100: Cannot run program "npx": CreateProcess error=2, The system cannot find the file specified
+[ERROR] - [08-04-2026 14:24:27] [utils.appium.driverManager.DriverManager] -  Failed to initialize driver: The main Appium script does not exist at 'C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\build\lib\main.js'
+[INFO] - [08-04-2026 14:24:27] [listeners.MethodInvocationListener] - Finished test: testReportBugFlow
+[INFO] - [08-04-2026 14:24:27] [utils.common.AllureUtils] - Attaching logs for test: testReportBugFlow
+[INFO] - [08-04-2026 14:24:27] [utils.common.AllureUtils] - Logs attached successfully for test: testReportBugFlow
+[INFO] - [08-04-2026 14:24:27] [listeners.TestResultListener] - Test failed: testReportBugFlow
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/loginTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: LoginTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/registerTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: RegisterTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/resetPasswordTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: ResetPasswordTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ForgotPasswordTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: ForgotPasswordTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreateNeedyProfileTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyProfileTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyFunctionTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyFunctionsTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/DonationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: EasyGiveTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/SingleDonationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: SingleDonationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ModeratorCommunity.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreationCommunityTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.appium.TerminalLogsCapture$1] - Failed to start Appium server: The main Appium script does not exist at 'C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\build\lib\main.js'
+[WARN] - [08-04-2026 14:24:27] [utils.appium.TerminalLogsCapture$1] - [WARN] Could not clear port 8100: Cannot run program "npx": CreateProcess error=2, The system cannot find the file specified
+[ERROR] - [08-04-2026 14:24:27] [utils.appium.driverManager.DriverManager] -  Failed to initialize driver: The main Appium script does not exist at 'C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\build\lib\main.js'
+[INFO] - [08-04-2026 14:24:27] [listeners.MethodInvocationListener] - Finished test: testSuggestImprovementFlow
+[INFO] - [08-04-2026 14:24:27] [utils.common.AllureUtils] - Attaching logs for test: testSuggestImprovementFlow
+[INFO] - [08-04-2026 14:24:27] [utils.common.AllureUtils] - Logs attached successfully for test: testSuggestImprovementFlow
+[INFO] - [08-04-2026 14:24:27] [listeners.TestResultListener] - Test failed: testSuggestImprovementFlow
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/loginTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: LoginTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/registerTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: RegisterTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/resetPasswordTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: ResetPasswordTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ForgotPasswordTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: ForgotPasswordTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreateNeedyProfileTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyProfileTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyFunctionTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyFunctionsTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/DonationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: EasyGiveTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/SingleDonationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: SingleDonationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ModeratorCommunity.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreationCommunityTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.appium.TerminalLogsCapture$1] - Failed to start Appium server: The main Appium script does not exist at 'C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\build\lib\main.js'
+[WARN] - [08-04-2026 14:24:27] [utils.appium.TerminalLogsCapture$1] - [WARN] Could not clear port 8100: Cannot run program "npx": CreateProcess error=2, The system cannot find the file specified
+[ERROR] - [08-04-2026 14:24:27] [utils.appium.driverManager.DriverManager] -  Failed to initialize driver: The main Appium script does not exist at 'C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\build\lib\main.js'
+[INFO] - [08-04-2026 14:24:27] [listeners.MethodInvocationListener] - Finished test: testDeleteAccount
+[INFO] - [08-04-2026 14:24:27] [utils.common.AllureUtils] - Attaching logs for test: testDeleteAccount
+[INFO] - [08-04-2026 14:24:27] [utils.common.AllureUtils] - Logs attached successfully for test: testDeleteAccount
+[INFO] - [08-04-2026 14:24:27] [listeners.TestResultListener] - Test failed: testDeleteAccount
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/loginTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: LoginTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/registerTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: RegisterTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/resetPasswordTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: ResetPasswordTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ForgotPasswordTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: ForgotPasswordTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreateNeedyProfileTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyProfileTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyFunctionTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyFunctionsTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/DonationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: EasyGiveTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/SingleDonationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: SingleDonationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ModeratorCommunity.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreationCommunityTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.appium.TerminalLogsCapture$1] - Failed to start Appium server: The main Appium script does not exist at 'C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\build\lib\main.js'
+[WARN] - [08-04-2026 14:24:27] [utils.appium.TerminalLogsCapture$1] - [WARN] Could not clear port 8100: Cannot run program "npx": CreateProcess error=2, The system cannot find the file specified
+[ERROR] - [08-04-2026 14:24:27] [utils.appium.driverManager.DriverManager] -  Failed to initialize driver: The main Appium script does not exist at 'C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\build\lib\main.js'
+[INFO] - [08-04-2026 14:24:27] [listeners.MethodInvocationListener] - Finished test: testJoinAsNGO
+[INFO] - [08-04-2026 14:24:27] [utils.common.AllureUtils] - Attaching logs for test: testJoinAsNGO
+[INFO] - [08-04-2026 14:24:27] [utils.common.AllureUtils] - Logs attached successfully for test: testJoinAsNGO
+[INFO] - [08-04-2026 14:24:27] [listeners.TestResultListener] - Test failed: testJoinAsNGO
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/loginTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: LoginTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/registerTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: RegisterTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/resetPasswordTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: ResetPasswordTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ForgotPasswordTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: ForgotPasswordTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreateNeedyProfileTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyProfileTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyFunctionTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyFunctionsTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/DonationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: EasyGiveTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/SingleDonationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: SingleDonationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ModeratorCommunity.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreationCommunityTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.appium.TerminalLogsCapture$1] - Failed to start Appium server: The main Appium script does not exist at 'C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\build\lib\main.js'
+[WARN] - [08-04-2026 14:24:27] [utils.appium.TerminalLogsCapture$1] - [WARN] Could not clear port 8100: Cannot run program "npx": CreateProcess error=2, The system cannot find the file specified
+[ERROR] - [08-04-2026 14:24:27] [utils.appium.driverManager.DriverManager] -  Failed to initialize driver: The main Appium script does not exist at 'C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\build\lib\main.js'
+[INFO] - [08-04-2026 14:24:27] [listeners.MethodInvocationListener] - Finished test: testAddRemoveFavorites
+[INFO] - [08-04-2026 14:24:27] [utils.common.AllureUtils] - Attaching logs for test: testAddRemoveFavorites
+[INFO] - [08-04-2026 14:24:27] [utils.common.AllureUtils] - Logs attached successfully for test: testAddRemoveFavorites
+[INFO] - [08-04-2026 14:24:27] [listeners.TestResultListener] - Test failed: testAddRemoveFavorites
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/loginTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: LoginTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/registerTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: RegisterTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/resetPasswordTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: ResetPasswordTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ForgotPasswordTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: ForgotPasswordTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreateNeedyProfileTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyProfileTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyFunctionTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyFunctionsTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/DonationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: EasyGiveTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/SingleDonationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: SingleDonationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ModeratorCommunity.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreationCommunityTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.appium.TerminalLogsCapture$1] - Failed to start Appium server: The main Appium script does not exist at 'C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\build\lib\main.js'
+[WARN] - [08-04-2026 14:24:27] [utils.appium.TerminalLogsCapture$1] - [WARN] Could not clear port 8100: Cannot run program "npx": CreateProcess error=2, The system cannot find the file specified
+[ERROR] - [08-04-2026 14:24:27] [utils.appium.driverManager.DriverManager] -  Failed to initialize driver: The main Appium script does not exist at 'C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\build\lib\main.js'
+[INFO] - [08-04-2026 14:24:27] [listeners.MethodInvocationListener] - Finished test: testAddRemoveGiverFavorites
+[INFO] - [08-04-2026 14:24:27] [utils.common.AllureUtils] - Attaching logs for test: testAddRemoveGiverFavorites
+[INFO] - [08-04-2026 14:24:27] [utils.common.AllureUtils] - Logs attached successfully for test: testAddRemoveGiverFavorites
+[INFO] - [08-04-2026 14:24:27] [listeners.TestResultListener] - Test failed: testAddRemoveGiverFavorites
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/loginTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: LoginTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/registerTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: RegisterTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/resetPasswordTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: ResetPasswordTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ForgotPasswordTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: ForgotPasswordTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreateNeedyProfileTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyProfileTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyFunctionTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyFunctionsTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/DonationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: EasyGiveTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/SingleDonationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: SingleDonationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ModeratorCommunity.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreationCommunityTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.appium.TerminalLogsCapture$1] - Failed to start Appium server: The main Appium script does not exist at 'C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\build\lib\main.js'
+[WARN] - [08-04-2026 14:24:27] [utils.appium.TerminalLogsCapture$1] - [WARN] Could not clear port 8100: Cannot run program "npx": CreateProcess error=2, The system cannot find the file specified
+[ERROR] - [08-04-2026 14:24:27] [utils.appium.driverManager.DriverManager] -  Failed to initialize driver: The main Appium script does not exist at 'C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\build\lib\main.js'
+[INFO] - [08-04-2026 14:24:27] [listeners.MethodInvocationListener] - Finished test: testChangeEmailAndUploadPhoto
+[INFO] - [08-04-2026 14:24:27] [utils.common.AllureUtils] - Attaching logs for test: testChangeEmailAndUploadPhoto
+[INFO] - [08-04-2026 14:24:27] [utils.common.AllureUtils] - Logs attached successfully for test: testChangeEmailAndUploadPhoto
+[INFO] - [08-04-2026 14:24:27] [listeners.TestResultListener] - Test failed: testChangeEmailAndUploadPhoto
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/loginTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: LoginTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/registerTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: RegisterTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/resetPasswordTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: ResetPasswordTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ForgotPasswordTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: ForgotPasswordTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreateNeedyProfileTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyProfileTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyFunctionTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyFunctionsTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/DonationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: EasyGiveTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/SingleDonationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: SingleDonationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ModeratorCommunity.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreationCommunityTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.appium.TerminalLogsCapture$1] - Failed to start Appium server: The main Appium script does not exist at 'C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\build\lib\main.js'
+[WARN] - [08-04-2026 14:24:27] [utils.appium.TerminalLogsCapture$1] - [WARN] Could not clear port 8100: Cannot run program "npx": CreateProcess error=2, The system cannot find the file specified
+[ERROR] - [08-04-2026 14:24:27] [utils.appium.driverManager.DriverManager] -  Failed to initialize driver: The main Appium script does not exist at 'C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\build\lib\main.js'
+[INFO] - [08-04-2026 14:24:27] [listeners.MethodInvocationListener] - Finished test: testEditPersonalInformation
+[INFO] - [08-04-2026 14:24:27] [utils.common.AllureUtils] - Attaching logs for test: testEditPersonalInformation
+[INFO] - [08-04-2026 14:24:27] [utils.common.AllureUtils] - Logs attached successfully for test: testEditPersonalInformation
+[INFO] - [08-04-2026 14:24:27] [listeners.TestResultListener] - Test failed: testEditPersonalInformation
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/loginTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: LoginTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/registerTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: RegisterTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/resetPasswordTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: ResetPasswordTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ForgotPasswordTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: ForgotPasswordTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreateNeedyProfileTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyProfileTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyFunctionTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyFunctionsTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/DonationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: EasyGiveTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/SingleDonationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: SingleDonationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ModeratorCommunity.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreationCommunityTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.appium.TerminalLogsCapture$1] - Failed to start Appium server: The main Appium script does not exist at 'C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\build\lib\main.js'
+[WARN] - [08-04-2026 14:24:27] [utils.appium.TerminalLogsCapture$1] - [WARN] Could not clear port 8100: Cannot run program "npx": CreateProcess error=2, The system cannot find the file specified
+[ERROR] - [08-04-2026 14:24:27] [utils.appium.driverManager.DriverManager] -  Failed to initialize driver: The main Appium script does not exist at 'C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\build\lib\main.js'
+[INFO] - [08-04-2026 14:24:27] [listeners.MethodInvocationListener] - Finished test: testNeedyProfileAgeAbove24
+[INFO] - [08-04-2026 14:24:27] [utils.common.AllureUtils] - Attaching logs for test: testNeedyProfileAgeAbove24
+[INFO] - [08-04-2026 14:24:27] [utils.common.AllureUtils] - Logs attached successfully for test: testNeedyProfileAgeAbove24
+[INFO] - [08-04-2026 14:24:27] [listeners.TestResultListener] - Test failed: testNeedyProfileAgeAbove24
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/loginTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: LoginTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/registerTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: RegisterTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/resetPasswordTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: ResetPasswordTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ForgotPasswordTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: ForgotPasswordTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreateNeedyProfileTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyProfileTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyFunctionTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyFunctionsTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/DonationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: EasyGiveTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/SingleDonationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: SingleDonationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ModeratorCommunity.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreationCommunityTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.appium.TerminalLogsCapture$1] - Failed to start Appium server: The main Appium script does not exist at 'C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\build\lib\main.js'
+[WARN] - [08-04-2026 14:24:27] [utils.appium.TerminalLogsCapture$1] - [WARN] Could not clear port 8100: Cannot run program "npx": CreateProcess error=2, The system cannot find the file specified
+[ERROR] - [08-04-2026 14:24:27] [utils.appium.driverManager.DriverManager] -  Failed to initialize driver: The main Appium script does not exist at 'C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\build\lib\main.js'
+[INFO] - [08-04-2026 14:24:27] [listeners.MethodInvocationListener] - Finished test: testNeedyProfileAgeLessOrEqual24
+[INFO] - [08-04-2026 14:24:27] [utils.common.AllureUtils] - Attaching logs for test: testNeedyProfileAgeLessOrEqual24
+[INFO] - [08-04-2026 14:24:27] [utils.common.AllureUtils] - Logs attached successfully for test: testNeedyProfileAgeLessOrEqual24
+[INFO] - [08-04-2026 14:24:27] [listeners.TestResultListener] - Test failed: testNeedyProfileAgeLessOrEqual24
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/loginTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: LoginTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/registerTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: RegisterTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/resetPasswordTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: ResetPasswordTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ForgotPasswordTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: ForgotPasswordTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreateNeedyProfileTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyProfileTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyFunctionTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyFunctionsTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/DonationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: EasyGiveTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/SingleDonationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: SingleDonationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ModeratorCommunity.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreationCommunityTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[WARN] - [08-04-2026 14:24:27] [org.testng.internal.Utils] - The test method 'testClasses.features.Needy.CreateNeedyProfileTest.testNeedyProfile_Abandoned' will be skipped since its data provider 'needyProfileData' returned an empty array or iterator. 
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/loginTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: LoginTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/registerTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: RegisterTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/resetPasswordTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: ResetPasswordTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ForgotPasswordTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: ForgotPasswordTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreateNeedyProfileTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyProfileTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyFunctionTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyFunctionsTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/DonationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: EasyGiveTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/SingleDonationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: SingleDonationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ModeratorCommunity.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreationCommunityTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[WARN] - [08-04-2026 14:24:27] [org.testng.internal.Utils] - The test method 'testClasses.features.Needy.CreateNeedyProfileTest.testNeedyProfile_Divorced' will be skipped since its data provider 'needyProfileData' returned an empty array or iterator. 
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/loginTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: LoginTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/registerTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: RegisterTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/resetPasswordTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: ResetPasswordTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ForgotPasswordTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: ForgotPasswordTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreateNeedyProfileTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyProfileTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyFunctionTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyFunctionsTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/DonationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: EasyGiveTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/SingleDonationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: SingleDonationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ModeratorCommunity.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreationCommunityTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[WARN] - [08-04-2026 14:24:27] [org.testng.internal.Utils] - The test method 'testClasses.features.Needy.CreateNeedyProfileTest.testNeedyProfile_Married' will be skipped since its data provider 'needyProfileData' returned an empty array or iterator. 
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/loginTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: LoginTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/registerTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: RegisterTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/resetPasswordTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: ResetPasswordTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ForgotPasswordTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: ForgotPasswordTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreateNeedyProfileTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyProfileTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyFunctionTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyFunctionsTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/DonationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: EasyGiveTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/SingleDonationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: SingleDonationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ModeratorCommunity.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreationCommunityTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[WARN] - [08-04-2026 14:24:27] [org.testng.internal.Utils] - The test method 'testClasses.features.Needy.CreateNeedyProfileTest.testNeedyProfile_Single' will be skipped since its data provider 'needyProfileData' returned an empty array or iterator. 
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/loginTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: LoginTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/registerTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: RegisterTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/resetPasswordTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: ResetPasswordTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ForgotPasswordTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: ForgotPasswordTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreateNeedyProfileTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyProfileTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyFunctionTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyFunctionsTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/DonationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: EasyGiveTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/SingleDonationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: SingleDonationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ModeratorCommunity.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreationCommunityTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[WARN] - [08-04-2026 14:24:27] [org.testng.internal.Utils] - The test method 'testClasses.features.Needy.CreateNeedyProfileTest.testNeedyProfile_SpouseInPrison' will be skipped since its data provider 'needyProfileData' returned an empty array or iterator. 
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/loginTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: LoginTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/registerTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: RegisterTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/resetPasswordTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: ResetPasswordTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ForgotPasswordTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: ForgotPasswordTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreateNeedyProfileTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyProfileTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyFunctionTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyFunctionsTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/DonationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: EasyGiveTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/SingleDonationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: SingleDonationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ModeratorCommunity.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreationCommunityTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[WARN] - [08-04-2026 14:24:27] [org.testng.internal.Utils] - The test method 'testClasses.features.Needy.CreateNeedyProfileTest.testNeedyProfile_Widowed' will be skipped since its data provider 'needyProfileData' returned an empty array or iterator. 
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/loginTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: LoginTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/registerTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: RegisterTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/resetPasswordTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: ResetPasswordTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ForgotPasswordTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: ForgotPasswordTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreateNeedyProfileTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyProfileTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyFunctionTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyFunctionsTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/DonationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: EasyGiveTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/SingleDonationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: SingleDonationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ModeratorCommunity.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreationCommunityTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.appium.TerminalLogsCapture$1] - Failed to start Appium server: The main Appium script does not exist at 'C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\build\lib\main.js'
+[WARN] - [08-04-2026 14:24:27] [utils.appium.TerminalLogsCapture$1] - [WARN] Could not clear port 8100: Cannot run program "npx": CreateProcess error=2, The system cannot find the file specified
+[ERROR] - [08-04-2026 14:24:27] [utils.appium.driverManager.DriverManager] -  Failed to initialize driver: The main Appium script does not exist at 'C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\build\lib\main.js'
+[INFO] - [08-04-2026 14:24:27] [listeners.MethodInvocationListener] - Finished test: testExistingHouseholdMemberFlow
+[INFO] - [08-04-2026 14:24:27] [utils.common.AllureUtils] - Attaching logs for test: testExistingHouseholdMemberFlow
+[INFO] - [08-04-2026 14:24:27] [utils.common.AllureUtils] - Logs attached successfully for test: testExistingHouseholdMemberFlow
+[INFO] - [08-04-2026 14:24:27] [listeners.TestResultListener] - Test failed: testExistingHouseholdMemberFlow
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/loginTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: LoginTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/registerTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: RegisterTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/resetPasswordTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: ResetPasswordTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ForgotPasswordTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: ForgotPasswordTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreateNeedyProfileTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyProfileTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyFunctionTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyFunctionsTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/DonationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: EasyGiveTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/SingleDonationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: SingleDonationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ModeratorCommunity.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreationCommunityTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.appium.TerminalLogsCapture$1] - Failed to start Appium server: The main Appium script does not exist at 'C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\build\lib\main.js'
+[WARN] - [08-04-2026 14:24:27] [utils.appium.TerminalLogsCapture$1] - [WARN] Could not clear port 8100: Cannot run program "npx": CreateProcess error=2, The system cannot find the file specified
+[ERROR] - [08-04-2026 14:24:27] [utils.appium.driverManager.DriverManager] -  Failed to initialize driver: The main Appium script does not exist at 'C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\build\lib\main.js'
+[INFO] - [08-04-2026 14:24:27] [listeners.MethodInvocationListener] - Finished test: testExistingNeedyMemberFlow
+[INFO] - [08-04-2026 14:24:27] [utils.common.AllureUtils] - Attaching logs for test: testExistingNeedyMemberFlow
+[INFO] - [08-04-2026 14:24:27] [utils.common.AllureUtils] - Logs attached successfully for test: testExistingNeedyMemberFlow
+[INFO] - [08-04-2026 14:24:27] [listeners.TestResultListener] - Test failed: testExistingNeedyMemberFlow
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/loginTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: LoginTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/registerTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: RegisterTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/resetPasswordTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: ResetPasswordTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ForgotPasswordTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: ForgotPasswordTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreateNeedyProfileTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyProfileTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyFunctionTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyFunctionsTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/DonationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: EasyGiveTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/SingleDonationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: SingleDonationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ModeratorCommunity.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreationCommunityTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.appium.TerminalLogsCapture$1] - Failed to start Appium server: The main Appium script does not exist at 'C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\build\lib\main.js'
+[WARN] - [08-04-2026 14:24:27] [utils.appium.TerminalLogsCapture$1] - [WARN] Could not clear port 8100: Cannot run program "npx": CreateProcess error=2, The system cannot find the file specified
+[ERROR] - [08-04-2026 14:24:27] [utils.appium.driverManager.DriverManager] -  Failed to initialize driver: The main Appium script does not exist at 'C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\build\lib\main.js'
+[INFO] - [08-04-2026 14:24:27] [listeners.MethodInvocationListener] - Finished test: testIncorrectIDFlow
+[INFO] - [08-04-2026 14:24:27] [utils.common.AllureUtils] - Attaching logs for test: testIncorrectIDFlow
+[INFO] - [08-04-2026 14:24:27] [utils.common.AllureUtils] - Logs attached successfully for test: testIncorrectIDFlow
+[INFO] - [08-04-2026 14:24:27] [listeners.TestResultListener] - Test failed: testIncorrectIDFlow
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/loginTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: LoginTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/registerTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: RegisterTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/resetPasswordTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: ResetPasswordTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ForgotPasswordTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: ForgotPasswordTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreateNeedyProfileTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyProfileTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyFunctionTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyFunctionsTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/DonationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: EasyGiveTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/SingleDonationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: SingleDonationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ModeratorCommunity.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreationCommunityTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.appium.TerminalLogsCapture$1] - Failed to start Appium server: The main Appium script does not exist at 'C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\build\lib\main.js'
+[WARN] - [08-04-2026 14:24:27] [utils.appium.TerminalLogsCapture$1] - [WARN] Could not clear port 8100: Cannot run program "npx": CreateProcess error=2, The system cannot find the file specified
+[ERROR] - [08-04-2026 14:24:27] [utils.appium.driverManager.DriverManager] -  Failed to initialize driver: The main Appium script does not exist at 'C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\build\lib\main.js'
+[INFO] - [08-04-2026 14:24:27] [listeners.MethodInvocationListener] - Finished test: testMismatchedNameFlow
+[INFO] - [08-04-2026 14:24:27] [utils.common.AllureUtils] - Attaching logs for test: testMismatchedNameFlow
+[INFO] - [08-04-2026 14:24:27] [utils.common.AllureUtils] - Logs attached successfully for test: testMismatchedNameFlow
+[INFO] - [08-04-2026 14:24:27] [listeners.TestResultListener] - Test failed: testMismatchedNameFlow
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/loginTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: LoginTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/registerTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: RegisterTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/resetPasswordTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: ResetPasswordTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ForgotPasswordTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: ForgotPasswordTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreateNeedyProfileTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyProfileTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyFunctionTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyFunctionsTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/DonationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: EasyGiveTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/SingleDonationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: SingleDonationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ModeratorCommunity.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreationCommunityTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.appium.TerminalLogsCapture$1] - Failed to start Appium server: The main Appium script does not exist at 'C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\build\lib\main.js'
+[WARN] - [08-04-2026 14:24:27] [utils.appium.TerminalLogsCapture$1] - [WARN] Could not clear port 8100: Cannot run program "npx": CreateProcess error=2, The system cannot find the file specified
+[ERROR] - [08-04-2026 14:24:27] [utils.appium.driverManager.DriverManager] -  Failed to initialize driver: The main Appium script does not exist at 'C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\build\lib\main.js'
+[INFO] - [08-04-2026 14:24:27] [listeners.MethodInvocationListener] - Finished test: testFilterNeedyFlow
+[INFO] - [08-04-2026 14:24:27] [utils.common.AllureUtils] - Attaching logs for test: testFilterNeedyFlow
+[INFO] - [08-04-2026 14:24:27] [utils.common.AllureUtils] - Logs attached successfully for test: testFilterNeedyFlow
+[INFO] - [08-04-2026 14:24:27] [listeners.TestResultListener] - Test failed: testFilterNeedyFlow
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/loginTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: LoginTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/registerTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: RegisterTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/resetPasswordTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: ResetPasswordTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ForgotPasswordTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: ForgotPasswordTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreateNeedyProfileTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyProfileTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyFunctionTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyFunctionsTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/DonationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: EasyGiveTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/SingleDonationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: SingleDonationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ModeratorCommunity.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreationCommunityTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.appium.TerminalLogsCapture$1] - Failed to start Appium server: The main Appium script does not exist at 'C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\build\lib\main.js'
+[WARN] - [08-04-2026 14:24:27] [utils.appium.TerminalLogsCapture$1] - [WARN] Could not clear port 8100: Cannot run program "npx": CreateProcess error=2, The system cannot find the file specified
+[ERROR] - [08-04-2026 14:24:27] [utils.appium.driverManager.DriverManager] -  Failed to initialize driver: The main Appium script does not exist at 'C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\build\lib\main.js'
+[INFO] - [08-04-2026 14:24:27] [listeners.MethodInvocationListener] - Finished test: testSortNeedyFlow
+[INFO] - [08-04-2026 14:24:27] [utils.common.AllureUtils] - Attaching logs for test: testSortNeedyFlow
+[INFO] - [08-04-2026 14:24:27] [utils.common.AllureUtils] - Logs attached successfully for test: testSortNeedyFlow
+[INFO] - [08-04-2026 14:24:27] [listeners.TestResultListener] - Test failed: testSortNeedyFlow
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/loginTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: LoginTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/registerTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: RegisterTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/resetPasswordTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: ResetPasswordTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ForgotPasswordTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: ForgotPasswordTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreateNeedyProfileTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyProfileTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyFunctionTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyFunctionsTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/DonationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: EasyGiveTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/SingleDonationTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: SingleDonationTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ModeratorCommunity.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreationCommunityTestData.json
+[INFO] - [08-04-2026 14:24:27] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 14:24:27] [utils.appium.TerminalLogsCapture$1] - Failed to start Appium server: The main Appium script does not exist at 'C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\build\lib\main.js'
+[WARN] - [08-04-2026 14:24:27] [utils.appium.TerminalLogsCapture$1] - [WARN] Could not clear port 8100: Cannot run program "npx": CreateProcess error=2, The system cannot find the file specified
+[ERROR] - [08-04-2026 14:24:27] [utils.appium.driverManager.DriverManager] -  Failed to initialize driver: The main Appium script does not exist at 'C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\build\lib\main.js'
+[INFO] - [08-04-2026 14:24:27] [listeners.MethodInvocationListener] - Finished test: testValidateNotification
+[INFO] - [08-04-2026 14:24:27] [utils.common.AllureUtils] - Attaching logs for test: testValidateNotification
+[INFO] - [08-04-2026 14:24:27] [utils.common.AllureUtils] - Logs attached successfully for test: testValidateNotification
+[INFO] - [08-04-2026 14:24:27] [listeners.TestResultListener] - Test failed: testValidateNotification
+[INFO] - [08-04-2026 14:24:27] [utils.appium.TerminalLogsCapture$1] - Failed to start Appium server: The main Appium script does not exist at 'C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\build\lib\main.js'
+[WARN] - [08-04-2026 14:24:27] [utils.appium.TerminalLogsCapture$1] - [WARN] Could not clear port 8100: Cannot run program "npx": CreateProcess error=2, The system cannot find the file specified
+[ERROR] - [08-04-2026 14:24:27] [utils.appium.driverManager.DriverManager] -  Failed to initialize driver: The main Appium script does not exist at 'C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\build\lib\main.js'
+[INFO] - [08-04-2026 14:24:27] [listeners.MethodInvocationListener] - Finished test: testSkipFlow
+[INFO] - [08-04-2026 14:24:27] [utils.common.AllureUtils] - Attaching logs for test: testSkipFlow
+[INFO] - [08-04-2026 14:24:27] [utils.common.AllureUtils] - Logs attached successfully for test: testSkipFlow
+[INFO] - [08-04-2026 14:24:27] [listeners.TestResultListener] - Test failed: testSkipFlow
+[INFO] - [08-04-2026 14:24:27] [utils.appium.TerminalLogsCapture$1] - Failed to start Appium server: The main Appium script does not exist at 'C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\build\lib\main.js'
+[WARN] - [08-04-2026 14:24:27] [utils.appium.TerminalLogsCapture$1] - [WARN] Could not clear port 8100: Cannot run program "npx": CreateProcess error=2, The system cannot find the file specified
+[ERROR] - [08-04-2026 14:24:27] [utils.appium.driverManager.DriverManager] -  Failed to initialize driver: The main Appium script does not exist at 'C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\build\lib\main.js'
+[INFO] - [08-04-2026 14:24:27] [listeners.MethodInvocationListener] - Finished test: testContinueThenSkipFlow
+[INFO] - [08-04-2026 14:24:27] [utils.common.AllureUtils] - Attaching logs for test: testContinueThenSkipFlow
+[INFO] - [08-04-2026 14:24:27] [utils.common.AllureUtils] - Logs attached successfully for test: testContinueThenSkipFlow
+[INFO] - [08-04-2026 14:24:27] [listeners.TestResultListener] - Test failed: testContinueThenSkipFlow
+[INFO] - [08-04-2026 14:24:27] [utils.appium.TerminalLogsCapture$1] - Failed to start Appium server: The main Appium script does not exist at 'C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\build\lib\main.js'
+[WARN] - [08-04-2026 14:24:27] [utils.appium.TerminalLogsCapture$1] - [WARN] Could not clear port 8100: Cannot run program "npx": CreateProcess error=2, The system cannot find the file specified
+[ERROR] - [08-04-2026 14:24:27] [utils.appium.driverManager.DriverManager] -  Failed to initialize driver: The main Appium script does not exist at 'C:\Users\Kholoud\AppData\Roaming\npm\node_modules\appium\build\lib\main.js'
+[INFO] - [08-04-2026 14:24:27] [listeners.MethodInvocationListener] - Finished test: testFullContinueFlow
+[INFO] - [08-04-2026 14:24:27] [utils.common.AllureUtils] - Attaching logs for test: testFullContinueFlow
+[INFO] - [08-04-2026 14:24:27] [utils.common.AllureUtils] - Logs attached successfully for test: testFullContinueFlow
+[INFO] - [08-04-2026 14:24:27] [listeners.TestResultListener] - Test failed: testFullContinueFlow
+[INFO] - [08-04-2026 14:24:27] [listeners.TestResultListener] - Test run finished
+[INFO] - [08-04-2026 14:24:27] [utils.appium.TerminalLogsCapture$1] - ===============================================
+[INFO] - [08-04-2026 14:24:27] [utils.appium.TerminalLogsCapture$1] - Android Automation Suite
+[INFO] - [08-04-2026 14:24:27] [utils.appium.TerminalLogsCapture$1] - Total tests run: 38, Passes: 0, Failures: 38, Skips: 0
+[INFO] - [08-04-2026 14:24:27] [utils.appium.TerminalLogsCapture$1] - ===============================================
+[INFO] - [08-04-2026 14:24:27] [utils.common.TerminalUtils] - Executing command: allure generate test_outputs/allure_results -o test_outputs/allure_report --clean --single-file
+[INFO] - [08-04-2026 14:24:27] [utils.common.TerminalUtils] - Command executed: allure generate test_outputs/allure_results -o test_outputs/allure_report --clean --single-file
+[ERROR] - [08-04-2026 14:24:27] [utils.common.AllureUtils] - Failed to generate allure report
+[INFO] - [08-04-2026 14:24:27] [utils.common.FilesUtils] - Found latest file in test_outputs\allure_report: test_outputs\allure_report\Report 2026-04-08 14-21-47.html
+[INFO] - [08-04-2026 14:24:27] [utils.common.FilesUtils] - File renamed successfully from test_outputs\allure_report\Report 2026-04-08 14-21-47.html to test_outputs\allure_report\Report 2026-04-08 14-24-27.html
+[INFO] - [08-04-2026 14:24:27] [utils.common.AllureUtils] - Allure report renamed successfully to: test_outputs\allure_report\Report 2026-04-08 14-24-27.html
+[INFO] - [08-04-2026 14:24:27] [utils.common.AllureUtils] - Opening allure report: test_outputs\allure_report\Report 2026-04-08 14-24-27.html
+[INFO] - [08-04-2026 14:24:27] [utils.common.TerminalUtils] - Executing command: start "" "test_outputs\allure_report\Report 2026-04-08 14-24-27.html"
+[INFO] - [08-04-2026 14:24:28] [utils.common.TerminalUtils] - Command executed: start "" "test_outputs\allure_report\Report 2026-04-08 14-24-27.html"
+[INFO] - [08-04-2026 14:24:28] [utils.appium.TerminalLogsCapture$1] - [INFO] No Appium server to stop.

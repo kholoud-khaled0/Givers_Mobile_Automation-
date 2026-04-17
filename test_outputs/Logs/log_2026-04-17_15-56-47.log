@@ -1,0 +1,119 @@
+[DEBUG] - [17-04-2026 15:56:47] [org.testng.TestNG] - suiteXmlPath: "C:\Users\EELU\Downloads\Givers\test_runners\AndroidTestSuite.xml"
+[INFO] - [17-04-2026 15:56:47] [org.testng.internal.Utils] - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+[INFO] - [17-04-2026 15:56:48] [utils.common.FilesUtils] - Directory already exists: test_outputs\logs
+[INFO] - [17-04-2026 15:56:48] [utils.common.FilesUtils] - Directory already exists: test_outputs\allure_results
+[INFO] - [17-04-2026 15:56:48] [utils.common.FilesUtils] - Directory already exists: test_outputs\screenshots
+[INFO] - [17-04-2026 15:56:48] [utils.common.FilesUtils] - Directory already exists: test_outputs\allure_report
+[INFO] - [17-04-2026 15:56:48] [utils.common.FilesUtils] - Deleting files or folders in: C:\Users\EELU\Downloads\Givers\test_outputs\allure_results
+[INFO] - [17-04-2026 15:56:48] [utils.common.FilesUtils] - Deleting files or folders in: C:\Users\EELU\Downloads\Givers\test_outputs\screenshots
+[INFO] - [17-04-2026 15:56:48] [utils.appium.TerminalLogsCapture$1] - Appium server started at: http://127.0.0.1:4723/
+[INFO] - [17-04-2026 15:56:48] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\EELU\Downloads\Givers\test_runners\AndroidTestSuite.xml
+
+[INFO] - [17-04-2026 15:56:48] [listeners.TestResultListener] - Test run started
+[INFO] - [17-04-2026 15:56:48] [utils.common.PropertiesUtils] - Loading Android properties from: src/main/resources/Env/AndroidEnv.properties
+[INFO] - [17-04-2026 15:56:49] [utils.appium.TerminalLogsCapture$1] - [INFO] Appium server already running.
+[WARN] - [17-04-2026 15:56:49] [utils.appium.TerminalLogsCapture$1] - [WARN] Could not clear port 8100: Cannot run program "npx": CreateProcess error=2, The system cannot find the file specified
+[WARN] - [17-04-2026 15:56:52] [utils.appium.TerminalLogsCapture$1] - WARN Appium Appium encountered 1 warning while validating drivers found in manifest C:\Users\EELU\.appium\node_modules\.cache\appium\extensions.yaml
+[WARN] - [17-04-2026 15:56:52] [utils.appium.TerminalLogsCapture$1] - WARN Appium Driver "uiautomator2" has 1 potential problem:
+[WARN] - [17-04-2026 15:56:53] [utils.appium.TerminalLogsCapture$1] - WARN Appium   - Driver "uiautomator2" (package `appium-uiautomator2-driver`) may be incompatible with the current version of Appium (v2.19.0) due to an invalid or missing peer dependency on Appium. A newer version of `appium-uiautomator2-driver` is available; please attempt to upgrade "uiautomator2" to v2.45.1 or newer.
+[INFO] - [17-04-2026 15:56:53] [utils.appium.TerminalLogsCapture$1] - [Appium] Welcome to Appium v2.19.0
+[INFO] - [17-04-2026 15:56:53] [utils.appium.TerminalLogsCapture$1] - [Appium] Non-default server args:
+[INFO] - [17-04-2026 15:56:53] [utils.appium.TerminalLogsCapture$1] - [Appium] { address: '127.0.0.1',
+[INFO] - [17-04-2026 15:56:53] [utils.appium.TerminalLogsCapture$1] - loglevel: 'info',
+[INFO] - [17-04-2026 15:56:53] [utils.appium.TerminalLogsCapture$1] - logNoColors: true,
+[INFO] - [17-04-2026 15:56:53] [utils.appium.TerminalLogsCapture$1] - relaxedSecurityEnabled: true,
+[INFO] - [17-04-2026 15:56:53] [utils.appium.TerminalLogsCapture$1] - sessionOverride: true }
+[INFO] - [17-04-2026 15:56:53] [utils.appium.TerminalLogsCapture$1] - [Appium] Enabling relaxed security. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[INFO] - [17-04-2026 15:56:53] [utils.appium.TerminalLogsCapture$1] - [Appium] Attempting to load driver uiautomator2...
+[INFO] - [17-04-2026 15:56:56] [utils.appium.TerminalLogsCapture$1] - [HTTP] Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other instance of this server running already.
+[INFO] - [17-04-2026 15:56:56] [utils.appium.TerminalLogsCapture$1] - [Appium] Could not configure Appium server. It's possible that a driver or plugin tried to update the server and failed. Original error: listen EACCES: permission denied 127.0.0.1:4723
+[INFO] - [17-04-2026 15:57:03] [listeners.MethodInvocationListener] - Starting test: testSkipFlow
+[ERROR] - [17-04-2026 15:57:03] [listeners.DynamicAllureListener] - Failed to set story or description: story
+[INFO] - [17-04-2026 15:57:15] [utils.appium.TakeScreenShot] - Taking screenshot for: testSkipFlow_Failed
+[INFO] - [17-04-2026 15:57:16] [utils.appium.TakeScreenShot] - Screenshot taken successfully: C:\Users\EELU\Downloads\Givers\test_outputs\screenshots\testSkipFlow_Failed2026-04-17 15-57-16.png
+[ERROR] - [17-04-2026 15:57:16] [utils.common.assertions.CustomSoftAssert] - Assertion Failed: Expected 'Let's Sign You up First!' title to be visible on Sign Up page expected [true] but found [false]
+[INFO] - [17-04-2026 15:57:16] [utils.common.AllureUtils] - Screenshot attached successfully: testSkipFlow_Failed2026-04-17 15-57-16.png
+[INFO] - [17-04-2026 15:57:16] [listeners.MethodInvocationListener] - Finished test: testSkipFlow
+[ERROR] - [17-04-2026 15:57:16] [utils.common.assertions.CustomSoftAssert] - Custom Soft Assertion Failed: Custom Soft Assertion
+	Expected 'Let's Sign You up First!' title to be visible on Sign Up page expected [true] but found [false]
+[INFO] - [17-04-2026 15:57:16] [utils.common.AllureUtils] - Attaching logs for test: testSkipFlow
+[INFO] - [17-04-2026 15:57:16] [utils.common.AllureUtils] - Logs attached successfully for test: testSkipFlow
+[INFO] - [17-04-2026 15:57:17] [utils.appium.TerminalLogsCapture$1] - Driver session closed successfully
+[INFO] - [17-04-2026 15:57:17] [utils.appium.TerminalLogsCapture$1] - [INFO] No Appium server to stop.
+[INFO] - [17-04-2026 15:57:17] [listeners.TestResultListener] - Test failed: testSkipFlow
+[INFO] - [17-04-2026 15:57:17] [utils.appium.TerminalLogsCapture$1] - Appium server started at: http://127.0.0.1:4723/
+[WARN] - [17-04-2026 15:57:17] [utils.appium.TerminalLogsCapture$1] - [WARN] Could not clear port 8100: Cannot run program "npx": CreateProcess error=2, The system cannot find the file specified
+[WARN] - [17-04-2026 15:57:24] [utils.appium.TerminalLogsCapture$1] - WARN Appium Appium encountered 1 warning while validating drivers found in manifest C:\Users\EELU\.appium\node_modules\.cache\appium\extensions.yaml
+[WARN] - [17-04-2026 15:57:24] [utils.appium.TerminalLogsCapture$1] - WARN Appium Driver "uiautomator2" has 1 potential problem:
+[WARN] - [17-04-2026 15:57:24] [utils.appium.TerminalLogsCapture$1] - WARN Appium   - Driver "uiautomator2" (package `appium-uiautomator2-driver`) may be incompatible with the current version of Appium (v2.19.0) due to an invalid or missing peer dependency on Appium. A newer version of `appium-uiautomator2-driver` is available; please attempt to upgrade "uiautomator2" to v2.45.1 or newer.
+[INFO] - [17-04-2026 15:57:24] [utils.appium.TerminalLogsCapture$1] - [Appium] Welcome to Appium v2.19.0
+[INFO] - [17-04-2026 15:57:24] [utils.appium.TerminalLogsCapture$1] - [Appium] Non-default server args:
+[INFO] - [17-04-2026 15:57:24] [utils.appium.TerminalLogsCapture$1] - [Appium] { address: '127.0.0.1',
+[INFO] - [17-04-2026 15:57:24] [utils.appium.TerminalLogsCapture$1] - loglevel: 'info',
+[INFO] - [17-04-2026 15:57:24] [utils.appium.TerminalLogsCapture$1] - logNoColors: true,
+[INFO] - [17-04-2026 15:57:24] [utils.appium.TerminalLogsCapture$1] - relaxedSecurityEnabled: true,
+[INFO] - [17-04-2026 15:57:24] [utils.appium.TerminalLogsCapture$1] - sessionOverride: true }
+[INFO] - [17-04-2026 15:57:24] [utils.appium.TerminalLogsCapture$1] - [Appium] Enabling relaxed security. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[INFO] - [17-04-2026 15:57:24] [utils.appium.TerminalLogsCapture$1] - [Appium] Attempting to load driver uiautomator2...
+[INFO] - [17-04-2026 15:57:28] [utils.appium.TerminalLogsCapture$1] - [HTTP] Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other instance of this server running already.
+[INFO] - [17-04-2026 15:57:28] [utils.appium.TerminalLogsCapture$1] - [Appium] Could not configure Appium server. It's possible that a driver or plugin tried to update the server and failed. Original error: listen EACCES: permission denied 127.0.0.1:4723
+[INFO] - [17-04-2026 15:57:43] [listeners.MethodInvocationListener] - Starting test: testContinueThenSkipFlow
+[ERROR] - [17-04-2026 15:57:43] [listeners.DynamicAllureListener] - Failed to set story or description: story
+[INFO] - [17-04-2026 15:57:57] [utils.appium.TakeScreenShot] - Taking screenshot for: testContinueThenSkipFlow_Failed
+[INFO] - [17-04-2026 15:57:59] [utils.appium.TakeScreenShot] - Screenshot taken successfully: C:\Users\EELU\Downloads\Givers\test_outputs\screenshots\testContinueThenSkipFlow_Failed2026-04-17 15-57-59.png
+[ERROR] - [17-04-2026 15:57:59] [utils.common.assertions.CustomSoftAssert] - Assertion Failed: Expected 'Let's Sign You up First!' title to be visible on Sign Up page expected [true] but found [false]
+[INFO] - [17-04-2026 15:57:59] [utils.common.AllureUtils] - Screenshot attached successfully: testContinueThenSkipFlow_Failed2026-04-17 15-57-59.png
+[INFO] - [17-04-2026 15:57:59] [listeners.MethodInvocationListener] - Finished test: testContinueThenSkipFlow
+[ERROR] - [17-04-2026 15:57:59] [utils.common.assertions.CustomSoftAssert] - Custom Soft Assertion Failed: Custom Soft Assertion
+	Expected 'Let's Sign You up First!' title to be visible on Sign Up page expected [true] but found [false]
+[INFO] - [17-04-2026 15:57:59] [utils.common.AllureUtils] - Attaching logs for test: testContinueThenSkipFlow
+[INFO] - [17-04-2026 15:57:59] [utils.common.AllureUtils] - Logs attached successfully for test: testContinueThenSkipFlow
+[INFO] - [17-04-2026 15:58:00] [utils.appium.TerminalLogsCapture$1] - Driver session closed successfully
+[INFO] - [17-04-2026 15:58:00] [utils.appium.TerminalLogsCapture$1] - [INFO] No Appium server to stop.
+[INFO] - [17-04-2026 15:58:00] [listeners.TestResultListener] - Test failed: testContinueThenSkipFlow
+[INFO] - [17-04-2026 15:58:00] [utils.appium.TerminalLogsCapture$1] - Appium server started at: http://127.0.0.1:4723/
+[WARN] - [17-04-2026 15:58:00] [utils.appium.TerminalLogsCapture$1] - [WARN] Could not clear port 8100: Cannot run program "npx": CreateProcess error=2, The system cannot find the file specified
+[WARN] - [17-04-2026 15:58:07] [utils.appium.TerminalLogsCapture$1] - WARN Appium Appium encountered 1 warning while validating drivers found in manifest C:\Users\EELU\.appium\node_modules\.cache\appium\extensions.yaml
+[WARN] - [17-04-2026 15:58:07] [utils.appium.TerminalLogsCapture$1] - WARN Appium Driver "uiautomator2" has 1 potential problem:
+[WARN] - [17-04-2026 15:58:07] [utils.appium.TerminalLogsCapture$1] - WARN Appium   - Driver "uiautomator2" (package `appium-uiautomator2-driver`) may be incompatible with the current version of Appium (v2.19.0) due to an invalid or missing peer dependency on Appium. A newer version of `appium-uiautomator2-driver` is available; please attempt to upgrade "uiautomator2" to v2.45.1 or newer.
+[INFO] - [17-04-2026 15:58:08] [utils.appium.TerminalLogsCapture$1] - [Appium] Welcome to Appium v2.19.0
+[INFO] - [17-04-2026 15:58:08] [utils.appium.TerminalLogsCapture$1] - [Appium] Non-default server args:
+[INFO] - [17-04-2026 15:58:08] [utils.appium.TerminalLogsCapture$1] - [Appium] { address: '127.0.0.1',
+[INFO] - [17-04-2026 15:58:08] [utils.appium.TerminalLogsCapture$1] - loglevel: 'info',
+[INFO] - [17-04-2026 15:58:08] [utils.appium.TerminalLogsCapture$1] - logNoColors: true,
+[INFO] - [17-04-2026 15:58:08] [utils.appium.TerminalLogsCapture$1] - relaxedSecurityEnabled: true,
+[INFO] - [17-04-2026 15:58:08] [utils.appium.TerminalLogsCapture$1] - sessionOverride: true }
+[INFO] - [17-04-2026 15:58:08] [utils.appium.TerminalLogsCapture$1] - [Appium] Enabling relaxed security. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[INFO] - [17-04-2026 15:58:08] [utils.appium.TerminalLogsCapture$1] - [Appium] Attempting to load driver uiautomator2...
+[INFO] - [17-04-2026 15:58:12] [utils.appium.TerminalLogsCapture$1] - [HTTP] Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other instance of this server running already.
+[INFO] - [17-04-2026 15:58:12] [utils.appium.TerminalLogsCapture$1] - [Appium] Could not configure Appium server. It's possible that a driver or plugin tried to update the server and failed. Original error: listen EACCES: permission denied 127.0.0.1:4723
+[INFO] - [17-04-2026 15:58:23] [listeners.MethodInvocationListener] - Starting test: testFullContinueFlow
+[ERROR] - [17-04-2026 15:58:23] [listeners.DynamicAllureListener] - Failed to set story or description: story
+[INFO] - [17-04-2026 15:58:36] [utils.appium.TakeScreenShot] - Taking screenshot for: testFullContinueFlow_Failed
+[INFO] - [17-04-2026 15:58:38] [utils.appium.TakeScreenShot] - Screenshot taken successfully: C:\Users\EELU\Downloads\Givers\test_outputs\screenshots\testFullContinueFlow_Failed2026-04-17 15-58-38.png
+[ERROR] - [17-04-2026 15:58:38] [utils.common.assertions.CustomSoftAssert] - Assertion Failed: Expected 'Let's Sign You up First!' title to be visible on Sign Up page expected [true] but found [false]
+[INFO] - [17-04-2026 15:58:38] [utils.common.AllureUtils] - Screenshot attached successfully: testFullContinueFlow_Failed2026-04-17 15-58-38.png
+[INFO] - [17-04-2026 15:58:38] [listeners.MethodInvocationListener] - Finished test: testFullContinueFlow
+[ERROR] - [17-04-2026 15:58:38] [utils.common.assertions.CustomSoftAssert] - Custom Soft Assertion Failed: Custom Soft Assertion
+	Expected 'Let's Sign You up First!' title to be visible on Sign Up page expected [true] but found [false]
+[INFO] - [17-04-2026 15:58:38] [utils.common.AllureUtils] - Attaching logs for test: testFullContinueFlow
+[INFO] - [17-04-2026 15:58:38] [utils.common.AllureUtils] - Logs attached successfully for test: testFullContinueFlow
+[INFO] - [17-04-2026 15:58:39] [utils.appium.TerminalLogsCapture$1] - Driver session closed successfully
+[INFO] - [17-04-2026 15:58:39] [utils.appium.TerminalLogsCapture$1] - [INFO] No Appium server to stop.
+[INFO] - [17-04-2026 15:58:39] [listeners.TestResultListener] - Test failed: testFullContinueFlow
+[INFO] - [17-04-2026 15:58:39] [listeners.TestResultListener] - Test run finished
+[INFO] - [17-04-2026 15:58:39] [utils.appium.TerminalLogsCapture$1] - ===============================================
+[INFO] - [17-04-2026 15:58:39] [utils.appium.TerminalLogsCapture$1] - Android Automation Suite
+[INFO] - [17-04-2026 15:58:39] [utils.appium.TerminalLogsCapture$1] - Total tests run: 3, Passes: 0, Failures: 3, Skips: 0
+[INFO] - [17-04-2026 15:58:39] [utils.appium.TerminalLogsCapture$1] - ===============================================
+[INFO] - [17-04-2026 15:58:39] [utils.common.TerminalUtils] - Executing command: allure generate test_outputs/allure_results -o test_outputs/allure_report --clean --single-file
+[INFO] - [17-04-2026 15:58:45] [utils.common.TerminalUtils] - Command executed: allure generate test_outputs/allure_results -o test_outputs/allure_report --clean --single-file
+[INFO] - [17-04-2026 15:58:45] [utils.common.AllureUtils] - Allure report generated successfully
+[INFO] - [17-04-2026 15:58:45] [utils.common.FilesUtils] - Found latest file in test_outputs\allure_report: test_outputs\allure_report\index.html
+[INFO] - [17-04-2026 15:58:45] [utils.common.FilesUtils] - File renamed successfully from test_outputs\allure_report\index.html to test_outputs\allure_report\Report 2026-04-17 15-58-45.html
+[INFO] - [17-04-2026 15:58:45] [utils.common.AllureUtils] - Allure report renamed successfully to: test_outputs\allure_report\Report 2026-04-17 15-58-45.html
+[INFO] - [17-04-2026 15:58:45] [utils.common.AllureUtils] - Opening allure report: test_outputs\allure_report\Report 2026-04-17 15-58-45.html
+[INFO] - [17-04-2026 15:58:46] [utils.common.TerminalUtils] - Executing command: start "" "test_outputs\allure_report\Report 2026-04-17 15-58-45.html"
+[INFO] - [17-04-2026 15:58:47] [utils.common.TerminalUtils] - Command executed: start "" "test_outputs\allure_report\Report 2026-04-17 15-58-45.html"
+[INFO] - [17-04-2026 15:58:47] [utils.appium.TerminalLogsCapture$1] - [INFO] No Appium server to stop.

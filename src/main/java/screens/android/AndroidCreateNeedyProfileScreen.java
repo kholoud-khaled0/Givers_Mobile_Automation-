@@ -5,7 +5,6 @@ import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import screens.base.NeedyScreen;
 import utils.appium.ElementsActions;
-import utils.appium.Waits;
 import utils.common.DocumentData;
 import utils.common.MaritalStatusConfig;
 
@@ -35,7 +34,13 @@ public class AndroidCreateNeedyProfileScreen extends NeedyScreen {
             String amount,
             String relationShip,
             String story,
-            String note
+            String note,
+            String healthStatus,
+            String disabilityLevel,
+            List<String> disabilityTypes,
+            String chronicDiseaseType,
+            String monthlyExpenses
+
     ) {
 
         // ================== Basic Info ==================
@@ -56,6 +61,7 @@ public class AndroidCreateNeedyProfileScreen extends NeedyScreen {
         enterDynamicDate();
         scrollDownSmall();
         openDropdownAndSelectByName( "Select marital status" , maritalStatus);
+        tapCreateNeedy();
         scrollDown();
         setMotherName(motherName);
         setPhoneNumber(phoneNumber);
@@ -71,11 +77,11 @@ public class AndroidCreateNeedyProfileScreen extends NeedyScreen {
         // ================== Address ==================
         tapNext();
         waitForUIStability();
-        tapNext();
+        handleHealthStatus(healthStatus, disabilityLevel, disabilityTypes, chronicDiseaseType, monthlyExpenses);
         waitForUIStability();
 
-//        tapMyLocation();
-//        tapDone();
+        tapMyLocation();
+        tapDone();
         openDropdownAndSelectByName(  "Select state", state);
         openDropdownAndSelectByName("Select city", city);
         setAddress(address);
@@ -200,7 +206,7 @@ public class AndroidCreateNeedyProfileScreen extends NeedyScreen {
                 scrollDown();
             }
 
-            // ✅ Dropdown logic
+
             if ("school-letter-document".equals(doc.documentName())) {
                 selectSchoolYear("Primary four");
                 scrollDown();

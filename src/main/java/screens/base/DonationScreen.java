@@ -87,6 +87,29 @@ public abstract class DonationScreen {
     }
 
     /* ========== Steps ========== */
+
+    @Step("Navigate to Monthly Donations and open first Easy Give")
+    public void openHistoryDonations() {
+
+        // back
+        By backBtn = AppiumBy.androidUIAutomator("new UiSelector().text(\"\")");
+        ElementsActions.click(backBtn);
+
+        By welcome = AppiumBy.androidUIAutomator("new UiSelector().text(\"Welcome to Easy Give!\")");
+        ElementsActions.click(welcome);
+
+        // more
+        By more = AppiumBy.androidUIAutomator("new UiSelector().description(\", More\")");
+        ElementsActions.click(more);
+
+        // monthly donations
+        By history = AppiumBy.androidUIAutomator("new UiSelector().description(\"Donation History\")");
+        ElementsActions.click(history);
+
+        By easyGive = AppiumBy.androidUIAutomator("new UiSelector().text(\"Easy Give\").instance(0)");
+        ElementsActions.click(easyGive);
+    }
+
     @Step("User clicks on Easy Give button")
     public void clickOnEasyGiveButton() {
         ElementsActions.click(easyGiveBtn);
@@ -307,11 +330,9 @@ public abstract class DonationScreen {
                         "new UiSelector().textContains(\"Monthly target\")"
                 );
 
-        // 👈 لازم نستنى ده تحديدًا
         Waits.waitForElementToBeVisible(targetText);
 
         String text = ElementsActions.getText(targetText);
-        // مثال: "Monthly target: 48441 EGP"
 
         String number = text.replaceAll("[^0-9]", "");
 
@@ -468,7 +489,7 @@ public abstract class DonationScreen {
     @Step("User donates to needy using raised amount anchor")
     public void donateToNeedy(Integer amount) {
 
-        selectNeedyByRaisedAmount();   // 🔥 الحل الثابت
+        selectNeedyByRaisedAmount();
         clickOnDonateNowButton();
 
         int donationAmount =
@@ -486,5 +507,80 @@ public abstract class DonationScreen {
             assertPaymentSuccessAndAmount(donationAmount);
         }
     }
+    @Step("Get donation amount from confirmation screen")
+    public String getDonationAmountFromUI() {
 
+        By amountLocator = AppiumBy.androidUIAutomator(
+                "new UiSelector().textContains(\"EGP\")"
+        );
+
+        return ElementsActions.getText(amountLocator);
+    }
+    @Step("Get bank commission from UI")
+    public String getBankCommissionFromUI() {
+
+        By commissionLocator = AppiumBy.androidUIAutomator(
+                "new UiSelector().textContains(\"EGP\").instance(1)"
+        );
+
+        return ElementsActions.getText(commissionLocator);
+    }
+    @Step("Validate donation details")
+    public void validateDonationDetails(String expectedAmount, String expectedCommission) {
+
+        ElementsActions.click(
+                AppiumBy.androidUIAutomator("new UiSelector().description(\"View details\")")
+        );
+
+        // Donation
+        ElementsActions.isDisplayed(
+                AppiumBy.androidUIAutomator("new UiSelector().text(\"Donation\").instance(0)")
+        );
+
+        // Amount
+        ElementsActions.isDisplayed(
+                AppiumBy.androidUIAutomator(
+                        "new UiSelector().text(\"" + expectedAmount + "\")"
+                )
+        );
+
+        // Bank Commission
+        ElementsActions.isDisplayed(
+                AppiumBy.androidUIAutomator("new UiSelector().text(\"Bank Commission\")")
+        );
+
+        // Commission
+        ElementsActions.isDisplayed(
+                AppiumBy.androidUIAutomator(
+                        "new UiSelector().text(\"" + expectedCommission + "\")"
+                )
+        );
+    }
+    @Step("Validate donation history")
+    public void validateDonationHistory(String expectedAmount, String expectedCommission) {
+
+        // Donation label
+        ElementsActions.isDisplayed(
+                AppiumBy.androidUIAutomator("new UiSelector().text(\"Donation\").instance(0)")
+        );
+
+        // Amount (dynamic)
+        ElementsActions.isDisplayed(
+                AppiumBy.androidUIAutomator(
+                        "new UiSelector().text(\"" + expectedAmount + "\").instance(0)"
+                )
+        );
+
+        // Bank Commission
+        ElementsActions.isDisplayed(
+                AppiumBy.androidUIAutomator("new UiSelector().text(\"Bank Commission\")")
+        );
+
+        // Commission (dynamic)
+        ElementsActions.isDisplayed(
+                AppiumBy.androidUIAutomator(
+                        "new UiSelector().text(\"" + expectedCommission + "\")"
+                )
+        );
+    }
 }

@@ -1,0 +1,15 @@
+[DEBUG] - [13-04-2026 22:33:40] [org.testng.TestNG] - suiteXmlPath: "C:\Users\EELU\Downloads\Givers\test_runners\AndroidTestSuite.xml"
+[INFO] - [13-04-2026 22:33:40] [org.testng.internal.Utils] - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+[INFO] - [13-04-2026 22:33:41] [utils.common.FilesUtils] - Directory already exists: test_outputs\logs
+[INFO] - [13-04-2026 22:33:41] [utils.common.FilesUtils] - Directory already exists: test_outputs\allure_results
+[INFO] - [13-04-2026 22:33:41] [utils.appium.TerminalLogsCapture$1] - java.lang.NoClassDefFoundError: org/openqa/selenium/UnhandledAlertException
+[INFO] - [13-04-2026 22:33:41] [utils.appium.TerminalLogsCapture$1] - at listeners.ExecutionListener.onExecutionStart(ExecutionListener.java:25)
+[INFO] - [13-04-2026 22:33:41] [utils.appium.TerminalLogsCapture$1] - at org.testng.TestNG.runExecutionListeners(TestNG.java:1129)
+[INFO] - [13-04-2026 22:33:41] [utils.appium.TerminalLogsCapture$1] - at org.testng.TestNG.run(TestNG.java:1074)
+[INFO] - [13-04-2026 22:33:41] [utils.appium.TerminalLogsCapture$1] - at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+[INFO] - [13-04-2026 22:33:41] [utils.appium.TerminalLogsCapture$1] - at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+[INFO] - [13-04-2026 22:33:41] [utils.appium.TerminalLogsCapture$1] - Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.UnhandledAlertException
+[INFO] - [13-04-2026 22:33:41] [utils.appium.TerminalLogsCapture$1] - at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+[INFO] - [13-04-2026 22:33:41] [utils.appium.TerminalLogsCapture$1] - at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+[INFO] - [13-04-2026 22:33:41] [utils.appium.TerminalLogsCapture$1] - at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:528)
+[INFO] - [13-04-2026 22:33:41] [utils.appium.TerminalLogsCapture$1] - ... 5 more

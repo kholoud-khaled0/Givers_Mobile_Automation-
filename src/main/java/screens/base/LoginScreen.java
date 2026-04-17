@@ -37,6 +37,8 @@ public abstract class LoginScreen {
 
     protected static final By permissionAllowOnce =
             AppiumBy.id("com.android.permissioncontroller:id/permission_allow_one_time_button");
+    protected static final By signInWithEmailBtn =
+            AppiumBy.accessibilityId("Sign In With Email");
 
 
     // ------------------- Actions -------------------
@@ -44,6 +46,13 @@ public abstract class LoginScreen {
     @Step("Tap 'More' button")
     public void tapMoreButton() {
         ElementsActions.click(moreBtn);
+    }
+
+    @Step("Tap 'Sign In With Email' button")
+    public void tapSignInWithEmailButton() {
+
+        waitForElementToBeVisible(signInWithEmailBtn);
+        ElementsActions.click(signInWithEmailBtn);
     }
 
     @Step("Set email: {email}")
@@ -54,6 +63,11 @@ public abstract class LoginScreen {
     @Step("Set password: {password}")
     public void setPassword(String password) {
         ElementsActions.setValue(passwordField, password);
+    }
+
+    @Step("Tap Skip button")
+    public void tapSkipButton() {
+        ElementsActions.click(SkipBtn);
     }
 
     @Step("Tap Sign In button")
@@ -69,7 +83,9 @@ public abstract class LoginScreen {
     }
     @Step("Tap Sign In button")
     public void tapSignInWithoutSkipButton() {
-        ElementsActions.click(signInBtn);
+
+        waitForElementToBeVisible(signInWithEmailBtn);
+        ElementsActions.click(signInWithEmailBtn);
     }
 
     @Step("Check if in Login Screen")

@@ -1,0 +1,14 @@
+[
+  {
+    "email": "kholoud155312+5@gmail.com",
+    "password": "Kholoud155#",
+    "dropDownValues": ["Recently added","Most in need", "Closer first"],
+    "state": "Giza",
+    "city": "Saf",
+    "gender": "Female",
+    "needySituation": "Single Mother",
+    "employmentStatus": "Unemployed",
+    "housingStatus": "Homeless",
+    "healthCondition": "Chronic Diseases"
+  }
+]

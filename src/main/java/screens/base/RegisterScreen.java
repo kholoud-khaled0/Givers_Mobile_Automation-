@@ -93,8 +93,6 @@ public abstract class RegisterScreen {
     @Step("Tap 'Create An Account' button")
     public void tapCreateAnAccountButton() {
         ElementsActions.click(skipBtn);
-        ElementsActions.click(moreBtn);
-        ElementsActions.click(signUpBtn);
         ElementsActions.click(createAnAccountBtn);
     }
 

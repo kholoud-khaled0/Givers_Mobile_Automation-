@@ -54,6 +54,19 @@ public class CreateNeedyProfileTest {
         performNeedyTestFlow(testData, true);
     }
 
+    @Test(dataProvider = "needyProfileData", dataProviderClass = DataProviders.class)
+    @Severity(SeverityLevel.CRITICAL)
+    public void testNeedyProfile_Disability(NeedyProfileTestData testData) {
+
+        performNeedyTestFlow(testData, true);
+    }
+
+    @Test(dataProvider = "needyProfileData", dataProviderClass = DataProviders.class)
+    @Severity(SeverityLevel.CRITICAL)
+    public void testNeedyProfile_Chronic(NeedyProfileTestData testData) {
+
+        performNeedyTestFlow(testData, true);
+    }
     private void performNeedyTestFlow(NeedyProfileTestData testData, boolean isAbove24) {
 
         AndroidLoginScreen loginScreen = new AndroidLoginScreen();
@@ -84,7 +97,12 @@ public class CreateNeedyProfileTest {
                 testData.amount(),
                 testData.relationShip(),
                 testData.story(),
-                testData.note()
+                testData.note(),
+                testData.healthStatus(),
+                testData.disabilityLevel(),
+                testData.disabilityTypes(),
+                testData.chronicDiseaseType(),
+                testData.monthlyExpenses()
         );
 
         AssertionManager.assertAll(null);

@@ -72,7 +72,7 @@ public class AndroidLoginScreen extends LoginScreen {
 
     @Step("Perform full login with email: {email} and password: {password}")
     public AndroidLoginScreen login(String email, String password) {
-        tapSignInButton();
+        tapSignInWithEmailButton();
         setEmail(email);
         setPassword(password);
         tapLoginButton();
@@ -80,7 +80,8 @@ public class AndroidLoginScreen extends LoginScreen {
     }
     @Step("Perform full login with email: {email} and password: {password}")
     public AndroidLoginScreen loginWithSkip(String email, String password) {
-        tapSignInButton();
+        tapSkipButton();
+        tapSignInWithEmailButton();
         setEmail(email);
         setPassword(password);
 

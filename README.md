@@ -105,6 +105,3 @@ mvn clean test
 
 # Android only
 mvn clean test -Pandroid
-
-# iOS only
-mvn clean test -Pios

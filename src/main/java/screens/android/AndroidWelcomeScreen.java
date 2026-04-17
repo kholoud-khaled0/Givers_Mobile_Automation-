@@ -9,7 +9,7 @@ public class AndroidWelcomeScreen extends WelcomeScreen {
     @Step("Flow 1: Click Skip directly and verify Sign Up screen")
     public void skipFlow() {
         clickSkip();
-        verifyHomePageIsDisplayed();
+        verifySignUpDisplayed();
     }
 
     @Override
@@ -17,7 +17,7 @@ public class AndroidWelcomeScreen extends WelcomeScreen {
     public void continueThenSkipFlow() {
         clickContinue();
         clickSkip();
-        verifyHomePageIsDisplayed();
+        verifySignUpDisplayed();
     }
 
     @Override
@@ -26,6 +26,6 @@ public class AndroidWelcomeScreen extends WelcomeScreen {
         clickContinue();
         clickContinue();
         clickLetsGo();
-        verifyHomePageIsDisplayed();
+        verifySignUpDisplayed();
     }
 }

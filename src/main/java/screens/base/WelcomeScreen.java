@@ -12,9 +12,6 @@ public abstract class WelcomeScreen {
     protected static final By continueBtn = AppiumBy.accessibilityId("Continue");
     protected static final By skipBtn = AppiumBy.accessibilityId("Skip");
     protected static final By letsGoBtn = AppiumBy.accessibilityId("Let's Go!");
-    protected static final By giversInsightsTitle =
-            AppiumBy.androidUIAutomator("new UiSelector().text(\"Givers Insights\")");
-
     protected static final By signUpPageTitle = AppiumBy.androidUIAutomator(
             "new UiSelector().text(\"Let's Sign You up First!\")"
     );
@@ -39,8 +36,8 @@ public abstract class WelcomeScreen {
     // -------- Assertions -------- //
 
     @Step("Verify that Sign Up page is displayed")
-    public void verifyHomePageIsDisplayed() {
-        boolean isDisplayed = AndroidActions.isElementDisplayed(giversInsightsTitle, 6);
+    public void verifySignUpDisplayed() {
+        boolean isDisplayed = AndroidActions.isElementDisplayed(signUpPageTitle, 6);
         AssertionManager.assertTrue(
                 isDisplayed,
                 "Expected 'Let's Sign You up First!' title to be visible on Sign Up page"

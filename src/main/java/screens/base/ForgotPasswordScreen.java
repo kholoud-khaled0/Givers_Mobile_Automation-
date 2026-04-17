@@ -6,6 +6,8 @@ import org.openqa.selenium.By;
 import utils.appium.ElementsActions;
 import utils.android.OtpHelper;
 
+import static utils.appium.Waits.waitForElementToBeVisible;
+
 /**
  * Base class for Forgot Password functionality
  * Defines shared locators and actions across platforms
@@ -48,15 +50,23 @@ public abstract class ForgotPasswordScreen {
 
     protected static final By signInBtn =
             AppiumBy.accessibilityId("Sign In");
-      protected static final By moreBtn = AppiumBy.accessibilityId("\uE821, More");
+    protected static final By moreBtn = AppiumBy.accessibilityId("\uE821, More");
     protected static final By signUpBtn = AppiumBy.accessibilityId("Sign up");
-
+    protected static final By signInWithEmailBtn =
+            AppiumBy.accessibilityId("Sign In With Email");
 
     // ------------------- Common Actions ------------------- //
 
     @Step("Tap 'Skip' button")
     public void tapSkipButton() {
         ElementsActions.click(skipBtn);
+    }
+
+    @Step("Tap 'Sign In With Email' button")
+    public void tapSignInWithEmailButton() {
+
+        waitForElementToBeVisible(signInWithEmailBtn);
+        ElementsActions.click(signInWithEmailBtn);
     }
 
     @Step("Tap 'Sign In' button")

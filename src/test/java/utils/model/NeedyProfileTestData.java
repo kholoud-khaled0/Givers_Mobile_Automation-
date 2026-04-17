@@ -20,7 +20,13 @@ public record NeedyProfileTestData(
 
         @JsonProperty("amount") String amount,
         @JsonProperty("relationShip") String relationShip,
-          @JsonProperty("story") String story,
-        @JsonProperty("note") String note
+        @JsonProperty("story") String story,
+        @JsonProperty("note") String note,
+
+        @JsonProperty("healthStatus") String healthStatus, // Healthy / Chronic disease / Disability
+        @JsonProperty("disabilityLevel") String disabilityLevel, // Fully Disabled / Partial Disability
+        @JsonProperty("disabilityTypes") List<String> disabilityTypes, // Motion, Mental, ...
+        @JsonProperty("chronicDiseaseType") String chronicDiseaseType,
+        @JsonProperty("monthlyExpenses") String monthlyExpenses
 
 ) {}

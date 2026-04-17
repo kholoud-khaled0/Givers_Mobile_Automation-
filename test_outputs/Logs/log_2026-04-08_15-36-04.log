@@ -1,0 +1,405 @@
+[DEBUG] - [08-04-2026 15:36:04] [org.testng.TestNG] - suiteXmlPath: "C:\Users\EELU\Downloads\Givers\test_runners\AndroidTestSuite.xml"
+[INFO] - [08-04-2026 15:36:04] [org.testng.internal.Utils] - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+[INFO] - [08-04-2026 15:36:05] [utils.common.FilesUtils] - Directory already exists: test_outputs\logs
+[INFO] - [08-04-2026 15:36:05] [utils.common.FilesUtils] - Directory already exists: test_outputs\allure_results
+[INFO] - [08-04-2026 15:36:05] [utils.common.FilesUtils] - Directory already exists: test_outputs\screenshots
+[INFO] - [08-04-2026 15:36:05] [utils.common.FilesUtils] - Directory already exists: test_outputs\allure_report
+[INFO] - [08-04-2026 15:36:05] [utils.common.FilesUtils] - Deleting files or folders in: C:\Users\EELU\Downloads\Givers\test_outputs\allure_results
+[INFO] - [08-04-2026 15:36:05] [utils.common.FilesUtils] - Deleting files or folders in: C:\Users\EELU\Downloads\Givers\test_outputs\screenshots
+[WARN] - [08-04-2026 15:36:08] [utils.appium.TerminalLogsCapture$1] - WARN Appium Appium encountered 1 warning while validating drivers found in manifest C:\Users\EELU\.appium\node_modules\.cache\appium\extensions.yaml
+[WARN] - [08-04-2026 15:36:08] [utils.appium.TerminalLogsCapture$1] - WARN Appium Driver "uiautomator2" has 1 potential problem:
+[WARN] - [08-04-2026 15:36:08] [utils.appium.TerminalLogsCapture$1] - WARN Appium   - Driver "uiautomator2" (package `appium-uiautomator2-driver`) may be incompatible with the current version of Appium (v2.19.0) due to an invalid or missing peer dependency on Appium. A newer version of `appium-uiautomator2-driver` is available; please attempt to upgrade "uiautomator2" to v2.45.1 or newer.
+[INFO] - [08-04-2026 15:36:08] [utils.appium.TerminalLogsCapture$1] - [Appium] Welcome to Appium v2.19.0
+[INFO] - [08-04-2026 15:36:08] [utils.appium.TerminalLogsCapture$1] - [Appium] Non-default server args:
+[INFO] - [08-04-2026 15:36:08] [utils.appium.TerminalLogsCapture$1] - [Appium] { address: '127.0.0.1',
+[INFO] - [08-04-2026 15:36:08] [utils.appium.TerminalLogsCapture$1] - loglevel: 'info',
+[INFO] - [08-04-2026 15:36:08] [utils.appium.TerminalLogsCapture$1] - logNoColors: true,
+[INFO] - [08-04-2026 15:36:08] [utils.appium.TerminalLogsCapture$1] - relaxedSecurityEnabled: true,
+[INFO] - [08-04-2026 15:36:08] [utils.appium.TerminalLogsCapture$1] - sessionOverride: true }
+[INFO] - [08-04-2026 15:36:08] [utils.appium.TerminalLogsCapture$1] - [Appium] Enabling relaxed security. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[INFO] - [08-04-2026 15:36:08] [utils.appium.TerminalLogsCapture$1] - [Appium] Attempting to load driver uiautomator2...
+[INFO] - [08-04-2026 15:36:10] [utils.appium.TerminalLogsCapture$1] - Appium server started at: http://127.0.0.1:4723/
+[INFO] - [08-04-2026 15:36:10] [utils.appium.TerminalLogsCapture$1] - [Appium] Appium REST http interface listener started on http://127.0.0.1:4723
+[INFO] - [08-04-2026 15:36:10] [utils.appium.TerminalLogsCapture$1] - [Appium] Available drivers:
+[INFO] - [08-04-2026 15:36:10] [utils.appium.TerminalLogsCapture$1] - [Appium]   - uiautomator2@2.0.1 (automationName 'UiAutomator2')
+[INFO] - [08-04-2026 15:36:10] [utils.appium.TerminalLogsCapture$1] - [Appium] No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+[INFO] - [08-04-2026 15:36:10] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\EELU\Downloads\Givers\test_runners\AndroidTestSuite.xml
+
+[INFO] - [08-04-2026 15:36:10] [listeners.TestResultListener] - Test run started
+[INFO] - [08-04-2026 15:36:10] [utils.common.PropertiesUtils] - Loading Android properties from: src/main/resources/Env/AndroidEnv.properties
+[INFO] - [08-04-2026 15:36:10] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CommunityTestData.json
+[INFO] - [08-04-2026 15:36:10] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 15:36:10] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/loginTestData.json
+[INFO] - [08-04-2026 15:36:10] [utils.common.JsonUtils] - Successfully deserialized JSON to: LoginTestData[]
+[INFO] - [08-04-2026 15:36:10] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/registerTestData.json
+[INFO] - [08-04-2026 15:36:10] [utils.common.JsonUtils] - Successfully deserialized JSON to: RegisterTestData[]
+[INFO] - [08-04-2026 15:36:10] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/resetPasswordTestData.json
+[INFO] - [08-04-2026 15:36:10] [utils.common.JsonUtils] - Successfully deserialized JSON to: ResetPasswordTestData[]
+[INFO] - [08-04-2026 15:36:10] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 15:36:10] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 15:36:10] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 15:36:10] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 15:36:10] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ForgotPasswordTestData.json
+[INFO] - [08-04-2026 15:36:10] [utils.common.JsonUtils] - Successfully deserialized JSON to: ForgotPasswordTestData[]
+[INFO] - [08-04-2026 15:36:10] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyTestData.json
+[INFO] - [08-04-2026 15:36:10] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyTestData[]
+[INFO] - [08-04-2026 15:36:10] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreateNeedyProfileTestData.json
+[INFO] - [08-04-2026 15:36:10] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyProfileTestData[]
+[INFO] - [08-04-2026 15:36:10] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyFunctionTestData.json
+[INFO] - [08-04-2026 15:36:10] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyFunctionsTestData[]
+[INFO] - [08-04-2026 15:36:10] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/DonationTestData.json
+[INFO] - [08-04-2026 15:36:10] [utils.common.JsonUtils] - Successfully deserialized JSON to: EasyGiveTestData[]
+[INFO] - [08-04-2026 15:36:10] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/SingleDonationTestData.json
+[INFO] - [08-04-2026 15:36:10] [utils.common.JsonUtils] - Successfully deserialized JSON to: SingleDonationTestData[]
+[INFO] - [08-04-2026 15:36:10] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ModeratorCommunity.json
+[INFO] - [08-04-2026 15:36:10] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 15:36:10] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreationCommunityTestData.json
+[INFO] - [08-04-2026 15:36:10] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 15:36:10] [utils.appium.TerminalLogsCapture$1] - [HTTP] --> GET /status {}
+[INFO] - [08-04-2026 15:36:10] [utils.appium.TerminalLogsCapture$1] - [INFO] Appium server already running.
+[INFO] - [08-04-2026 15:36:10] [utils.appium.TerminalLogsCapture$1] - [HTTP] <-- GET /status 200 5 ms - 111
+[WARN] - [08-04-2026 15:36:10] [utils.appium.TerminalLogsCapture$1] - [WARN] Could not clear port 8100: Cannot run program "npx": CreateProcess error=2, The system cannot find the file specified
+[INFO] - [08-04-2026 15:36:11] [utils.appium.TerminalLogsCapture$1] - [HTTP] --> POST /session {"capabilities":{"firstMatch":[{"appium:systemPort":"8100","appium:autoGrantPermissions":true,"appium:deviceName":"Emu1","platformName":"ANDROID","appium:automationName":"UiAutomator2","appium:app":"C:/Users/EELU/IdeaProjects/Givers/src/main/resources/AUT/staging-release-3-3.apk"}]}}
+[INFO] - [08-04-2026 15:36:11] [utils.appium.TerminalLogsCapture$1] - [Appium] Attempting to find matching driver for automationName 'UiAutomator2' and platformName 'ANDROID'
+[INFO] - [08-04-2026 15:36:11] [utils.appium.TerminalLogsCapture$1] - [Appium] The 'uiautomator2' driver was installed and matched caps.
+[INFO] - [08-04-2026 15:36:11] [utils.appium.TerminalLogsCapture$1] - [Appium] Will require it at C:\Users\EELU\.appium\node_modules\appium-uiautomator2-driver
+[INFO] - [08-04-2026 15:36:11] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@717e] Appium v2.19.0 creating new AndroidUiautomator2Driver (v2.0.1) session
+[INFO] - [08-04-2026 15:36:11] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@717e] Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[INFO] - [08-04-2026 15:36:11] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@717e] Appium's BaseDriver version is 9.18.0
+[INFO] - [08-04-2026 15:36:11] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@717e] AndroidUiautomator2Driver's BaseDriver version is 8.7.3
+[INFO] - [08-04-2026 15:36:11] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@717e] Enabling relaxed security for this session as per the server configuration. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[INFO] - [08-04-2026 15:36:11] [utils.appium.TerminalLogsCapture$1] - [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+[INFO] - [08-04-2026 15:36:11] [utils.appium.TerminalLogsCapture$1] - [AndroidUiautomator2Driver@e408] Capability 'systemPort' changed from string ('8100') to integer (8100). This may cause unexpected behavior
+[INFO] - [08-04-2026 15:36:11] [utils.appium.TerminalLogsCapture$1] - [AndroidUiautomator2Driver@e408 (0d38725e)] Session created with session id: 0d38725e-f6aa-48ff-aa45-00ae0484d45f
+[INFO] - [08-04-2026 15:36:11] [utils.appium.TerminalLogsCapture$1] - [BaseDriver] Using local app 'C:/Users/EELU/IdeaProjects/Givers/src/main/resources/AUT/staging-release-3-3.apk'
+[INFO] - [08-04-2026 15:36:11] [utils.appium.TerminalLogsCapture$1] - [HTTP] <-- POST /session 500 370 ms - 880
+[ERROR] - [08-04-2026 15:36:11] [utils.appium.driverManager.DriverManager] -  Failed to initialize driver: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Neither ANDROID_HOME nor ANDROID_SDK_ROOT environment variable was exported. Read https://developer.android.com/studio/command-line/variables for more details 
+Host info: host: 'KHOLOUD', ip: '172.29.224.1'
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: io.appium.java_client.AppiumDriver
+Command: [null, newSession {capabilities=[Capabilities {appium:app: C:/Users/EELU/IdeaProjects/..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: Emu1, appium:systemPort: 8100, platformName: ANDROID}]}]
+Capabilities {appium:app: C:/Users/EELU/IdeaProjects/..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: Emu1, appium:systemPort: 8100, platformName: ANDROID}
+[INFO] - [08-04-2026 15:36:11] [listeners.MethodInvocationListener] - Finished test: testForgotPasswordFullFlow
+[INFO] - [08-04-2026 15:36:11] [utils.common.AllureUtils] - Attaching logs for test: testForgotPasswordFullFlow
+[INFO] - [08-04-2026 15:36:11] [utils.common.AllureUtils] - Logs attached successfully for test: testForgotPasswordFullFlow
+[INFO] - [08-04-2026 15:36:11] [listeners.TestResultListener] - Test failed: testForgotPasswordFullFlow
+[INFO] - [08-04-2026 15:36:11] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/loginTestData.json
+[INFO] - [08-04-2026 15:36:11] [utils.common.JsonUtils] - Successfully deserialized JSON to: LoginTestData[]
+[INFO] - [08-04-2026 15:36:11] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/registerTestData.json
+[INFO] - [08-04-2026 15:36:11] [utils.common.JsonUtils] - Successfully deserialized JSON to: RegisterTestData[]
+[INFO] - [08-04-2026 15:36:11] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/resetPasswordTestData.json
+[INFO] - [08-04-2026 15:36:11] [utils.common.JsonUtils] - Successfully deserialized JSON to: ResetPasswordTestData[]
+[INFO] - [08-04-2026 15:36:11] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 15:36:11] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 15:36:11] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 15:36:11] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 15:36:11] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ForgotPasswordTestData.json
+[INFO] - [08-04-2026 15:36:11] [utils.common.JsonUtils] - Successfully deserialized JSON to: ForgotPasswordTestData[]
+[INFO] - [08-04-2026 15:36:11] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyTestData.json
+[INFO] - [08-04-2026 15:36:11] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyTestData[]
+[INFO] - [08-04-2026 15:36:11] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreateNeedyProfileTestData.json
+[INFO] - [08-04-2026 15:36:11] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyProfileTestData[]
+[INFO] - [08-04-2026 15:36:11] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyFunctionTestData.json
+[INFO] - [08-04-2026 15:36:11] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyFunctionsTestData[]
+[INFO] - [08-04-2026 15:36:11] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/DonationTestData.json
+[INFO] - [08-04-2026 15:36:11] [utils.common.JsonUtils] - Successfully deserialized JSON to: EasyGiveTestData[]
+[INFO] - [08-04-2026 15:36:11] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/SingleDonationTestData.json
+[INFO] - [08-04-2026 15:36:11] [utils.common.JsonUtils] - Successfully deserialized JSON to: SingleDonationTestData[]
+[INFO] - [08-04-2026 15:36:11] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ModeratorCommunity.json
+[INFO] - [08-04-2026 15:36:11] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 15:36:11] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreationCommunityTestData.json
+[INFO] - [08-04-2026 15:36:11] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 15:36:11] [utils.appium.TerminalLogsCapture$1] - [HTTP] --> GET /status {}
+[INFO] - [08-04-2026 15:36:11] [utils.appium.TerminalLogsCapture$1] - [INFO] Appium server already running.
+[INFO] - [08-04-2026 15:36:11] [utils.appium.TerminalLogsCapture$1] - [HTTP] <-- GET /status 200 1 ms - 111
+[WARN] - [08-04-2026 15:36:11] [utils.appium.TerminalLogsCapture$1] - [WARN] Could not clear port 8100: Cannot run program "npx": CreateProcess error=2, The system cannot find the file specified
+[INFO] - [08-04-2026 15:36:11] [utils.appium.TerminalLogsCapture$1] - [HTTP] --> POST /session {"capabilities":{"firstMatch":[{"appium:systemPort":"8100","appium:autoGrantPermissions":true,"appium:deviceName":"Emu1","platformName":"ANDROID","appium:automationName":"UiAutomator2","appium:app":"C:/Users/EELU/IdeaProjects/Givers/src/main/resources/AUT/staging-release-3-3.apk"}]}}
+[INFO] - [08-04-2026 15:36:11] [utils.appium.TerminalLogsCapture$1] - [Appium] Attempting to find matching driver for automationName 'UiAutomator2' and platformName 'ANDROID'
+[INFO] - [08-04-2026 15:36:11] [utils.appium.TerminalLogsCapture$1] - [Appium] The 'uiautomator2' driver was installed and matched caps.
+[INFO] - [08-04-2026 15:36:11] [utils.appium.TerminalLogsCapture$1] - [Appium] Will require it at C:\Users\EELU\.appium\node_modules\appium-uiautomator2-driver
+[INFO] - [08-04-2026 15:36:11] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@717e] Appium v2.19.0 creating new AndroidUiautomator2Driver (v2.0.1) session
+[INFO] - [08-04-2026 15:36:11] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@717e] Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[INFO] - [08-04-2026 15:36:11] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@717e] Appium's BaseDriver version is 9.18.0
+[INFO] - [08-04-2026 15:36:11] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@717e] AndroidUiautomator2Driver's BaseDriver version is 8.7.3
+[INFO] - [08-04-2026 15:36:11] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@717e] Enabling relaxed security for this session as per the server configuration. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[INFO] - [08-04-2026 15:36:11] [utils.appium.TerminalLogsCapture$1] - [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+[INFO] - [08-04-2026 15:36:11] [utils.appium.TerminalLogsCapture$1] - [AndroidUiautomator2Driver@62f5] Capability 'systemPort' changed from string ('8100') to integer (8100). This may cause unexpected behavior
+[INFO] - [08-04-2026 15:36:11] [utils.appium.TerminalLogsCapture$1] - [AndroidUiautomator2Driver@62f5 (e3a59a2e)] Session created with session id: e3a59a2e-c25a-44e3-9981-c1e9c92af7f6
+[INFO] - [08-04-2026 15:36:11] [utils.appium.TerminalLogsCapture$1] - [BaseDriver] Using local app 'C:/Users/EELU/IdeaProjects/Givers/src/main/resources/AUT/staging-release-3-3.apk'
+[INFO] - [08-04-2026 15:36:11] [utils.appium.TerminalLogsCapture$1] - [HTTP] <-- POST /session 500 297 ms - 880
+[ERROR] - [08-04-2026 15:36:11] [utils.appium.driverManager.DriverManager] -  Failed to initialize driver: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Neither ANDROID_HOME nor ANDROID_SDK_ROOT environment variable was exported. Read https://developer.android.com/studio/command-line/variables for more details 
+Host info: host: 'KHOLOUD', ip: '172.29.224.1'
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: io.appium.java_client.AppiumDriver
+Command: [null, newSession {capabilities=[Capabilities {appium:app: C:/Users/EELU/IdeaProjects/..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: Emu1, appium:systemPort: 8100, platformName: ANDROID}]}]
+Capabilities {appium:app: C:/Users/EELU/IdeaProjects/..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: Emu1, appium:systemPort: 8100, platformName: ANDROID}
+[INFO] - [08-04-2026 15:36:11] [listeners.MethodInvocationListener] - Finished test: testLogin
+[INFO] - [08-04-2026 15:36:11] [utils.common.AllureUtils] - Attaching logs for test: testLogin
+[INFO] - [08-04-2026 15:36:11] [utils.common.AllureUtils] - Logs attached successfully for test: testLogin
+[INFO] - [08-04-2026 15:36:11] [listeners.TestResultListener] - Test failed: testLogin
+[INFO] - [08-04-2026 15:36:11] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/loginTestData.json
+[INFO] - [08-04-2026 15:36:11] [utils.common.JsonUtils] - Successfully deserialized JSON to: LoginTestData[]
+[INFO] - [08-04-2026 15:36:11] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/registerTestData.json
+[INFO] - [08-04-2026 15:36:11] [utils.common.JsonUtils] - Successfully deserialized JSON to: RegisterTestData[]
+[INFO] - [08-04-2026 15:36:11] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/resetPasswordTestData.json
+[INFO] - [08-04-2026 15:36:11] [utils.common.JsonUtils] - Successfully deserialized JSON to: ResetPasswordTestData[]
+[INFO] - [08-04-2026 15:36:11] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 15:36:11] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 15:36:11] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 15:36:11] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 15:36:11] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ForgotPasswordTestData.json
+[INFO] - [08-04-2026 15:36:11] [utils.common.JsonUtils] - Successfully deserialized JSON to: ForgotPasswordTestData[]
+[INFO] - [08-04-2026 15:36:11] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyTestData.json
+[INFO] - [08-04-2026 15:36:11] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyTestData[]
+[INFO] - [08-04-2026 15:36:11] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreateNeedyProfileTestData.json
+[INFO] - [08-04-2026 15:36:11] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyProfileTestData[]
+[INFO] - [08-04-2026 15:36:11] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyFunctionTestData.json
+[INFO] - [08-04-2026 15:36:11] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyFunctionsTestData[]
+[INFO] - [08-04-2026 15:36:11] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/DonationTestData.json
+[INFO] - [08-04-2026 15:36:11] [utils.common.JsonUtils] - Successfully deserialized JSON to: EasyGiveTestData[]
+[INFO] - [08-04-2026 15:36:11] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/SingleDonationTestData.json
+[INFO] - [08-04-2026 15:36:11] [utils.common.JsonUtils] - Successfully deserialized JSON to: SingleDonationTestData[]
+[INFO] - [08-04-2026 15:36:11] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ModeratorCommunity.json
+[INFO] - [08-04-2026 15:36:11] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 15:36:11] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreationCommunityTestData.json
+[INFO] - [08-04-2026 15:36:11] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 15:36:11] [utils.appium.TerminalLogsCapture$1] - [HTTP] --> GET /status {}
+[INFO] - [08-04-2026 15:36:11] [utils.appium.TerminalLogsCapture$1] - [INFO] Appium server already running.
+[INFO] - [08-04-2026 15:36:11] [utils.appium.TerminalLogsCapture$1] - [HTTP] <-- GET /status 200 1 ms - 111
+[WARN] - [08-04-2026 15:36:11] [utils.appium.TerminalLogsCapture$1] - [WARN] Could not clear port 8100: Cannot run program "npx": CreateProcess error=2, The system cannot find the file specified
+[INFO] - [08-04-2026 15:36:11] [utils.appium.TerminalLogsCapture$1] - [HTTP] --> POST /session {"capabilities":{"firstMatch":[{"appium:systemPort":"8100","appium:autoGrantPermissions":true,"appium:deviceName":"Emu1","platformName":"ANDROID","appium:automationName":"UiAutomator2","appium:app":"C:/Users/EELU/IdeaProjects/Givers/src/main/resources/AUT/staging-release-3-3.apk"}]}}
+[INFO] - [08-04-2026 15:36:11] [utils.appium.TerminalLogsCapture$1] - [Appium] Attempting to find matching driver for automationName 'UiAutomator2' and platformName 'ANDROID'
+[INFO] - [08-04-2026 15:36:11] [utils.appium.TerminalLogsCapture$1] - [Appium] The 'uiautomator2' driver was installed and matched caps.
+[INFO] - [08-04-2026 15:36:11] [utils.appium.TerminalLogsCapture$1] - [Appium] Will require it at C:\Users\EELU\.appium\node_modules\appium-uiautomator2-driver
+[INFO] - [08-04-2026 15:36:11] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@717e] Appium v2.19.0 creating new AndroidUiautomator2Driver (v2.0.1) session
+[INFO] - [08-04-2026 15:36:11] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@717e] Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[INFO] - [08-04-2026 15:36:11] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@717e] Appium's BaseDriver version is 9.18.0
+[INFO] - [08-04-2026 15:36:11] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@717e] AndroidUiautomator2Driver's BaseDriver version is 8.7.3
+[INFO] - [08-04-2026 15:36:11] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@717e] Enabling relaxed security for this session as per the server configuration. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[INFO] - [08-04-2026 15:36:11] [utils.appium.TerminalLogsCapture$1] - [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+[INFO] - [08-04-2026 15:36:11] [utils.appium.TerminalLogsCapture$1] - [AndroidUiautomator2Driver@3e53] Capability 'systemPort' changed from string ('8100') to integer (8100). This may cause unexpected behavior
+[INFO] - [08-04-2026 15:36:11] [utils.appium.TerminalLogsCapture$1] - [AndroidUiautomator2Driver@3e53 (7fa22357)] Session created with session id: 7fa22357-2404-4f1c-be45-6db50e676a06
+[INFO] - [08-04-2026 15:36:11] [utils.appium.TerminalLogsCapture$1] - [BaseDriver] Using local app 'C:/Users/EELU/IdeaProjects/Givers/src/main/resources/AUT/staging-release-3-3.apk'
+[INFO] - [08-04-2026 15:36:12] [utils.appium.TerminalLogsCapture$1] - [HTTP] <-- POST /session 500 300 ms - 880
+[ERROR] - [08-04-2026 15:36:12] [utils.appium.driverManager.DriverManager] -  Failed to initialize driver: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Neither ANDROID_HOME nor ANDROID_SDK_ROOT environment variable was exported. Read https://developer.android.com/studio/command-line/variables for more details 
+Host info: host: 'KHOLOUD', ip: '172.29.224.1'
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: io.appium.java_client.AppiumDriver
+Command: [null, newSession {capabilities=[Capabilities {appium:app: C:/Users/EELU/IdeaProjects/..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: Emu1, appium:systemPort: 8100, platformName: ANDROID}]}]
+Capabilities {appium:app: C:/Users/EELU/IdeaProjects/..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: Emu1, appium:systemPort: 8100, platformName: ANDROID}
+[INFO] - [08-04-2026 15:36:12] [listeners.MethodInvocationListener] - Finished test: testRegistration
+[INFO] - [08-04-2026 15:36:12] [utils.common.AllureUtils] - Attaching logs for test: testRegistration
+[INFO] - [08-04-2026 15:36:12] [utils.common.AllureUtils] - Logs attached successfully for test: testRegistration
+[INFO] - [08-04-2026 15:36:12] [listeners.TestResultListener] - Test failed: testRegistration
+[INFO] - [08-04-2026 15:36:12] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/loginTestData.json
+[INFO] - [08-04-2026 15:36:12] [utils.common.JsonUtils] - Successfully deserialized JSON to: LoginTestData[]
+[INFO] - [08-04-2026 15:36:12] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/registerTestData.json
+[INFO] - [08-04-2026 15:36:12] [utils.common.JsonUtils] - Successfully deserialized JSON to: RegisterTestData[]
+[INFO] - [08-04-2026 15:36:12] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/resetPasswordTestData.json
+[INFO] - [08-04-2026 15:36:12] [utils.common.JsonUtils] - Successfully deserialized JSON to: ResetPasswordTestData[]
+[INFO] - [08-04-2026 15:36:12] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 15:36:12] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 15:36:12] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 15:36:12] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 15:36:12] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ForgotPasswordTestData.json
+[INFO] - [08-04-2026 15:36:12] [utils.common.JsonUtils] - Successfully deserialized JSON to: ForgotPasswordTestData[]
+[INFO] - [08-04-2026 15:36:12] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyTestData.json
+[INFO] - [08-04-2026 15:36:12] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyTestData[]
+[INFO] - [08-04-2026 15:36:12] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreateNeedyProfileTestData.json
+[INFO] - [08-04-2026 15:36:12] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyProfileTestData[]
+[INFO] - [08-04-2026 15:36:12] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyFunctionTestData.json
+[INFO] - [08-04-2026 15:36:12] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyFunctionsTestData[]
+[INFO] - [08-04-2026 15:36:12] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/DonationTestData.json
+[INFO] - [08-04-2026 15:36:12] [utils.common.JsonUtils] - Successfully deserialized JSON to: EasyGiveTestData[]
+[INFO] - [08-04-2026 15:36:12] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/SingleDonationTestData.json
+[INFO] - [08-04-2026 15:36:12] [utils.common.JsonUtils] - Successfully deserialized JSON to: SingleDonationTestData[]
+[INFO] - [08-04-2026 15:36:12] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ModeratorCommunity.json
+[INFO] - [08-04-2026 15:36:12] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 15:36:12] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreationCommunityTestData.json
+[INFO] - [08-04-2026 15:36:12] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 15:36:12] [utils.appium.TerminalLogsCapture$1] - [HTTP] --> GET /status {}
+[INFO] - [08-04-2026 15:36:12] [utils.appium.TerminalLogsCapture$1] - [INFO] Appium server already running.
+[INFO] - [08-04-2026 15:36:12] [utils.appium.TerminalLogsCapture$1] - [HTTP] <-- GET /status 200 1 ms - 111
+[WARN] - [08-04-2026 15:36:12] [utils.appium.TerminalLogsCapture$1] - [WARN] Could not clear port 8100: Cannot run program "npx": CreateProcess error=2, The system cannot find the file specified
+[INFO] - [08-04-2026 15:36:12] [utils.appium.TerminalLogsCapture$1] - [HTTP] --> POST /session {"capabilities":{"firstMatch":[{"appium:systemPort":"8100","appium:autoGrantPermissions":true,"appium:deviceName":"Emu1","platformName":"ANDROID","appium:automationName":"UiAutomator2","appium:app":"C:/Users/EELU/IdeaProjects/Givers/src/main/resources/AUT/staging-release-3-3.apk"}]}}
+[INFO] - [08-04-2026 15:36:12] [utils.appium.TerminalLogsCapture$1] - [Appium] Attempting to find matching driver for automationName 'UiAutomator2' and platformName 'ANDROID'
+[INFO] - [08-04-2026 15:36:12] [utils.appium.TerminalLogsCapture$1] - [Appium] The 'uiautomator2' driver was installed and matched caps.
+[INFO] - [08-04-2026 15:36:12] [utils.appium.TerminalLogsCapture$1] - [Appium] Will require it at C:\Users\EELU\.appium\node_modules\appium-uiautomator2-driver
+[INFO] - [08-04-2026 15:36:12] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@717e] Appium v2.19.0 creating new AndroidUiautomator2Driver (v2.0.1) session
+[INFO] - [08-04-2026 15:36:12] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@717e] Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[INFO] - [08-04-2026 15:36:12] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@717e] Appium's BaseDriver version is 9.18.0
+[INFO] - [08-04-2026 15:36:12] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@717e] AndroidUiautomator2Driver's BaseDriver version is 8.7.3
+[INFO] - [08-04-2026 15:36:12] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@717e] Enabling relaxed security for this session as per the server configuration. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[INFO] - [08-04-2026 15:36:12] [utils.appium.TerminalLogsCapture$1] - [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+[INFO] - [08-04-2026 15:36:12] [utils.appium.TerminalLogsCapture$1] - [AndroidUiautomator2Driver@6e59] Capability 'systemPort' changed from string ('8100') to integer (8100). This may cause unexpected behavior
+[INFO] - [08-04-2026 15:36:12] [utils.appium.TerminalLogsCapture$1] - [AndroidUiautomator2Driver@6e59 (50171d46)] Session created with session id: 50171d46-e74e-40c6-9f56-16e47786eddc
+[INFO] - [08-04-2026 15:36:12] [utils.appium.TerminalLogsCapture$1] - [BaseDriver] Using local app 'C:/Users/EELU/IdeaProjects/Givers/src/main/resources/AUT/staging-release-3-3.apk'
+[INFO] - [08-04-2026 15:36:12] [utils.appium.TerminalLogsCapture$1] - [HTTP] <-- POST /session 500 297 ms - 880
+[ERROR] - [08-04-2026 15:36:12] [utils.appium.driverManager.DriverManager] -  Failed to initialize driver: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Neither ANDROID_HOME nor ANDROID_SDK_ROOT environment variable was exported. Read https://developer.android.com/studio/command-line/variables for more details 
+Host info: host: 'KHOLOUD', ip: '172.29.224.1'
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: io.appium.java_client.AppiumDriver
+Command: [null, newSession {capabilities=[Capabilities {appium:app: C:/Users/EELU/IdeaProjects/..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: Emu1, appium:systemPort: 8100, platformName: ANDROID}]}]
+Capabilities {appium:app: C:/Users/EELU/IdeaProjects/..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: Emu1, appium:systemPort: 8100, platformName: ANDROID}
+[INFO] - [08-04-2026 15:36:12] [listeners.MethodInvocationListener] - Finished test: testFullResetPasswordFlow
+[INFO] - [08-04-2026 15:36:12] [utils.common.AllureUtils] - Attaching logs for test: testFullResetPasswordFlow
+[INFO] - [08-04-2026 15:36:12] [utils.common.AllureUtils] - Logs attached successfully for test: testFullResetPasswordFlow
+[INFO] - [08-04-2026 15:36:12] [listeners.TestResultListener] - Test failed: testFullResetPasswordFlow
+[INFO] - [08-04-2026 15:36:12] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/loginTestData.json
+[INFO] - [08-04-2026 15:36:12] [utils.common.JsonUtils] - Successfully deserialized JSON to: LoginTestData[]
+[INFO] - [08-04-2026 15:36:12] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/registerTestData.json
+[INFO] - [08-04-2026 15:36:12] [utils.common.JsonUtils] - Successfully deserialized JSON to: RegisterTestData[]
+[INFO] - [08-04-2026 15:36:12] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/resetPasswordTestData.json
+[INFO] - [08-04-2026 15:36:12] [utils.common.JsonUtils] - Successfully deserialized JSON to: ResetPasswordTestData[]
+[INFO] - [08-04-2026 15:36:12] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 15:36:12] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 15:36:12] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 15:36:12] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 15:36:12] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ForgotPasswordTestData.json
+[INFO] - [08-04-2026 15:36:12] [utils.common.JsonUtils] - Successfully deserialized JSON to: ForgotPasswordTestData[]
+[INFO] - [08-04-2026 15:36:12] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyTestData.json
+[INFO] - [08-04-2026 15:36:12] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyTestData[]
+[INFO] - [08-04-2026 15:36:12] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreateNeedyProfileTestData.json
+[INFO] - [08-04-2026 15:36:12] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyProfileTestData[]
+[INFO] - [08-04-2026 15:36:12] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyFunctionTestData.json
+[INFO] - [08-04-2026 15:36:12] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyFunctionsTestData[]
+[INFO] - [08-04-2026 15:36:12] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/DonationTestData.json
+[INFO] - [08-04-2026 15:36:12] [utils.common.JsonUtils] - Successfully deserialized JSON to: EasyGiveTestData[]
+[INFO] - [08-04-2026 15:36:12] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/SingleDonationTestData.json
+[INFO] - [08-04-2026 15:36:12] [utils.common.JsonUtils] - Successfully deserialized JSON to: SingleDonationTestData[]
+[INFO] - [08-04-2026 15:36:12] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ModeratorCommunity.json
+[INFO] - [08-04-2026 15:36:12] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 15:36:12] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreationCommunityTestData.json
+[INFO] - [08-04-2026 15:36:12] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 15:36:12] [utils.appium.TerminalLogsCapture$1] - [HTTP] --> GET /status {}
+[INFO] - [08-04-2026 15:36:12] [utils.appium.TerminalLogsCapture$1] - [INFO] Appium server already running.
+[INFO] - [08-04-2026 15:36:12] [utils.appium.TerminalLogsCapture$1] - [HTTP] <-- GET /status 200 1 ms - 111
+[WARN] - [08-04-2026 15:36:12] [utils.appium.TerminalLogsCapture$1] - [WARN] Could not clear port 8100: Cannot run program "npx": CreateProcess error=2, The system cannot find the file specified
+[INFO] - [08-04-2026 15:36:12] [utils.appium.TerminalLogsCapture$1] - [HTTP] --> POST /session {"capabilities":{"firstMatch":[{"appium:systemPort":"8100","appium:autoGrantPermissions":true,"appium:deviceName":"Emu1","platformName":"ANDROID","appium:automationName":"UiAutomator2","appium:app":"C:/Users/EELU/IdeaProjects/Givers/src/main/resources/AUT/staging-release-3-3.apk"}]}}
+[INFO] - [08-04-2026 15:36:12] [utils.appium.TerminalLogsCapture$1] - [Appium] Attempting to find matching driver for automationName 'UiAutomator2' and platformName 'ANDROID'
+[INFO] - [08-04-2026 15:36:12] [utils.appium.TerminalLogsCapture$1] - [Appium] The 'uiautomator2' driver was installed and matched caps.
+[INFO] - [08-04-2026 15:36:12] [utils.appium.TerminalLogsCapture$1] - [Appium] Will require it at C:\Users\EELU\.appium\node_modules\appium-uiautomator2-driver
+[INFO] - [08-04-2026 15:36:12] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@717e] Appium v2.19.0 creating new AndroidUiautomator2Driver (v2.0.1) session
+[INFO] - [08-04-2026 15:36:12] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@717e] Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[INFO] - [08-04-2026 15:36:12] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@717e] Appium's BaseDriver version is 9.18.0
+[INFO] - [08-04-2026 15:36:12] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@717e] AndroidUiautomator2Driver's BaseDriver version is 8.7.3
+[INFO] - [08-04-2026 15:36:12] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@717e] Enabling relaxed security for this session as per the server configuration. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[INFO] - [08-04-2026 15:36:12] [utils.appium.TerminalLogsCapture$1] - [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+[INFO] - [08-04-2026 15:36:12] [utils.appium.TerminalLogsCapture$1] - [AndroidUiautomator2Driver@0a97] Capability 'systemPort' changed from string ('8100') to integer (8100). This may cause unexpected behavior
+[INFO] - [08-04-2026 15:36:12] [utils.appium.TerminalLogsCapture$1] - [AndroidUiautomator2Driver@0a97 (58a8a1b8)] Session created with session id: 58a8a1b8-383a-484c-8ccf-acb52333492d
+[INFO] - [08-04-2026 15:36:12] [utils.appium.TerminalLogsCapture$1] - [BaseDriver] Using local app 'C:/Users/EELU/IdeaProjects/Givers/src/main/resources/AUT/staging-release-3-3.apk'
+[INFO] - [08-04-2026 15:36:12] [utils.appium.TerminalLogsCapture$1] - [HTTP] <-- POST /session 500 294 ms - 880
+[ERROR] - [08-04-2026 15:36:12] [utils.appium.driverManager.DriverManager] -  Failed to initialize driver: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Neither ANDROID_HOME nor ANDROID_SDK_ROOT environment variable was exported. Read https://developer.android.com/studio/command-line/variables for more details 
+Host info: host: 'KHOLOUD', ip: '172.29.224.1'
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: io.appium.java_client.AppiumDriver
+Command: [null, newSession {capabilities=[Capabilities {appium:app: C:/Users/EELU/IdeaProjects/..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: Emu1, appium:systemPort: 8100, platformName: ANDROID}]}]
+Capabilities {appium:app: C:/Users/EELU/IdeaProjects/..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: Emu1, appium:systemPort: 8100, platformName: ANDROID}
+[INFO] - [08-04-2026 15:36:12] [listeners.MethodInvocationListener] - Finished test: testBadgesValidation
+[INFO] - [08-04-2026 15:36:12] [utils.common.AllureUtils] - Attaching logs for test: testBadgesValidation
+[INFO] - [08-04-2026 15:36:12] [utils.common.AllureUtils] - Logs attached successfully for test: testBadgesValidation
+[INFO] - [08-04-2026 15:36:12] [listeners.TestResultListener] - Test failed: testBadgesValidation
+[INFO] - [08-04-2026 15:36:12] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/loginTestData.json
+[INFO] - [08-04-2026 15:36:12] [utils.common.JsonUtils] - Successfully deserialized JSON to: LoginTestData[]
+[INFO] - [08-04-2026 15:36:12] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/registerTestData.json
+[INFO] - [08-04-2026 15:36:12] [utils.common.JsonUtils] - Successfully deserialized JSON to: RegisterTestData[]
+[INFO] - [08-04-2026 15:36:12] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/resetPasswordTestData.json
+[INFO] - [08-04-2026 15:36:12] [utils.common.JsonUtils] - Successfully deserialized JSON to: ResetPasswordTestData[]
+[INFO] - [08-04-2026 15:36:12] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 15:36:12] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 15:36:12] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 15:36:12] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 15:36:12] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ForgotPasswordTestData.json
+[INFO] - [08-04-2026 15:36:12] [utils.common.JsonUtils] - Successfully deserialized JSON to: ForgotPasswordTestData[]
+[INFO] - [08-04-2026 15:36:12] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyTestData.json
+[INFO] - [08-04-2026 15:36:12] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyTestData[]
+[INFO] - [08-04-2026 15:36:12] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreateNeedyProfileTestData.json
+[INFO] - [08-04-2026 15:36:12] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyProfileTestData[]
+[INFO] - [08-04-2026 15:36:12] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyFunctionTestData.json
+[INFO] - [08-04-2026 15:36:12] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyFunctionsTestData[]
+[INFO] - [08-04-2026 15:36:12] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/DonationTestData.json
+[INFO] - [08-04-2026 15:36:12] [utils.common.JsonUtils] - Successfully deserialized JSON to: EasyGiveTestData[]
+[INFO] - [08-04-2026 15:36:12] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/SingleDonationTestData.json
+[INFO] - [08-04-2026 15:36:12] [utils.common.JsonUtils] - Successfully deserialized JSON to: SingleDonationTestData[]
+[INFO] - [08-04-2026 15:36:12] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ModeratorCommunity.json
+[INFO] - [08-04-2026 15:36:12] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 15:36:12] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreationCommunityTestData.json
+[INFO] - [08-04-2026 15:36:12] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 15:36:13] [utils.appium.TerminalLogsCapture$1] - [HTTP] --> GET /status {}
+[INFO] - [08-04-2026 15:36:13] [utils.appium.TerminalLogsCapture$1] - [INFO] Appium server already running.
+[INFO] - [08-04-2026 15:36:13] [utils.appium.TerminalLogsCapture$1] - [HTTP] <-- GET /status 200 1 ms - 111
+[WARN] - [08-04-2026 15:36:13] [utils.appium.TerminalLogsCapture$1] - [WARN] Could not clear port 8100: Cannot run program "npx": CreateProcess error=2, The system cannot find the file specified
+[INFO] - [08-04-2026 15:36:13] [utils.appium.TerminalLogsCapture$1] - [HTTP] --> POST /session {"capabilities":{"firstMatch":[{"appium:systemPort":"8100","appium:autoGrantPermissions":true,"appium:deviceName":"Emu1","platformName":"ANDROID","appium:automationName":"UiAutomator2","appium:app":"C:/Users/EELU/IdeaProjects/Givers/src/main/resources/AUT/staging-release-3-3.apk"}]}}
+[INFO] - [08-04-2026 15:36:13] [utils.appium.TerminalLogsCapture$1] - [Appium] Attempting to find matching driver for automationName 'UiAutomator2' and platformName 'ANDROID'
+[INFO] - [08-04-2026 15:36:13] [utils.appium.TerminalLogsCapture$1] - [Appium] The 'uiautomator2' driver was installed and matched caps.
+[INFO] - [08-04-2026 15:36:13] [utils.appium.TerminalLogsCapture$1] - [Appium] Will require it at C:\Users\EELU\.appium\node_modules\appium-uiautomator2-driver
+[INFO] - [08-04-2026 15:36:13] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@717e] Appium v2.19.0 creating new AndroidUiautomator2Driver (v2.0.1) session
+[INFO] - [08-04-2026 15:36:13] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@717e] Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[INFO] - [08-04-2026 15:36:13] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@717e] Appium's BaseDriver version is 9.18.0
+[INFO] - [08-04-2026 15:36:13] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@717e] AndroidUiautomator2Driver's BaseDriver version is 8.7.3
+[INFO] - [08-04-2026 15:36:13] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@717e] Enabling relaxed security for this session as per the server configuration. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[INFO] - [08-04-2026 15:36:13] [utils.appium.TerminalLogsCapture$1] - [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+[INFO] - [08-04-2026 15:36:13] [utils.appium.TerminalLogsCapture$1] - [AndroidUiautomator2Driver@5101] Capability 'systemPort' changed from string ('8100') to integer (8100). This may cause unexpected behavior
+[INFO] - [08-04-2026 15:36:13] [utils.appium.TerminalLogsCapture$1] - [AndroidUiautomator2Driver@5101 (770acb80)] Session created with session id: 770acb80-5719-4d53-ab6e-6c3fb5c2d364
+[INFO] - [08-04-2026 15:36:13] [utils.appium.TerminalLogsCapture$1] - [BaseDriver] Using local app 'C:/Users/EELU/IdeaProjects/Givers/src/main/resources/AUT/staging-release-3-3.apk'
+[INFO] - [08-04-2026 15:36:13] [utils.appium.TerminalLogsCapture$1] - [HTTP] <-- POST /session 500 347 ms - 880
+[ERROR] - [08-04-2026 15:36:13] [utils.appium.driverManager.DriverManager] -  Failed to initialize driver: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Neither ANDROID_HOME nor ANDROID_SDK_ROOT environment variable was exported. Read https://developer.android.com/studio/command-line/variables for more details 
+Host info: host: 'KHOLOUD', ip: '172.29.224.1'
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: io.appium.java_client.AppiumDriver
+Command: [null, newSession {capabilities=[Capabilities {appium:app: C:/Users/EELU/IdeaProjects/..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: Emu1, appium:systemPort: 8100, platformName: ANDROID}]}]
+Capabilities {appium:app: C:/Users/EELU/IdeaProjects/..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: Emu1, appium:systemPort: 8100, platformName: ANDROID}
+[INFO] - [08-04-2026 15:36:13] [listeners.MethodInvocationListener] - Finished test: testCreationCommunityScenario
+[INFO] - [08-04-2026 15:36:13] [utils.common.AllureUtils] - Attaching logs for test: testCreationCommunityScenario
+[INFO] - [08-04-2026 15:36:13] [utils.common.AllureUtils] - Logs attached successfully for test: testCreationCommunityScenario
+[INFO] - [08-04-2026 15:36:13] [listeners.TestResultListener] - Test failed: testCreationCommunityScenario
+[INFO] - [08-04-2026 15:36:13] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/loginTestData.json
+[INFO] - [08-04-2026 15:36:13] [utils.common.JsonUtils] - Successfully deserialized JSON to: LoginTestData[]
+[INFO] - [08-04-2026 15:36:13] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/registerTestData.json
+[INFO] - [08-04-2026 15:36:13] [utils.common.JsonUtils] - Successfully deserialized JSON to: RegisterTestData[]
+[INFO] - [08-04-2026 15:36:13] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/resetPasswordTestData.json
+[INFO] - [08-04-2026 15:36:13] [utils.common.JsonUtils] - Successfully deserialized JSON to: ResetPasswordTestData[]
+[INFO] - [08-04-2026 15:36:13] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 15:36:13] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 15:36:13] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [08-04-2026 15:36:13] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [08-04-2026 15:36:13] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ForgotPasswordTestData.json
+[INFO] - [08-04-2026 15:36:13] [utils.common.JsonUtils] - Successfully deserialized JSON to: ForgotPasswordTestData[]
+[INFO] - [08-04-2026 15:36:13] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyTestData.json
+[INFO] - [08-04-2026 15:36:13] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyTestData[]
+[INFO] - [08-04-2026 15:36:13] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreateNeedyProfileTestData.json
+[INFO] - [08-04-2026 15:36:13] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyProfileTestData[]
+[INFO] - [08-04-2026 15:36:13] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyFunctionTestData.json
+[INFO] - [08-04-2026 15:36:13] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyFunctionsTestData[]
+[INFO] - [08-04-2026 15:36:13] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/DonationTestData.json
+[INFO] - [08-04-2026 15:36:13] [utils.common.JsonUtils] - Successfully deserialized JSON to: EasyGiveTestData[]
+[INFO] - [08-04-2026 15:36:13] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/SingleDonationTestData.json
+[INFO] - [08-04-2026 15:36:13] [utils.common.JsonUtils] - Successfully deserialized JSON to: SingleDonationTestData[]
+[INFO] - [08-04-2026 15:36:13] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ModeratorCommunity.json
+[INFO] - [08-04-2026 15:36:13] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 15:36:13] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreationCommunityTestData.json
+[INFO] - [08-04-2026 15:36:13] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [08-04-2026 15:36:13] [utils.appium.TerminalLogsCapture$1] - [HTTP] --> GET /status {}
+[INFO] - [08-04-2026 15:36:13] [utils.appium.TerminalLogsCapture$1] - [INFO] Appium server already running.
+[INFO] - [08-04-2026 15:36:13] [utils.appium.TerminalLogsCapture$1] - [HTTP] <-- GET /status 200 1 ms - 111
+[WARN] - [08-04-2026 15:36:13] [utils.appium.TerminalLogsCapture$1] - [WARN] Could not clear port 8100: Cannot run program "npx": CreateProcess error=2, The system cannot find the file specified
+[INFO] - [08-04-2026 15:36:13] [utils.appium.TerminalLogsCapture$1] - [HTTP] --> POST /session {"capabilities":{"firstMatch":[{"appium:systemPort":"8100","appium:autoGrantPermissions":true,"appium:deviceName":"Emu1","platformName":"ANDROID","appium:automationName":"UiAutomator2","appium:app":"C:/Users/EELU/IdeaProjects/Givers/src/main/resources/AUT/staging-release-3-3.apk"}]}}
+[INFO] - [08-04-2026 15:36:13] [utils.appium.TerminalLogsCapture$1] - [Appium] Attempting to find matching driver for automationName 'UiAutomator2' and platformName 'ANDROID'
+[INFO] - [08-04-2026 15:36:13] [utils.appium.TerminalLogsCapture$1] - [Appium] The 'uiautomator2' driver was installed and matched caps.
+[INFO] - [08-04-2026 15:36:13] [utils.appium.TerminalLogsCapture$1] - [Appium] Will require it at C:\Users\EELU\.appium\node_modules\appium-uiautomator2-driver
+[INFO] - [08-04-2026 15:36:13] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@717e] Appium v2.19.0 creating new AndroidUiautomator2Driver (v2.0.1) session
+[INFO] - [08-04-2026 15:36:13] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@717e] Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[INFO] - [08-04-2026 15:36:13] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@717e] Appium's BaseDriver version is 9.18.0
+[INFO] - [08-04-2026 15:36:13] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@717e] AndroidUiautomator2Driver's BaseDriver version is 8.7.3
+[INFO] - [08-04-2026 15:36:13] [utils.appium.TerminalLogsCapture$1] - [AppiumDriver@717e] Enabling relaxed security for this session as per the server configuration. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[INFO] - [08-04-2026 15:36:13] [utils.appium.TerminalLogsCapture$1] - [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+[INFO] - [08-04-2026 15:36:13] [utils.appium.TerminalLogsCapture$1] - [AndroidUiautomator2Driver@bf1c] Capability 'systemPort' changed from string ('8100') to integer (8100). This may cause unexpected behavior
+[INFO] - [08-04-2026 15:36:13] [utils.appium.TerminalLogsCapture$1] - [AndroidUiautomator2Driver@bf1c (5b475785)] Session created with session id: 5b475785-0374-46d1-9f2c-7a934a48f4b3
+[INFO] - [08-04-2026 15:36:13] [utils.appium.TerminalLogsCapture$1] - [BaseDriver] Using local app 'C:/Users/EELU/IdeaProjects/Givers/src/main/resources/AUT/staging-release-3-3.apk'

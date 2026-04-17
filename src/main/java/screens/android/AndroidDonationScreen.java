@@ -3,22 +3,28 @@ package screens.android;
 import io.qameta.allure.Step;
 import screens.base.DonationScreen;
 
+import java.util.HashMap;
+import java.util.Map;
+
 import static utils.appium.ElementsActions.scrollToBottom;
 import static utils.appium.Waits.waitForUIStability;
 
 public class AndroidDonationScreen extends DonationScreen {
 
-    @Step("User completes Easy Give donation flow")
-    public void completeEasyGiveDonation() {
+    public Map<String, String> completeEasyGiveDonation() {
 
         clickOnEasyGiveButton();
         clickOnPlusIcon(0);
         clickOnPlusIcon(1);
+
         clickOnShowGiversProposalButton();
         clickOnRefreshProposalButton();
         clickOnCreateEasyGiveDonationButton();
 
         waitForUIStability();
+
+        String amount = getDonationAmountFromUI();
+        String commission = getBankCommissionFromUI();
 
         clickOnAddNewCardButton();
         waitForUIStability();
@@ -32,7 +38,13 @@ public class AndroidDonationScreen extends DonationScreen {
         clickOnSubmitButton();
 
         waitForUIStability();
-        clickOnMakeAnotherDonationButton();
+
+
+        Map<String, String> result = new HashMap<>();
+        result.put("amount", amount);
+        result.put("commission", commission);
+
+        return result;
     }
 
     // =========================

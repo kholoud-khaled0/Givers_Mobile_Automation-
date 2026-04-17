@@ -1,0 +1,103 @@
+[DEBUG] - [16-04-2026 22:43:21] [org.testng.TestNG] - suiteXmlPath: "C:\Users\EELU\Downloads\Givers\test_runners\AndroidTestSuite.xml"
+[INFO] - [16-04-2026 22:43:21] [org.testng.internal.Utils] - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+[INFO] - [16-04-2026 22:43:22] [utils.common.FilesUtils] - Directory already exists: test_outputs\logs
+[INFO] - [16-04-2026 22:43:22] [utils.common.FilesUtils] - Directory already exists: test_outputs\allure_results
+[INFO] - [16-04-2026 22:43:22] [utils.common.FilesUtils] - Directory already exists: test_outputs\screenshots
+[INFO] - [16-04-2026 22:43:22] [utils.common.FilesUtils] - Directory already exists: test_outputs\allure_report
+[INFO] - [16-04-2026 22:43:22] [utils.common.FilesUtils] - Deleting files or folders in: C:\Users\EELU\Downloads\Givers\test_outputs\allure_results
+[INFO] - [16-04-2026 22:43:22] [utils.common.FilesUtils] - Deleting files or folders in: C:\Users\EELU\Downloads\Givers\test_outputs\screenshots
+[INFO] - [16-04-2026 22:43:22] [utils.appium.TerminalLogsCapture$1] - Appium server started at: http://127.0.0.1:4723/
+[INFO] - [16-04-2026 22:43:22] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\EELU\Downloads\Givers\test_runners\AndroidTestSuite.xml
+
+[INFO] - [16-04-2026 22:43:22] [listeners.TestResultListener] - Test run started
+[INFO] - [16-04-2026 22:43:22] [utils.common.PropertiesUtils] - Loading Android properties from: src/main/resources/Env/AndroidEnv.properties
+[INFO] - [16-04-2026 22:43:22] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CommunityTestData.json
+[INFO] - [16-04-2026 22:43:22] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [16-04-2026 22:43:22] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/loginTestData.json
+[INFO] - [16-04-2026 22:43:22] [utils.common.JsonUtils] - Successfully deserialized JSON to: LoginTestData[]
+[INFO] - [16-04-2026 22:43:22] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/registerTestData.json
+[INFO] - [16-04-2026 22:43:22] [utils.common.JsonUtils] - Successfully deserialized JSON to: RegisterTestData[]
+[INFO] - [16-04-2026 22:43:22] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/resetPasswordTestData.json
+[INFO] - [16-04-2026 22:43:22] [utils.common.JsonUtils] - Successfully deserialized JSON to: ResetPasswordTestData[]
+[INFO] - [16-04-2026 22:43:22] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [16-04-2026 22:43:22] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [16-04-2026 22:43:22] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/PersonalInformationTestData.json
+[INFO] - [16-04-2026 22:43:22] [utils.common.JsonUtils] - Successfully deserialized JSON to: PersonalInformationTestData[]
+[INFO] - [16-04-2026 22:43:22] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ForgotPasswordTestData.json
+[INFO] - [16-04-2026 22:43:22] [utils.common.JsonUtils] - Successfully deserialized JSON to: ForgotPasswordTestData[]
+[INFO] - [16-04-2026 22:43:22] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyTestData.json
+[INFO] - [16-04-2026 22:43:22] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyTestData[]
+[INFO] - [16-04-2026 22:43:22] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreateNeedyProfileTestData.json
+[INFO] - [16-04-2026 22:43:22] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyProfileTestData[]
+[INFO] - [16-04-2026 22:43:22] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/NeedyFunctionTestData.json
+[INFO] - [16-04-2026 22:43:22] [utils.common.JsonUtils] - Successfully deserialized JSON to: NeedyFunctionsTestData[]
+[INFO] - [16-04-2026 22:43:22] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/DonationTestData.json
+[INFO] - [16-04-2026 22:43:22] [utils.common.JsonUtils] - Successfully deserialized JSON to: EasyGiveTestData[]
+[INFO] - [16-04-2026 22:43:23] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/SingleDonationTestData.json
+[INFO] - [16-04-2026 22:43:23] [utils.common.JsonUtils] - Successfully deserialized JSON to: SingleDonationTestData[]
+[INFO] - [16-04-2026 22:43:23] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/ModeratorCommunity.json
+[INFO] - [16-04-2026 22:43:23] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [16-04-2026 22:43:23] [utils.common.JsonUtils] - Reading JSON file from path: src/test/resources/CreationCommunityTestData.json
+[INFO] - [16-04-2026 22:43:23] [utils.common.JsonUtils] - Successfully deserialized JSON to: CommunityTestData[]
+[INFO] - [16-04-2026 22:43:23] [utils.appium.TerminalLogsCapture$1] - [INFO] Appium server already running.
+[WARN] - [16-04-2026 22:43:23] [utils.appium.TerminalLogsCapture$1] - [WARN] Could not clear port 8100: Cannot run program "npx": CreateProcess error=2, The system cannot find the file specified
+[WARN] - [16-04-2026 22:43:25] [utils.appium.TerminalLogsCapture$1] - WARN Appium Appium encountered 1 warning while validating drivers found in manifest C:\Users\EELU\.appium\node_modules\.cache\appium\extensions.yaml
+[WARN] - [16-04-2026 22:43:25] [utils.appium.TerminalLogsCapture$1] - WARN Appium Driver "uiautomator2" has 1 potential problem:
+[WARN] - [16-04-2026 22:43:25] [utils.appium.TerminalLogsCapture$1] - WARN Appium   - Driver "uiautomator2" (package `appium-uiautomator2-driver`) may be incompatible with the current version of Appium (v2.19.0) due to an invalid or missing peer dependency on Appium. A newer version of `appium-uiautomator2-driver` is available; please attempt to upgrade "uiautomator2" to v2.45.1 or newer.
+[INFO] - [16-04-2026 22:43:26] [utils.appium.TerminalLogsCapture$1] - [Appium] Welcome to Appium v2.19.0
+[INFO] - [16-04-2026 22:43:26] [utils.appium.TerminalLogsCapture$1] - [Appium] Non-default server args:
+[INFO] - [16-04-2026 22:43:26] [utils.appium.TerminalLogsCapture$1] - [Appium] { address: '127.0.0.1',
+[INFO] - [16-04-2026 22:43:26] [utils.appium.TerminalLogsCapture$1] - loglevel: 'info',
+[INFO] - [16-04-2026 22:43:26] [utils.appium.TerminalLogsCapture$1] - logNoColors: true,
+[INFO] - [16-04-2026 22:43:26] [utils.appium.TerminalLogsCapture$1] - relaxedSecurityEnabled: true,
+[INFO] - [16-04-2026 22:43:26] [utils.appium.TerminalLogsCapture$1] - sessionOverride: true }
+[INFO] - [16-04-2026 22:43:26] [utils.appium.TerminalLogsCapture$1] - [Appium] Enabling relaxed security. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[INFO] - [16-04-2026 22:43:26] [utils.appium.TerminalLogsCapture$1] - [Appium] Attempting to load driver uiautomator2...
+[INFO] - [16-04-2026 22:43:28] [utils.appium.TerminalLogsCapture$1] - [HTTP] Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other instance of this server running already.
+[INFO] - [16-04-2026 22:43:28] [utils.appium.TerminalLogsCapture$1] - [Appium] Could not configure Appium server. It's possible that a driver or plugin tried to update the server and failed. Original error: listen EACCES: permission denied 127.0.0.1:4723
+[INFO] - [16-04-2026 22:43:42] [listeners.MethodInvocationListener] - Starting test: testRegistration
+[INFO] - [16-04-2026 22:43:51] [listeners.MethodInvocationListener] - Finished test: testRegistration
+[INFO] - [16-04-2026 22:43:51] [utils.common.AllureUtils] - Attaching logs for test: testRegistration
+[INFO] - [16-04-2026 22:43:51] [utils.common.AllureUtils] - Logs attached successfully for test: testRegistration
+[INFO] - [16-04-2026 22:43:52] [utils.appium.TerminalLogsCapture$1] - Driver session closed successfully
+[INFO] - [16-04-2026 22:43:52] [utils.appium.TerminalLogsCapture$1] - [INFO] No Appium server to stop.
+[INFO] - [16-04-2026 22:43:52] [listeners.TestResultListener] - Test skipped: testRegistration
+[INFO] - [16-04-2026 22:43:52] [utils.appium.TerminalLogsCapture$1] - Appium server started at: http://127.0.0.1:4723/
+[WARN] - [16-04-2026 22:43:52] [utils.appium.TerminalLogsCapture$1] - [WARN] Could not clear port 8100: Cannot run program "npx": CreateProcess error=2, The system cannot find the file specified
+[WARN] - [16-04-2026 22:43:57] [utils.appium.TerminalLogsCapture$1] - WARN Appium Appium encountered 1 warning while validating drivers found in manifest C:\Users\EELU\.appium\node_modules\.cache\appium\extensions.yaml
+[WARN] - [16-04-2026 22:43:57] [utils.appium.TerminalLogsCapture$1] - WARN Appium Driver "uiautomator2" has 1 potential problem:
+[WARN] - [16-04-2026 22:43:57] [utils.appium.TerminalLogsCapture$1] - WARN Appium   - Driver "uiautomator2" (package `appium-uiautomator2-driver`) may be incompatible with the current version of Appium (v2.19.0) due to an invalid or missing peer dependency on Appium. A newer version of `appium-uiautomator2-driver` is available; please attempt to upgrade "uiautomator2" to v2.45.1 or newer.
+[INFO] - [16-04-2026 22:43:58] [utils.appium.TerminalLogsCapture$1] - [Appium] Welcome to Appium v2.19.0
+[INFO] - [16-04-2026 22:43:58] [utils.appium.TerminalLogsCapture$1] - [Appium] Non-default server args:
+[INFO] - [16-04-2026 22:43:58] [utils.appium.TerminalLogsCapture$1] - [Appium] { address: '127.0.0.1',
+[INFO] - [16-04-2026 22:43:58] [utils.appium.TerminalLogsCapture$1] - loglevel: 'info',
+[INFO] - [16-04-2026 22:43:58] [utils.appium.TerminalLogsCapture$1] - logNoColors: true,
+[INFO] - [16-04-2026 22:43:58] [utils.appium.TerminalLogsCapture$1] - relaxedSecurityEnabled: true,
+[INFO] - [16-04-2026 22:43:58] [utils.appium.TerminalLogsCapture$1] - sessionOverride: true }
+[INFO] - [16-04-2026 22:43:58] [utils.appium.TerminalLogsCapture$1] - [Appium] Enabling relaxed security. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[INFO] - [16-04-2026 22:43:58] [utils.appium.TerminalLogsCapture$1] - [Appium] Attempting to load driver uiautomator2...
+[INFO] - [16-04-2026 22:43:59] [utils.appium.TerminalLogsCapture$1] - [HTTP] Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other instance of this server running already.
+[INFO] - [16-04-2026 22:43:59] [utils.appium.TerminalLogsCapture$1] - [Appium] Could not configure Appium server. It's possible that a driver or plugin tried to update the server and failed. Original error: listen EACCES: permission denied 127.0.0.1:4723
+[INFO] - [16-04-2026 22:44:11] [listeners.MethodInvocationListener] - Starting test: testRegistration
+[INFO] - [16-04-2026 22:44:20] [listeners.MethodInvocationListener] - Finished test: testRegistration
+[INFO] - [16-04-2026 22:44:20] [utils.common.AllureUtils] - Attaching logs for test: testRegistration
+[INFO] - [16-04-2026 22:44:20] [utils.common.AllureUtils] - Logs attached successfully for test: testRegistration
+[INFO] - [16-04-2026 22:44:21] [utils.appium.TerminalLogsCapture$1] - Driver session closed successfully
+[INFO] - [16-04-2026 22:44:21] [utils.appium.TerminalLogsCapture$1] - [INFO] No Appium server to stop.
+[INFO] - [16-04-2026 22:44:21] [listeners.TestResultListener] - Test failed: testRegistration
+[INFO] - [16-04-2026 22:44:21] [listeners.TestResultListener] - Test run finished
+[INFO] - [16-04-2026 22:44:21] [utils.appium.TerminalLogsCapture$1] - ===============================================
+[INFO] - [16-04-2026 22:44:21] [utils.appium.TerminalLogsCapture$1] - Android Automation Suite
+[INFO] - [16-04-2026 22:44:21] [utils.appium.TerminalLogsCapture$1] - Total tests run: 2, Passes: 0, Failures: 1, Skips: 0, Retries: 1
+[INFO] - [16-04-2026 22:44:21] [utils.appium.TerminalLogsCapture$1] - ===============================================
+[INFO] - [16-04-2026 22:44:21] [utils.common.TerminalUtils] - Executing command: allure generate test_outputs/allure_results -o test_outputs/allure_report --clean --single-file
+[INFO] - [16-04-2026 22:44:24] [utils.common.TerminalUtils] - Command executed: allure generate test_outputs/allure_results -o test_outputs/allure_report --clean --single-file
+[INFO] - [16-04-2026 22:44:24] [utils.common.AllureUtils] - Allure report generated successfully
+[INFO] - [16-04-2026 22:44:24] [utils.common.FilesUtils] - Found latest file in test_outputs\allure_report: test_outputs\allure_report\index.html
+[INFO] - [16-04-2026 22:44:24] [utils.common.FilesUtils] - File renamed successfully from test_outputs\allure_report\index.html to test_outputs\allure_report\Report 2026-04-16 22-44-24.html
+[INFO] - [16-04-2026 22:44:24] [utils.common.AllureUtils] - Allure report renamed successfully to: test_outputs\allure_report\Report 2026-04-16 22-44-24.html
+[INFO] - [16-04-2026 22:44:24] [utils.common.AllureUtils] - Opening allure report: test_outputs\allure_report\Report 2026-04-16 22-44-24.html
+[INFO] - [16-04-2026 22:44:24] [utils.common.TerminalUtils] - Executing command: start "" "test_outputs\allure_report\Report 2026-04-16 22-44-24.html"
+[INFO] - [16-04-2026 22:44:24] [utils.common.TerminalUtils] - Command executed: start "" "test_outputs\allure_report\Report 2026-04-16 22-44-24.html"
+[INFO] - [16-04-2026 22:44:24] [utils.appium.TerminalLogsCapture$1] - [INFO] No Appium server to stop.

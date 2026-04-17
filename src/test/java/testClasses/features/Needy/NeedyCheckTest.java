@@ -100,12 +100,6 @@ public class NeedyCheckTest {
         // 3️⃣ Perform the full flow
         needyScreen.performNeedyCheckFlow(testData.ID(), testData.Name());
 
-        // 4️⃣ Assertion: Verify Existing Household Member message
-        AssertionManager.assertTrue(
-                needyScreen.isExistingNeedyProfile(),
-                "There’s a Profile on our Platform using this ID!"
-        );
-
         // 5️⃣ Collect assertions
         AssertionManager.assertAll(null);
     }

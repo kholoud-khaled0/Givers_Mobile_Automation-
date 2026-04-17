@@ -43,7 +43,15 @@ public class BadgeScreen {
             AppiumBy.androidUIAutomator(
                     "new UiSelector().text(\"Create your first Needy profile and have it published to earn this badge.\")");
 
+    protected static final By moreBtn = AppiumBy.accessibilityId("\uE821, More");
     /* ================= Navigation Steps ================= */
+
+
+    @Step("Tap on more button")
+    public void tapMoreButton() {
+        Waits.waitForElementToBeClickable(moreBtn);
+        ElementsActions.click(moreBtn);
+    }
 
     @Step("Tap on Profile Image")
     public void tapOnProfileImage() {

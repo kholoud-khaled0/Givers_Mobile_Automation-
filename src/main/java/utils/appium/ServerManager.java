@@ -13,10 +13,7 @@ public class ServerManager {
 
     private static AppiumDriverLocalService getInstance() {
         if (instance == null) {
-            String appiumMainJsPath = "C:\\Users\\Kholoud\\AppData\\Roaming\\npm\\node_modules\\appium\\build\\lib\\main.js";
-
             AppiumServiceBuilder builder = new AppiumServiceBuilder()
-                    .withAppiumJS(new File(appiumMainJsPath))
                     .withIPAddress("127.0.0.1")
                     .usingPort(4723)
                     .withArgument(GeneralServerFlag.SESSION_OVERRIDE)
